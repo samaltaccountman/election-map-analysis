@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const results = {
   meta: {
     dataLevel: "precinct x all",

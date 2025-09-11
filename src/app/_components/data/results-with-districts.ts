@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { electionDistricts } from "./election-districts";
 
 export const results = {

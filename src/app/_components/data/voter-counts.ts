@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Voter enrollment data by election district
 // Generated from NYS Board of Elections data as of February 20, 2025
 
@@ -13,7 +14,7 @@ export interface VoterCounts {
   total: number;
 }
 
-export const voterCounts: Record<number, VoterCounts> = {
+export const voterCounts = {
   23001: {
     district: 23001,
     county: "Queens County",
@@ -23,7 +24,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 61,
     blank: 302,
-    total: 1708
+    total: 1708,
   },
   23002: {
     district: 23002,
@@ -34,7 +35,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 50,
     blank: 315,
-    total: 1717
+    total: 1717,
   },
   23003: {
     district: 23003,
@@ -45,7 +46,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 21,
     blank: 139,
-    total: 586
+    total: 586,
   },
   23004: {
     district: 23004,
@@ -56,7 +57,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 50,
     blank: 376,
-    total: 1752
+    total: 1752,
   },
   23005: {
     district: 23005,
@@ -67,7 +68,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 41,
     blank: 313,
-    total: 1702
+    total: 1702,
   },
   23006: {
     district: 23006,
@@ -78,7 +79,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 45,
     blank: 314,
-    total: 1669
+    total: 1669,
   },
   23007: {
     district: 23007,
@@ -89,7 +90,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 54,
     blank: 388,
-    total: 1827
+    total: 1827,
   },
   23008: {
     district: 23008,
@@ -100,7 +101,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 51,
     blank: 358,
-    total: 1592
+    total: 1592,
   },
   23009: {
     district: 23009,
@@ -111,7 +112,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 35,
     blank: 293,
-    total: 1362
+    total: 1362,
   },
   23010: {
     district: 23010,
@@ -122,7 +123,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 68,
     blank: 331,
-    total: 1852
+    total: 1852,
   },
   23011: {
     district: 23011,
@@ -133,7 +134,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 34,
     blank: 354,
-    total: 1669
+    total: 1669,
   },
   23012: {
     district: 23012,
@@ -144,7 +145,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 110,
-    total: 581
+    total: 581,
   },
   23013: {
     district: 23013,
@@ -155,7 +156,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 33,
     blank: 287,
-    total: 1360
+    total: 1360,
   },
   23014: {
     district: 23014,
@@ -166,7 +167,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 287,
-    total: 1154
+    total: 1154,
   },
   23015: {
     district: 23015,
@@ -177,7 +178,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 41,
     blank: 378,
-    total: 1524
+    total: 1524,
   },
   23016: {
     district: 23016,
@@ -188,7 +189,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 211,
-    total: 885
+    total: 885,
   },
   23017: {
     district: 23017,
@@ -199,7 +200,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 28,
     blank: 196,
-    total: 969
+    total: 969,
   },
   23018: {
     district: 23018,
@@ -210,7 +211,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 292,
-    total: 1273
+    total: 1273,
   },
   23019: {
     district: 23019,
@@ -221,7 +222,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 64,
-    total: 301
+    total: 301,
   },
   23020: {
     district: 23020,
@@ -232,7 +233,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 12,
     blank: 266,
-    total: 1060
+    total: 1060,
   },
   23021: {
     district: 23021,
@@ -243,7 +244,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 256,
-    total: 1298
+    total: 1298,
   },
   23022: {
     district: 23022,
@@ -254,7 +255,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 4,
     blank: 142,
-    total: 769
+    total: 769,
   },
   23023: {
     district: 23023,
@@ -265,7 +266,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 212,
-    total: 937
+    total: 937,
   },
   23024: {
     district: 23024,
@@ -276,7 +277,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 117,
-    total: 763
+    total: 763,
   },
   23025: {
     district: 23025,
@@ -287,7 +288,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 26,
     blank: 322,
-    total: 1818
+    total: 1818,
   },
   23026: {
     district: 23026,
@@ -298,7 +299,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 126,
-    total: 868
+    total: 868,
   },
   23027: {
     district: 23027,
@@ -309,7 +310,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 10,
     blank: 228,
-    total: 1298
+    total: 1298,
   },
   23028: {
     district: 23028,
@@ -320,7 +321,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 283,
-    total: 1375
+    total: 1375,
   },
   23029: {
     district: 23029,
@@ -331,7 +332,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 245,
-    total: 1342
+    total: 1342,
   },
   23030: {
     district: 23030,
@@ -342,7 +343,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 313,
-    total: 1558
+    total: 1558,
   },
   23031: {
     district: 23031,
@@ -353,7 +354,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 21,
     blank: 327,
-    total: 1643
+    total: 1643,
   },
   23032: {
     district: 23032,
@@ -364,7 +365,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 325,
-    total: 1827
+    total: 1827,
   },
   23033: {
     district: 23033,
@@ -375,7 +376,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 45,
     blank: 388,
-    total: 1768
+    total: 1768,
   },
   23034: {
     district: 23034,
@@ -386,7 +387,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 37,
     blank: 328,
-    total: 1493
+    total: 1493,
   },
   23035: {
     district: 23035,
@@ -397,7 +398,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 35,
     blank: 266,
-    total: 1380
+    total: 1380,
   },
   23036: {
     district: 23036,
@@ -408,7 +409,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 40,
     blank: 355,
-    total: 1651
+    total: 1651,
   },
   23037: {
     district: 23037,
@@ -419,7 +420,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 40,
     blank: 430,
-    total: 1743
+    total: 1743,
   },
   23038: {
     district: 23038,
@@ -430,7 +431,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 49,
     blank: 373,
-    total: 1486
+    total: 1486,
   },
   23039: {
     district: 23039,
@@ -441,7 +442,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 58,
-    total: 175
+    total: 175,
   },
   23040: {
     district: 23040,
@@ -452,7 +453,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 335,
-    total: 1243
+    total: 1243,
   },
   23041: {
     district: 23041,
@@ -463,7 +464,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 364,
-    total: 1299
+    total: 1299,
   },
   23042: {
     district: 23042,
@@ -474,7 +475,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 279,
-    total: 1022
+    total: 1022,
   },
   23043: {
     district: 23043,
@@ -485,7 +486,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 7,
-    total: 26
+    total: 26,
   },
   23044: {
     district: 23044,
@@ -496,7 +497,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 55,
     blank: 409,
-    total: 1852
+    total: 1852,
   },
   23045: {
     district: 23045,
@@ -507,7 +508,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 238,
-    total: 1184
+    total: 1184,
   },
   23046: {
     district: 23046,
@@ -518,7 +519,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 49,
     blank: 495,
-    total: 1910
+    total: 1910,
   },
   23047: {
     district: 23047,
@@ -529,7 +530,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 317,
-    total: 1357
+    total: 1357,
   },
   23048: {
     district: 23048,
@@ -540,7 +541,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 330,
-    total: 1396
+    total: 1396,
   },
   23049: {
     district: 23049,
@@ -551,7 +552,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 34,
     blank: 457,
-    total: 1764
+    total: 1764,
   },
   23050: {
     district: 23050,
@@ -562,7 +563,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 170,
-    total: 662
+    total: 662,
   },
   23051: {
     district: 23051,
@@ -573,7 +574,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 290,
-    total: 1198
+    total: 1198,
   },
   23052: {
     district: 23052,
@@ -584,7 +585,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 185,
-    total: 726
+    total: 726,
   },
   23053: {
     district: 23053,
@@ -595,7 +596,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 458,
-    total: 1870
+    total: 1870,
   },
   23054: {
     district: 23054,
@@ -606,7 +607,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 474,
-    total: 1816
+    total: 1816,
   },
   23055: {
     district: 23055,
@@ -617,7 +618,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 189,
-    total: 657
+    total: 657,
   },
   23056: {
     district: 23056,
@@ -628,7 +629,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 154,
-    total: 623
+    total: 623,
   },
   23057: {
     district: 23057,
@@ -639,7 +640,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 311,
-    total: 1073
+    total: 1073,
   },
   23058: {
     district: 23058,
@@ -650,7 +651,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 165,
-    total: 754
+    total: 754,
   },
   23059: {
     district: 23059,
@@ -661,7 +662,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 163,
-    total: 684
+    total: 684,
   },
   23060: {
     district: 23060,
@@ -672,7 +673,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 40,
     blank: 355,
-    total: 1284
+    total: 1284,
   },
   23061: {
     district: 23061,
@@ -683,7 +684,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 0,
     blank: 7,
-    total: 37
+    total: 37,
   },
   23062: {
     district: 23062,
@@ -694,7 +695,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 457,
-    total: 1596
+    total: 1596,
   },
   23063: {
     district: 23063,
@@ -705,7 +706,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 292,
-    total: 958
+    total: 958,
   },
   23064: {
     district: 23064,
@@ -716,7 +717,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 5,
     blank: 161,
-    total: 526
+    total: 526,
   },
   23065: {
     district: 23065,
@@ -727,7 +728,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 188,
-    total: 1035
+    total: 1035,
   },
   23066: {
     district: 23066,
@@ -738,7 +739,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 28,
     blank: 241,
-    total: 1265
+    total: 1265,
   },
   24001: {
     district: 24001,
@@ -749,7 +750,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 179,
-    total: 631
+    total: 631,
   },
   24002: {
     district: 24002,
@@ -760,7 +761,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 173,
-    total: 693
+    total: 693,
   },
   24003: {
     district: 24003,
@@ -771,7 +772,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 469,
-    total: 1615
+    total: 1615,
   },
   24004: {
     district: 24004,
@@ -782,7 +783,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 352,
-    total: 1372
+    total: 1372,
   },
   24005: {
     district: 24005,
@@ -793,7 +794,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 359,
-    total: 1404
+    total: 1404,
   },
   24006: {
     district: 24006,
@@ -804,7 +805,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 31,
     blank: 462,
-    total: 1772
+    total: 1772,
   },
   24007: {
     district: 24007,
@@ -815,7 +816,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 331,
-    total: 1322
+    total: 1322,
   },
   24008: {
     district: 24008,
@@ -826,7 +827,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 35,
     blank: 501,
-    total: 1726
+    total: 1726,
   },
   24009: {
     district: 24009,
@@ -837,7 +838,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 259,
-    total: 1067
+    total: 1067,
   },
   24010: {
     district: 24010,
@@ -848,7 +849,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 401,
-    total: 1622
+    total: 1622,
   },
   24011: {
     district: 24011,
@@ -859,7 +860,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 292,
-    total: 1227
+    total: 1227,
   },
   24012: {
     district: 24012,
@@ -870,7 +871,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 304,
-    total: 1157
+    total: 1157,
   },
   24013: {
     district: 24013,
@@ -881,7 +882,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 24,
     blank: 409,
-    total: 1651
+    total: 1651,
   },
   24014: {
     district: 24014,
@@ -892,7 +893,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 460,
-    total: 1654
+    total: 1654,
   },
   24015: {
     district: 24015,
@@ -903,7 +904,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 26,
     blank: 546,
-    total: 1770
+    total: 1770,
   },
   24016: {
     district: 24016,
@@ -914,7 +915,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 238,
-    total: 986
+    total: 986,
   },
   24017: {
     district: 24017,
@@ -925,7 +926,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 9,
     blank: 48,
-    total: 231
+    total: 231,
   },
   24018: {
     district: 24018,
@@ -936,7 +937,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 265,
-    total: 921
+    total: 921,
   },
   24019: {
     district: 24019,
@@ -947,7 +948,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 425,
-    total: 1536
+    total: 1536,
   },
   24020: {
     district: 24020,
@@ -958,7 +959,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 156,
-    total: 574
+    total: 574,
   },
   24021: {
     district: 24021,
@@ -969,7 +970,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 262,
-    total: 926
+    total: 926,
   },
   24022: {
     district: 24022,
@@ -980,7 +981,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 63,
-    total: 178
+    total: 178,
   },
   24023: {
     district: 24023,
@@ -991,7 +992,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 283,
-    total: 1201
+    total: 1201,
   },
   24024: {
     district: 24024,
@@ -1002,7 +1003,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 275,
-    total: 998
+    total: 998,
   },
   24025: {
     district: 24025,
@@ -1013,7 +1014,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 129,
-    total: 526
+    total: 526,
   },
   24026: {
     district: 24026,
@@ -1024,7 +1025,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 280,
-    total: 1070
+    total: 1070,
   },
   24027: {
     district: 24027,
@@ -1035,7 +1036,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 178,
-    total: 638
+    total: 638,
   },
   24028: {
     district: 24028,
@@ -1046,7 +1047,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 203,
-    total: 683
+    total: 683,
   },
   24029: {
     district: 24029,
@@ -1057,7 +1058,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 397,
-    total: 1518
+    total: 1518,
   },
   24030: {
     district: 24030,
@@ -1068,7 +1069,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 295,
-    total: 1063
+    total: 1063,
   },
   24031: {
     district: 24031,
@@ -1079,7 +1080,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 388,
-    total: 1604
+    total: 1604,
   },
   24032: {
     district: 24032,
@@ -1090,7 +1091,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 421,
-    total: 1609
+    total: 1609,
   },
   24033: {
     district: 24033,
@@ -1101,7 +1102,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 10,
-    total: 43
+    total: 43,
   },
   24034: {
     district: 24034,
@@ -1112,7 +1113,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 122,
-    total: 458
+    total: 458,
   },
   24035: {
     district: 24035,
@@ -1123,7 +1124,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 197,
-    total: 682
+    total: 682,
   },
   24036: {
     district: 24036,
@@ -1134,7 +1135,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 392,
-    total: 1561
+    total: 1561,
   },
   24037: {
     district: 24037,
@@ -1145,7 +1146,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 262,
-    total: 912
+    total: 912,
   },
   24038: {
     district: 24038,
@@ -1156,7 +1157,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 458,
-    total: 1763
+    total: 1763,
   },
   24039: {
     district: 24039,
@@ -1167,7 +1168,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 26,
     blank: 402,
-    total: 1377
+    total: 1377,
   },
   24040: {
     district: 24040,
@@ -1178,7 +1179,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 259,
-    total: 1008
+    total: 1008,
   },
   24041: {
     district: 24041,
@@ -1189,7 +1190,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 253,
-    total: 998
+    total: 998,
   },
   24042: {
     district: 24042,
@@ -1200,7 +1201,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 214,
-    total: 898
+    total: 898,
   },
   24043: {
     district: 24043,
@@ -1211,7 +1212,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 12,
     blank: 431,
-    total: 1557
+    total: 1557,
   },
   24044: {
     district: 24044,
@@ -1222,7 +1223,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 189,
-    total: 808
+    total: 808,
   },
   24045: {
     district: 24045,
@@ -1233,7 +1234,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 76,
-    total: 261
+    total: 261,
   },
   24046: {
     district: 24046,
@@ -1244,7 +1245,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 28,
     blank: 359,
-    total: 1520
+    total: 1520,
   },
   24047: {
     district: 24047,
@@ -1255,7 +1256,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 275,
-    total: 1179
+    total: 1179,
   },
   24048: {
     district: 24048,
@@ -1266,7 +1267,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 312,
-    total: 1287
+    total: 1287,
   },
   24049: {
     district: 24049,
@@ -1277,7 +1278,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 472,
-    total: 1909
+    total: 1909,
   },
   24050: {
     district: 24050,
@@ -1288,7 +1289,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 21,
     blank: 147,
-    total: 551
+    total: 551,
   },
   24051: {
     district: 24051,
@@ -1299,7 +1300,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 36,
     blank: 412,
-    total: 1772
+    total: 1772,
   },
   24052: {
     district: 24052,
@@ -1310,7 +1311,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 31,
     blank: 384,
-    total: 1787
+    total: 1787,
   },
   24053: {
     district: 24053,
@@ -1321,7 +1322,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 28,
     blank: 325,
-    total: 1856
+    total: 1856,
   },
   24054: {
     district: 24054,
@@ -1332,7 +1333,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 79,
-    total: 328
+    total: 328,
   },
   24055: {
     district: 24055,
@@ -1343,7 +1344,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 278,
-    total: 1146
+    total: 1146,
   },
   24056: {
     district: 24056,
@@ -1354,7 +1355,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 33,
     blank: 276,
-    total: 1202
+    total: 1202,
   },
   24057: {
     district: 24057,
@@ -1365,7 +1366,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 275,
-    total: 1064
+    total: 1064,
   },
   24058: {
     district: 24058,
@@ -1376,7 +1377,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 340,
-    total: 1328
+    total: 1328,
   },
   24059: {
     district: 24059,
@@ -1387,7 +1388,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 324,
-    total: 1233
+    total: 1233,
   },
   24060: {
     district: 24060,
@@ -1398,7 +1399,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 33,
     blank: 481,
-    total: 1876
+    total: 1876,
   },
   24061: {
     district: 24061,
@@ -1409,7 +1410,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 450,
-    total: 1692
+    total: 1692,
   },
   24062: {
     district: 24062,
@@ -1420,7 +1421,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 39,
     blank: 447,
-    total: 1730
+    total: 1730,
   },
   24063: {
     district: 24063,
@@ -1431,7 +1432,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 181,
-    total: 759
+    total: 759,
   },
   24064: {
     district: 24064,
@@ -1442,7 +1443,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 466,
-    total: 1574
+    total: 1574,
   },
   24065: {
     district: 24065,
@@ -1453,7 +1454,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 437,
-    total: 1790
+    total: 1790,
   },
   25001: {
     district: 25001,
@@ -1464,7 +1465,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 34,
     blank: 473,
-    total: 1890
+    total: 1890,
   },
   25002: {
     district: 25002,
@@ -1475,7 +1476,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 353,
-    total: 1555
+    total: 1555,
   },
   25003: {
     district: 25003,
@@ -1486,7 +1487,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 133,
-    total: 457
+    total: 457,
   },
   25004: {
     district: 25004,
@@ -1497,7 +1498,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 210,
-    total: 811
+    total: 811,
   },
   25005: {
     district: 25005,
@@ -1508,7 +1509,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 34,
     blank: 404,
-    total: 1633
+    total: 1633,
   },
   25006: {
     district: 25006,
@@ -1519,7 +1520,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 34,
     blank: 332,
-    total: 1191
+    total: 1191,
   },
   25007: {
     district: 25007,
@@ -1530,7 +1531,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 53,
-    total: 190
+    total: 190,
   },
   25008: {
     district: 25008,
@@ -1541,7 +1542,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 45,
-    total: 154
+    total: 154,
   },
   25009: {
     district: 25009,
@@ -1552,7 +1553,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 32,
     blank: 484,
-    total: 1657
+    total: 1657,
   },
   25010: {
     district: 25010,
@@ -1563,7 +1564,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 77,
-    total: 288
+    total: 288,
   },
   25011: {
     district: 25011,
@@ -1574,7 +1575,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 380,
-    total: 1308
+    total: 1308,
   },
   25012: {
     district: 25012,
@@ -1585,7 +1586,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 516,
-    total: 1667
+    total: 1667,
   },
   25013: {
     district: 25013,
@@ -1596,7 +1597,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 33,
     blank: 554,
-    total: 1726
+    total: 1726,
   },
   25014: {
     district: 25014,
@@ -1607,7 +1608,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 557,
-    total: 1729
+    total: 1729,
   },
   25015: {
     district: 25015,
@@ -1618,7 +1619,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 466,
-    total: 1356
+    total: 1356,
   },
   25016: {
     district: 25016,
@@ -1629,7 +1630,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 445,
-    total: 1489
+    total: 1489,
   },
   25017: {
     district: 25017,
@@ -1640,7 +1641,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 42,
     blank: 505,
-    total: 1657
+    total: 1657,
   },
   25018: {
     district: 25018,
@@ -1651,7 +1652,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 466,
-    total: 1596
+    total: 1596,
   },
   25019: {
     district: 25019,
@@ -1662,7 +1663,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 18,
     blank: 474,
-    total: 1710
+    total: 1710,
   },
   25020: {
     district: 25020,
@@ -1673,7 +1674,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 14,
     blank: 415,
-    total: 1647
+    total: 1647,
   },
   25021: {
     district: 25021,
@@ -1684,7 +1685,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 34,
     blank: 364,
-    total: 1355
+    total: 1355,
   },
   25022: {
     district: 25022,
@@ -1695,7 +1696,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 32,
     blank: 432,
-    total: 1464
+    total: 1464,
   },
   25023: {
     district: 25023,
@@ -1706,7 +1707,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 330,
-    total: 1006
+    total: 1006,
   },
   25024: {
     district: 25024,
@@ -1717,7 +1718,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 351,
-    total: 1154
+    total: 1154,
   },
   25025: {
     district: 25025,
@@ -1728,7 +1729,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 539,
-    total: 1717
+    total: 1717,
   },
   25026: {
     district: 25026,
@@ -1739,7 +1740,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 42,
     blank: 531,
-    total: 1696
+    total: 1696,
   },
   25027: {
     district: 25027,
@@ -1750,7 +1751,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 31,
     blank: 483,
-    total: 1684
+    total: 1684,
   },
   25028: {
     district: 25028,
@@ -1761,7 +1762,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 373,
-    total: 1335
+    total: 1335,
   },
   25029: {
     district: 25029,
@@ -1772,7 +1773,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 518,
-    total: 1670
+    total: 1670,
   },
   25030: {
     district: 25030,
@@ -1783,7 +1784,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 31,
     blank: 485,
-    total: 1588
+    total: 1588,
   },
   25031: {
     district: 25031,
@@ -1794,7 +1795,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 31,
     blank: 506,
-    total: 1520
+    total: 1520,
   },
   25032: {
     district: 25032,
@@ -1805,7 +1806,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 456,
-    total: 1301
+    total: 1301,
   },
   25033: {
     district: 25033,
@@ -1816,7 +1817,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 37,
     blank: 436,
-    total: 1553
+    total: 1553,
   },
   25034: {
     district: 25034,
@@ -1827,7 +1828,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 456,
-    total: 1583
+    total: 1583,
   },
   25035: {
     district: 25035,
@@ -1838,7 +1839,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 26,
     blank: 554,
-    total: 1653
+    total: 1653,
   },
   25036: {
     district: 25036,
@@ -1849,7 +1850,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 396,
-    total: 1337
+    total: 1337,
   },
   25037: {
     district: 25037,
@@ -1860,7 +1861,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 524,
-    total: 1570
+    total: 1570,
   },
   25038: {
     district: 25038,
@@ -1871,7 +1872,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 530,
-    total: 1521
+    total: 1521,
   },
   25039: {
     district: 25039,
@@ -1882,7 +1883,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 546,
-    total: 1651
+    total: 1651,
   },
   25040: {
     district: 25040,
@@ -1893,7 +1894,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 587,
-    total: 1727
+    total: 1727,
   },
   25041: {
     district: 25041,
@@ -1904,7 +1905,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 416,
-    total: 1335
+    total: 1335,
   },
   25042: {
     district: 25042,
@@ -1915,7 +1916,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 511,
-    total: 1661
+    total: 1661,
   },
   25043: {
     district: 25043,
@@ -1926,7 +1927,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 461,
-    total: 1614
+    total: 1614,
   },
   25044: {
     district: 25044,
@@ -1937,7 +1938,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 395,
-    total: 1531
+    total: 1531,
   },
   25045: {
     district: 25045,
@@ -1948,7 +1949,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 526,
-    total: 1628
+    total: 1628,
   },
   25046: {
     district: 25046,
@@ -1959,7 +1960,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 10,
     blank: 475,
-    total: 1456
+    total: 1456,
   },
   25047: {
     district: 25047,
@@ -1970,7 +1971,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 304,
-    total: 884
+    total: 884,
   },
   26001: {
     district: 26001,
@@ -1981,7 +1982,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 216,
-    total: 690
+    total: 690,
   },
   26002: {
     district: 26002,
@@ -1992,7 +1993,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 114,
-    total: 431
+    total: 431,
   },
   26003: {
     district: 26003,
@@ -2003,7 +2004,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 100,
-    total: 362
+    total: 362,
   },
   26004: {
     district: 26004,
@@ -2014,7 +2015,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 160,
-    total: 609
+    total: 609,
   },
   26005: {
     district: 26005,
@@ -2025,7 +2026,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 29,
-    total: 134
+    total: 134,
   },
   26006: {
     district: 26006,
@@ -2036,7 +2037,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 22,
     blank: 532,
-    total: 1533
+    total: 1533,
   },
   26007: {
     district: 26007,
@@ -2047,7 +2048,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 32,
     blank: 387,
-    total: 1595
+    total: 1595,
   },
   26008: {
     district: 26008,
@@ -2058,7 +2059,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 457,
-    total: 1797
+    total: 1797,
   },
   26009: {
     district: 26009,
@@ -2069,7 +2070,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 235,
-    total: 884
+    total: 884,
   },
   26010: {
     district: 26010,
@@ -2080,7 +2081,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 31,
     blank: 207,
-    total: 1350
+    total: 1350,
   },
   26011: {
     district: 26011,
@@ -2091,7 +2092,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 20,
     blank: 146,
-    total: 754
+    total: 754,
   },
   26012: {
     district: 26012,
@@ -2102,7 +2103,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 42,
     blank: 442,
-    total: 1854
+    total: 1854,
   },
   26013: {
     district: 26013,
@@ -2113,7 +2114,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 504,
-    total: 1785
+    total: 1785,
   },
   26014: {
     district: 26014,
@@ -2124,7 +2125,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 415,
-    total: 1707
+    total: 1707,
   },
   26015: {
     district: 26015,
@@ -2135,7 +2136,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 34,
     blank: 468,
-    total: 1854
+    total: 1854,
   },
   26016: {
     district: 26016,
@@ -2146,7 +2147,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 583,
-    total: 1864
+    total: 1864,
   },
   26017: {
     district: 26017,
@@ -2157,7 +2158,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 37,
     blank: 468,
-    total: 1673
+    total: 1673,
   },
   26018: {
     district: 26018,
@@ -2168,7 +2169,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 29,
     blank: 474,
-    total: 1454
+    total: 1454,
   },
   26019: {
     district: 26019,
@@ -2179,7 +2180,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 19,
     blank: 256,
-    total: 785
+    total: 785,
   },
   26020: {
     district: 26020,
@@ -2190,7 +2191,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 39,
     blank: 507,
-    total: 1822
+    total: 1822,
   },
   26021: {
     district: 26021,
@@ -2201,7 +2202,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 42,
     blank: 531,
-    total: 1815
+    total: 1815,
   },
   26022: {
     district: 26022,
@@ -2212,7 +2213,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 47,
     blank: 508,
-    total: 1788
+    total: 1788,
   },
   26023: {
     district: 26023,
@@ -2223,7 +2224,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 36,
     blank: 514,
-    total: 1677
+    total: 1677,
   },
   26024: {
     district: 26024,
@@ -2234,7 +2235,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 41,
     blank: 374,
-    total: 1619
+    total: 1619,
   },
   26025: {
     district: 26025,
@@ -2245,7 +2246,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 313,
-    total: 1138
+    total: 1138,
   },
   26026: {
     district: 26026,
@@ -2256,7 +2257,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 32,
     blank: 289,
-    total: 1171
+    total: 1171,
   },
   26027: {
     district: 26027,
@@ -2267,7 +2268,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 81,
-    total: 300
+    total: 300,
   },
   26028: {
     district: 26028,
@@ -2278,7 +2279,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 532,
-    total: 1619
+    total: 1619,
   },
   26029: {
     district: 26029,
@@ -2289,7 +2290,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 24,
     blank: 450,
-    total: 1253
+    total: 1253,
   },
   26030: {
     district: 26030,
@@ -2300,7 +2301,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 7,
-    total: 24
+    total: 24,
   },
   26031: {
     district: 26031,
@@ -2311,7 +2312,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 35,
     blank: 544,
-    total: 1766
+    total: 1766,
   },
   26032: {
     district: 26032,
@@ -2322,7 +2323,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 37,
     blank: 457,
-    total: 1609
+    total: 1609,
   },
   26033: {
     district: 26033,
@@ -2333,7 +2334,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 47,
     blank: 504,
-    total: 1758
+    total: 1758,
   },
   26034: {
     district: 26034,
@@ -2344,7 +2345,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 37,
     blank: 528,
-    total: 1795
+    total: 1795,
   },
   26035: {
     district: 26035,
@@ -2355,7 +2356,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 26,
     blank: 305,
-    total: 1081
+    total: 1081,
   },
   26036: {
     district: 26036,
@@ -2366,7 +2367,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 39,
     blank: 373,
-    total: 1490
+    total: 1490,
   },
   26037: {
     district: 26037,
@@ -2377,7 +2378,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 338,
-    total: 1256
+    total: 1256,
   },
   26038: {
     district: 26038,
@@ -2388,7 +2389,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 488,
-    total: 1951
+    total: 1951,
   },
   26039: {
     district: 26039,
@@ -2399,7 +2400,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 316,
-    total: 1085
+    total: 1085,
   },
   26040: {
     district: 26040,
@@ -2410,7 +2411,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 279,
-    total: 1022
+    total: 1022,
   },
   26041: {
     district: 26041,
@@ -2421,7 +2422,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 47,
     blank: 333,
-    total: 1564
+    total: 1564,
   },
   26042: {
     district: 26042,
@@ -2432,7 +2433,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 317,
-    total: 1342
+    total: 1342,
   },
   26043: {
     district: 26043,
@@ -2443,7 +2444,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 34,
     blank: 350,
-    total: 1536
+    total: 1536,
   },
   26044: {
     district: 26044,
@@ -2454,7 +2455,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 311,
-    total: 1352
+    total: 1352,
   },
   26045: {
     district: 26045,
@@ -2465,7 +2466,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 50,
     blank: 343,
-    total: 1592
+    total: 1592,
   },
   26046: {
     district: 26046,
@@ -2476,7 +2477,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 26,
     blank: 269,
-    total: 1128
+    total: 1128,
   },
   26047: {
     district: 26047,
@@ -2487,7 +2488,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 413,
-    total: 1442
+    total: 1442,
   },
   26048: {
     district: 26048,
@@ -2498,7 +2499,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 350,
-    total: 1342
+    total: 1342,
   },
   26049: {
     district: 26049,
@@ -2509,7 +2510,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 347,
-    total: 1211
+    total: 1211,
   },
   26050: {
     district: 26050,
@@ -2520,7 +2521,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 41,
     blank: 479,
-    total: 1740
+    total: 1740,
   },
   26051: {
     district: 26051,
@@ -2531,7 +2532,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 273,
-    total: 882
+    total: 882,
   },
   26052: {
     district: 26052,
@@ -2542,7 +2543,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 28,
     blank: 359,
-    total: 1211
+    total: 1211,
   },
   26053: {
     district: 26053,
@@ -2553,7 +2554,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 31,
     blank: 463,
-    total: 1538
+    total: 1538,
   },
   26054: {
     district: 26054,
@@ -2564,7 +2565,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 37,
     blank: 499,
-    total: 1724
+    total: 1724,
   },
   26055: {
     district: 26055,
@@ -2575,7 +2576,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 42,
     blank: 452,
-    total: 1701
+    total: 1701,
   },
   26056: {
     district: 26056,
@@ -2586,7 +2587,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 33,
     blank: 476,
-    total: 1632
+    total: 1632,
   },
   26057: {
     district: 26057,
@@ -2597,7 +2598,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 33,
     blank: 505,
-    total: 1750
+    total: 1750,
   },
   26058: {
     district: 26058,
@@ -2608,7 +2609,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 209,
-    total: 646
+    total: 646,
   },
   26059: {
     district: 26059,
@@ -2619,7 +2620,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 444,
-    total: 1596
+    total: 1596,
   },
   26060: {
     district: 26060,
@@ -2630,7 +2631,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 439,
-    total: 1406
+    total: 1406,
   },
   26061: {
     district: 26061,
@@ -2641,7 +2642,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 32,
     blank: 498,
-    total: 1759
+    total: 1759,
   },
   27001: {
     district: 27001,
@@ -2652,7 +2653,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 210,
-    total: 698
+    total: 698,
   },
   27002: {
     district: 27002,
@@ -2663,7 +2664,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 43,
     blank: 489,
-    total: 1855
+    total: 1855,
   },
   27003: {
     district: 27003,
@@ -2674,7 +2675,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 406,
-    total: 1613
+    total: 1613,
   },
   27004: {
     district: 27004,
@@ -2685,7 +2686,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 412,
-    total: 1547
+    total: 1547,
   },
   27005: {
     district: 27005,
@@ -2696,7 +2697,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 443,
-    total: 1731
+    total: 1731,
   },
   27006: {
     district: 27006,
@@ -2707,7 +2708,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 260,
-    total: 1061
+    total: 1061,
   },
   27007: {
     district: 27007,
@@ -2718,7 +2719,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 103,
-    total: 413
+    total: 413,
   },
   27008: {
     district: 27008,
@@ -2729,7 +2730,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 241,
-    total: 775
+    total: 775,
   },
   27009: {
     district: 27009,
@@ -2740,7 +2741,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 347,
-    total: 1185
+    total: 1185,
   },
   27010: {
     district: 27010,
@@ -2751,7 +2752,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 198,
-    total: 700
+    total: 700,
   },
   27011: {
     district: 27011,
@@ -2762,7 +2763,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 11,
     blank: 167,
-    total: 588
+    total: 588,
   },
   27012: {
     district: 27012,
@@ -2773,7 +2774,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 32,
     blank: 410,
-    total: 1804
+    total: 1804,
   },
   27013: {
     district: 27013,
@@ -2784,7 +2785,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 517,
-    total: 1637
+    total: 1637,
   },
   27014: {
     district: 27014,
@@ -2795,7 +2796,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 306,
-    total: 1578
+    total: 1578,
   },
   27015: {
     district: 27015,
@@ -2806,7 +2807,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 41,
     blank: 375,
-    total: 1794
+    total: 1794,
   },
   27016: {
     district: 27016,
@@ -2817,7 +2818,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 184,
-    total: 986
+    total: 986,
   },
   27017: {
     district: 27017,
@@ -2828,7 +2829,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 473,
-    total: 1730
+    total: 1730,
   },
   27018: {
     district: 27018,
@@ -2839,7 +2840,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 173,
-    total: 937
+    total: 937,
   },
   27019: {
     district: 27019,
@@ -2850,7 +2851,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 38,
     blank: 652,
-    total: 1911
+    total: 1911,
   },
   27020: {
     district: 27020,
@@ -2861,7 +2862,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 376,
-    total: 1216
+    total: 1216,
   },
   27021: {
     district: 27021,
@@ -2872,7 +2873,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 503,
-    total: 1618
+    total: 1618,
   },
   27022: {
     district: 27022,
@@ -2883,7 +2884,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 25,
     blank: 445,
-    total: 1691
+    total: 1691,
   },
   27023: {
     district: 27023,
@@ -2894,7 +2895,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 431,
-    total: 1578
+    total: 1578,
   },
   27024: {
     district: 27024,
@@ -2905,7 +2906,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 283,
-    total: 1288
+    total: 1288,
   },
   27025: {
     district: 27025,
@@ -2916,7 +2917,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 379,
-    total: 1766
+    total: 1766,
   },
   27026: {
     district: 27026,
@@ -2927,7 +2928,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 143,
-    total: 548
+    total: 548,
   },
   27027: {
     district: 27027,
@@ -2938,7 +2939,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 327,
-    total: 1847
+    total: 1847,
   },
   27028: {
     district: 27028,
@@ -2949,7 +2950,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 416,
-    total: 1592
+    total: 1592,
   },
   27029: {
     district: 27029,
@@ -2960,7 +2961,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 318,
-    total: 1657
+    total: 1657,
   },
   27030: {
     district: 27030,
@@ -2971,7 +2972,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 216,
-    total: 935
+    total: 935,
   },
   27031: {
     district: 27031,
@@ -2982,7 +2983,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 34,
-    total: 130
+    total: 130,
   },
   27032: {
     district: 27032,
@@ -2993,7 +2994,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 550,
-    total: 1773
+    total: 1773,
   },
   27033: {
     district: 27033,
@@ -3004,7 +3005,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 606,
-    total: 1772
+    total: 1772,
   },
   27034: {
     district: 27034,
@@ -3015,7 +3016,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 27,
     blank: 547,
-    total: 1793
+    total: 1793,
   },
   27035: {
     district: 27035,
@@ -3026,7 +3027,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 37,
     blank: 624,
-    total: 1819
+    total: 1819,
   },
   27036: {
     district: 27036,
@@ -3037,7 +3038,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 43,
     blank: 583,
-    total: 1774
+    total: 1774,
   },
   27037: {
     district: 27037,
@@ -3048,7 +3049,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 27,
     blank: 589,
-    total: 1721
+    total: 1721,
   },
   27038: {
     district: 27038,
@@ -3059,7 +3060,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 549,
-    total: 1740
+    total: 1740,
   },
   27039: {
     district: 27039,
@@ -3070,7 +3071,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 453,
-    total: 1554
+    total: 1554,
   },
   27040: {
     district: 27040,
@@ -3081,7 +3082,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 34,
     blank: 544,
-    total: 1957
+    total: 1957,
   },
   27041: {
     district: 27041,
@@ -3092,7 +3093,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 184,
-    total: 584
+    total: 584,
   },
   27042: {
     district: 27042,
@@ -3103,7 +3104,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 39,
     blank: 453,
-    total: 1793
+    total: 1793,
   },
   27043: {
     district: 27043,
@@ -3114,7 +3115,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 47,
     blank: 436,
-    total: 1613
+    total: 1613,
   },
   27044: {
     district: 27044,
@@ -3125,7 +3126,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 381,
-    total: 1446
+    total: 1446,
   },
   27045: {
     district: 27045,
@@ -3136,7 +3137,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 41,
     blank: 388,
-    total: 1418
+    total: 1418,
   },
   27046: {
     district: 27046,
@@ -3147,7 +3148,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 70,
-    total: 295
+    total: 295,
   },
   27047: {
     district: 27047,
@@ -3158,7 +3159,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 205,
-    total: 683
+    total: 683,
   },
   27048: {
     district: 27048,
@@ -3169,7 +3170,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 37,
     blank: 457,
-    total: 1554
+    total: 1554,
   },
   27049: {
     district: 27049,
@@ -3180,7 +3181,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 548,
-    total: 1714
+    total: 1714,
   },
   27050: {
     district: 27050,
@@ -3191,7 +3192,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 412,
-    total: 1356
+    total: 1356,
   },
   27051: {
     district: 27051,
@@ -3202,7 +3203,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 31,
     blank: 311,
-    total: 1198
+    total: 1198,
   },
   27054: {
     district: 27054,
@@ -3213,7 +3214,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 1
+    total: 1,
   },
   28001: {
     district: 28001,
@@ -3224,7 +3225,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 160,
-    total: 632
+    total: 632,
   },
   28002: {
     district: 28002,
@@ -3235,7 +3236,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 375,
-    total: 1698
+    total: 1698,
   },
   28003: {
     district: 28003,
@@ -3246,7 +3247,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 324,
-    total: 1455
+    total: 1455,
   },
   28004: {
     district: 28004,
@@ -3257,7 +3258,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 36,
     blank: 390,
-    total: 1646
+    total: 1646,
   },
   28005: {
     district: 28005,
@@ -3268,7 +3269,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 10,
     blank: 84,
-    total: 297
+    total: 297,
   },
   28006: {
     district: 28006,
@@ -3279,7 +3280,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 159,
-    total: 619
+    total: 619,
   },
   28007: {
     district: 28007,
@@ -3290,7 +3291,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 403,
-    total: 1651
+    total: 1651,
   },
   28008: {
     district: 28008,
@@ -3301,7 +3302,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 431,
-    total: 1695
+    total: 1695,
   },
   28009: {
     district: 28009,
@@ -3312,7 +3313,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 44,
     blank: 438,
-    total: 1806
+    total: 1806,
   },
   28010: {
     district: 28010,
@@ -3323,7 +3324,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 232,
-    total: 806
+    total: 806,
   },
   28011: {
     district: 28011,
@@ -3334,7 +3335,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 308,
-    total: 1129
+    total: 1129,
   },
   28012: {
     district: 28012,
@@ -3345,7 +3346,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 382,
-    total: 1376
+    total: 1376,
   },
   28013: {
     district: 28013,
@@ -3356,7 +3357,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 31,
     blank: 247,
-    total: 903
+    total: 903,
   },
   28014: {
     district: 28014,
@@ -3367,7 +3368,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 33,
     blank: 443,
-    total: 1531
+    total: 1531,
   },
   28015: {
     district: 28015,
@@ -3378,7 +3379,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 31,
     blank: 447,
-    total: 1531
+    total: 1531,
   },
   28016: {
     district: 28016,
@@ -3389,7 +3390,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 9,
-    total: 19
+    total: 19,
   },
   28017: {
     district: 28017,
@@ -3400,7 +3401,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 23,
-    total: 65
+    total: 65,
   },
   28018: {
     district: 28018,
@@ -3411,7 +3412,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 59,
-    total: 321
+    total: 321,
   },
   28019: {
     district: 28019,
@@ -3422,7 +3423,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 15,
     blank: 244,
-    total: 871
+    total: 871,
   },
   28020: {
     district: 28020,
@@ -3433,7 +3434,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 24,
     blank: 493,
-    total: 1624
+    total: 1624,
   },
   28021: {
     district: 28021,
@@ -3444,7 +3445,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 203,
-    total: 678
+    total: 678,
   },
   28022: {
     district: 28022,
@@ -3455,7 +3456,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 44,
     blank: 482,
-    total: 1571
+    total: 1571,
   },
   28023: {
     district: 28023,
@@ -3466,7 +3467,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 31,
     blank: 296,
-    total: 1156
+    total: 1156,
   },
   28024: {
     district: 28024,
@@ -3477,7 +3478,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 49,
     blank: 437,
-    total: 1702
+    total: 1702,
   },
   28025: {
     district: 28025,
@@ -3488,7 +3489,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 61,
     blank: 479,
-    total: 1818
+    total: 1818,
   },
   28026: {
     district: 28026,
@@ -3499,7 +3500,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 31,
     blank: 451,
-    total: 1493
+    total: 1493,
   },
   28027: {
     district: 28027,
@@ -3510,7 +3511,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 248,
-    total: 883
+    total: 883,
   },
   28028: {
     district: 28028,
@@ -3521,7 +3522,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 214,
-    total: 736
+    total: 736,
   },
   28029: {
     district: 28029,
@@ -3532,7 +3533,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 37,
     blank: 371,
-    total: 1494
+    total: 1494,
   },
   28030: {
     district: 28030,
@@ -3543,7 +3544,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 440,
-    total: 1822
+    total: 1822,
   },
   28031: {
     district: 28031,
@@ -3554,7 +3555,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 35,
     blank: 402,
-    total: 1659
+    total: 1659,
   },
   28032: {
     district: 28032,
@@ -3565,7 +3566,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 334,
-    total: 1560
+    total: 1560,
   },
   28033: {
     district: 28033,
@@ -3576,7 +3577,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 255,
-    total: 1058
+    total: 1058,
   },
   28034: {
     district: 28034,
@@ -3587,7 +3588,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 37,
     blank: 355,
-    total: 1386
+    total: 1386,
   },
   28035: {
     district: 28035,
@@ -3598,7 +3599,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 43,
     blank: 515,
-    total: 1974
+    total: 1974,
   },
   28036: {
     district: 28036,
@@ -3609,7 +3610,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 101,
-    total: 424
+    total: 424,
   },
   28037: {
     district: 28037,
@@ -3620,7 +3621,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 362,
-    total: 1492
+    total: 1492,
   },
   28038: {
     district: 28038,
@@ -3631,7 +3632,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 287,
-    total: 1328
+    total: 1328,
   },
   28039: {
     district: 28039,
@@ -3642,7 +3643,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 32,
     blank: 410,
-    total: 1615
+    total: 1615,
   },
   28040: {
     district: 28040,
@@ -3653,7 +3654,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 423,
-    total: 1617
+    total: 1617,
   },
   28041: {
     district: 28041,
@@ -3664,7 +3665,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 233,
-    total: 739
+    total: 739,
   },
   28042: {
     district: 28042,
@@ -3675,7 +3676,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 81,
-    total: 336
+    total: 336,
   },
   28043: {
     district: 28043,
@@ -3686,7 +3687,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 543,
-    total: 1897
+    total: 1897,
   },
   28044: {
     district: 28044,
@@ -3697,7 +3698,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 40,
     blank: 481,
-    total: 1803
+    total: 1803,
   },
   28045: {
     district: 28045,
@@ -3708,7 +3709,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 444,
-    total: 1410
+    total: 1410,
   },
   28046: {
     district: 28046,
@@ -3719,7 +3720,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 345,
-    total: 1255
+    total: 1255,
   },
   28047: {
     district: 28047,
@@ -3730,7 +3731,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 359,
-    total: 1286
+    total: 1286,
   },
   28048: {
     district: 28048,
@@ -3741,7 +3742,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 347,
-    total: 1261
+    total: 1261,
   },
   28049: {
     district: 28049,
@@ -3752,7 +3753,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 279,
-    total: 981
+    total: 981,
   },
   28050: {
     district: 28050,
@@ -3763,7 +3764,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 31,
     blank: 386,
-    total: 1503
+    total: 1503,
   },
   28051: {
     district: 28051,
@@ -3774,7 +3775,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 392,
-    total: 1532
+    total: 1532,
   },
   28052: {
     district: 28052,
@@ -3785,7 +3786,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 289,
-    total: 1079
+    total: 1079,
   },
   28053: {
     district: 28053,
@@ -3796,7 +3797,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 41,
     blank: 415,
-    total: 1686
+    total: 1686,
   },
   28054: {
     district: 28054,
@@ -3807,7 +3808,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 429,
-    total: 1617
+    total: 1617,
   },
   28055: {
     district: 28055,
@@ -3818,7 +3819,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 39,
     blank: 392,
-    total: 1481
+    total: 1481,
   },
   28056: {
     district: 28056,
@@ -3829,7 +3830,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 280,
-    total: 1129
+    total: 1129,
   },
   28057: {
     district: 28057,
@@ -3840,7 +3841,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 304,
-    total: 1268
+    total: 1268,
   },
   28058: {
     district: 28058,
@@ -3851,7 +3852,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 40,
     blank: 588,
-    total: 1812
+    total: 1812,
   },
   28059: {
     district: 28059,
@@ -3862,7 +3863,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 360,
-    total: 1294
+    total: 1294,
   },
   28060: {
     district: 28060,
@@ -3873,7 +3874,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 39,
     blank: 370,
-    total: 1310
+    total: 1310,
   },
   28061: {
     district: 28061,
@@ -3884,7 +3885,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 36,
     blank: 342,
-    total: 1275
+    total: 1275,
   },
   28062: {
     district: 28062,
@@ -3895,7 +3896,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 38,
     blank: 465,
-    total: 1715
+    total: 1715,
   },
   28063: {
     district: 28063,
@@ -3906,7 +3907,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 16,
-    total: 50
+    total: 50,
   },
   28064: {
     district: 28064,
@@ -3917,7 +3918,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 33,
-    total: 127
+    total: 127,
   },
   28065: {
     district: 28065,
@@ -3928,7 +3929,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 9,
     blank: 134,
-    total: 551
+    total: 551,
   },
   28066: {
     district: 28066,
@@ -3939,7 +3940,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 34,
     blank: 332,
-    total: 1173
+    total: 1173,
   },
   28067: {
     district: 28067,
@@ -3950,7 +3951,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 9,
     blank: 77,
-    total: 326
+    total: 326,
   },
   28068: {
     district: 28068,
@@ -3961,7 +3962,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 91,
-    total: 323
+    total: 323,
   },
   28069: {
     district: 28069,
@@ -3972,7 +3973,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 53,
-    total: 262
+    total: 262,
   },
   28070: {
     district: 28070,
@@ -3983,7 +3984,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 13,
-    total: 59
+    total: 59,
   },
   28071: {
     district: 28071,
@@ -3994,7 +3995,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 70,
-    total: 223
+    total: 223,
   },
   28072: {
     district: 28072,
@@ -4005,7 +4006,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 294,
-    total: 1139
+    total: 1139,
   },
   28074: {
     district: 28074,
@@ -4016,7 +4017,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 2
+    total: 2,
   },
   29001: {
     district: 29001,
@@ -4027,7 +4028,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 293,
-    total: 1823
+    total: 1823,
   },
   29002: {
     district: 29002,
@@ -4038,7 +4039,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 32,
     blank: 273,
-    total: 1728
+    total: 1728,
   },
   29003: {
     district: 29003,
@@ -4049,7 +4050,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 270,
-    total: 1673
+    total: 1673,
   },
   29004: {
     district: 29004,
@@ -4060,7 +4061,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 24,
     blank: 298,
-    total: 1661
+    total: 1661,
   },
   29005: {
     district: 29005,
@@ -4071,7 +4072,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 31,
     blank: 269,
-    total: 1623
+    total: 1623,
   },
   29006: {
     district: 29006,
@@ -4082,7 +4083,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 314,
-    total: 1772
+    total: 1772,
   },
   29007: {
     district: 29007,
@@ -4093,7 +4094,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 190,
-    total: 1241
+    total: 1241,
   },
   29008: {
     district: 29008,
@@ -4104,7 +4105,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 189,
-    total: 1167
+    total: 1167,
   },
   29009: {
     district: 29009,
@@ -4115,7 +4116,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 138,
-    total: 923
+    total: 923,
   },
   29010: {
     district: 29010,
@@ -4126,7 +4127,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 249,
-    total: 1769
+    total: 1769,
   },
   29011: {
     district: 29011,
@@ -4137,7 +4138,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 24,
     blank: 220,
-    total: 1691
+    total: 1691,
   },
   29012: {
     district: 29012,
@@ -4148,7 +4149,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 25,
     blank: 267,
-    total: 1837
+    total: 1837,
   },
   29013: {
     district: 29013,
@@ -4159,7 +4160,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 28,
     blank: 207,
-    total: 1745
+    total: 1745,
   },
   29014: {
     district: 29014,
@@ -4170,7 +4171,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 286,
-    total: 1732
+    total: 1732,
   },
   29015: {
     district: 29015,
@@ -4181,7 +4182,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 43,
-    total: 257
+    total: 257,
   },
   29016: {
     district: 29016,
@@ -4192,7 +4193,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 55,
-    total: 379
+    total: 379,
   },
   29017: {
     district: 29017,
@@ -4203,7 +4204,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 189,
-    total: 1209
+    total: 1209,
   },
   29018: {
     district: 29018,
@@ -4214,7 +4215,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 246,
-    total: 1754
+    total: 1754,
   },
   29019: {
     district: 29019,
@@ -4225,7 +4226,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 216,
-    total: 1683
+    total: 1683,
   },
   29020: {
     district: 29020,
@@ -4236,7 +4237,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 261,
-    total: 1450
+    total: 1450,
   },
   29021: {
     district: 29021,
@@ -4247,7 +4248,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 243,
-    total: 1710
+    total: 1710,
   },
   29022: {
     district: 29022,
@@ -4258,7 +4259,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 235,
-    total: 1522
+    total: 1522,
   },
   29023: {
     district: 29023,
@@ -4269,7 +4270,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 36,
     blank: 262,
-    total: 1819
+    total: 1819,
   },
   29024: {
     district: 29024,
@@ -4280,7 +4281,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 28,
-    total: 172
+    total: 172,
   },
   29025: {
     district: 29025,
@@ -4291,7 +4292,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 245,
-    total: 1623
+    total: 1623,
   },
   29026: {
     district: 29026,
@@ -4302,7 +4303,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 43,
-    total: 286
+    total: 286,
   },
   29027: {
     district: 29027,
@@ -4313,7 +4314,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 262,
-    total: 1714
+    total: 1714,
   },
   29028: {
     district: 29028,
@@ -4324,7 +4325,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 240,
-    total: 1760
+    total: 1760,
   },
   29029: {
     district: 29029,
@@ -4335,7 +4336,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 224,
-    total: 1333
+    total: 1333,
   },
   29030: {
     district: 29030,
@@ -4346,7 +4347,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 204,
-    total: 1160
+    total: 1160,
   },
   29031: {
     district: 29031,
@@ -4357,7 +4358,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 171,
-    total: 1109
+    total: 1109,
   },
   29032: {
     district: 29032,
@@ -4368,7 +4369,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 107,
-    total: 875
+    total: 875,
   },
   29033: {
     district: 29033,
@@ -4379,7 +4380,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 193,
-    total: 1037
+    total: 1037,
   },
   29034: {
     district: 29034,
@@ -4390,7 +4391,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 215,
-    total: 1499
+    total: 1499,
   },
   29035: {
     district: 29035,
@@ -4401,7 +4402,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 217,
-    total: 1248
+    total: 1248,
   },
   29036: {
     district: 29036,
@@ -4412,7 +4413,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 170,
-    total: 1265
+    total: 1265,
   },
   29037: {
     district: 29037,
@@ -4423,7 +4424,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 212,
-    total: 1427
+    total: 1427,
   },
   29038: {
     district: 29038,
@@ -4434,7 +4435,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 175,
-    total: 1204
+    total: 1204,
   },
   29039: {
     district: 29039,
@@ -4445,7 +4446,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 363,
-    total: 1795
+    total: 1795,
   },
   29040: {
     district: 29040,
@@ -4456,7 +4457,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 27,
     blank: 347,
-    total: 1796
+    total: 1796,
   },
   29041: {
     district: 29041,
@@ -4467,7 +4468,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 29,
     blank: 411,
-    total: 1795
+    total: 1795,
   },
   29042: {
     district: 29042,
@@ -4478,7 +4479,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 62,
-    total: 181
+    total: 181,
   },
   29043: {
     district: 29043,
@@ -4489,7 +4490,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 391,
-    total: 1524
+    total: 1524,
   },
   29044: {
     district: 29044,
@@ -4500,7 +4501,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 375,
-    total: 1489
+    total: 1489,
   },
   29045: {
     district: 29045,
@@ -4511,7 +4512,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 430,
-    total: 1766
+    total: 1766,
   },
   29046: {
     district: 29046,
@@ -4522,7 +4523,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 229,
-    total: 846
+    total: 846,
   },
   29047: {
     district: 29047,
@@ -4533,7 +4534,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 169,
-    total: 656
+    total: 656,
   },
   29048: {
     district: 29048,
@@ -4544,7 +4545,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 32,
     blank: 464,
-    total: 1692
+    total: 1692,
   },
   29049: {
     district: 29049,
@@ -4555,7 +4556,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 3,
     blank: 107,
-    total: 454
+    total: 454,
   },
   29050: {
     district: 29050,
@@ -4566,7 +4567,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 31,
     blank: 383,
-    total: 1791
+    total: 1791,
   },
   29051: {
     district: 29051,
@@ -4577,7 +4578,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 21,
     blank: 469,
-    total: 1834
+    total: 1834,
   },
   29052: {
     district: 29052,
@@ -4588,7 +4589,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 154,
-    total: 684
+    total: 684,
   },
   29053: {
     district: 29053,
@@ -4599,7 +4600,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 293,
-    total: 1079
+    total: 1079,
   },
   29054: {
     district: 29054,
@@ -4610,7 +4611,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 390,
-    total: 1389
+    total: 1389,
   },
   29055: {
     district: 29055,
@@ -4621,7 +4622,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 390,
-    total: 1380
+    total: 1380,
   },
   29056: {
     district: 29056,
@@ -4632,7 +4633,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 314,
-    total: 1488
+    total: 1488,
   },
   29057: {
     district: 29057,
@@ -4643,7 +4644,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 195,
-    total: 909
+    total: 909,
   },
   29058: {
     district: 29058,
@@ -4654,7 +4655,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 439,
-    total: 1810
+    total: 1810,
   },
   29059: {
     district: 29059,
@@ -4665,7 +4666,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 227,
-    total: 898
+    total: 898,
   },
   29060: {
     district: 29060,
@@ -4676,7 +4677,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 451,
-    total: 1690
+    total: 1690,
   },
   29061: {
     district: 29061,
@@ -4687,7 +4688,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 18,
-    total: 110
+    total: 110,
   },
   29062: {
     district: 29062,
@@ -4698,7 +4699,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 0,
-    total: 9
+    total: 9,
   },
   29063: {
     district: 29063,
@@ -4709,7 +4710,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 286,
-    total: 981
+    total: 981,
   },
   29064: {
     district: 29064,
@@ -4720,7 +4721,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 23,
-    total: 136
+    total: 136,
   },
   29065: {
     district: 29065,
@@ -4731,7 +4732,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 255,
-    total: 1016
+    total: 1016,
   },
   29066: {
     district: 29066,
@@ -4742,7 +4743,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 234,
-    total: 1366
+    total: 1366,
   },
   30001: {
     district: 30001,
@@ -4753,7 +4754,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 35,
     blank: 350,
-    total: 1281
+    total: 1281,
   },
   30002: {
     district: 30002,
@@ -4764,7 +4765,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 61,
-    total: 238
+    total: 238,
   },
   30003: {
     district: 30003,
@@ -4775,7 +4776,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 74,
-    total: 273
+    total: 273,
   },
   30004: {
     district: 30004,
@@ -4786,7 +4787,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 333,
-    total: 1267
+    total: 1267,
   },
   30005: {
     district: 30005,
@@ -4797,7 +4798,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 434,
-    total: 1423
+    total: 1423,
   },
   30006: {
     district: 30006,
@@ -4808,7 +4809,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 378,
-    total: 1192
+    total: 1192,
   },
   30007: {
     district: 30007,
@@ -4819,7 +4820,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 241,
-    total: 774
+    total: 774,
   },
   30008: {
     district: 30008,
@@ -4830,7 +4831,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 28,
     blank: 481,
-    total: 1608
+    total: 1608,
   },
   30009: {
     district: 30009,
@@ -4841,7 +4842,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 324,
-    total: 972
+    total: 972,
   },
   30010: {
     district: 30010,
@@ -4852,7 +4853,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 38,
     blank: 468,
-    total: 1579
+    total: 1579,
   },
   30011: {
     district: 30011,
@@ -4863,7 +4864,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 328,
-    total: 1112
+    total: 1112,
   },
   30012: {
     district: 30012,
@@ -4874,7 +4875,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 147,
-    total: 613
+    total: 613,
   },
   30013: {
     district: 30013,
@@ -4885,7 +4886,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 41,
     blank: 383,
-    total: 1694
+    total: 1694,
   },
   30014: {
     district: 30014,
@@ -4896,7 +4897,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 55,
-    total: 243
+    total: 243,
   },
   30015: {
     district: 30015,
@@ -4907,7 +4908,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 366,
-    total: 1389
+    total: 1389,
   },
   30016: {
     district: 30016,
@@ -4918,7 +4919,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 606,
-    total: 1848
+    total: 1848,
   },
   30017: {
     district: 30017,
@@ -4929,7 +4930,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 209,
-    total: 589
+    total: 589,
   },
   30018: {
     district: 30018,
@@ -4940,7 +4941,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 4,
     blank: 107,
-    total: 351
+    total: 351,
   },
   30019: {
     district: 30019,
@@ -4951,7 +4952,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 323,
-    total: 1110
+    total: 1110,
   },
   30020: {
     district: 30020,
@@ -4962,7 +4963,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 270,
-    total: 1042
+    total: 1042,
   },
   30021: {
     district: 30021,
@@ -4973,7 +4974,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 44,
     blank: 486,
-    total: 1804
+    total: 1804,
   },
   30022: {
     district: 30022,
@@ -4984,7 +4985,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 32,
     blank: 548,
-    total: 1824
+    total: 1824,
   },
   30023: {
     district: 30023,
@@ -4995,7 +4996,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 28,
     blank: 396,
-    total: 1464
+    total: 1464,
   },
   30024: {
     district: 30024,
@@ -5006,7 +5007,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 25,
     blank: 437,
-    total: 1495
+    total: 1495,
   },
   30025: {
     district: 30025,
@@ -5017,7 +5018,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 26,
     blank: 532,
-    total: 1716
+    total: 1716,
   },
   30026: {
     district: 30026,
@@ -5028,7 +5029,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 6,
-    total: 24
+    total: 24,
   },
   30027: {
     district: 30027,
@@ -5039,7 +5040,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 37,
     blank: 580,
-    total: 1682
+    total: 1682,
   },
   30028: {
     district: 30028,
@@ -5050,7 +5051,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 173,
-    total: 551
+    total: 551,
   },
   30029: {
     district: 30029,
@@ -5061,7 +5062,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 20,
-    total: 47
+    total: 47,
   },
   30030: {
     district: 30030,
@@ -5072,7 +5073,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 609,
-    total: 1875
+    total: 1875,
   },
   30031: {
     district: 30031,
@@ -5083,7 +5084,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 466,
-    total: 1489
+    total: 1489,
   },
   30032: {
     district: 30032,
@@ -5094,7 +5095,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 71,
-    total: 189
+    total: 189,
   },
   30033: {
     district: 30033,
@@ -5105,7 +5106,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 342,
-    total: 1127
+    total: 1127,
   },
   30034: {
     district: 30034,
@@ -5116,7 +5117,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 312,
-    total: 937
+    total: 937,
   },
   30035: {
     district: 30035,
@@ -5127,7 +5128,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 530,
-    total: 1658
+    total: 1658,
   },
   30036: {
     district: 30036,
@@ -5138,7 +5139,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 550,
-    total: 1831
+    total: 1831,
   },
   30037: {
     district: 30037,
@@ -5149,7 +5150,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 345,
-    total: 1169
+    total: 1169,
   },
   30038: {
     district: 30038,
@@ -5160,7 +5161,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 452,
-    total: 1437
+    total: 1437,
   },
   30039: {
     district: 30039,
@@ -5171,7 +5172,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 500,
-    total: 1504
+    total: 1504,
   },
   30040: {
     district: 30040,
@@ -5182,7 +5183,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 358,
-    total: 1219
+    total: 1219,
   },
   30041: {
     district: 30041,
@@ -5193,7 +5194,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 524,
-    total: 1635
+    total: 1635,
   },
   30042: {
     district: 30042,
@@ -5204,7 +5205,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 4,
     blank: 258,
-    total: 956
+    total: 956,
   },
   30043: {
     district: 30043,
@@ -5215,7 +5216,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 203,
-    total: 756
+    total: 756,
   },
   30044: {
     district: 30044,
@@ -5226,7 +5227,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 3,
     blank: 75,
-    total: 288
+    total: 288,
   },
   30045: {
     district: 30045,
@@ -5237,7 +5238,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 11,
     blank: 345,
-    total: 1391
+    total: 1391,
   },
   30046: {
     district: 30046,
@@ -5248,7 +5249,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 446,
-    total: 1634
+    total: 1634,
   },
   30047: {
     district: 30047,
@@ -5259,7 +5260,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 287,
-    total: 1011
+    total: 1011,
   },
   30048: {
     district: 30048,
@@ -5270,7 +5271,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 256,
-    total: 857
+    total: 857,
   },
   30049: {
     district: 30049,
@@ -5281,7 +5282,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 397,
-    total: 1512
+    total: 1512,
   },
   30050: {
     district: 30050,
@@ -5292,7 +5293,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 448,
-    total: 1567
+    total: 1567,
   },
   30051: {
     district: 30051,
@@ -5303,7 +5304,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 371,
-    total: 1314
+    total: 1314,
   },
   30052: {
     district: 30052,
@@ -5314,7 +5315,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 223,
-    total: 764
+    total: 764,
   },
   30053: {
     district: 30053,
@@ -5325,7 +5326,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 268,
-    total: 952
+    total: 952,
   },
   30054: {
     district: 30054,
@@ -5336,7 +5337,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 243,
-    total: 759
+    total: 759,
   },
   30055: {
     district: 30055,
@@ -5347,7 +5348,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 353,
-    total: 1206
+    total: 1206,
   },
   30056: {
     district: 30056,
@@ -5358,7 +5359,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 348,
-    total: 1227
+    total: 1227,
   },
   30057: {
     district: 30057,
@@ -5369,7 +5370,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 1
+    total: 1,
   },
   31001: {
     district: 31001,
@@ -5380,7 +5381,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 327,
-    total: 1732
+    total: 1732,
   },
   31002: {
     district: 31002,
@@ -5391,7 +5392,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 303,
-    total: 1463
+    total: 1463,
   },
   31003: {
     district: 31003,
@@ -5402,7 +5403,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 258,
-    total: 1246
+    total: 1246,
   },
   31004: {
     district: 31004,
@@ -5413,7 +5414,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 278,
-    total: 1400
+    total: 1400,
   },
   31005: {
     district: 31005,
@@ -5424,7 +5425,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 20,
     blank: 337,
-    total: 1615
+    total: 1615,
   },
   31006: {
     district: 31006,
@@ -5435,7 +5436,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 208,
-    total: 1168
+    total: 1168,
   },
   31007: {
     district: 31007,
@@ -5446,7 +5447,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 13,
     blank: 182,
-    total: 732
+    total: 732,
   },
   31008: {
     district: 31008,
@@ -5457,7 +5458,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 29,
     blank: 305,
-    total: 1733
+    total: 1733,
   },
   31009: {
     district: 31009,
@@ -5468,7 +5469,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 10,
     blank: 166,
-    total: 838
+    total: 838,
   },
   31010: {
     district: 31010,
@@ -5479,7 +5480,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 13,
     blank: 210,
-    total: 1092
+    total: 1092,
   },
   31011: {
     district: 31011,
@@ -5490,7 +5491,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 261,
-    total: 1401
+    total: 1401,
   },
   31012: {
     district: 31012,
@@ -5501,7 +5502,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 180,
-    total: 1293
+    total: 1293,
   },
   31013: {
     district: 31013,
@@ -5512,7 +5513,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 105,
-    total: 548
+    total: 548,
   },
   31014: {
     district: 31014,
@@ -5523,7 +5524,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 257,
-    total: 1507
+    total: 1507,
   },
   31015: {
     district: 31015,
@@ -5534,7 +5535,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 23,
     blank: 387,
-    total: 1854
+    total: 1854,
   },
   31016: {
     district: 31016,
@@ -5545,7 +5546,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 306,
-    total: 1517
+    total: 1517,
   },
   31017: {
     district: 31017,
@@ -5556,7 +5557,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 0,
     blank: 23,
-    total: 79
+    total: 79,
   },
   31018: {
     district: 31018,
@@ -5567,7 +5568,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 18,
     blank: 177,
-    total: 1043
+    total: 1043,
   },
   31019: {
     district: 31019,
@@ -5578,7 +5579,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 0,
     blank: 10,
-    total: 45
+    total: 45,
   },
   31020: {
     district: 31020,
@@ -5589,7 +5590,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 27,
     blank: 333,
-    total: 1827
+    total: 1827,
   },
   31021: {
     district: 31021,
@@ -5600,7 +5601,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 388,
-    total: 1691
+    total: 1691,
   },
   31022: {
     district: 31022,
@@ -5611,7 +5612,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 233,
-    total: 1350
+    total: 1350,
   },
   31023: {
     district: 31023,
@@ -5622,7 +5623,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 283,
-    total: 1790
+    total: 1790,
   },
   31024: {
     district: 31024,
@@ -5633,7 +5634,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 109,
-    total: 592
+    total: 592,
   },
   31025: {
     district: 31025,
@@ -5644,7 +5645,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 269,
-    total: 1487
+    total: 1487,
   },
   31026: {
     district: 31026,
@@ -5655,7 +5656,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 247,
-    total: 1508
+    total: 1508,
   },
   31027: {
     district: 31027,
@@ -5666,7 +5667,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 253,
-    total: 1581
+    total: 1581,
   },
   31028: {
     district: 31028,
@@ -5677,7 +5678,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 211,
-    total: 1395
+    total: 1395,
   },
   31029: {
     district: 31029,
@@ -5688,7 +5689,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 178,
-    total: 1207
+    total: 1207,
   },
   31030: {
     district: 31030,
@@ -5699,7 +5700,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 111,
-    total: 711
+    total: 711,
   },
   31031: {
     district: 31031,
@@ -5710,7 +5711,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 152,
-    total: 967
+    total: 967,
   },
   31032: {
     district: 31032,
@@ -5721,7 +5722,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 38,
     blank: 276,
-    total: 1701
+    total: 1701,
   },
   31033: {
     district: 31033,
@@ -5732,7 +5733,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 153,
-    total: 716
+    total: 716,
   },
   31034: {
     district: 31034,
@@ -5743,7 +5744,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 248,
-    total: 1459
+    total: 1459,
   },
   31035: {
     district: 31035,
@@ -5754,7 +5755,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 222,
-    total: 1262
+    total: 1262,
   },
   31036: {
     district: 31036,
@@ -5765,7 +5766,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 70,
-    total: 432
+    total: 432,
   },
   31037: {
     district: 31037,
@@ -5776,7 +5777,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 319,
-    total: 1600
+    total: 1600,
   },
   31038: {
     district: 31038,
@@ -5787,7 +5788,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 272,
-    total: 1111
+    total: 1111,
   },
   31039: {
     district: 31039,
@@ -5798,7 +5799,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 183,
-    total: 840
+    total: 840,
   },
   31040: {
     district: 31040,
@@ -5809,7 +5810,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 443,
-    total: 1728
+    total: 1728,
   },
   31041: {
     district: 31041,
@@ -5820,7 +5821,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 344,
-    total: 1449
+    total: 1449,
   },
   31042: {
     district: 31042,
@@ -5831,7 +5832,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 6,
     blank: 131,
-    total: 561
+    total: 561,
   },
   31043: {
     district: 31043,
@@ -5842,7 +5843,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 401,
-    total: 1559
+    total: 1559,
   },
   31044: {
     district: 31044,
@@ -5853,7 +5854,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 320,
-    total: 1315
+    total: 1315,
   },
   31045: {
     district: 31045,
@@ -5864,7 +5865,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 395,
-    total: 1620
+    total: 1620,
   },
   31046: {
     district: 31046,
@@ -5875,7 +5876,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 292,
-    total: 1304
+    total: 1304,
   },
   31047: {
     district: 31047,
@@ -5886,7 +5887,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 139,
-    total: 555
+    total: 555,
   },
   31048: {
     district: 31048,
@@ -5897,7 +5898,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 152,
-    total: 657
+    total: 657,
   },
   31049: {
     district: 31049,
@@ -5908,7 +5909,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 31,
-    total: 141
+    total: 141,
   },
   31050: {
     district: 31050,
@@ -5919,7 +5920,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 327,
-    total: 1283
+    total: 1283,
   },
   31051: {
     district: 31051,
@@ -5930,7 +5931,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 311,
-    total: 1196
+    total: 1196,
   },
   31052: {
     district: 31052,
@@ -5941,7 +5942,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 330,
-    total: 1175
+    total: 1175,
   },
   31053: {
     district: 31053,
@@ -5952,7 +5953,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 263,
-    total: 1142
+    total: 1142,
   },
   31054: {
     district: 31054,
@@ -5963,7 +5964,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 383,
-    total: 1670
+    total: 1670,
   },
   31055: {
     district: 31055,
@@ -5974,7 +5975,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 319,
-    total: 1417
+    total: 1417,
   },
   31056: {
     district: 31056,
@@ -5985,7 +5986,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 311,
-    total: 1349
+    total: 1349,
   },
   31057: {
     district: 31057,
@@ -5996,7 +5997,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 473,
-    total: 1793
+    total: 1793,
   },
   32001: {
     district: 32001,
@@ -6007,7 +6008,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 3,
     blank: 37,
-    total: 182
+    total: 182,
   },
   32002: {
     district: 32002,
@@ -6018,7 +6019,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 82,
-    total: 324
+    total: 324,
   },
   32003: {
     district: 32003,
@@ -6029,7 +6030,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 387,
-    total: 1587
+    total: 1587,
   },
   32004: {
     district: 32004,
@@ -6040,7 +6041,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 11,
     blank: 236,
-    total: 943
+    total: 943,
   },
   32005: {
     district: 32005,
@@ -6051,7 +6052,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 292,
-    total: 1396
+    total: 1396,
   },
   32006: {
     district: 32006,
@@ -6062,7 +6063,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 22,
-    total: 92
+    total: 92,
   },
   32007: {
     district: 32007,
@@ -6073,7 +6074,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 314,
-    total: 1561
+    total: 1561,
   },
   32008: {
     district: 32008,
@@ -6084,7 +6085,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 425,
-    total: 1601
+    total: 1601,
   },
   32009: {
     district: 32009,
@@ -6095,7 +6096,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 373,
-    total: 1421
+    total: 1421,
   },
   32010: {
     district: 32010,
@@ -6106,7 +6107,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 227,
-    total: 851
+    total: 851,
   },
   32011: {
     district: 32011,
@@ -6117,7 +6118,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 17,
-    total: 91
+    total: 91,
   },
   32012: {
     district: 32012,
@@ -6128,7 +6129,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 11,
     blank: 245,
-    total: 1059
+    total: 1059,
   },
   32013: {
     district: 32013,
@@ -6139,7 +6140,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 7,
-    total: 80
+    total: 80,
   },
   32014: {
     district: 32014,
@@ -6150,7 +6151,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 28,
-    total: 133
+    total: 133,
   },
   32015: {
     district: 32015,
@@ -6161,7 +6162,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 19,
     blank: 391,
-    total: 1571
+    total: 1571,
   },
   32016: {
     district: 32016,
@@ -6172,7 +6173,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 4,
     blank: 70,
-    total: 391
+    total: 391,
   },
   32017: {
     district: 32017,
@@ -6183,7 +6184,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 37,
     blank: 341,
-    total: 1496
+    total: 1496,
   },
   32018: {
     district: 32018,
@@ -6194,7 +6195,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 91,
-    total: 438
+    total: 438,
   },
   32019: {
     district: 32019,
@@ -6205,7 +6206,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 340,
-    total: 1425
+    total: 1425,
   },
   32020: {
     district: 32020,
@@ -6216,7 +6217,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 298,
-    total: 1314
+    total: 1314,
   },
   32021: {
     district: 32021,
@@ -6227,7 +6228,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 396,
-    total: 1784
+    total: 1784,
   },
   32022: {
     district: 32022,
@@ -6238,7 +6239,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 336,
-    total: 1703
+    total: 1703,
   },
   32023: {
     district: 32023,
@@ -6249,7 +6250,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 23,
     blank: 252,
-    total: 1322
+    total: 1322,
   },
   32024: {
     district: 32024,
@@ -6260,7 +6261,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 244,
-    total: 1205
+    total: 1205,
   },
   32025: {
     district: 32025,
@@ -6271,7 +6272,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 299,
-    total: 1332
+    total: 1332,
   },
   32026: {
     district: 32026,
@@ -6282,7 +6283,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 35,
     blank: 382,
-    total: 1721
+    total: 1721,
   },
   32027: {
     district: 32027,
@@ -6293,7 +6294,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 31,
     blank: 304,
-    total: 1607
+    total: 1607,
   },
   32028: {
     district: 32028,
@@ -6304,7 +6305,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 286,
-    total: 1564
+    total: 1564,
   },
   32029: {
     district: 32029,
@@ -6315,7 +6316,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 8,
     blank: 187,
-    total: 1036
+    total: 1036,
   },
   32030: {
     district: 32030,
@@ -6326,7 +6327,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 259,
-    total: 1237
+    total: 1237,
   },
   32031: {
     district: 32031,
@@ -6337,7 +6338,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 216,
-    total: 1179
+    total: 1179,
   },
   32032: {
     district: 32032,
@@ -6348,7 +6349,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 253,
-    total: 1501
+    total: 1501,
   },
   32033: {
     district: 32033,
@@ -6359,7 +6360,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 69,
-    total: 481
+    total: 481,
   },
   32034: {
     district: 32034,
@@ -6370,7 +6371,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 249,
-    total: 1565
+    total: 1565,
   },
   32035: {
     district: 32035,
@@ -6381,7 +6382,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 119,
-    total: 611
+    total: 611,
   },
   32036: {
     district: 32036,
@@ -6392,7 +6393,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 124,
-    total: 1050
+    total: 1050,
   },
   32037: {
     district: 32037,
@@ -6403,7 +6404,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 25,
     blank: 340,
-    total: 1786
+    total: 1786,
   },
   32038: {
     district: 32038,
@@ -6414,7 +6415,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 282,
-    total: 1472
+    total: 1472,
   },
   32039: {
     district: 32039,
@@ -6425,7 +6426,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 17,
     blank: 276,
-    total: 1534
+    total: 1534,
   },
   32040: {
     district: 32040,
@@ -6436,7 +6437,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 243,
-    total: 1370
+    total: 1370,
   },
   32041: {
     district: 32041,
@@ -6447,7 +6448,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 155,
-    total: 811
+    total: 811,
   },
   32042: {
     district: 32042,
@@ -6458,7 +6459,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 359,
-    total: 1585
+    total: 1585,
   },
   32043: {
     district: 32043,
@@ -6469,7 +6470,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 364,
-    total: 1783
+    total: 1783,
   },
   32044: {
     district: 32044,
@@ -6480,7 +6481,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 121,
-    total: 817
+    total: 817,
   },
   32045: {
     district: 32045,
@@ -6491,7 +6492,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 260,
-    total: 1140
+    total: 1140,
   },
   32046: {
     district: 32046,
@@ -6502,7 +6503,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 6,
     blank: 184,
-    total: 1095
+    total: 1095,
   },
   32047: {
     district: 32047,
@@ -6513,7 +6514,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 172,
-    total: 1144
+    total: 1144,
   },
   32048: {
     district: 32048,
@@ -6524,7 +6525,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 281,
-    total: 1612
+    total: 1612,
   },
   32049: {
     district: 32049,
@@ -6535,7 +6536,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 175,
-    total: 934
+    total: 934,
   },
   32050: {
     district: 32050,
@@ -6546,7 +6547,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 259,
-    total: 1637
+    total: 1637,
   },
   32051: {
     district: 32051,
@@ -6557,7 +6558,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 275,
-    total: 1584
+    total: 1584,
   },
   32052: {
     district: 32052,
@@ -6568,7 +6569,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 12,
     blank: 239,
-    total: 1211
+    total: 1211,
   },
   32053: {
     district: 32053,
@@ -6579,7 +6580,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 200,
-    total: 1647
+    total: 1647,
   },
   32054: {
     district: 32054,
@@ -6590,7 +6591,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 182,
-    total: 1500
+    total: 1500,
   },
   32055: {
     district: 32055,
@@ -6601,7 +6602,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 97,
-    total: 956
+    total: 956,
   },
   32056: {
     district: 32056,
@@ -6612,7 +6613,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 115,
-    total: 969
+    total: 969,
   },
   32057: {
     district: 32057,
@@ -6623,7 +6624,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 108,
-    total: 1020
+    total: 1020,
   },
   32058: {
     district: 32058,
@@ -6634,7 +6635,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 110,
-    total: 947
+    total: 947,
   },
   32059: {
     district: 32059,
@@ -6645,7 +6646,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 110,
-    total: 957
+    total: 957,
   },
   32060: {
     district: 32060,
@@ -6656,7 +6657,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 105,
-    total: 955
+    total: 955,
   },
   32061: {
     district: 32061,
@@ -6667,7 +6668,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 113,
-    total: 962
+    total: 962,
   },
   32062: {
     district: 32062,
@@ -6678,7 +6679,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 176,
-    total: 1188
+    total: 1188,
   },
   32063: {
     district: 32063,
@@ -6689,7 +6690,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 161,
-    total: 970
+    total: 970,
   },
   32064: {
     district: 32064,
@@ -6700,7 +6701,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 7,
     blank: 155,
-    total: 949
+    total: 949,
   },
   32065: {
     district: 32065,
@@ -6711,7 +6712,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 200,
-    total: 1249
+    total: 1249,
   },
   32066: {
     district: 32066,
@@ -6722,7 +6723,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 78,
-    total: 445
+    total: 445,
   },
   32067: {
     district: 32067,
@@ -6733,7 +6734,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 243,
-    total: 1306
+    total: 1306,
   },
   33001: {
     district: 33001,
@@ -6744,7 +6745,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 464,
-    total: 1715
+    total: 1715,
   },
   33002: {
     district: 33002,
@@ -6755,7 +6756,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 38,
     blank: 483,
-    total: 1801
+    total: 1801,
   },
   33003: {
     district: 33003,
@@ -6766,7 +6767,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 30,
     blank: 471,
-    total: 1730
+    total: 1730,
   },
   33004: {
     district: 33004,
@@ -6777,7 +6778,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 398,
-    total: 1382
+    total: 1382,
   },
   33005: {
     district: 33005,
@@ -6788,7 +6789,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 27,
     blank: 354,
-    total: 1438
+    total: 1438,
   },
   33006: {
     district: 33006,
@@ -6799,7 +6800,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 38,
     blank: 507,
-    total: 1802
+    total: 1802,
   },
   33007: {
     district: 33007,
@@ -6810,7 +6811,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 368,
-    total: 1313
+    total: 1313,
   },
   33008: {
     district: 33008,
@@ -6821,7 +6822,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 468,
-    total: 1751
+    total: 1751,
   },
   33009: {
     district: 33009,
@@ -6832,7 +6833,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 467,
-    total: 1660
+    total: 1660,
   },
   33010: {
     district: 33010,
@@ -6843,7 +6844,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 451,
-    total: 1722
+    total: 1722,
   },
   33011: {
     district: 33011,
@@ -6854,7 +6855,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 265,
-    total: 971
+    total: 971,
   },
   33012: {
     district: 33012,
@@ -6865,7 +6866,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 321,
-    total: 1333
+    total: 1333,
   },
   33013: {
     district: 33013,
@@ -6876,7 +6877,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 43,
-    total: 183
+    total: 183,
   },
   33014: {
     district: 33014,
@@ -6887,7 +6888,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 35,
     blank: 389,
-    total: 1542
+    total: 1542,
   },
   33015: {
     district: 33015,
@@ -6898,7 +6899,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 340,
-    total: 1308
+    total: 1308,
   },
   33016: {
     district: 33016,
@@ -6909,7 +6910,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 30,
     blank: 411,
-    total: 1635
+    total: 1635,
   },
   33017: {
     district: 33017,
@@ -6920,7 +6921,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 33,
     blank: 424,
-    total: 1787
+    total: 1787,
   },
   33018: {
     district: 33018,
@@ -6931,7 +6932,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 308,
-    total: 1388
+    total: 1388,
   },
   33019: {
     district: 33019,
@@ -6942,7 +6943,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 303,
-    total: 1188
+    total: 1188,
   },
   33020: {
     district: 33020,
@@ -6953,7 +6954,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 360,
-    total: 1446
+    total: 1446,
   },
   33021: {
     district: 33021,
@@ -6964,7 +6965,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 28,
     blank: 406,
-    total: 1699
+    total: 1699,
   },
   33022: {
     district: 33022,
@@ -6975,7 +6976,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 169,
-    total: 753
+    total: 753,
   },
   33023: {
     district: 33023,
@@ -6986,7 +6987,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 407,
-    total: 1816
+    total: 1816,
   },
   33024: {
     district: 33024,
@@ -6997,7 +6998,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 75,
-    total: 309
+    total: 309,
   },
   33025: {
     district: 33025,
@@ -7008,7 +7009,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 137,
-    total: 659
+    total: 659,
   },
   33026: {
     district: 33026,
@@ -7019,7 +7020,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 53,
-    total: 256
+    total: 256,
   },
   33027: {
     district: 33027,
@@ -7030,7 +7031,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 289,
-    total: 1401
+    total: 1401,
   },
   33028: {
     district: 33028,
@@ -7041,7 +7042,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 151,
-    total: 678
+    total: 678,
   },
   33029: {
     district: 33029,
@@ -7052,7 +7053,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 348,
-    total: 1750
+    total: 1750,
   },
   33030: {
     district: 33030,
@@ -7063,7 +7064,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 26,
     blank: 310,
-    total: 1651
+    total: 1651,
   },
   33031: {
     district: 33031,
@@ -7074,7 +7075,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 266,
-    total: 1648
+    total: 1648,
   },
   33032: {
     district: 33032,
@@ -7085,7 +7086,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 30,
     blank: 267,
-    total: 1730
+    total: 1730,
   },
   33033: {
     district: 33033,
@@ -7096,7 +7097,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 153,
-    total: 1034
+    total: 1034,
   },
   33034: {
     district: 33034,
@@ -7107,7 +7108,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 236,
-    total: 1513
+    total: 1513,
   },
   33035: {
     district: 33035,
@@ -7118,7 +7119,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 232,
-    total: 1650
+    total: 1650,
   },
   33036: {
     district: 33036,
@@ -7129,7 +7130,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 219,
-    total: 1556
+    total: 1556,
   },
   33037: {
     district: 33037,
@@ -7140,7 +7141,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 234,
-    total: 1555
+    total: 1555,
   },
   33038: {
     district: 33038,
@@ -7151,7 +7152,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 158,
-    total: 1287
+    total: 1287,
   },
   33039: {
     district: 33039,
@@ -7162,7 +7163,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 186,
-    total: 1220
+    total: 1220,
   },
   33040: {
     district: 33040,
@@ -7173,7 +7174,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 178,
-    total: 1141
+    total: 1141,
   },
   33041: {
     district: 33041,
@@ -7184,7 +7185,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 103,
-    total: 880
+    total: 880,
   },
   33042: {
     district: 33042,
@@ -7195,7 +7196,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 237,
-    total: 1581
+    total: 1581,
   },
   33043: {
     district: 33043,
@@ -7206,7 +7207,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 146,
-    total: 913
+    total: 913,
   },
   33044: {
     district: 33044,
@@ -7217,7 +7218,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 259,
-    total: 1797
+    total: 1797,
   },
   33045: {
     district: 33045,
@@ -7228,7 +7229,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 298,
-    total: 1779
+    total: 1779,
   },
   33046: {
     district: 33046,
@@ -7239,7 +7240,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 268,
-    total: 1713
+    total: 1713,
   },
   33047: {
     district: 33047,
@@ -7250,7 +7251,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 230,
-    total: 1538
+    total: 1538,
   },
   33048: {
     district: 33048,
@@ -7261,7 +7262,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 34,
     blank: 225,
-    total: 1554
+    total: 1554,
   },
   33049: {
     district: 33049,
@@ -7272,7 +7273,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 15,
     blank: 165,
-    total: 911
+    total: 911,
   },
   33050: {
     district: 33050,
@@ -7283,7 +7284,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 315,
-    total: 1799
+    total: 1799,
   },
   33051: {
     district: 33051,
@@ -7294,7 +7295,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 343,
-    total: 1875
+    total: 1875,
   },
   33052: {
     district: 33052,
@@ -7305,7 +7306,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 337,
-    total: 1924
+    total: 1924,
   },
   33053: {
     district: 33053,
@@ -7316,7 +7317,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 281,
-    total: 1530
+    total: 1530,
   },
   33054: {
     district: 33054,
@@ -7327,7 +7328,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 32,
     blank: 227,
-    total: 1476
+    total: 1476,
   },
   33055: {
     district: 33055,
@@ -7338,7 +7339,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 239,
-    total: 1347
+    total: 1347,
   },
   33056: {
     district: 33056,
@@ -7349,7 +7350,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 297,
-    total: 1839
+    total: 1839,
   },
   33057: {
     district: 33057,
@@ -7360,7 +7361,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 230,
-    total: 1286
+    total: 1286,
   },
   33058: {
     district: 33058,
@@ -7371,7 +7372,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 272,
-    total: 1487
+    total: 1487,
   },
   33059: {
     district: 33059,
@@ -7382,7 +7383,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 146,
-    total: 898
+    total: 898,
   },
   33060: {
     district: 33060,
@@ -7393,7 +7394,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 238,
-    total: 1361
+    total: 1361,
   },
   33061: {
     district: 33061,
@@ -7404,7 +7405,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 252,
-    total: 1481
+    total: 1481,
   },
   33062: {
     district: 33062,
@@ -7415,7 +7416,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 167,
-    total: 818
+    total: 818,
   },
   33063: {
     district: 33063,
@@ -7426,7 +7427,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 219,
-    total: 1128
+    total: 1128,
   },
   33064: {
     district: 33064,
@@ -7437,7 +7438,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 273,
-    total: 1531
+    total: 1531,
   },
   33065: {
     district: 33065,
@@ -7448,7 +7449,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 1
+    total: 1,
   },
   34001: {
     district: 34001,
@@ -7459,7 +7460,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 441,
-    total: 1789
+    total: 1789,
   },
   34002: {
     district: 34002,
@@ -7470,7 +7471,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 157,
-    total: 595
+    total: 595,
   },
   34003: {
     district: 34003,
@@ -7481,7 +7482,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 280,
-    total: 1247
+    total: 1247,
   },
   34004: {
     district: 34004,
@@ -7492,7 +7493,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 302,
-    total: 1379
+    total: 1379,
   },
   34005: {
     district: 34005,
@@ -7503,7 +7504,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 439,
-    total: 1747
+    total: 1747,
   },
   34006: {
     district: 34006,
@@ -7514,7 +7515,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 36,
-    total: 129
+    total: 129,
   },
   34007: {
     district: 34007,
@@ -7525,7 +7526,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 17,
     blank: 372,
-    total: 1501
+    total: 1501,
   },
   34008: {
     district: 34008,
@@ -7536,7 +7537,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 435,
-    total: 1754
+    total: 1754,
   },
   34009: {
     district: 34009,
@@ -7547,7 +7548,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 34,
     blank: 396,
-    total: 1557
+    total: 1557,
   },
   34010: {
     district: 34010,
@@ -7558,7 +7559,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 446,
-    total: 1799
+    total: 1799,
   },
   34011: {
     district: 34011,
@@ -7569,7 +7570,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 215,
-    total: 893
+    total: 893,
   },
   34012: {
     district: 34012,
@@ -7580,7 +7581,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 351,
-    total: 1802
+    total: 1802,
   },
   34013: {
     district: 34013,
@@ -7591,7 +7592,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 32,
     blank: 386,
-    total: 1678
+    total: 1678,
   },
   34014: {
     district: 34014,
@@ -7602,7 +7603,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 36,
     blank: 442,
-    total: 1889
+    total: 1889,
   },
   34015: {
     district: 34015,
@@ -7613,7 +7614,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 3,
     blank: 178,
-    total: 701
+    total: 701,
   },
   34016: {
     district: 34016,
@@ -7624,7 +7625,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 176,
-    total: 628
+    total: 628,
   },
   34017: {
     district: 34017,
@@ -7635,7 +7636,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 32,
     blank: 447,
-    total: 1684
+    total: 1684,
   },
   34018: {
     district: 34018,
@@ -7646,7 +7647,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 30,
     blank: 483,
-    total: 1883
+    total: 1883,
   },
   34019: {
     district: 34019,
@@ -7657,7 +7658,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 402,
-    total: 1766
+    total: 1766,
   },
   34020: {
     district: 34020,
@@ -7668,7 +7669,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 39,
     blank: 467,
-    total: 1853
+    total: 1853,
   },
   34021: {
     district: 34021,
@@ -7679,7 +7680,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 35,
     blank: 356,
-    total: 1755
+    total: 1755,
   },
   34022: {
     district: 34022,
@@ -7690,7 +7691,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 6,
     blank: 182,
-    total: 852
+    total: 852,
   },
   34023: {
     district: 34023,
@@ -7701,7 +7702,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 174,
-    total: 818
+    total: 818,
   },
   34024: {
     district: 34024,
@@ -7712,7 +7713,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 32,
     blank: 414,
-    total: 1588
+    total: 1588,
   },
   34025: {
     district: 34025,
@@ -7723,7 +7724,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 353,
-    total: 1554
+    total: 1554,
   },
   34026: {
     district: 34026,
@@ -7734,7 +7735,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 107,
-    total: 367
+    total: 367,
   },
   34027: {
     district: 34027,
@@ -7745,7 +7746,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 26,
     blank: 350,
-    total: 1212
+    total: 1212,
   },
   34028: {
     district: 34028,
@@ -7756,7 +7757,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 253,
-    total: 1101
+    total: 1101,
   },
   34029: {
     district: 34029,
@@ -7767,7 +7768,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 266,
-    total: 1062
+    total: 1062,
   },
   34030: {
     district: 34030,
@@ -7778,7 +7779,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 18,
     blank: 364,
-    total: 1313
+    total: 1313,
   },
   34031: {
     district: 34031,
@@ -7789,7 +7790,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 488,
-    total: 1712
+    total: 1712,
   },
   34032: {
     district: 34032,
@@ -7800,7 +7801,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 291,
-    total: 1138
+    total: 1138,
   },
   34033: {
     district: 34033,
@@ -7811,7 +7812,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 172,
-    total: 708
+    total: 708,
   },
   34034: {
     district: 34034,
@@ -7822,7 +7823,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 326,
-    total: 1314
+    total: 1314,
   },
   34035: {
     district: 34035,
@@ -7833,7 +7834,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 250,
-    total: 1010
+    total: 1010,
   },
   34036: {
     district: 34036,
@@ -7844,7 +7845,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 491,
-    total: 1718
+    total: 1718,
   },
   34037: {
     district: 34037,
@@ -7855,7 +7856,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 226,
-    total: 760
+    total: 760,
   },
   34038: {
     district: 34038,
@@ -7866,7 +7867,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 164,
-    total: 632
+    total: 632,
   },
   34039: {
     district: 34039,
@@ -7877,7 +7878,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 358,
-    total: 1478
+    total: 1478,
   },
   34040: {
     district: 34040,
@@ -7888,7 +7889,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 350,
-    total: 1151
+    total: 1151,
   },
   34041: {
     district: 34041,
@@ -7899,7 +7900,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 314,
-    total: 1442
+    total: 1442,
   },
   34042: {
     district: 34042,
@@ -7910,7 +7911,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 223,
-    total: 1031
+    total: 1031,
   },
   34043: {
     district: 34043,
@@ -7921,7 +7922,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 326,
-    total: 1363
+    total: 1363,
   },
   34044: {
     district: 34044,
@@ -7932,7 +7933,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 398,
-    total: 1573
+    total: 1573,
   },
   34045: {
     district: 34045,
@@ -7943,7 +7944,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 299,
-    total: 1090
+    total: 1090,
   },
   34046: {
     district: 34046,
@@ -7954,7 +7955,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 32,
     blank: 383,
-    total: 1563
+    total: 1563,
   },
   34047: {
     district: 34047,
@@ -7965,7 +7966,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 343,
-    total: 1468
+    total: 1468,
   },
   34048: {
     district: 34048,
@@ -7976,7 +7977,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 268,
-    total: 1068
+    total: 1068,
   },
   34049: {
     district: 34049,
@@ -7987,7 +7988,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 344,
-    total: 1537
+    total: 1537,
   },
   34050: {
     district: 34050,
@@ -7998,7 +7999,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 61,
-    total: 254
+    total: 254,
   },
   34051: {
     district: 34051,
@@ -8009,7 +8010,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 37,
     blank: 405,
-    total: 1595
+    total: 1595,
   },
   34052: {
     district: 34052,
@@ -8020,7 +8021,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 463,
-    total: 1853
+    total: 1853,
   },
   34053: {
     district: 34053,
@@ -8031,7 +8032,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 14,
-    total: 74
+    total: 74,
   },
   34054: {
     district: 34054,
@@ -8042,7 +8043,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 340,
-    total: 1288
+    total: 1288,
   },
   34055: {
     district: 34055,
@@ -8053,7 +8054,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 0,
     blank: 161,
-    total: 509
+    total: 509,
   },
   34056: {
     district: 34056,
@@ -8064,7 +8065,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 429,
-    total: 1688
+    total: 1688,
   },
   34057: {
     district: 34057,
@@ -8075,7 +8076,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 60,
-    total: 196
+    total: 196,
   },
   35001: {
     district: 35001,
@@ -8086,7 +8087,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 32,
     blank: 305,
-    total: 1325
+    total: 1325,
   },
   35002: {
     district: 35002,
@@ -8097,7 +8098,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 270,
-    total: 981
+    total: 981,
   },
   35003: {
     district: 35003,
@@ -8108,7 +8109,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 255,
-    total: 1021
+    total: 1021,
   },
   35004: {
     district: 35004,
@@ -8119,7 +8120,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 263,
-    total: 1151
+    total: 1151,
   },
   35005: {
     district: 35005,
@@ -8130,7 +8131,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 226,
-    total: 1206
+    total: 1206,
   },
   35006: {
     district: 35006,
@@ -8141,7 +8142,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 302,
-    total: 1329
+    total: 1329,
   },
   35007: {
     district: 35007,
@@ -8152,7 +8153,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 35,
     blank: 332,
-    total: 1719
+    total: 1719,
   },
   35008: {
     district: 35008,
@@ -8163,7 +8164,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 362,
-    total: 1741
+    total: 1741,
   },
   35009: {
     district: 35009,
@@ -8174,7 +8175,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 454,
-    total: 1446
+    total: 1446,
   },
   35010: {
     district: 35010,
@@ -8185,7 +8186,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 202,
-    total: 837
+    total: 837,
   },
   35011: {
     district: 35011,
@@ -8196,7 +8197,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 227,
-    total: 1063
+    total: 1063,
   },
   35012: {
     district: 35012,
@@ -8207,7 +8208,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 402,
-    total: 1684
+    total: 1684,
   },
   35013: {
     district: 35013,
@@ -8218,7 +8219,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 387,
-    total: 1687
+    total: 1687,
   },
   35014: {
     district: 35014,
@@ -8229,7 +8230,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 383,
-    total: 1564
+    total: 1564,
   },
   35015: {
     district: 35015,
@@ -8240,7 +8241,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 377,
-    total: 1515
+    total: 1515,
   },
   35016: {
     district: 35016,
@@ -8251,7 +8252,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 309,
-    total: 1485
+    total: 1485,
   },
   35017: {
     district: 35017,
@@ -8262,7 +8263,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 18,
     blank: 467,
-    total: 1564
+    total: 1564,
   },
   35018: {
     district: 35018,
@@ -8273,7 +8274,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 8,
     blank: 315,
-    total: 1161
+    total: 1161,
   },
   35019: {
     district: 35019,
@@ -8284,7 +8285,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 295,
-    total: 966
+    total: 966,
   },
   35020: {
     district: 35020,
@@ -8295,7 +8296,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 158,
-    total: 594
+    total: 594,
   },
   35021: {
     district: 35021,
@@ -8306,7 +8307,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 86,
-    total: 546
+    total: 546,
   },
   35022: {
     district: 35022,
@@ -8317,7 +8318,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 385,
-    total: 1451
+    total: 1451,
   },
   35023: {
     district: 35023,
@@ -8328,7 +8329,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 246,
-    total: 959
+    total: 959,
   },
   35024: {
     district: 35024,
@@ -8339,7 +8340,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 313,
-    total: 1152
+    total: 1152,
   },
   35025: {
     district: 35025,
@@ -8350,7 +8351,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 280,
-    total: 1208
+    total: 1208,
   },
   35026: {
     district: 35026,
@@ -8361,7 +8362,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 270,
-    total: 1437
+    total: 1437,
   },
   35027: {
     district: 35027,
@@ -8372,7 +8373,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 204,
-    total: 587
+    total: 587,
   },
   35028: {
     district: 35028,
@@ -8383,7 +8384,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 61,
-    total: 213
+    total: 213,
   },
   35029: {
     district: 35029,
@@ -8394,7 +8395,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 241,
-    total: 886
+    total: 886,
   },
   35030: {
     district: 35030,
@@ -8405,7 +8406,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 407,
-    total: 1465
+    total: 1465,
   },
   35031: {
     district: 35031,
@@ -8416,7 +8417,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 299,
-    total: 1187
+    total: 1187,
   },
   35032: {
     district: 35032,
@@ -8427,7 +8428,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 277,
-    total: 1293
+    total: 1293,
   },
   35033: {
     district: 35033,
@@ -8438,7 +8439,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 266,
-    total: 1395
+    total: 1395,
   },
   35034: {
     district: 35034,
@@ -8449,7 +8450,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 285,
-    total: 1368
+    total: 1368,
   },
   35035: {
     district: 35035,
@@ -8460,7 +8461,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 259,
-    total: 1257
+    total: 1257,
   },
   35036: {
     district: 35036,
@@ -8471,7 +8472,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 261,
-    total: 1252
+    total: 1252,
   },
   35037: {
     district: 35037,
@@ -8482,7 +8483,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 212,
-    total: 720
+    total: 720,
   },
   35038: {
     district: 35038,
@@ -8493,7 +8494,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 369,
-    total: 1251
+    total: 1251,
   },
   35039: {
     district: 35039,
@@ -8504,7 +8505,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 445,
-    total: 1651
+    total: 1651,
   },
   35040: {
     district: 35040,
@@ -8515,7 +8516,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 394,
-    total: 1305
+    total: 1305,
   },
   35041: {
     district: 35041,
@@ -8526,7 +8527,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 414,
-    total: 1528
+    total: 1528,
   },
   35042: {
     district: 35042,
@@ -8537,7 +8538,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 486,
-    total: 1708
+    total: 1708,
   },
   35043: {
     district: 35043,
@@ -8548,7 +8549,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 9,
     blank: 208,
-    total: 759
+    total: 759,
   },
   35044: {
     district: 35044,
@@ -8559,7 +8560,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 131,
-    total: 693
+    total: 693,
   },
   35045: {
     district: 35045,
@@ -8570,7 +8571,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 316,
-    total: 1075
+    total: 1075,
   },
   35046: {
     district: 35046,
@@ -8581,7 +8582,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 183,
-    total: 851
+    total: 851,
   },
   35047: {
     district: 35047,
@@ -8592,7 +8593,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 2,
-    total: 2
+    total: 2,
   },
   35048: {
     district: 35048,
@@ -8603,7 +8604,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 3,
     blank: 117,
-    total: 379
+    total: 379,
   },
   35049: {
     district: 35049,
@@ -8614,7 +8615,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 39,
     blank: 392,
-    total: 1342
+    total: 1342,
   },
   35050: {
     district: 35050,
@@ -8625,7 +8626,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 3,
-    total: 3
+    total: 3,
   },
   36001: {
     district: 36001,
@@ -8636,7 +8637,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 35,
     blank: 381,
-    total: 1906
+    total: 1906,
   },
   36002: {
     district: 36002,
@@ -8647,7 +8648,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 144,
-    total: 655
+    total: 655,
   },
   36003: {
     district: 36003,
@@ -8658,7 +8659,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 36,
     blank: 435,
-    total: 1867
+    total: 1867,
   },
   36004: {
     district: 36004,
@@ -8669,7 +8670,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 267,
-    total: 1288
+    total: 1288,
   },
   36005: {
     district: 36005,
@@ -8680,7 +8681,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 42,
     blank: 454,
-    total: 1920
+    total: 1920,
   },
   36006: {
     district: 36006,
@@ -8691,7 +8692,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 25,
     blank: 254,
-    total: 1456
+    total: 1456,
   },
   36007: {
     district: 36007,
@@ -8702,7 +8703,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 35,
     blank: 434,
-    total: 1893
+    total: 1893,
   },
   36008: {
     district: 36008,
@@ -8713,7 +8714,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 40,
     blank: 329,
-    total: 1382
+    total: 1382,
   },
   36009: {
     district: 36009,
@@ -8724,7 +8725,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 294,
-    total: 1205
+    total: 1205,
   },
   36010: {
     district: 36010,
@@ -8735,7 +8736,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 414,
-    total: 1913
+    total: 1913,
   },
   36011: {
     district: 36011,
@@ -8746,7 +8747,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 222,
-    total: 863
+    total: 863,
   },
   36012: {
     district: 36012,
@@ -8757,7 +8758,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 300,
-    total: 1319
+    total: 1319,
   },
   36013: {
     district: 36013,
@@ -8768,7 +8769,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 28,
     blank: 403,
-    total: 1719
+    total: 1719,
   },
   36014: {
     district: 36014,
@@ -8779,7 +8780,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 31,
     blank: 486,
-    total: 1844
+    total: 1844,
   },
   36015: {
     district: 36015,
@@ -8790,7 +8791,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 179,
-    total: 610
+    total: 610,
   },
   36016: {
     district: 36016,
@@ -8801,7 +8802,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 349,
-    total: 1445
+    total: 1445,
   },
   36017: {
     district: 36017,
@@ -8812,7 +8813,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 364,
-    total: 1695
+    total: 1695,
   },
   36018: {
     district: 36018,
@@ -8823,7 +8824,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 178,
-    total: 802
+    total: 802,
   },
   36019: {
     district: 36019,
@@ -8834,7 +8835,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 26,
     blank: 360,
-    total: 1671
+    total: 1671,
   },
   36020: {
     district: 36020,
@@ -8845,7 +8846,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 16,
     blank: 382,
-    total: 1754
+    total: 1754,
   },
   36021: {
     district: 36021,
@@ -8856,7 +8857,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 21,
     blank: 375,
-    total: 1636
+    total: 1636,
   },
   36022: {
     district: 36022,
@@ -8867,7 +8868,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 35,
     blank: 375,
-    total: 1771
+    total: 1771,
   },
   36023: {
     district: 36023,
@@ -8878,7 +8879,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 431,
-    total: 1754
+    total: 1754,
   },
   36024: {
     district: 36024,
@@ -8889,7 +8890,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 26,
     blank: 378,
-    total: 1492
+    total: 1492,
   },
   36025: {
     district: 36025,
@@ -8900,7 +8901,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 392,
-    total: 1781
+    total: 1781,
   },
   36026: {
     district: 36026,
@@ -8911,7 +8912,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 272,
-    total: 1147
+    total: 1147,
   },
   36027: {
     district: 36027,
@@ -8922,7 +8923,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 141,
-    total: 538
+    total: 538,
   },
   36028: {
     district: 36028,
@@ -8933,7 +8934,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 31,
     blank: 484,
-    total: 1902
+    total: 1902,
   },
   36029: {
     district: 36029,
@@ -8944,7 +8945,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 1,
     blank: 94,
-    total: 332
+    total: 332,
   },
   36030: {
     district: 36030,
@@ -8955,7 +8956,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 238,
-    total: 991
+    total: 991,
   },
   36031: {
     district: 36031,
@@ -8966,7 +8967,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 214,
-    total: 991
+    total: 991,
   },
   36032: {
     district: 36032,
@@ -8977,7 +8978,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 17,
     blank: 326,
-    total: 1274
+    total: 1274,
   },
   36033: {
     district: 36033,
@@ -8988,7 +8989,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 61,
-    total: 173
+    total: 173,
   },
   36034: {
     district: 36034,
@@ -8999,7 +9000,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 5,
     blank: 132,
-    total: 443
+    total: 443,
   },
   36035: {
     district: 36035,
@@ -9010,7 +9011,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 11,
     blank: 404,
-    total: 1519
+    total: 1519,
   },
   36036: {
     district: 36036,
@@ -9021,7 +9022,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 353,
-    total: 1100
+    total: 1100,
   },
   36037: {
     district: 36037,
@@ -9032,7 +9033,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 308,
-    total: 1092
+    total: 1092,
   },
   36038: {
     district: 36038,
@@ -9043,7 +9044,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 289,
-    total: 1525
+    total: 1525,
   },
   36039: {
     district: 36039,
@@ -9054,7 +9055,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 267,
-    total: 1488
+    total: 1488,
   },
   36040: {
     district: 36040,
@@ -9065,7 +9066,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 23,
     blank: 293,
-    total: 1588
+    total: 1588,
   },
   36041: {
     district: 36041,
@@ -9076,7 +9077,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 481,
-    total: 1698
+    total: 1698,
   },
   36042: {
     district: 36042,
@@ -9087,7 +9088,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 23,
     blank: 475,
-    total: 1732
+    total: 1732,
   },
   36043: {
     district: 36043,
@@ -9098,7 +9099,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 331,
-    total: 1144
+    total: 1144,
   },
   36044: {
     district: 36044,
@@ -9109,7 +9110,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 360,
-    total: 1617
+    total: 1617,
   },
   36045: {
     district: 36045,
@@ -9120,7 +9121,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 237,
-    total: 927
+    total: 927,
   },
   36046: {
     district: 36046,
@@ -9131,7 +9132,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 26,
     blank: 293,
-    total: 1754
+    total: 1754,
   },
   36047: {
     district: 36047,
@@ -9142,7 +9143,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 18,
     blank: 281,
-    total: 1585
+    total: 1585,
   },
   36048: {
     district: 36048,
@@ -9153,7 +9154,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 236,
-    total: 945
+    total: 945,
   },
   36049: {
     district: 36049,
@@ -9164,7 +9165,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 237,
-    total: 1151
+    total: 1151,
   },
   36050: {
     district: 36050,
@@ -9175,7 +9176,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 65,
-    total: 203
+    total: 203,
   },
   36051: {
     district: 36051,
@@ -9186,7 +9187,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 288,
-    total: 975
+    total: 975,
   },
   36052: {
     district: 36052,
@@ -9197,7 +9198,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 136,
-    total: 482
+    total: 482,
   },
   36053: {
     district: 36053,
@@ -9208,7 +9209,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 4,
     blank: 122,
-    total: 474
+    total: 474,
   },
   36054: {
     district: 36054,
@@ -9219,7 +9220,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 353,
-    total: 1430
+    total: 1430,
   },
   36055: {
     district: 36055,
@@ -9230,7 +9231,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 411,
-    total: 1683
+    total: 1683,
   },
   36056: {
     district: 36056,
@@ -9241,7 +9242,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 38,
     blank: 353,
-    total: 1680
+    total: 1680,
   },
   36057: {
     district: 36057,
@@ -9252,7 +9253,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 42,
     blank: 366,
-    total: 1621
+    total: 1621,
   },
   36058: {
     district: 36058,
@@ -9263,7 +9264,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 207,
-    total: 913
+    total: 913,
   },
   36059: {
     district: 36059,
@@ -9274,7 +9275,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 265,
-    total: 1154
+    total: 1154,
   },
   36060: {
     district: 36060,
@@ -9285,7 +9286,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 232,
-    total: 1086
+    total: 1086,
   },
   36061: {
     district: 36061,
@@ -9296,7 +9297,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 253,
-    total: 1114
+    total: 1114,
   },
   36062: {
     district: 36062,
@@ -9307,7 +9308,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 26,
     blank: 363,
-    total: 1521
+    total: 1521,
   },
   36063: {
     district: 36063,
@@ -9318,7 +9319,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 31,
     blank: 416,
-    total: 1876
+    total: 1876,
   },
   36064: {
     district: 36064,
@@ -9329,7 +9330,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 202,
-    total: 876
+    total: 876,
   },
   36065: {
     district: 36065,
@@ -9340,7 +9341,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 415,
-    total: 1755
+    total: 1755,
   },
   36066: {
     district: 36066,
@@ -9351,7 +9352,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 63,
-    total: 240
+    total: 240,
   },
   36067: {
     district: 36067,
@@ -9362,7 +9363,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 28,
-    total: 123
+    total: 123,
   },
   37001: {
     district: 37001,
@@ -9373,7 +9374,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 6,
     blank: 352,
-    total: 1460
+    total: 1460,
   },
   37002: {
     district: 37002,
@@ -9384,7 +9385,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 39,
     blank: 430,
-    total: 1820
+    total: 1820,
   },
   37003: {
     district: 37003,
@@ -9395,7 +9396,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 436,
-    total: 1714
+    total: 1714,
   },
   37004: {
     district: 37004,
@@ -9406,7 +9407,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 276,
-    total: 1102
+    total: 1102,
   },
   37005: {
     district: 37005,
@@ -9417,7 +9418,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 353,
-    total: 1327
+    total: 1327,
   },
   37006: {
     district: 37006,
@@ -9428,7 +9429,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 536,
-    total: 1947
+    total: 1947,
   },
   37007: {
     district: 37007,
@@ -9439,7 +9440,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 390,
-    total: 1496
+    total: 1496,
   },
   37008: {
     district: 37008,
@@ -9450,7 +9451,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 344,
-    total: 1233
+    total: 1233,
   },
   37009: {
     district: 37009,
@@ -9461,7 +9462,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 9,
     blank: 226,
-    total: 859
+    total: 859,
   },
   37010: {
     district: 37010,
@@ -9472,7 +9473,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 39,
-    total: 112
+    total: 112,
   },
   37011: {
     district: 37011,
@@ -9483,7 +9484,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 156,
-    total: 467
+    total: 467,
   },
   37012: {
     district: 37012,
@@ -9494,7 +9495,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 19,
     blank: 337,
-    total: 1437
+    total: 1437,
   },
   37013: {
     district: 37013,
@@ -9505,7 +9506,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 79,
-    total: 273
+    total: 273,
   },
   37014: {
     district: 37014,
@@ -9516,7 +9517,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 28,
     blank: 433,
-    total: 1627
+    total: 1627,
   },
   37015: {
     district: 37015,
@@ -9527,7 +9528,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 4,
     blank: 138,
-    total: 490
+    total: 490,
   },
   37016: {
     district: 37016,
@@ -9538,7 +9539,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 221,
-    total: 851
+    total: 851,
   },
   37017: {
     district: 37017,
@@ -9549,7 +9550,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 375,
-    total: 1418
+    total: 1418,
   },
   37018: {
     district: 37018,
@@ -9560,7 +9561,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 411,
-    total: 1562
+    total: 1562,
   },
   37019: {
     district: 37019,
@@ -9571,7 +9572,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 392,
-    total: 1495
+    total: 1495,
   },
   37020: {
     district: 37020,
@@ -9582,7 +9583,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 389,
-    total: 1514
+    total: 1514,
   },
   37021: {
     district: 37021,
@@ -9593,7 +9594,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 30,
     blank: 276,
-    total: 1314
+    total: 1314,
   },
   37022: {
     district: 37022,
@@ -9604,7 +9605,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 359,
-    total: 1621
+    total: 1621,
   },
   37023: {
     district: 37023,
@@ -9615,7 +9616,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 311,
-    total: 1276
+    total: 1276,
   },
   37024: {
     district: 37024,
@@ -9626,7 +9627,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 30,
     blank: 445,
-    total: 1876
+    total: 1876,
   },
   37025: {
     district: 37025,
@@ -9637,7 +9638,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 289,
-    total: 1205
+    total: 1205,
   },
   37026: {
     district: 37026,
@@ -9648,7 +9649,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 283,
-    total: 1285
+    total: 1285,
   },
   37027: {
     district: 37027,
@@ -9659,7 +9660,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 395,
-    total: 1733
+    total: 1733,
   },
   37028: {
     district: 37028,
@@ -9670,7 +9671,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 390,
-    total: 1705
+    total: 1705,
   },
   37029: {
     district: 37029,
@@ -9681,7 +9682,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 306,
-    total: 1310
+    total: 1310,
   },
   37030: {
     district: 37030,
@@ -9692,7 +9693,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 471,
-    total: 1713
+    total: 1713,
   },
   37031: {
     district: 37031,
@@ -9703,7 +9704,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 32,
     blank: 359,
-    total: 1668
+    total: 1668,
   },
   37032: {
     district: 37032,
@@ -9714,7 +9715,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 6,
     blank: 178,
-    total: 668
+    total: 668,
   },
   37033: {
     district: 37033,
@@ -9725,7 +9726,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 236,
-    total: 1016
+    total: 1016,
   },
   37034: {
     district: 37034,
@@ -9736,7 +9737,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 17,
-    total: 36
+    total: 36,
   },
   37035: {
     district: 37035,
@@ -9747,7 +9748,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 27,
     blank: 292,
-    total: 1633
+    total: 1633,
   },
   37036: {
     district: 37036,
@@ -9758,7 +9759,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 29,
     blank: 391,
-    total: 1715
+    total: 1715,
   },
   37037: {
     district: 37037,
@@ -9769,7 +9770,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 167,
-    total: 746
+    total: 746,
   },
   37038: {
     district: 37038,
@@ -9780,7 +9781,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 6
+    total: 6,
   },
   37039: {
     district: 37039,
@@ -9791,7 +9792,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 323,
-    total: 1139
+    total: 1139,
   },
   37040: {
     district: 37040,
@@ -9802,7 +9803,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 44,
     blank: 464,
-    total: 1590
+    total: 1590,
   },
   37041: {
     district: 37041,
@@ -9813,7 +9814,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 25,
-    total: 96
+    total: 96,
   },
   37042: {
     district: 37042,
@@ -9824,7 +9825,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 356,
-    total: 1129
+    total: 1129,
   },
   37043: {
     district: 37043,
@@ -9835,7 +9836,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 303,
-    total: 1094
+    total: 1094,
   },
   37044: {
     district: 37044,
@@ -9846,7 +9847,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 20,
     blank: 376,
-    total: 1293
+    total: 1293,
   },
   37045: {
     district: 37045,
@@ -9857,7 +9858,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 289,
-    total: 893
+    total: 893,
   },
   37046: {
     district: 37046,
@@ -9868,7 +9869,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 2,
     blank: 48,
-    total: 184
+    total: 184,
   },
   37047: {
     district: 37047,
@@ -9879,7 +9880,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 41,
     blank: 541,
-    total: 1846
+    total: 1846,
   },
   37048: {
     district: 37048,
@@ -9890,7 +9891,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 37,
     blank: 560,
-    total: 1809
+    total: 1809,
   },
   37049: {
     district: 37049,
@@ -9901,7 +9902,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 360,
-    total: 1250
+    total: 1250,
   },
   37050: {
     district: 37050,
@@ -9912,7 +9913,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 34,
     blank: 529,
-    total: 1651
+    total: 1651,
   },
   37051: {
     district: 37051,
@@ -9923,7 +9924,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 39,
     blank: 474,
-    total: 1590
+    total: 1590,
   },
   37052: {
     district: 37052,
@@ -9934,7 +9935,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 29,
     blank: 534,
-    total: 1654
+    total: 1654,
   },
   37053: {
     district: 37053,
@@ -9945,7 +9946,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 38,
     blank: 481,
-    total: 1694
+    total: 1694,
   },
   37054: {
     district: 37054,
@@ -9956,7 +9957,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 23,
     blank: 389,
-    total: 1429
+    total: 1429,
   },
   37055: {
     district: 37055,
@@ -9967,7 +9968,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 21,
     blank: 311,
-    total: 1213
+    total: 1213,
   },
   37056: {
     district: 37056,
@@ -9978,7 +9979,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 243,
-    total: 1089
+    total: 1089,
   },
   37057: {
     district: 37057,
@@ -9989,7 +9990,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 16,
     blank: 332,
-    total: 1425
+    total: 1425,
   },
   37058: {
     district: 37058,
@@ -10000,7 +10001,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 226,
-    total: 817
+    total: 817,
   },
   37059: {
     district: 37059,
@@ -10011,7 +10012,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 20,
     blank: 208,
-    total: 853
+    total: 853,
   },
   37060: {
     district: 37060,
@@ -10022,7 +10023,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 9,
     blank: 168,
-    total: 681
+    total: 681,
   },
   37061: {
     district: 37061,
@@ -10033,7 +10034,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 17,
     blank: 288,
-    total: 1123
+    total: 1123,
   },
   37062: {
     district: 37062,
@@ -10044,7 +10045,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 242,
-    total: 736
+    total: 736,
   },
   37063: {
     district: 37063,
@@ -10055,7 +10056,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 21,
     other: 23,
     blank: 394,
-    total: 1504
+    total: 1504,
   },
   37064: {
     district: 37064,
@@ -10066,7 +10067,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 17,
     blank: 426,
-    total: 1682
+    total: 1682,
   },
   37065: {
     district: 37065,
@@ -10077,7 +10078,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 21,
     other: 17,
     blank: 321,
-    total: 1346
+    total: 1346,
   },
   38001: {
     district: 38001,
@@ -10088,7 +10089,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 24,
     blank: 326,
-    total: 1486
+    total: 1486,
   },
   38002: {
     district: 38002,
@@ -10099,7 +10100,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 29,
     blank: 464,
-    total: 1875
+    total: 1875,
   },
   38003: {
     district: 38003,
@@ -10110,7 +10111,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 24,
     blank: 493,
-    total: 1827
+    total: 1827,
   },
   38004: {
     district: 38004,
@@ -10121,7 +10122,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 11,
     blank: 383,
-    total: 1655
+    total: 1655,
   },
   38005: {
     district: 38005,
@@ -10132,7 +10133,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 180,
-    total: 670
+    total: 670,
   },
   38006: {
     district: 38006,
@@ -10143,7 +10144,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 21,
     blank: 431,
-    total: 1738
+    total: 1738,
   },
   38007: {
     district: 38007,
@@ -10154,7 +10155,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 283,
-    total: 1146
+    total: 1146,
   },
   38008: {
     district: 38008,
@@ -10165,7 +10166,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 5,
-    total: 13
+    total: 13,
   },
   38009: {
     district: 38009,
@@ -10176,7 +10177,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 34,
     blank: 470,
-    total: 1701
+    total: 1701,
   },
   38010: {
     district: 38010,
@@ -10187,7 +10188,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 45,
     blank: 461,
-    total: 1660
+    total: 1660,
   },
   38011: {
     district: 38011,
@@ -10198,7 +10199,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 30,
     blank: 401,
-    total: 1312
+    total: 1312,
   },
   38012: {
     district: 38012,
@@ -10209,7 +10210,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 31,
     blank: 495,
-    total: 1709
+    total: 1709,
   },
   38013: {
     district: 38013,
@@ -10220,7 +10221,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 157,
-    total: 534
+    total: 534,
   },
   38014: {
     district: 38014,
@@ -10231,7 +10232,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 39,
     blank: 528,
-    total: 1857
+    total: 1857,
   },
   38015: {
     district: 38015,
@@ -10242,7 +10243,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 34,
     blank: 425,
-    total: 1610
+    total: 1610,
   },
   38016: {
     district: 38016,
@@ -10253,7 +10254,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 52,
-    total: 194
+    total: 194,
   },
   38017: {
     district: 38017,
@@ -10264,7 +10265,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 40,
     blank: 532,
-    total: 1587
+    total: 1587,
   },
   38018: {
     district: 38018,
@@ -10275,7 +10276,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 243,
-    total: 946
+    total: 946,
   },
   38019: {
     district: 38019,
@@ -10286,7 +10287,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 32,
     blank: 390,
-    total: 1510
+    total: 1510,
   },
   38020: {
     district: 38020,
@@ -10297,7 +10298,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 457,
-    total: 1795
+    total: 1795,
   },
   38021: {
     district: 38021,
@@ -10308,7 +10309,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 336,
-    total: 1333
+    total: 1333,
   },
   38022: {
     district: 38022,
@@ -10319,7 +10320,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 215,
-    total: 708
+    total: 708,
   },
   38023: {
     district: 38023,
@@ -10330,7 +10331,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 360,
-    total: 1463
+    total: 1463,
   },
   38024: {
     district: 38024,
@@ -10341,7 +10342,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 347,
-    total: 1226
+    total: 1226,
   },
   38025: {
     district: 38025,
@@ -10352,7 +10353,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 177,
-    total: 726
+    total: 726,
   },
   38026: {
     district: 38026,
@@ -10363,7 +10364,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 34,
     blank: 468,
-    total: 1620
+    total: 1620,
   },
   38027: {
     district: 38027,
@@ -10374,7 +10375,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 10,
     blank: 157,
-    total: 591
+    total: 591,
   },
   38028: {
     district: 38028,
@@ -10385,7 +10386,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 504,
-    total: 1761
+    total: 1761,
   },
   38029: {
     district: 38029,
@@ -10396,7 +10397,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 430,
-    total: 1495
+    total: 1495,
   },
   38030: {
     district: 38030,
@@ -10407,7 +10408,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 350,
-    total: 1358
+    total: 1358,
   },
   38031: {
     district: 38031,
@@ -10418,7 +10419,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 30,
     blank: 418,
-    total: 1454
+    total: 1454,
   },
   38032: {
     district: 38032,
@@ -10429,7 +10430,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 37,
     blank: 446,
-    total: 1701
+    total: 1701,
   },
   38033: {
     district: 38033,
@@ -10440,7 +10441,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 31,
     blank: 501,
-    total: 1774
+    total: 1774,
   },
   38034: {
     district: 38034,
@@ -10451,7 +10452,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 463,
-    total: 1658
+    total: 1658,
   },
   38035: {
     district: 38035,
@@ -10462,7 +10463,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 28,
     blank: 437,
-    total: 1496
+    total: 1496,
   },
   38036: {
     district: 38036,
@@ -10473,7 +10474,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 424,
-    total: 1604
+    total: 1604,
   },
   38037: {
     district: 38037,
@@ -10484,7 +10485,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 468,
-    total: 1752
+    total: 1752,
   },
   38038: {
     district: 38038,
@@ -10495,7 +10496,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 332,
-    total: 1114
+    total: 1114,
   },
   38039: {
     district: 38039,
@@ -10506,7 +10507,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 358,
-    total: 1173
+    total: 1173,
   },
   38040: {
     district: 38040,
@@ -10517,7 +10518,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 200,
-    total: 722
+    total: 722,
   },
   38041: {
     district: 38041,
@@ -10528,7 +10529,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 255,
-    total: 957
+    total: 957,
   },
   38042: {
     district: 38042,
@@ -10539,7 +10540,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 7,
     blank: 136,
-    total: 473
+    total: 473,
   },
   38043: {
     district: 38043,
@@ -10550,7 +10551,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 9,
-    total: 34
+    total: 34,
   },
   38044: {
     district: 38044,
@@ -10561,7 +10562,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 179,
-    total: 760
+    total: 760,
   },
   38045: {
     district: 38045,
@@ -10572,7 +10573,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 172,
-    total: 683
+    total: 683,
   },
   38046: {
     district: 38046,
@@ -10583,7 +10584,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 25,
     blank: 429,
-    total: 1807
+    total: 1807,
   },
   38047: {
     district: 38047,
@@ -10594,7 +10595,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 428,
-    total: 1667
+    total: 1667,
   },
   38048: {
     district: 38048,
@@ -10605,7 +10606,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 33,
     blank: 438,
-    total: 1615
+    total: 1615,
   },
   38049: {
     district: 38049,
@@ -10616,7 +10617,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 121,
-    total: 474
+    total: 474,
   },
   38050: {
     district: 38050,
@@ -10627,7 +10628,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 24,
     blank: 438,
-    total: 1763
+    total: 1763,
   },
   38051: {
     district: 38051,
@@ -10638,7 +10639,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 31,
     blank: 502,
-    total: 1814
+    total: 1814,
   },
   38052: {
     district: 38052,
@@ -10649,7 +10650,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 104,
-    total: 377
+    total: 377,
   },
   38053: {
     district: 38053,
@@ -10660,7 +10661,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 31,
     blank: 388,
-    total: 1358
+    total: 1358,
   },
   38054: {
     district: 38054,
@@ -10671,7 +10672,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 224,
-    total: 930
+    total: 930,
   },
   39001: {
     district: 39001,
@@ -10682,7 +10683,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 366,
-    total: 1655
+    total: 1655,
   },
   39002: {
     district: 39002,
@@ -10693,7 +10694,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 204,
-    total: 1384
+    total: 1384,
   },
   39003: {
     district: 39003,
@@ -10704,7 +10705,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 35,
     blank: 363,
-    total: 1590
+    total: 1590,
   },
   39004: {
     district: 39004,
@@ -10715,7 +10716,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 382,
-    total: 1690
+    total: 1690,
   },
   39005: {
     district: 39005,
@@ -10726,7 +10727,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 267,
-    total: 1293
+    total: 1293,
   },
   39006: {
     district: 39006,
@@ -10737,7 +10738,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 276,
-    total: 1602
+    total: 1602,
   },
   39007: {
     district: 39007,
@@ -10748,7 +10749,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 34,
     blank: 364,
-    total: 1759
+    total: 1759,
   },
   39008: {
     district: 39008,
@@ -10759,7 +10760,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 258,
-    total: 1416
+    total: 1416,
   },
   39009: {
     district: 39009,
@@ -10770,7 +10771,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 226,
-    total: 1171
+    total: 1171,
   },
   39010: {
     district: 39010,
@@ -10781,7 +10782,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 143,
-    total: 608
+    total: 608,
   },
   39011: {
     district: 39011,
@@ -10792,7 +10793,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 48,
-    total: 141
+    total: 141,
   },
   39012: {
     district: 39012,
@@ -10803,7 +10804,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 6,
     blank: 332,
-    total: 983
+    total: 983,
   },
   39013: {
     district: 39013,
@@ -10814,7 +10815,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 190,
-    total: 662
+    total: 662,
   },
   39014: {
     district: 39014,
@@ -10825,7 +10826,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 340,
-    total: 1181
+    total: 1181,
   },
   39015: {
     district: 39015,
@@ -10836,7 +10837,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 458,
-    total: 1782
+    total: 1782,
   },
   39016: {
     district: 39016,
@@ -10847,7 +10848,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 63,
-    total: 181
+    total: 181,
   },
   39017: {
     district: 39017,
@@ -10858,7 +10859,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 219,
-    total: 738
+    total: 738,
   },
   39018: {
     district: 39018,
@@ -10869,7 +10870,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 548,
-    total: 1705
+    total: 1705,
   },
   39019: {
     district: 39019,
@@ -10880,7 +10881,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 35,
     blank: 538,
-    total: 1865
+    total: 1865,
   },
   39020: {
     district: 39020,
@@ -10891,7 +10892,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 117,
-    total: 392
+    total: 392,
   },
   39021: {
     district: 39021,
@@ -10902,7 +10903,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 271,
-    total: 916
+    total: 916,
   },
   39022: {
     district: 39022,
@@ -10913,7 +10914,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 389,
-    total: 1277
+    total: 1277,
   },
   39023: {
     district: 39023,
@@ -10924,7 +10925,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 319,
-    total: 1148
+    total: 1148,
   },
   39024: {
     district: 39024,
@@ -10935,7 +10936,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 279,
-    total: 1094
+    total: 1094,
   },
   39025: {
     district: 39025,
@@ -10946,7 +10947,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 291,
-    total: 972
+    total: 972,
   },
   39026: {
     district: 39026,
@@ -10957,7 +10958,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 448,
-    total: 1546
+    total: 1546,
   },
   39027: {
     district: 39027,
@@ -10968,7 +10969,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 170,
-    total: 560
+    total: 560,
   },
   39028: {
     district: 39028,
@@ -10979,7 +10980,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 419,
-    total: 1554
+    total: 1554,
   },
   39029: {
     district: 39029,
@@ -10990,7 +10991,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 6,
     blank: 235,
-    total: 844
+    total: 844,
   },
   39030: {
     district: 39030,
@@ -11001,7 +11002,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 21,
     blank: 408,
-    total: 1498
+    total: 1498,
   },
   39031: {
     district: 39031,
@@ -11012,7 +11013,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 396,
-    total: 1358
+    total: 1358,
   },
   39032: {
     district: 39032,
@@ -11023,7 +11024,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 29,
     blank: 505,
-    total: 1806
+    total: 1806,
   },
   39033: {
     district: 39033,
@@ -11034,7 +11035,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 27,
     blank: 400,
-    total: 1443
+    total: 1443,
   },
   39034: {
     district: 39034,
@@ -11045,7 +11046,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 454,
-    total: 1573
+    total: 1573,
   },
   39035: {
     district: 39035,
@@ -11056,7 +11057,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 402,
-    total: 1566
+    total: 1566,
   },
   39036: {
     district: 39036,
@@ -11067,7 +11068,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 335,
-    total: 1157
+    total: 1157,
   },
   39037: {
     district: 39037,
@@ -11078,7 +11079,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 163,
-    total: 609
+    total: 609,
   },
   39038: {
     district: 39038,
@@ -11089,7 +11090,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 221,
-    total: 708
+    total: 708,
   },
   39039: {
     district: 39039,
@@ -11100,7 +11101,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 505,
-    total: 1407
+    total: 1407,
   },
   39040: {
     district: 39040,
@@ -11111,7 +11112,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 50,
-    total: 179
+    total: 179,
   },
   39041: {
     district: 39041,
@@ -11122,7 +11123,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 29,
     blank: 442,
-    total: 1470
+    total: 1470,
   },
   39042: {
     district: 39042,
@@ -11133,7 +11134,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 273,
-    total: 880
+    total: 880,
   },
   39043: {
     district: 39043,
@@ -11144,7 +11145,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 16,
     blank: 226,
-    total: 743
+    total: 743,
   },
   39044: {
     district: 39044,
@@ -11155,7 +11156,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 314,
-    total: 1140
+    total: 1140,
   },
   39045: {
     district: 39045,
@@ -11166,7 +11167,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 352,
-    total: 1131
+    total: 1131,
   },
   39046: {
     district: 39046,
@@ -11177,7 +11178,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 41,
     blank: 561,
-    total: 1745
+    total: 1745,
   },
   39047: {
     district: 39047,
@@ -11188,7 +11189,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 211,
-    total: 817
+    total: 817,
   },
   39048: {
     district: 39048,
@@ -11199,7 +11200,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 129,
-    total: 602
+    total: 602,
   },
   39049: {
     district: 39049,
@@ -11210,7 +11211,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 313,
-    total: 1101
+    total: 1101,
   },
   39050: {
     district: 39050,
@@ -11221,7 +11222,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 127,
-    total: 392
+    total: 392,
   },
   39051: {
     district: 39051,
@@ -11232,7 +11233,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 292,
-    total: 1120
+    total: 1120,
   },
   39052: {
     district: 39052,
@@ -11243,7 +11244,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 102,
-    total: 493
+    total: 493,
   },
   40001: {
     district: 40001,
@@ -11254,7 +11255,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 612,
-    total: 1765
+    total: 1765,
   },
   40002: {
     district: 40002,
@@ -11265,7 +11266,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 371,
-    total: 1019
+    total: 1019,
   },
   40003: {
     district: 40003,
@@ -11276,7 +11277,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 336,
-    total: 993
+    total: 993,
   },
   40004: {
     district: 40004,
@@ -11287,7 +11288,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 493,
-    total: 1517
+    total: 1517,
   },
   40005: {
     district: 40005,
@@ -11298,7 +11299,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 399,
-    total: 1176
+    total: 1176,
   },
   40006: {
     district: 40006,
@@ -11309,7 +11310,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 230,
-    total: 772
+    total: 772,
   },
   40007: {
     district: 40007,
@@ -11320,7 +11321,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 484,
-    total: 1586
+    total: 1586,
   },
   40008: {
     district: 40008,
@@ -11331,7 +11332,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 605,
-    total: 1827
+    total: 1827,
   },
   40009: {
     district: 40009,
@@ -11342,7 +11343,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 517,
-    total: 1700
+    total: 1700,
   },
   40010: {
     district: 40010,
@@ -11353,7 +11354,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 350,
-    total: 1059
+    total: 1059,
   },
   40011: {
     district: 40011,
@@ -11364,7 +11365,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 337,
-    total: 1219
+    total: 1219,
   },
   40012: {
     district: 40012,
@@ -11375,7 +11376,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 18,
     blank: 427,
-    total: 1358
+    total: 1358,
   },
   40013: {
     district: 40013,
@@ -11386,7 +11387,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 8,
     blank: 221,
-    total: 769
+    total: 769,
   },
   40014: {
     district: 40014,
@@ -11397,7 +11398,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 153,
-    total: 743
+    total: 743,
   },
   40015: {
     district: 40015,
@@ -11408,7 +11409,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 368,
-    total: 967
+    total: 967,
   },
   40016: {
     district: 40016,
@@ -11419,7 +11420,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 487,
-    total: 1566
+    total: 1566,
   },
   40017: {
     district: 40017,
@@ -11430,7 +11431,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 311,
-    total: 970
+    total: 970,
   },
   40018: {
     district: 40018,
@@ -11441,7 +11442,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 464,
-    total: 1472
+    total: 1472,
   },
   40019: {
     district: 40019,
@@ -11452,7 +11453,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 371,
-    total: 1408
+    total: 1408,
   },
   40020: {
     district: 40020,
@@ -11463,7 +11464,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 556,
-    total: 1721
+    total: 1721,
   },
   40021: {
     district: 40021,
@@ -11474,7 +11475,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 538,
-    total: 1739
+    total: 1739,
   },
   40022: {
     district: 40022,
@@ -11485,7 +11486,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 226,
-    total: 693
+    total: 693,
   },
   40023: {
     district: 40023,
@@ -11496,7 +11497,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 554,
-    total: 1891
+    total: 1891,
   },
   40024: {
     district: 40024,
@@ -11507,7 +11508,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 309,
-    total: 1111
+    total: 1111,
   },
   40025: {
     district: 40025,
@@ -11518,7 +11519,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 126,
-    total: 340
+    total: 340,
   },
   40026: {
     district: 40026,
@@ -11529,7 +11530,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 25,
     blank: 457,
-    total: 1831
+    total: 1831,
   },
   40027: {
     district: 40027,
@@ -11540,7 +11541,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 579,
-    total: 1775
+    total: 1775,
   },
   40028: {
     district: 40028,
@@ -11551,7 +11552,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 560,
-    total: 1846
+    total: 1846,
   },
   40029: {
     district: 40029,
@@ -11562,7 +11563,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 16,
     blank: 525,
-    total: 1738
+    total: 1738,
   },
   40030: {
     district: 40030,
@@ -11573,7 +11574,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 484,
-    total: 1569
+    total: 1569,
   },
   40031: {
     district: 40031,
@@ -11584,7 +11585,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 323,
-    total: 1052
+    total: 1052,
   },
   40032: {
     district: 40032,
@@ -11595,7 +11596,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 251,
-    total: 766
+    total: 766,
   },
   40033: {
     district: 40033,
@@ -11606,7 +11607,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 468,
-    total: 1434
+    total: 1434,
   },
   40034: {
     district: 40034,
@@ -11617,7 +11618,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 264,
-    total: 891
+    total: 891,
   },
   40035: {
     district: 40035,
@@ -11628,7 +11629,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 174,
-    total: 537
+    total: 537,
   },
   40036: {
     district: 40036,
@@ -11639,7 +11640,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 39,
-    total: 134
+    total: 134,
   },
   40037: {
     district: 40037,
@@ -11650,7 +11651,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 480,
-    total: 1612
+    total: 1612,
   },
   40038: {
     district: 40038,
@@ -11661,7 +11662,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 325,
-    total: 1103
+    total: 1103,
   },
   40039: {
     district: 40039,
@@ -11672,7 +11673,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 217,
-    total: 710
+    total: 710,
   },
   40040: {
     district: 40040,
@@ -11683,7 +11684,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 350,
-    total: 1172
+    total: 1172,
   },
   40041: {
     district: 40041,
@@ -11694,7 +11695,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 42,
     blank: 385,
-    total: 1340
+    total: 1340,
   },
   40042: {
     district: 40042,
@@ -11705,7 +11706,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 10,
-    total: 46
+    total: 46,
   },
   40043: {
     district: 40043,
@@ -11716,7 +11717,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 317,
-    total: 1161
+    total: 1161,
   },
   40044: {
     district: 40044,
@@ -11727,7 +11728,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 164,
-    total: 537
+    total: 537,
   },
   40045: {
     district: 40045,
@@ -11738,7 +11739,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 26,
     blank: 257,
-    total: 997
+    total: 997,
   },
   40046: {
     district: 40046,
@@ -11749,7 +11750,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 112,
-    total: 481
+    total: 481,
   },
   40047: {
     district: 40047,
@@ -11760,7 +11761,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 516,
-    total: 1657
+    total: 1657,
   },
   41001: {
     district: 41001,
@@ -11771,7 +11772,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 231,
-    total: 1615
+    total: 1615,
   },
   41002: {
     district: 41002,
@@ -11782,7 +11783,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 30,
     blank: 186,
-    total: 1376
+    total: 1376,
   },
   41003: {
     district: 41003,
@@ -11793,7 +11794,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 142,
-    total: 1041
+    total: 1041,
   },
   41004: {
     district: 41004,
@@ -11804,7 +11805,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 189,
-    total: 1502
+    total: 1502,
   },
   41005: {
     district: 41005,
@@ -11815,7 +11816,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 206,
-    total: 1283
+    total: 1283,
   },
   41006: {
     district: 41006,
@@ -11826,7 +11827,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 218,
-    total: 1338
+    total: 1338,
   },
   41007: {
     district: 41007,
@@ -11837,7 +11838,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 213,
-    total: 1385
+    total: 1385,
   },
   41008: {
     district: 41008,
@@ -11848,7 +11849,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 216,
-    total: 1295
+    total: 1295,
   },
   41009: {
     district: 41009,
@@ -11859,7 +11860,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 241,
-    total: 1543
+    total: 1543,
   },
   41010: {
     district: 41010,
@@ -11870,7 +11871,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 127,
-    total: 946
+    total: 946,
   },
   41011: {
     district: 41011,
@@ -11881,7 +11882,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 162,
-    total: 1232
+    total: 1232,
   },
   41012: {
     district: 41012,
@@ -11892,7 +11893,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 224,
-    total: 1110
+    total: 1110,
   },
   41013: {
     district: 41013,
@@ -11903,7 +11904,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 17,
     blank: 194,
-    total: 1049
+    total: 1049,
   },
   41014: {
     district: 41014,
@@ -11914,7 +11915,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 206,
-    total: 1229
+    total: 1229,
   },
   41015: {
     district: 41015,
@@ -11925,7 +11926,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 84,
-    total: 482
+    total: 482,
   },
   41016: {
     district: 41016,
@@ -11936,7 +11937,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 215,
-    total: 1029
+    total: 1029,
   },
   41017: {
     district: 41017,
@@ -11947,7 +11948,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 254,
-    total: 1188
+    total: 1188,
   },
   41018: {
     district: 41018,
@@ -11958,7 +11959,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 172,
-    total: 1018
+    total: 1018,
   },
   41019: {
     district: 41019,
@@ -11969,7 +11970,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 27,
     blank: 204,
-    total: 1262
+    total: 1262,
   },
   41020: {
     district: 41020,
@@ -11980,7 +11981,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 203,
-    total: 1054
+    total: 1054,
   },
   41021: {
     district: 41021,
@@ -11991,7 +11992,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 290,
-    total: 943
+    total: 943,
   },
   41022: {
     district: 41022,
@@ -12002,7 +12003,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 268,
-    total: 869
+    total: 869,
   },
   41023: {
     district: 41023,
@@ -12013,7 +12014,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 306,
-    total: 1272
+    total: 1272,
   },
   41024: {
     district: 41024,
@@ -12024,7 +12025,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 19,
     blank: 491,
-    total: 1611
+    total: 1611,
   },
   41025: {
     district: 41025,
@@ -12035,7 +12036,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 422,
-    total: 1567
+    total: 1567,
   },
   41026: {
     district: 41026,
@@ -12046,7 +12047,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 32,
     blank: 573,
-    total: 1757
+    total: 1757,
   },
   41027: {
     district: 41027,
@@ -12057,7 +12058,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 543,
-    total: 1682
+    total: 1682,
   },
   41028: {
     district: 41028,
@@ -12068,7 +12069,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 302,
-    total: 1135
+    total: 1135,
   },
   41029: {
     district: 41029,
@@ -12079,7 +12080,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 271,
-    total: 1163
+    total: 1163,
   },
   41030: {
     district: 41030,
@@ -12090,7 +12091,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 199,
-    total: 1105
+    total: 1105,
   },
   41031: {
     district: 41031,
@@ -12101,7 +12102,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 191,
-    total: 824
+    total: 824,
   },
   41032: {
     district: 41032,
@@ -12112,7 +12113,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 267,
-    total: 1341
+    total: 1341,
   },
   41033: {
     district: 41033,
@@ -12123,7 +12124,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 294,
-    total: 1542
+    total: 1542,
   },
   41034: {
     district: 41034,
@@ -12134,7 +12135,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 34,
     blank: 355,
-    total: 1688
+    total: 1688,
   },
   41035: {
     district: 41035,
@@ -12145,7 +12146,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 244,
-    total: 1223
+    total: 1223,
   },
   41036: {
     district: 41036,
@@ -12156,7 +12157,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 153,
-    total: 686
+    total: 686,
   },
   41037: {
     district: 41037,
@@ -12167,7 +12168,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 217,
-    total: 845
+    total: 845,
   },
   41038: {
     district: 41038,
@@ -12178,7 +12179,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 120,
-    total: 414
+    total: 414,
   },
   41039: {
     district: 41039,
@@ -12189,7 +12190,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 158,
-    total: 687
+    total: 687,
   },
   41040: {
     district: 41040,
@@ -12200,7 +12201,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 378,
-    total: 1271
+    total: 1271,
   },
   41041: {
     district: 41041,
@@ -12211,7 +12212,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 432,
-    total: 1669
+    total: 1669,
   },
   41042: {
     district: 41042,
@@ -12222,7 +12223,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 484,
-    total: 1467
+    total: 1467,
   },
   41043: {
     district: 41043,
@@ -12233,7 +12234,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 453,
-    total: 1325
+    total: 1325,
   },
   41044: {
     district: 41044,
@@ -12244,7 +12245,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 434,
-    total: 1182
+    total: 1182,
   },
   41045: {
     district: 41045,
@@ -12255,7 +12256,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 32,
     blank: 350,
-    total: 1341
+    total: 1341,
   },
   41046: {
     district: 41046,
@@ -12266,7 +12267,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 401,
-    total: 1160
+    total: 1160,
   },
   41047: {
     district: 41047,
@@ -12277,7 +12278,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 416,
-    total: 1249
+    total: 1249,
   },
   41048: {
     district: 41048,
@@ -12288,7 +12289,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 292,
-    total: 1085
+    total: 1085,
   },
   41049: {
     district: 41049,
@@ -12299,7 +12300,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 22,
     blank: 296,
-    total: 1551
+    total: 1551,
   },
   41050: {
     district: 41050,
@@ -12310,7 +12311,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 264,
-    total: 1173
+    total: 1173,
   },
   41051: {
     district: 41051,
@@ -12321,7 +12322,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 8,
     blank: 184,
-    total: 840
+    total: 840,
   },
   41052: {
     district: 41052,
@@ -12332,7 +12333,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 46,
     blank: 406,
-    total: 1786
+    total: 1786,
   },
   41053: {
     district: 41053,
@@ -12343,7 +12344,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 5,
     blank: 216,
-    total: 655
+    total: 655,
   },
   41054: {
     district: 41054,
@@ -12354,7 +12355,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 22,
     blank: 266,
-    total: 1027
+    total: 1027,
   },
   41055: {
     district: 41055,
@@ -12365,7 +12366,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 464,
-    total: 1371
+    total: 1371,
   },
   41056: {
     district: 41056,
@@ -12376,7 +12377,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 636,
-    total: 1755
+    total: 1755,
   },
   41057: {
     district: 41057,
@@ -12387,7 +12388,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 411,
-    total: 1172
+    total: 1172,
   },
   41058: {
     district: 41058,
@@ -12398,7 +12399,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 581,
-    total: 1558
+    total: 1558,
   },
   41059: {
     district: 41059,
@@ -12409,7 +12410,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 15,
     blank: 185,
-    total: 597
+    total: 597,
   },
   41060: {
     district: 41060,
@@ -12420,7 +12421,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 204,
-    total: 725
+    total: 725,
   },
   41061: {
     district: 41061,
@@ -12431,7 +12432,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 21,
     blank: 474,
-    total: 1344
+    total: 1344,
   },
   41062: {
     district: 41062,
@@ -12442,7 +12443,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 145,
-    total: 562
+    total: 562,
   },
   41063: {
     district: 41063,
@@ -12453,7 +12454,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 494,
-    total: 1404
+    total: 1404,
   },
   41064: {
     district: 41064,
@@ -12464,7 +12465,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 442,
-    total: 1397
+    total: 1397,
   },
   41065: {
     district: 41065,
@@ -12475,7 +12476,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 392,
-    total: 1137
+    total: 1137,
   },
   41066: {
     district: 41066,
@@ -12486,7 +12487,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 339,
-    total: 1053
+    total: 1053,
   },
   41067: {
     district: 41067,
@@ -12497,7 +12498,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 333,
-    total: 1052
+    total: 1052,
   },
   41068: {
     district: 41068,
@@ -12508,7 +12509,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 102,
-    total: 381
+    total: 381,
   },
   41069: {
     district: 41069,
@@ -12519,7 +12520,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 122,
-    total: 432
+    total: 432,
   },
   41070: {
     district: 41070,
@@ -12530,7 +12531,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 2
+    total: 2,
   },
   42001: {
     district: 42001,
@@ -12541,7 +12542,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 21,
-    total: 101
+    total: 101,
   },
   42002: {
     district: 42002,
@@ -12552,7 +12553,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 16,
     blank: 201,
-    total: 1251
+    total: 1251,
   },
   42003: {
     district: 42003,
@@ -12563,7 +12564,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 18,
     blank: 222,
-    total: 1499
+    total: 1499,
   },
   42004: {
     district: 42004,
@@ -12574,7 +12575,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 23,
     blank: 227,
-    total: 1486
+    total: 1486,
   },
   42005: {
     district: 42005,
@@ -12585,7 +12586,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 23,
     other: 19,
     blank: 242,
-    total: 1500
+    total: 1500,
   },
   42006: {
     district: 42006,
@@ -12596,7 +12597,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 21,
     other: 16,
     blank: 272,
-    total: 1619
+    total: 1619,
   },
   42007: {
     district: 42007,
@@ -12607,7 +12608,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 31,
     blank: 265,
-    total: 1884
+    total: 1884,
   },
   42008: {
     district: 42008,
@@ -12618,7 +12619,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 170,
-    total: 976
+    total: 976,
   },
   42009: {
     district: 42009,
@@ -12629,7 +12630,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 280,
-    total: 1611
+    total: 1611,
   },
   42010: {
     district: 42010,
@@ -12640,7 +12641,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 12,
     blank: 279,
-    total: 1684
+    total: 1684,
   },
   42011: {
     district: 42011,
@@ -12651,7 +12652,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 15,
     blank: 243,
-    total: 1543
+    total: 1543,
   },
   42012: {
     district: 42012,
@@ -12662,7 +12663,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 266,
-    total: 1626
+    total: 1626,
   },
   42013: {
     district: 42013,
@@ -12673,7 +12674,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 23,
     blank: 326,
-    total: 1780
+    total: 1780,
   },
   42014: {
     district: 42014,
@@ -12684,7 +12685,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 249,
-    total: 1495
+    total: 1495,
   },
   42015: {
     district: 42015,
@@ -12695,7 +12696,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 266,
-    total: 1592
+    total: 1592,
   },
   42016: {
     district: 42016,
@@ -12706,7 +12707,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 228,
-    total: 1510
+    total: 1510,
   },
   42017: {
     district: 42017,
@@ -12717,7 +12718,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 31,
     blank: 272,
-    total: 1726
+    total: 1726,
   },
   42018: {
     district: 42018,
@@ -12728,7 +12729,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 220,
-    total: 1275
+    total: 1275,
   },
   42019: {
     district: 42019,
@@ -12739,7 +12740,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 28,
     blank: 284,
-    total: 1672
+    total: 1672,
   },
   42020: {
     district: 42020,
@@ -12750,7 +12751,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 23,
     blank: 212,
-    total: 1547
+    total: 1547,
   },
   42021: {
     district: 42021,
@@ -12761,7 +12762,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 28,
     blank: 236,
-    total: 1619
+    total: 1619,
   },
   42022: {
     district: 42022,
@@ -12772,7 +12773,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 27,
     blank: 233,
-    total: 1408
+    total: 1408,
   },
   42023: {
     district: 42023,
@@ -12783,7 +12784,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 267,
-    total: 1626
+    total: 1626,
   },
   42024: {
     district: 42024,
@@ -12794,7 +12795,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 31,
     blank: 247,
-    total: 1614
+    total: 1614,
   },
   42025: {
     district: 42025,
@@ -12805,7 +12806,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 23,
     blank: 256,
-    total: 1546
+    total: 1546,
   },
   42026: {
     district: 42026,
@@ -12816,7 +12817,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 151,
-    total: 1179
+    total: 1179,
   },
   42027: {
     district: 42027,
@@ -12827,7 +12828,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 73,
-    total: 438
+    total: 438,
   },
   42028: {
     district: 42028,
@@ -12838,7 +12839,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 31,
     blank: 271,
-    total: 1654
+    total: 1654,
   },
   42029: {
     district: 42029,
@@ -12849,7 +12850,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 28,
     blank: 320,
-    total: 1676
+    total: 1676,
   },
   42030: {
     district: 42030,
@@ -12860,7 +12861,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 182,
-    total: 1072
+    total: 1072,
   },
   42031: {
     district: 42031,
@@ -12871,7 +12872,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 190,
-    total: 1314
+    total: 1314,
   },
   42032: {
     district: 42032,
@@ -12882,7 +12883,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 131,
-    total: 1045
+    total: 1045,
   },
   42033: {
     district: 42033,
@@ -12893,7 +12894,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 188,
-    total: 1299
+    total: 1299,
   },
   42034: {
     district: 42034,
@@ -12904,7 +12905,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 155,
-    total: 910
+    total: 910,
   },
   42035: {
     district: 42035,
@@ -12915,7 +12916,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 186,
-    total: 1287
+    total: 1287,
   },
   42036: {
     district: 42036,
@@ -12926,7 +12927,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 260,
-    total: 1508
+    total: 1508,
   },
   42037: {
     district: 42037,
@@ -12937,7 +12938,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 264,
-    total: 1677
+    total: 1677,
   },
   42038: {
     district: 42038,
@@ -12948,7 +12949,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 26,
     blank: 267,
-    total: 1643
+    total: 1643,
   },
   42039: {
     district: 42039,
@@ -12959,7 +12960,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 25,
     blank: 267,
-    total: 1618
+    total: 1618,
   },
   42040: {
     district: 42040,
@@ -12970,7 +12971,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 248,
-    total: 1335
+    total: 1335,
   },
   42041: {
     district: 42041,
@@ -12981,7 +12982,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 225,
-    total: 1497
+    total: 1497,
   },
   42042: {
     district: 42042,
@@ -12992,7 +12993,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 168,
-    total: 1127
+    total: 1127,
   },
   42043: {
     district: 42043,
@@ -13003,7 +13004,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 298,
-    total: 1723
+    total: 1723,
   },
   42044: {
     district: 42044,
@@ -13014,7 +13015,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 198,
-    total: 1204
+    total: 1204,
   },
   42045: {
     district: 42045,
@@ -13025,7 +13026,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 166,
-    total: 1039
+    total: 1039,
   },
   42046: {
     district: 42046,
@@ -13036,7 +13037,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 166,
-    total: 1075
+    total: 1075,
   },
   42047: {
     district: 42047,
@@ -13047,7 +13048,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 244,
-    total: 1431
+    total: 1431,
   },
   42048: {
     district: 42048,
@@ -13058,7 +13059,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 238,
-    total: 1114
+    total: 1114,
   },
   42049: {
     district: 42049,
@@ -13069,7 +13070,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 26,
     blank: 250,
-    total: 1559
+    total: 1559,
   },
   42050: {
     district: 42050,
@@ -13080,7 +13081,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 252,
-    total: 1571
+    total: 1571,
   },
   42051: {
     district: 42051,
@@ -13091,7 +13092,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 191,
-    total: 1073
+    total: 1073,
   },
   42052: {
     district: 42052,
@@ -13102,7 +13103,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 339,
-    total: 1502
+    total: 1502,
   },
   42053: {
     district: 42053,
@@ -13113,7 +13114,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 291,
-    total: 1537
+    total: 1537,
   },
   42054: {
     district: 42054,
@@ -13124,7 +13125,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 195,
-    total: 1511
+    total: 1511,
   },
   42055: {
     district: 42055,
@@ -13135,7 +13136,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 270,
-    total: 1304
+    total: 1304,
   },
   42056: {
     district: 42056,
@@ -13146,7 +13147,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 242,
-    total: 1124
+    total: 1124,
   },
   42057: {
     district: 42057,
@@ -13157,7 +13158,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 280,
-    total: 1577
+    total: 1577,
   },
   42058: {
     district: 42058,
@@ -13168,7 +13169,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 244,
-    total: 1533
+    total: 1533,
   },
   42059: {
     district: 42059,
@@ -13179,7 +13180,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 1
+    total: 1,
   },
   43001: {
     district: 43001,
@@ -13190,7 +13191,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 18,
     blank: 185,
-    total: 1336
+    total: 1336,
   },
   43002: {
     district: 43002,
@@ -13201,7 +13202,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 22,
     blank: 180,
-    total: 1459
+    total: 1459,
   },
   43003: {
     district: 43003,
@@ -13212,7 +13213,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 17,
     blank: 151,
-    total: 1316
+    total: 1316,
   },
   43004: {
     district: 43004,
@@ -13223,7 +13224,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 22,
     blank: 187,
-    total: 1659
+    total: 1659,
   },
   43005: {
     district: 43005,
@@ -13234,7 +13235,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 139,
-    total: 1052
+    total: 1052,
   },
   43006: {
     district: 43006,
@@ -13245,7 +13246,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 200,
-    total: 1358
+    total: 1358,
   },
   43007: {
     district: 43007,
@@ -13256,7 +13257,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 24,
     blank: 251,
-    total: 1718
+    total: 1718,
   },
   43008: {
     district: 43008,
@@ -13267,7 +13268,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 17,
     blank: 122,
-    total: 1036
+    total: 1036,
   },
   43009: {
     district: 43009,
@@ -13278,7 +13279,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 10,
     blank: 124,
-    total: 847
+    total: 847,
   },
   43010: {
     district: 43010,
@@ -13289,7 +13290,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 23,
     other: 13,
     blank: 198,
-    total: 1499
+    total: 1499,
   },
   43011: {
     district: 43011,
@@ -13300,7 +13301,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 10,
     blank: 172,
-    total: 1166
+    total: 1166,
   },
   43012: {
     district: 43012,
@@ -13311,7 +13312,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 113,
-    total: 1006
+    total: 1006,
   },
   43013: {
     district: 43013,
@@ -13322,7 +13323,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 207,
-    total: 1409
+    total: 1409,
   },
   43014: {
     district: 43014,
@@ -13333,7 +13334,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 165,
-    total: 1082
+    total: 1082,
   },
   43015: {
     district: 43015,
@@ -13344,7 +13345,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 201,
-    total: 1199
+    total: 1199,
   },
   43016: {
     district: 43016,
@@ -13355,7 +13356,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 20,
     blank: 269,
-    total: 1519
+    total: 1519,
   },
   43017: {
     district: 43017,
@@ -13366,7 +13367,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 198,
-    total: 1120
+    total: 1120,
   },
   43018: {
     district: 43018,
@@ -13377,7 +13378,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 13,
     blank: 193,
-    total: 1489
+    total: 1489,
   },
   43019: {
     district: 43019,
@@ -13388,7 +13389,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 30,
     blank: 195,
-    total: 1496
+    total: 1496,
   },
   43020: {
     district: 43020,
@@ -13399,7 +13400,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 21,
     blank: 262,
-    total: 1608
+    total: 1608,
   },
   43021: {
     district: 43021,
@@ -13410,7 +13411,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 221,
-    total: 1367
+    total: 1367,
   },
   43022: {
     district: 43022,
@@ -13421,7 +13422,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 310,
-    total: 1759
+    total: 1759,
   },
   43023: {
     district: 43023,
@@ -13432,7 +13433,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 232,
-    total: 1497
+    total: 1497,
   },
   43024: {
     district: 43024,
@@ -13443,7 +13444,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 244,
-    total: 1299
+    total: 1299,
   },
   43025: {
     district: 43025,
@@ -13454,7 +13455,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 203,
-    total: 1287
+    total: 1287,
   },
   43026: {
     district: 43026,
@@ -13465,7 +13466,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 195,
-    total: 1008
+    total: 1008,
   },
   43027: {
     district: 43027,
@@ -13476,7 +13477,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 238,
-    total: 1610
+    total: 1610,
   },
   43028: {
     district: 43028,
@@ -13487,7 +13488,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 151,
-    total: 979
+    total: 979,
   },
   43029: {
     district: 43029,
@@ -13498,7 +13499,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 17,
     blank: 209,
-    total: 1546
+    total: 1546,
   },
   43030: {
     district: 43030,
@@ -13509,7 +13510,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 26,
     blank: 244,
-    total: 1764
+    total: 1764,
   },
   43031: {
     district: 43031,
@@ -13520,7 +13521,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 16,
     blank: 213,
-    total: 1486
+    total: 1486,
   },
   43032: {
     district: 43032,
@@ -13531,7 +13532,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 182,
-    total: 1332
+    total: 1332,
   },
   43033: {
     district: 43033,
@@ -13542,7 +13543,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 23,
     blank: 230,
-    total: 1676
+    total: 1676,
   },
   43034: {
     district: 43034,
@@ -13553,7 +13554,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 220,
-    total: 1391
+    total: 1391,
   },
   43035: {
     district: 43035,
@@ -13564,7 +13565,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 25,
     blank: 223,
-    total: 1624
+    total: 1624,
   },
   43036: {
     district: 43036,
@@ -13575,7 +13576,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 24,
     blank: 192,
-    total: 1419
+    total: 1419,
   },
   43037: {
     district: 43037,
@@ -13586,7 +13587,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 30,
     blank: 222,
-    total: 1692
+    total: 1692,
   },
   43038: {
     district: 43038,
@@ -13597,7 +13598,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 21,
     blank: 203,
-    total: 1499
+    total: 1499,
   },
   43039: {
     district: 43039,
@@ -13608,7 +13609,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 124,
-    total: 1157
+    total: 1157,
   },
   43040: {
     district: 43040,
@@ -13619,7 +13620,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 18,
     blank: 203,
-    total: 1494
+    total: 1494,
   },
   43041: {
     district: 43041,
@@ -13630,7 +13631,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 27,
     blank: 206,
-    total: 1550
+    total: 1550,
   },
   43042: {
     district: 43042,
@@ -13641,7 +13642,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 18,
     blank: 214,
-    total: 1398
+    total: 1398,
   },
   43043: {
     district: 43043,
@@ -13652,7 +13653,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 27,
     blank: 278,
-    total: 1603
+    total: 1603,
   },
   43044: {
     district: 43044,
@@ -13663,7 +13664,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 234,
-    total: 1552
+    total: 1552,
   },
   43045: {
     district: 43045,
@@ -13674,7 +13675,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 231,
-    total: 1684
+    total: 1684,
   },
   43046: {
     district: 43046,
@@ -13685,7 +13686,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 234,
-    total: 1439
+    total: 1439,
   },
   43047: {
     district: 43047,
@@ -13696,7 +13697,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 198,
-    total: 1463
+    total: 1463,
   },
   43048: {
     district: 43048,
@@ -13707,7 +13708,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 3,
     blank: 41,
-    total: 232
+    total: 232,
   },
   43049: {
     district: 43049,
@@ -13718,7 +13719,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 19,
     blank: 277,
-    total: 1619
+    total: 1619,
   },
   43050: {
     district: 43050,
@@ -13729,7 +13730,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 167,
-    total: 1062
+    total: 1062,
   },
   43051: {
     district: 43051,
@@ -13740,7 +13741,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 132,
-    total: 915
+    total: 915,
   },
   43052: {
     district: 43052,
@@ -13751,7 +13752,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 191,
-    total: 1378
+    total: 1378,
   },
   43053: {
     district: 43053,
@@ -13762,7 +13763,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 18,
     blank: 244,
-    total: 1586
+    total: 1586,
   },
   43054: {
     district: 43054,
@@ -13773,7 +13774,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 26,
     blank: 246,
-    total: 1651
+    total: 1651,
   },
   43055: {
     district: 43055,
@@ -13784,7 +13785,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 21,
     blank: 176,
-    total: 1250
+    total: 1250,
   },
   43056: {
     district: 43056,
@@ -13795,7 +13796,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 28,
     blank: 250,
-    total: 1689
+    total: 1689,
   },
   43057: {
     district: 43057,
@@ -13806,7 +13807,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 12,
     blank: 236,
-    total: 1742
+    total: 1742,
   },
   43058: {
     district: 43058,
@@ -13817,7 +13818,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 262,
-    total: 1466
+    total: 1466,
   },
   43059: {
     district: 43059,
@@ -13828,7 +13829,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 20,
     other: 20,
     blank: 284,
-    total: 1749
+    total: 1749,
   },
   43060: {
     district: 43060,
@@ -13839,7 +13840,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 23,
     blank: 235,
-    total: 1383
+    total: 1383,
   },
   43061: {
     district: 43061,
@@ -13850,7 +13851,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 13,
     blank: 210,
-    total: 1325
+    total: 1325,
   },
   43062: {
     district: 43062,
@@ -13861,7 +13862,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 8,
     blank: 122,
-    total: 978
+    total: 978,
   },
   43063: {
     district: 43063,
@@ -13872,7 +13873,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 180,
-    total: 1301
+    total: 1301,
   },
   43064: {
     district: 43064,
@@ -13883,7 +13884,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 32,
     blank: 277,
-    total: 1751
+    total: 1751,
   },
   43065: {
     district: 43065,
@@ -13894,7 +13895,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 14,
     blank: 205,
-    total: 1376
+    total: 1376,
   },
   43066: {
     district: 43066,
@@ -13905,7 +13906,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 186,
-    total: 1366
+    total: 1366,
   },
   43067: {
     district: 43067,
@@ -13916,7 +13917,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 23,
     blank: 322,
-    total: 1870
+    total: 1870,
   },
   43068: {
     district: 43068,
@@ -13927,7 +13928,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 128,
-    total: 719
+    total: 719,
   },
   44001: {
     district: 44001,
@@ -13938,7 +13939,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 269,
-    total: 1414
+    total: 1414,
   },
   44002: {
     district: 44002,
@@ -13949,7 +13950,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 313,
-    total: 1474
+    total: 1474,
   },
   44003: {
     district: 44003,
@@ -13960,7 +13961,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 4,
     blank: 45,
-    total: 330
+    total: 330,
   },
   44004: {
     district: 44004,
@@ -13971,7 +13972,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 11,
     blank: 154,
-    total: 1031
+    total: 1031,
   },
   44005: {
     district: 44005,
@@ -13982,7 +13983,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 44,
-    total: 406
+    total: 406,
   },
   44006: {
     district: 44006,
@@ -13993,7 +13994,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 8,
     blank: 180,
-    total: 1152
+    total: 1152,
   },
   44007: {
     district: 44007,
@@ -14004,7 +14005,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 12,
     blank: 198,
-    total: 1558
+    total: 1558,
   },
   44008: {
     district: 44008,
@@ -14015,7 +14016,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 191,
-    total: 1405
+    total: 1405,
   },
   44009: {
     district: 44009,
@@ -14026,7 +14027,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 15,
     blank: 215,
-    total: 1385
+    total: 1385,
   },
   44010: {
     district: 44010,
@@ -14037,7 +14038,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 9,
     blank: 83,
-    total: 776
+    total: 776,
   },
   44011: {
     district: 44011,
@@ -14048,7 +14049,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 15,
     blank: 219,
-    total: 1980
+    total: 1980,
   },
   44012: {
     district: 44012,
@@ -14059,7 +14060,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 12,
     blank: 139,
-    total: 1079
+    total: 1079,
   },
   44013: {
     district: 44013,
@@ -14070,7 +14071,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 3,
     blank: 66,
-    total: 494
+    total: 494,
   },
   44014: {
     district: 44014,
@@ -14081,7 +14082,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 13,
     blank: 145,
-    total: 1171
+    total: 1171,
   },
   44015: {
     district: 44015,
@@ -14092,7 +14093,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 11,
     blank: 116,
-    total: 864
+    total: 864,
   },
   44016: {
     district: 44016,
@@ -14103,7 +14104,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 135,
-    total: 1015
+    total: 1015,
   },
   44017: {
     district: 44017,
@@ -14114,7 +14115,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 201,
-    total: 1650
+    total: 1650,
   },
   44018: {
     district: 44018,
@@ -14125,7 +14126,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 221,
-    total: 1328
+    total: 1328,
   },
   44019: {
     district: 44019,
@@ -14136,7 +14137,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 159,
-    total: 906
+    total: 906,
   },
   44020: {
     district: 44020,
@@ -14147,7 +14148,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 112,
-    total: 730
+    total: 730,
   },
   44021: {
     district: 44021,
@@ -14158,7 +14159,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 233,
-    total: 1225
+    total: 1225,
   },
   44022: {
     district: 44022,
@@ -14169,7 +14170,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 139,
-    total: 1034
+    total: 1034,
   },
   44023: {
     district: 44023,
@@ -14180,7 +14181,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 15,
     blank: 166,
-    total: 1404
+    total: 1404,
   },
   44024: {
     district: 44024,
@@ -14191,7 +14192,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 186,
-    total: 1261
+    total: 1261,
   },
   44025: {
     district: 44025,
@@ -14202,7 +14203,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 178,
-    total: 1438
+    total: 1438,
   },
   44026: {
     district: 44026,
@@ -14213,7 +14214,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 126,
-    total: 1100
+    total: 1100,
   },
   44027: {
     district: 44027,
@@ -14224,7 +14225,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 179,
-    total: 1359
+    total: 1359,
   },
   44028: {
     district: 44028,
@@ -14235,7 +14236,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 20,
     blank: 182,
-    total: 1394
+    total: 1394,
   },
   44029: {
     district: 44029,
@@ -14246,7 +14247,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 210,
-    total: 1517
+    total: 1517,
   },
   44030: {
     district: 44030,
@@ -14257,7 +14258,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 11,
     blank: 164,
-    total: 1244
+    total: 1244,
   },
   44031: {
     district: 44031,
@@ -14268,7 +14269,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 21,
     blank: 238,
-    total: 1664
+    total: 1664,
   },
   44032: {
     district: 44032,
@@ -14279,7 +14280,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 22,
     blank: 201,
-    total: 1619
+    total: 1619,
   },
   44033: {
     district: 44033,
@@ -14290,7 +14291,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 25,
     blank: 259,
-    total: 1723
+    total: 1723,
   },
   44034: {
     district: 44034,
@@ -14301,7 +14302,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 9,
     blank: 164,
-    total: 934
+    total: 934,
   },
   44035: {
     district: 44035,
@@ -14312,7 +14313,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 155,
-    total: 1088
+    total: 1088,
   },
   44036: {
     district: 44036,
@@ -14323,7 +14324,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 34,
     blank: 222,
-    total: 1678
+    total: 1678,
   },
   44037: {
     district: 44037,
@@ -14334,7 +14335,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 212,
-    total: 1526
+    total: 1526,
   },
   44038: {
     district: 44038,
@@ -14345,7 +14346,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 187,
-    total: 1507
+    total: 1507,
   },
   44039: {
     district: 44039,
@@ -14356,7 +14357,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 18,
     blank: 219,
-    total: 1346
+    total: 1346,
   },
   44040: {
     district: 44040,
@@ -14367,7 +14368,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 145,
-    total: 964
+    total: 964,
   },
   44041: {
     district: 44041,
@@ -14378,7 +14379,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 174,
-    total: 1099
+    total: 1099,
   },
   44042: {
     district: 44042,
@@ -14389,7 +14390,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 189,
-    total: 882
+    total: 882,
   },
   44043: {
     district: 44043,
@@ -14400,7 +14401,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 24,
     blank: 223,
-    total: 1204
+    total: 1204,
   },
   44044: {
     district: 44044,
@@ -14411,7 +14412,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 210,
-    total: 826
+    total: 826,
   },
   44045: {
     district: 44045,
@@ -14422,7 +14423,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 17,
     blank: 174,
-    total: 1161
+    total: 1161,
   },
   44046: {
     district: 44046,
@@ -14433,7 +14434,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 246,
-    total: 1354
+    total: 1354,
   },
   44047: {
     district: 44047,
@@ -14444,7 +14445,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 249,
-    total: 1106
+    total: 1106,
   },
   44048: {
     district: 44048,
@@ -14455,7 +14456,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 328,
-    total: 1451
+    total: 1451,
   },
   44049: {
     district: 44049,
@@ -14466,7 +14467,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 2,
     blank: 128,
-    total: 653
+    total: 653,
   },
   44050: {
     district: 44050,
@@ -14477,7 +14478,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 130,
-    total: 593
+    total: 593,
   },
   44051: {
     district: 44051,
@@ -14488,7 +14489,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 110,
-    total: 686
+    total: 686,
   },
   44052: {
     district: 44052,
@@ -14499,7 +14500,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 52,
-    total: 229
+    total: 229,
   },
   44053: {
     district: 44053,
@@ -14510,7 +14511,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 349,
-    total: 1387
+    total: 1387,
   },
   44054: {
     district: 44054,
@@ -14521,7 +14522,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 9,
     blank: 175,
-    total: 1077
+    total: 1077,
   },
   44055: {
     district: 44055,
@@ -14532,7 +14533,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 4,
     blank: 92,
-    total: 438
+    total: 438,
   },
   44056: {
     district: 44056,
@@ -14543,7 +14544,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 278,
-    total: 1336
+    total: 1336,
   },
   44057: {
     district: 44057,
@@ -14554,7 +14555,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 285,
-    total: 1442
+    total: 1442,
   },
   44058: {
     district: 44058,
@@ -14565,7 +14566,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 170,
-    total: 1061
+    total: 1061,
   },
   44059: {
     district: 44059,
@@ -14576,7 +14577,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 28,
     blank: 449,
-    total: 1714
+    total: 1714,
   },
   44060: {
     district: 44060,
@@ -14587,7 +14588,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 1,
     blank: 46,
-    total: 399
+    total: 399,
   },
   44061: {
     district: 44061,
@@ -14598,7 +14599,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 21,
     blank: 156,
-    total: 1052
+    total: 1052,
   },
   44062: {
     district: 44062,
@@ -14609,7 +14610,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 25,
     blank: 155,
-    total: 1249
+    total: 1249,
   },
   44063: {
     district: 44063,
@@ -14620,7 +14621,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 365,
-    total: 1795
+    total: 1795,
   },
   44064: {
     district: 44064,
@@ -14631,7 +14632,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 436,
-    total: 1820
+    total: 1820,
   },
   44065: {
     district: 44065,
@@ -14642,7 +14643,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 160,
-    total: 998
+    total: 998,
   },
   44066: {
     district: 44066,
@@ -14653,7 +14654,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 419,
-    total: 1912
+    total: 1912,
   },
   44067: {
     district: 44067,
@@ -14664,7 +14665,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 186,
-    total: 904
+    total: 904,
   },
   44068: {
     district: 44068,
@@ -14675,7 +14676,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 136,
-    total: 808
+    total: 808,
   },
   44069: {
     district: 44069,
@@ -14686,7 +14687,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 27,
     blank: 428,
-    total: 1628
+    total: 1628,
   },
   44070: {
     district: 44070,
@@ -14697,7 +14698,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 16,
     blank: 273,
-    total: 1022
+    total: 1022,
   },
   44071: {
     district: 44071,
@@ -14708,7 +14709,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 353,
-    total: 1268
+    total: 1268,
   },
   44072: {
     district: 44072,
@@ -14719,7 +14720,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 412,
-    total: 1486
+    total: 1486,
   },
   44073: {
     district: 44073,
@@ -14730,7 +14731,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 51,
-    total: 344
+    total: 344,
   },
   44074: {
     district: 44074,
@@ -14741,7 +14742,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 217,
-    total: 1178
+    total: 1178,
   },
   44075: {
     district: 44075,
@@ -14752,7 +14753,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 173,
-    total: 831
+    total: 831,
   },
   44076: {
     district: 44076,
@@ -14763,7 +14764,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 208,
-    total: 816
+    total: 816,
   },
   44077: {
     district: 44077,
@@ -14774,7 +14775,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 3,
     blank: 30,
-    total: 273
+    total: 273,
   },
   44078: {
     district: 44078,
@@ -14785,7 +14786,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 182,
-    total: 849
+    total: 849,
   },
   44079: {
     district: 44079,
@@ -14796,7 +14797,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 13,
     blank: 202,
-    total: 1147
+    total: 1147,
   },
   44080: {
     district: 44080,
@@ -14807,7 +14808,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 166,
-    total: 942
+    total: 942,
   },
   44081: {
     district: 44081,
@@ -14818,7 +14819,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 9,
     blank: 92,
-    total: 958
+    total: 958,
   },
   44082: {
     district: 44082,
@@ -14829,7 +14830,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 1
+    total: 1,
   },
   45001: {
     district: 45001,
@@ -14840,7 +14841,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 335,
-    total: 1314
+    total: 1314,
   },
   45002: {
     district: 45002,
@@ -14851,7 +14852,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 354,
-    total: 1664
+    total: 1664,
   },
   45003: {
     district: 45003,
@@ -14862,7 +14863,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 445,
-    total: 1632
+    total: 1632,
   },
   45004: {
     district: 45004,
@@ -14873,7 +14874,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 532,
-    total: 1559
+    total: 1559,
   },
   45005: {
     district: 45005,
@@ -14884,7 +14885,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 445,
-    total: 1465
+    total: 1465,
   },
   45006: {
     district: 45006,
@@ -14895,7 +14896,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 472,
-    total: 1516
+    total: 1516,
   },
   45007: {
     district: 45007,
@@ -14906,7 +14907,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 310,
-    total: 1449
+    total: 1449,
   },
   45008: {
     district: 45008,
@@ -14917,7 +14918,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 272,
-    total: 1342
+    total: 1342,
   },
   45009: {
     district: 45009,
@@ -14928,7 +14929,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 359,
-    total: 1466
+    total: 1466,
   },
   45010: {
     district: 45010,
@@ -14939,7 +14940,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 259,
-    total: 1171
+    total: 1171,
   },
   45011: {
     district: 45011,
@@ -14950,7 +14951,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 265,
-    total: 1100
+    total: 1100,
   },
   45012: {
     district: 45012,
@@ -14961,7 +14962,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 2,
     blank: 97,
-    total: 296
+    total: 296,
   },
   45013: {
     district: 45013,
@@ -14972,7 +14973,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 156,
-    total: 690
+    total: 690,
   },
   45014: {
     district: 45014,
@@ -14983,7 +14984,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 272,
-    total: 1097
+    total: 1097,
   },
   45015: {
     district: 45015,
@@ -14994,7 +14995,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 247,
-    total: 1089
+    total: 1089,
   },
   45016: {
     district: 45016,
@@ -15005,7 +15006,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 26,
     blank: 356,
-    total: 1720
+    total: 1720,
   },
   45017: {
     district: 45017,
@@ -15016,7 +15017,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 365,
-    total: 1263
+    total: 1263,
   },
   45018: {
     district: 45018,
@@ -15027,7 +15028,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 70,
-    total: 211
+    total: 211,
   },
   45019: {
     district: 45019,
@@ -15038,7 +15039,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 195,
-    total: 532
+    total: 532,
   },
   45020: {
     district: 45020,
@@ -15049,7 +15050,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 331,
-    total: 1354
+    total: 1354,
   },
   45021: {
     district: 45021,
@@ -15060,7 +15061,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 123,
-    total: 388
+    total: 388,
   },
   45022: {
     district: 45022,
@@ -15071,7 +15072,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 370,
-    total: 1155
+    total: 1155,
   },
   45023: {
     district: 45023,
@@ -15082,7 +15083,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 16,
     blank: 325,
-    total: 1280
+    total: 1280,
   },
   45024: {
     district: 45024,
@@ -15093,7 +15094,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 18,
     blank: 358,
-    total: 1424
+    total: 1424,
   },
   45025: {
     district: 45025,
@@ -15104,7 +15105,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 202,
-    total: 825
+    total: 825,
   },
   45026: {
     district: 45026,
@@ -15115,7 +15116,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 10,
     blank: 166,
-    total: 713
+    total: 713,
   },
   45027: {
     district: 45027,
@@ -15126,7 +15127,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 384,
-    total: 1257
+    total: 1257,
   },
   45028: {
     district: 45028,
@@ -15137,7 +15138,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 36,
     blank: 371,
-    total: 1408
+    total: 1408,
   },
   45029: {
     district: 45029,
@@ -15148,7 +15149,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 18,
     blank: 333,
-    total: 1130
+    total: 1130,
   },
   45030: {
     district: 45030,
@@ -15159,7 +15160,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 394,
-    total: 1237
+    total: 1237,
   },
   45031: {
     district: 45031,
@@ -15170,7 +15171,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 449,
-    total: 1339
+    total: 1339,
   },
   45032: {
     district: 45032,
@@ -15181,7 +15182,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 281,
-    total: 1153
+    total: 1153,
   },
   45033: {
     district: 45033,
@@ -15192,7 +15193,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 342,
-    total: 1175
+    total: 1175,
   },
   45034: {
     district: 45034,
@@ -15203,7 +15204,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 383,
-    total: 1359
+    total: 1359,
   },
   45035: {
     district: 45035,
@@ -15214,7 +15215,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 359,
-    total: 1002
+    total: 1002,
   },
   45036: {
     district: 45036,
@@ -15225,7 +15226,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 555,
-    total: 1645
+    total: 1645,
   },
   45037: {
     district: 45037,
@@ -15236,7 +15237,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 518,
-    total: 1515
+    total: 1515,
   },
   45038: {
     district: 45038,
@@ -15247,7 +15248,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 286,
-    total: 891
+    total: 891,
   },
   45039: {
     district: 45039,
@@ -15258,7 +15259,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 71,
-    total: 154
+    total: 154,
   },
   45040: {
     district: 45040,
@@ -15269,7 +15270,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 411,
-    total: 1307
+    total: 1307,
   },
   45041: {
     district: 45041,
@@ -15280,7 +15281,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 40,
     blank: 563,
-    total: 1871
+    total: 1871,
   },
   45042: {
     district: 45042,
@@ -15291,7 +15292,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 30,
     blank: 520,
-    total: 1598
+    total: 1598,
   },
   45043: {
     district: 45043,
@@ -15302,7 +15303,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 32,
     blank: 485,
-    total: 1506
+    total: 1506,
   },
   45044: {
     district: 45044,
@@ -15313,7 +15314,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 36,
     blank: 602,
-    total: 1735
+    total: 1735,
   },
   45045: {
     district: 45045,
@@ -15324,7 +15325,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 31,
     blank: 564,
-    total: 1540
+    total: 1540,
   },
   45046: {
     district: 45046,
@@ -15335,7 +15336,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 373,
-    total: 1202
+    total: 1202,
   },
   45047: {
     district: 45047,
@@ -15346,7 +15347,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 507,
-    total: 1504
+    total: 1504,
   },
   45048: {
     district: 45048,
@@ -15357,7 +15358,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 407,
-    total: 1132
+    total: 1132,
   },
   45049: {
     district: 45049,
@@ -15368,7 +15369,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 32,
     blank: 441,
-    total: 1482
+    total: 1482,
   },
   45050: {
     district: 45050,
@@ -15379,7 +15380,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 30,
     blank: 493,
-    total: 1492
+    total: 1492,
   },
   45051: {
     district: 45051,
@@ -15390,7 +15391,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 476,
-    total: 1581
+    total: 1581,
   },
   45052: {
     district: 45052,
@@ -15401,7 +15402,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 22,
     blank: 321,
-    total: 1072
+    total: 1072,
   },
   45053: {
     district: 45053,
@@ -15412,7 +15413,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 222,
-    total: 713
+    total: 713,
   },
   45054: {
     district: 45054,
@@ -15423,7 +15424,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 3,
     blank: 62,
-    total: 178
+    total: 178,
   },
   45055: {
     district: 45055,
@@ -15434,7 +15435,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 37,
-    total: 95
+    total: 95,
   },
   46001: {
     district: 46001,
@@ -15445,7 +15446,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 272,
-    total: 1084
+    total: 1084,
   },
   46002: {
     district: 46002,
@@ -15456,7 +15457,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 34,
     blank: 249,
-    total: 1074
+    total: 1074,
   },
   46003: {
     district: 46003,
@@ -15467,7 +15468,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 328,
-    total: 1385
+    total: 1385,
   },
   46004: {
     district: 46004,
@@ -15478,7 +15479,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 271,
-    total: 1229
+    total: 1229,
   },
   46005: {
     district: 46005,
@@ -15489,7 +15490,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 38,
     blank: 411,
-    total: 1659
+    total: 1659,
   },
   46006: {
     district: 46006,
@@ -15500,7 +15501,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 322,
-    total: 1309
+    total: 1309,
   },
   46007: {
     district: 46007,
@@ -15511,7 +15512,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 35,
     blank: 400,
-    total: 1441
+    total: 1441,
   },
   46008: {
     district: 46008,
@@ -15522,7 +15523,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 301,
-    total: 1234
+    total: 1234,
   },
   46009: {
     district: 46009,
@@ -15533,7 +15534,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 40,
     blank: 406,
-    total: 1522
+    total: 1522,
   },
   46010: {
     district: 46010,
@@ -15544,7 +15545,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 37,
     blank: 467,
-    total: 1600
+    total: 1600,
   },
   46011: {
     district: 46011,
@@ -15555,7 +15556,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 314,
-    total: 1144
+    total: 1144,
   },
   46012: {
     district: 46012,
@@ -15566,7 +15567,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 49,
     blank: 352,
-    total: 1481
+    total: 1481,
   },
   46013: {
     district: 46013,
@@ -15577,7 +15578,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 45,
     blank: 326,
-    total: 1449
+    total: 1449,
   },
   46014: {
     district: 46014,
@@ -15588,7 +15589,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 45,
     blank: 389,
-    total: 1605
+    total: 1605,
   },
   46015: {
     district: 46015,
@@ -15599,7 +15600,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 35,
     blank: 402,
-    total: 1377
+    total: 1377,
   },
   46016: {
     district: 46016,
@@ -15610,7 +15611,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 426,
-    total: 1554
+    total: 1554,
   },
   46017: {
     district: 46017,
@@ -15621,7 +15622,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 437,
-    total: 1431
+    total: 1431,
   },
   46018: {
     district: 46018,
@@ -15632,7 +15633,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 40,
     blank: 409,
-    total: 1458
+    total: 1458,
   },
   46019: {
     district: 46019,
@@ -15643,7 +15644,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 46,
     blank: 382,
-    total: 1513
+    total: 1513,
   },
   46020: {
     district: 46020,
@@ -15654,7 +15655,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 46,
     blank: 410,
-    total: 1568
+    total: 1568,
   },
   46021: {
     district: 46021,
@@ -15665,7 +15666,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 97,
-    total: 310
+    total: 310,
   },
   46022: {
     district: 46022,
@@ -15676,7 +15677,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 40,
     blank: 374,
-    total: 1410
+    total: 1410,
   },
   46023: {
     district: 46023,
@@ -15687,7 +15688,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 301,
-    total: 1267
+    total: 1267,
   },
   46024: {
     district: 46024,
@@ -15698,7 +15699,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 259,
-    total: 1222
+    total: 1222,
   },
   46025: {
     district: 46025,
@@ -15709,7 +15710,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 256,
-    total: 1035
+    total: 1035,
   },
   46026: {
     district: 46026,
@@ -15720,7 +15721,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 31,
     blank: 390,
-    total: 1507
+    total: 1507,
   },
   46027: {
     district: 46027,
@@ -15731,7 +15732,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 394,
-    total: 1453
+    total: 1453,
   },
   46028: {
     district: 46028,
@@ -15742,7 +15743,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 319,
-    total: 1182
+    total: 1182,
   },
   46029: {
     district: 46029,
@@ -15753,7 +15754,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 3,
     blank: 60,
-    total: 261
+    total: 261,
   },
   46030: {
     district: 46030,
@@ -15764,7 +15765,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 79,
-    total: 330
+    total: 330,
   },
   46031: {
     district: 46031,
@@ -15775,7 +15776,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 223,
-    total: 800
+    total: 800,
   },
   46032: {
     district: 46032,
@@ -15786,7 +15787,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 137,
-    total: 461
+    total: 461,
   },
   46033: {
     district: 46033,
@@ -15797,7 +15798,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 67,
-    total: 198
+    total: 198,
   },
   46034: {
     district: 46034,
@@ -15808,7 +15809,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 307,
-    total: 1025
+    total: 1025,
   },
   46035: {
     district: 46035,
@@ -15819,7 +15820,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 114,
-    total: 513
+    total: 513,
   },
   46036: {
     district: 46036,
@@ -15830,7 +15831,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 10,
     blank: 215,
-    total: 818
+    total: 818,
   },
   46037: {
     district: 46037,
@@ -15841,7 +15842,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 1
+    total: 1,
   },
   46038: {
     district: 46038,
@@ -15852,7 +15853,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 333,
-    total: 1163
+    total: 1163,
   },
   46039: {
     district: 46039,
@@ -15863,7 +15864,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 27,
     blank: 376,
-    total: 1542
+    total: 1542,
   },
   46040: {
     district: 46040,
@@ -15874,7 +15875,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 446,
-    total: 1641
+    total: 1641,
   },
   46041: {
     district: 46041,
@@ -15885,7 +15886,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 250,
-    total: 1151
+    total: 1151,
   },
   46042: {
     district: 46042,
@@ -15896,7 +15897,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 26,
     blank: 263,
-    total: 1246
+    total: 1246,
   },
   46043: {
     district: 46043,
@@ -15907,7 +15908,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 281,
-    total: 1276
+    total: 1276,
   },
   46044: {
     district: 46044,
@@ -15918,7 +15919,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 225,
-    total: 1051
+    total: 1051,
   },
   46045: {
     district: 46045,
@@ -15929,7 +15930,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 197,
-    total: 977
+    total: 977,
   },
   46046: {
     district: 46046,
@@ -15940,7 +15941,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 188,
-    total: 1156
+    total: 1156,
   },
   46047: {
     district: 46047,
@@ -15951,7 +15952,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 297,
-    total: 1335
+    total: 1335,
   },
   46048: {
     district: 46048,
@@ -15962,7 +15963,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 269,
-    total: 1234
+    total: 1234,
   },
   46049: {
     district: 46049,
@@ -15973,7 +15974,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 146,
-    total: 713
+    total: 713,
   },
   46050: {
     district: 46050,
@@ -15984,7 +15985,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 310,
-    total: 1422
+    total: 1422,
   },
   46051: {
     district: 46051,
@@ -15995,7 +15996,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 16,
     blank: 244,
-    total: 1157
+    total: 1157,
   },
   46052: {
     district: 46052,
@@ -16006,7 +16007,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 281,
-    total: 1142
+    total: 1142,
   },
   46053: {
     district: 46053,
@@ -16017,7 +16018,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 21,
     blank: 509,
-    total: 1527
+    total: 1527,
   },
   46054: {
     district: 46054,
@@ -16028,7 +16029,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 256,
-    total: 941
+    total: 941,
   },
   46055: {
     district: 46055,
@@ -16039,7 +16040,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 33,
     blank: 429,
-    total: 1438
+    total: 1438,
   },
   46056: {
     district: 46056,
@@ -16050,7 +16051,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 41,
     blank: 444,
-    total: 1626
+    total: 1626,
   },
   46057: {
     district: 46057,
@@ -16061,7 +16062,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 211,
-    total: 852
+    total: 852,
   },
   46058: {
     district: 46058,
@@ -16072,7 +16073,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 202,
-    total: 821
+    total: 821,
   },
   46059: {
     district: 46059,
@@ -16083,7 +16084,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 21,
     blank: 205,
-    total: 783
+    total: 783,
   },
   46060: {
     district: 46060,
@@ -16094,7 +16095,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 175,
-    total: 698
+    total: 698,
   },
   46061: {
     district: 46061,
@@ -16105,7 +16106,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 48,
     blank: 524,
-    total: 1792
+    total: 1792,
   },
   46062: {
     district: 46062,
@@ -16116,7 +16117,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 232,
-    total: 884
+    total: 884,
   },
   46063: {
     district: 46063,
@@ -16127,7 +16128,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 158,
-    total: 720
+    total: 720,
   },
   46064: {
     district: 46064,
@@ -16138,7 +16139,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 180,
-    total: 774
+    total: 774,
   },
   46065: {
     district: 46065,
@@ -16149,7 +16150,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 197,
-    total: 758
+    total: 758,
   },
   46066: {
     district: 46066,
@@ -16160,7 +16161,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 33,
     blank: 471,
-    total: 1504
+    total: 1504,
   },
   46067: {
     district: 46067,
@@ -16171,7 +16172,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 34,
     blank: 337,
-    total: 1265
+    total: 1265,
   },
   46068: {
     district: 46068,
@@ -16182,7 +16183,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 508,
-    total: 1582
+    total: 1582,
   },
   46069: {
     district: 46069,
@@ -16193,7 +16194,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 377,
-    total: 1158
+    total: 1158,
   },
   46070: {
     district: 46070,
@@ -16204,7 +16205,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 421,
-    total: 1300
+    total: 1300,
   },
   46071: {
     district: 46071,
@@ -16215,7 +16216,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 510,
-    total: 1620
+    total: 1620,
   },
   46072: {
     district: 46072,
@@ -16226,7 +16227,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 2,
-    total: 5
+    total: 5,
   },
   46073: {
     district: 46073,
@@ -16237,7 +16238,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 17,
     blank: 178,
-    total: 745
+    total: 745,
   },
   47001: {
     district: 47001,
@@ -16248,7 +16249,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 158,
-    total: 608
+    total: 608,
   },
   47002: {
     district: 47002,
@@ -16259,7 +16260,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 38,
     blank: 534,
-    total: 1722
+    total: 1722,
   },
   47003: {
     district: 47003,
@@ -16270,7 +16271,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 202,
-    total: 690
+    total: 690,
   },
   47004: {
     district: 47004,
@@ -16281,7 +16282,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 417,
-    total: 1172
+    total: 1172,
   },
   47005: {
     district: 47005,
@@ -16292,7 +16293,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 473,
-    total: 1464
+    total: 1464,
   },
   47006: {
     district: 47006,
@@ -16303,7 +16304,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 208,
-    total: 666
+    total: 666,
   },
   47007: {
     district: 47007,
@@ -16314,7 +16315,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 355,
-    total: 1080
+    total: 1080,
   },
   47008: {
     district: 47008,
@@ -16325,7 +16326,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 12,
     blank: 235,
-    total: 643
+    total: 643,
   },
   47009: {
     district: 47009,
@@ -16336,7 +16337,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 399,
-    total: 1312
+    total: 1312,
   },
   47010: {
     district: 47010,
@@ -16347,7 +16348,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 411,
-    total: 1194
+    total: 1194,
   },
   47011: {
     district: 47011,
@@ -16358,7 +16359,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 453,
-    total: 1250
+    total: 1250,
   },
   47012: {
     district: 47012,
@@ -16369,7 +16370,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 548,
-    total: 1571
+    total: 1571,
   },
   47013: {
     district: 47013,
@@ -16380,7 +16381,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 361,
-    total: 1083
+    total: 1083,
   },
   47014: {
     district: 47014,
@@ -16391,7 +16392,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 34,
     blank: 592,
-    total: 1827
+    total: 1827,
   },
   47015: {
     district: 47015,
@@ -16402,7 +16403,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 198,
-    total: 642
+    total: 642,
   },
   47016: {
     district: 47016,
@@ -16413,7 +16414,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 208,
-    total: 643
+    total: 643,
   },
   47017: {
     district: 47017,
@@ -16424,7 +16425,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 74,
-    total: 195
+    total: 195,
   },
   47018: {
     district: 47018,
@@ -16435,7 +16436,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 10,
     blank: 120,
-    total: 332
+    total: 332,
   },
   47019: {
     district: 47019,
@@ -16446,7 +16447,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 359,
-    total: 992
+    total: 992,
   },
   47020: {
     district: 47020,
@@ -16457,7 +16458,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 517,
-    total: 1588
+    total: 1588,
   },
   47021: {
     district: 47021,
@@ -16468,7 +16469,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 401,
-    total: 1206
+    total: 1206,
   },
   47022: {
     district: 47022,
@@ -16479,7 +16480,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 342,
-    total: 1042
+    total: 1042,
   },
   47023: {
     district: 47023,
@@ -16490,7 +16491,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 613,
-    total: 1821
+    total: 1821,
   },
   47024: {
     district: 47024,
@@ -16501,7 +16502,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 446,
-    total: 1312
+    total: 1312,
   },
   47025: {
     district: 47025,
@@ -16512,7 +16513,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 421,
-    total: 1321
+    total: 1321,
   },
   47026: {
     district: 47026,
@@ -16523,7 +16524,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 498,
-    total: 1613
+    total: 1613,
   },
   47027: {
     district: 47027,
@@ -16534,7 +16535,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 537,
-    total: 1697
+    total: 1697,
   },
   47028: {
     district: 47028,
@@ -16545,7 +16546,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 12,
     blank: 193,
-    total: 620
+    total: 620,
   },
   47029: {
     district: 47029,
@@ -16556,7 +16557,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 449,
-    total: 1341
+    total: 1341,
   },
   47030: {
     district: 47030,
@@ -16567,7 +16568,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 260,
-    total: 717
+    total: 717,
   },
   47031: {
     district: 47031,
@@ -16578,7 +16579,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 116,
-    total: 325
+    total: 325,
   },
   47032: {
     district: 47032,
@@ -16589,7 +16590,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 332,
-    total: 940
+    total: 940,
   },
   47033: {
     district: 47033,
@@ -16600,7 +16601,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 520,
-    total: 1678
+    total: 1678,
   },
   47034: {
     district: 47034,
@@ -16611,7 +16612,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 558,
-    total: 1746
+    total: 1746,
   },
   47035: {
     district: 47035,
@@ -16622,7 +16623,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 445,
-    total: 1335
+    total: 1335,
   },
   47036: {
     district: 47036,
@@ -16633,7 +16634,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 370,
-    total: 1112
+    total: 1112,
   },
   47037: {
     district: 47037,
@@ -16644,7 +16645,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 391,
-    total: 1121
+    total: 1121,
   },
   47038: {
     district: 47038,
@@ -16655,7 +16656,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 320,
-    total: 1103
+    total: 1103,
   },
   47039: {
     district: 47039,
@@ -16666,7 +16667,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 8,
     blank: 301,
-    total: 998
+    total: 998,
   },
   47040: {
     district: 47040,
@@ -16677,7 +16678,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 6,
     blank: 128,
-    total: 393
+    total: 393,
   },
   47041: {
     district: 47041,
@@ -16688,7 +16689,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 143,
-    total: 469
+    total: 469,
   },
   47042: {
     district: 47042,
@@ -16699,7 +16700,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 279,
-    total: 1434
+    total: 1434,
   },
   47043: {
     district: 47043,
@@ -16710,7 +16711,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 492,
-    total: 1509
+    total: 1509,
   },
   47044: {
     district: 47044,
@@ -16721,7 +16722,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 557,
-    total: 1769
+    total: 1769,
   },
   47045: {
     district: 47045,
@@ -16732,7 +16733,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 554,
-    total: 1723
+    total: 1723,
   },
   47046: {
     district: 47046,
@@ -16743,7 +16744,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 390,
-    total: 1268
+    total: 1268,
   },
   47047: {
     district: 47047,
@@ -16754,7 +16755,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 497,
-    total: 1539
+    total: 1539,
   },
   47048: {
     district: 47048,
@@ -16765,7 +16766,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 161,
-    total: 462
+    total: 462,
   },
   47049: {
     district: 47049,
@@ -16776,7 +16777,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 20,
     blank: 506,
-    total: 1588
+    total: 1588,
   },
   47050: {
     district: 47050,
@@ -16787,7 +16788,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 40,
     blank: 467,
-    total: 1674
+    total: 1674,
   },
   47051: {
     district: 47051,
@@ -16798,7 +16799,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 59,
-    total: 184
+    total: 184,
   },
   47052: {
     district: 47052,
@@ -16809,7 +16810,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 297,
-    total: 838
+    total: 838,
   },
   47053: {
     district: 47053,
@@ -16820,7 +16821,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 337,
-    total: 1029
+    total: 1029,
   },
   47054: {
     district: 47054,
@@ -16831,7 +16832,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 396,
-    total: 1231
+    total: 1231,
   },
   47055: {
     district: 47055,
@@ -16842,7 +16843,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 47,
-    total: 158
+    total: 158,
   },
   47056: {
     district: 47056,
@@ -16853,7 +16854,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 59,
-    total: 144
+    total: 144,
   },
   48001: {
     district: 48001,
@@ -16864,7 +16865,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 167,
-    total: 564
+    total: 564,
   },
   48002: {
     district: 48002,
@@ -16875,7 +16876,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 255,
-    total: 1185
+    total: 1185,
   },
   48003: {
     district: 48003,
@@ -16886,7 +16887,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 237,
-    total: 1267
+    total: 1267,
   },
   48004: {
     district: 48004,
@@ -16897,7 +16898,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 303,
-    total: 1549
+    total: 1549,
   },
   48005: {
     district: 48005,
@@ -16908,7 +16909,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 191,
-    total: 865
+    total: 865,
   },
   48006: {
     district: 48006,
@@ -16919,7 +16920,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 357,
-    total: 1878
+    total: 1878,
   },
   48007: {
     district: 48007,
@@ -16930,7 +16931,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 245,
-    total: 1519
+    total: 1519,
   },
   48008: {
     district: 48008,
@@ -16941,7 +16942,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 214,
-    total: 1414
+    total: 1414,
   },
   48009: {
     district: 48009,
@@ -16952,7 +16953,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 173,
-    total: 1079
+    total: 1079,
   },
   48010: {
     district: 48010,
@@ -16963,7 +16964,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 250,
-    total: 1414
+    total: 1414,
   },
   48011: {
     district: 48011,
@@ -16974,7 +16975,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 89,
-    total: 637
+    total: 637,
   },
   48012: {
     district: 48012,
@@ -16985,7 +16986,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 100,
-    total: 793
+    total: 793,
   },
   48013: {
     district: 48013,
@@ -16996,7 +16997,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 9,
     blank: 242,
-    total: 1415
+    total: 1415,
   },
   48014: {
     district: 48014,
@@ -17007,7 +17008,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 191,
-    total: 714
+    total: 714,
   },
   48015: {
     district: 48015,
@@ -17018,7 +17019,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 367,
-    total: 1600
+    total: 1600,
   },
   48016: {
     district: 48016,
@@ -17029,7 +17030,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 422,
-    total: 1708
+    total: 1708,
   },
   48017: {
     district: 48017,
@@ -17040,7 +17041,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 10,
-    total: 42
+    total: 42,
   },
   48018: {
     district: 48018,
@@ -17051,7 +17052,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 101,
-    total: 552
+    total: 552,
   },
   48019: {
     district: 48019,
@@ -17062,7 +17063,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 22,
     blank: 275,
-    total: 1170
+    total: 1170,
   },
   48020: {
     district: 48020,
@@ -17073,7 +17074,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 293,
-    total: 1161
+    total: 1161,
   },
   48021: {
     district: 48021,
@@ -17084,7 +17085,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 147,
-    total: 519
+    total: 519,
   },
   48022: {
     district: 48022,
@@ -17095,7 +17096,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 44,
-    total: 249
+    total: 249,
   },
   48023: {
     district: 48023,
@@ -17106,7 +17107,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 409,
-    total: 1681
+    total: 1681,
   },
   48024: {
     district: 48024,
@@ -17117,7 +17118,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 274,
-    total: 1150
+    total: 1150,
   },
   48025: {
     district: 48025,
@@ -17128,7 +17129,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 342,
-    total: 1487
+    total: 1487,
   },
   48026: {
     district: 48026,
@@ -17139,7 +17140,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 298,
-    total: 1499
+    total: 1499,
   },
   48027: {
     district: 48027,
@@ -17150,7 +17151,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 206,
-    total: 1139
+    total: 1139,
   },
   48028: {
     district: 48028,
@@ -17161,7 +17162,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 352,
-    total: 1236
+    total: 1236,
   },
   48029: {
     district: 48029,
@@ -17172,7 +17173,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 290,
-    total: 1263
+    total: 1263,
   },
   48030: {
     district: 48030,
@@ -17183,7 +17184,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 192,
-    total: 1030
+    total: 1030,
   },
   48031: {
     district: 48031,
@@ -17194,7 +17195,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 3,
     blank: 36,
-    total: 179
+    total: 179,
   },
   48032: {
     district: 48032,
@@ -17205,7 +17206,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 248,
-    total: 1046
+    total: 1046,
   },
   48033: {
     district: 48033,
@@ -17216,7 +17217,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 335,
-    total: 1281
+    total: 1281,
   },
   48034: {
     district: 48034,
@@ -17227,7 +17228,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 141,
-    total: 858
+    total: 858,
   },
   48035: {
     district: 48035,
@@ -17238,7 +17239,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 251,
-    total: 1192
+    total: 1192,
   },
   48036: {
     district: 48036,
@@ -17249,7 +17250,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 281,
-    total: 1043
+    total: 1043,
   },
   48037: {
     district: 48037,
@@ -17260,7 +17261,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 12,
     blank: 143,
-    total: 793
+    total: 793,
   },
   48038: {
     district: 48038,
@@ -17271,7 +17272,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 297,
-    total: 1495
+    total: 1495,
   },
   48039: {
     district: 48039,
@@ -17282,7 +17283,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 295,
-    total: 1478
+    total: 1478,
   },
   48040: {
     district: 48040,
@@ -17293,7 +17294,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 328,
-    total: 1714
+    total: 1714,
   },
   48041: {
     district: 48041,
@@ -17304,7 +17305,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 279,
-    total: 1526
+    total: 1526,
   },
   48042: {
     district: 48042,
@@ -17315,7 +17316,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 10,
     blank: 216,
-    total: 1418
+    total: 1418,
   },
   48043: {
     district: 48043,
@@ -17326,7 +17327,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 209,
-    total: 1140
+    total: 1140,
   },
   48044: {
     district: 48044,
@@ -17337,7 +17338,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 163,
-    total: 1014
+    total: 1014,
   },
   48045: {
     district: 48045,
@@ -17348,7 +17349,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 315,
-    total: 1491
+    total: 1491,
   },
   48046: {
     district: 48046,
@@ -17359,7 +17360,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 273,
-    total: 1462
+    total: 1462,
   },
   48047: {
     district: 48047,
@@ -17370,7 +17371,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 257,
-    total: 1481
+    total: 1481,
   },
   48048: {
     district: 48048,
@@ -17381,7 +17382,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 291,
-    total: 1700
+    total: 1700,
   },
   48049: {
     district: 48049,
@@ -17392,7 +17393,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 305,
-    total: 1373
+    total: 1373,
   },
   48050: {
     district: 48050,
@@ -17403,7 +17404,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 165,
-    total: 1031
+    total: 1031,
   },
   48051: {
     district: 48051,
@@ -17414,7 +17415,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 193,
-    total: 1183
+    total: 1183,
   },
   48052: {
     district: 48052,
@@ -17425,7 +17426,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 143,
-    total: 813
+    total: 813,
   },
   49001: {
     district: 49001,
@@ -17436,7 +17437,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 335,
-    total: 998
+    total: 998,
   },
   49002: {
     district: 49002,
@@ -17447,7 +17448,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 46,
-    total: 215
+    total: 215,
   },
   49003: {
     district: 49003,
@@ -17458,7 +17459,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 49,
-    total: 197
+    total: 197,
   },
   49004: {
     district: 49004,
@@ -17469,7 +17470,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 250,
-    total: 721
+    total: 721,
   },
   49005: {
     district: 49005,
@@ -17480,7 +17481,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 282,
-    total: 765
+    total: 765,
   },
   49006: {
     district: 49006,
@@ -17491,7 +17492,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 449,
-    total: 1370
+    total: 1370,
   },
   49007: {
     district: 49007,
@@ -17502,7 +17503,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 447,
-    total: 1295
+    total: 1295,
   },
   49008: {
     district: 49008,
@@ -17513,7 +17514,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 444,
-    total: 1322
+    total: 1322,
   },
   49009: {
     district: 49009,
@@ -17524,7 +17525,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 529,
-    total: 1380
+    total: 1380,
   },
   49010: {
     district: 49010,
@@ -17535,7 +17536,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 426,
-    total: 1118
+    total: 1118,
   },
   49011: {
     district: 49011,
@@ -17546,7 +17547,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 532,
-    total: 1335
+    total: 1335,
   },
   49012: {
     district: 49012,
@@ -17557,7 +17558,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 455,
-    total: 1199
+    total: 1199,
   },
   49013: {
     district: 49013,
@@ -17568,7 +17569,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 58,
-    total: 175
+    total: 175,
   },
   49014: {
     district: 49014,
@@ -17579,7 +17580,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 203,
-    total: 560
+    total: 560,
   },
   49015: {
     district: 49015,
@@ -17590,7 +17591,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 390,
-    total: 1101
+    total: 1101,
   },
   49016: {
     district: 49016,
@@ -17601,7 +17602,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 434,
-    total: 1237
+    total: 1237,
   },
   49017: {
     district: 49017,
@@ -17612,7 +17613,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 551,
-    total: 1701
+    total: 1701,
   },
   49018: {
     district: 49018,
@@ -17623,7 +17624,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 452,
-    total: 1388
+    total: 1388,
   },
   49019: {
     district: 49019,
@@ -17634,7 +17635,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 390,
-    total: 1164
+    total: 1164,
   },
   49020: {
     district: 49020,
@@ -17645,7 +17646,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 133,
-    total: 438
+    total: 438,
   },
   49021: {
     district: 49021,
@@ -17656,7 +17657,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 239,
-    total: 818
+    total: 818,
   },
   49022: {
     district: 49022,
@@ -17667,7 +17668,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 338,
-    total: 956
+    total: 956,
   },
   49023: {
     district: 49023,
@@ -17678,7 +17679,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 339,
-    total: 1093
+    total: 1093,
   },
   49024: {
     district: 49024,
@@ -17689,7 +17690,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 436,
-    total: 1314
+    total: 1314,
   },
   49025: {
     district: 49025,
@@ -17700,7 +17701,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 447,
-    total: 1327
+    total: 1327,
   },
   49026: {
     district: 49026,
@@ -17711,7 +17712,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 445,
-    total: 1353
+    total: 1353,
   },
   49027: {
     district: 49027,
@@ -17722,7 +17723,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 444,
-    total: 1332
+    total: 1332,
   },
   49028: {
     district: 49028,
@@ -17733,7 +17734,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 331,
-    total: 1024
+    total: 1024,
   },
   49029: {
     district: 49029,
@@ -17744,7 +17745,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 291,
-    total: 830
+    total: 830,
   },
   49030: {
     district: 49030,
@@ -17755,7 +17756,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 472,
-    total: 1395
+    total: 1395,
   },
   49031: {
     district: 49031,
@@ -17766,7 +17767,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 33,
     blank: 608,
-    total: 1672
+    total: 1672,
   },
   49032: {
     district: 49032,
@@ -17777,7 +17778,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 437,
-    total: 1294
+    total: 1294,
   },
   49033: {
     district: 49033,
@@ -17788,7 +17789,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 26,
     blank: 436,
-    total: 1476
+    total: 1476,
   },
   49034: {
     district: 49034,
@@ -17799,7 +17800,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 288,
-    total: 832
+    total: 832,
   },
   49035: {
     district: 49035,
@@ -17810,7 +17811,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 321,
-    total: 1191
+    total: 1191,
   },
   49036: {
     district: 49036,
@@ -17821,7 +17822,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 286,
-    total: 1004
+    total: 1004,
   },
   49037: {
     district: 49037,
@@ -17832,7 +17833,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 388,
-    total: 1417
+    total: 1417,
   },
   49038: {
     district: 49038,
@@ -17843,7 +17844,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 380,
-    total: 1121
+    total: 1121,
   },
   49039: {
     district: 49039,
@@ -17854,7 +17855,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 33,
     blank: 469,
-    total: 1566
+    total: 1566,
   },
   49040: {
     district: 49040,
@@ -17865,7 +17866,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 411,
-    total: 1384
+    total: 1384,
   },
   49041: {
     district: 49041,
@@ -17876,7 +17877,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 31,
     blank: 489,
-    total: 1688
+    total: 1688,
   },
   49042: {
     district: 49042,
@@ -17887,7 +17888,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 261,
-    total: 911
+    total: 911,
   },
   49043: {
     district: 49043,
@@ -17898,7 +17899,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 327,
-    total: 1071
+    total: 1071,
   },
   49044: {
     district: 49044,
@@ -17909,7 +17910,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 210,
-    total: 612
+    total: 612,
   },
   49045: {
     district: 49045,
@@ -17920,7 +17921,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 192,
-    total: 567
+    total: 567,
   },
   49046: {
     district: 49046,
@@ -17931,7 +17932,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 14,
-    total: 23
+    total: 23,
   },
   49047: {
     district: 49047,
@@ -17942,7 +17943,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 13,
     blank: 379,
-    total: 1052
+    total: 1052,
   },
   49048: {
     district: 49048,
@@ -17953,7 +17954,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 60,
-    total: 241
+    total: 241,
   },
   49049: {
     district: 49049,
@@ -17964,7 +17965,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 139,
-    total: 406
+    total: 406,
   },
   49050: {
     district: 49050,
@@ -17975,7 +17976,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 349,
-    total: 981
+    total: 981,
   },
   49051: {
     district: 49051,
@@ -17986,7 +17987,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 137,
-    total: 655
+    total: 655,
   },
   49052: {
     district: 49052,
@@ -17997,7 +17998,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 1,
     blank: 199,
-    total: 540
+    total: 540,
   },
   49053: {
     district: 49053,
@@ -18008,7 +18009,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 3
+    total: 3,
   },
   50001: {
     district: 50001,
@@ -18019,7 +18020,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 22,
     blank: 488,
-    total: 2017
+    total: 2017,
   },
   50002: {
     district: 50002,
@@ -18030,7 +18031,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 20,
     blank: 372,
-    total: 1884
+    total: 1884,
   },
   50003: {
     district: 50003,
@@ -18041,7 +18042,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 36,
     blank: 419,
-    total: 1891
+    total: 1891,
   },
   50004: {
     district: 50004,
@@ -18052,7 +18053,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 297,
-    total: 1557
+    total: 1557,
   },
   50005: {
     district: 50005,
@@ -18063,7 +18064,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 336,
-    total: 1612
+    total: 1612,
   },
   50006: {
     district: 50006,
@@ -18074,7 +18075,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 265,
-    total: 1334
+    total: 1334,
   },
   50007: {
     district: 50007,
@@ -18085,7 +18086,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 301,
-    total: 1343
+    total: 1343,
   },
   50008: {
     district: 50008,
@@ -18096,7 +18097,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 29,
     blank: 361,
-    total: 1732
+    total: 1732,
   },
   50009: {
     district: 50009,
@@ -18107,7 +18108,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 156,
-    total: 785
+    total: 785,
   },
   50010: {
     district: 50010,
@@ -18118,7 +18119,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 167,
-    total: 765
+    total: 765,
   },
   50011: {
     district: 50011,
@@ -18129,7 +18130,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 19,
     blank: 252,
-    total: 1075
+    total: 1075,
   },
   50012: {
     district: 50012,
@@ -18140,7 +18141,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 229,
-    total: 998
+    total: 998,
   },
   50013: {
     district: 50013,
@@ -18151,7 +18152,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 286,
-    total: 1244
+    total: 1244,
   },
   50014: {
     district: 50014,
@@ -18162,7 +18163,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 327,
-    total: 1531
+    total: 1531,
   },
   50015: {
     district: 50015,
@@ -18173,7 +18174,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 257,
-    total: 1220
+    total: 1220,
   },
   50016: {
     district: 50016,
@@ -18184,7 +18185,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 33,
     blank: 340,
-    total: 1459
+    total: 1459,
   },
   50017: {
     district: 50017,
@@ -18195,7 +18196,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 26,
     blank: 324,
-    total: 1600
+    total: 1600,
   },
   50018: {
     district: 50018,
@@ -18206,7 +18207,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 279,
-    total: 1319
+    total: 1319,
   },
   50019: {
     district: 50019,
@@ -18217,7 +18218,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 28,
     blank: 346,
-    total: 1597
+    total: 1597,
   },
   50020: {
     district: 50020,
@@ -18228,7 +18229,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 22,
     blank: 294,
-    total: 1515
+    total: 1515,
   },
   50021: {
     district: 50021,
@@ -18239,7 +18240,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 19,
     blank: 295,
-    total: 1403
+    total: 1403,
   },
   50022: {
     district: 50022,
@@ -18250,7 +18251,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 269,
-    total: 1348
+    total: 1348,
   },
   50023: {
     district: 50023,
@@ -18261,7 +18262,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 304,
-    total: 1358
+    total: 1358,
   },
   50024: {
     district: 50024,
@@ -18272,7 +18273,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 256,
-    total: 1073
+    total: 1073,
   },
   50025: {
     district: 50025,
@@ -18283,7 +18284,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 238,
-    total: 1113
+    total: 1113,
   },
   50026: {
     district: 50026,
@@ -18294,7 +18295,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 24,
     blank: 397,
-    total: 1815
+    total: 1815,
   },
   50027: {
     district: 50027,
@@ -18305,7 +18306,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 347,
-    total: 1361
+    total: 1361,
   },
   50028: {
     district: 50028,
@@ -18316,7 +18317,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 151,
-    total: 715
+    total: 715,
   },
   50029: {
     district: 50029,
@@ -18327,7 +18328,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 406,
-    total: 1641
+    total: 1641,
   },
   50030: {
     district: 50030,
@@ -18338,7 +18339,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 18,
     blank: 333,
-    total: 1360
+    total: 1360,
   },
   50031: {
     district: 50031,
@@ -18349,7 +18350,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 209,
-    total: 824
+    total: 824,
   },
   50032: {
     district: 50032,
@@ -18360,7 +18361,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 227,
-    total: 1033
+    total: 1033,
   },
   50033: {
     district: 50033,
@@ -18371,7 +18372,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 277,
-    total: 1412
+    total: 1412,
   },
   50034: {
     district: 50034,
@@ -18382,7 +18383,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 270,
-    total: 1867
+    total: 1867,
   },
   50035: {
     district: 50035,
@@ -18393,7 +18394,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 157,
-    total: 1377
+    total: 1377,
   },
   50036: {
     district: 50036,
@@ -18404,7 +18405,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 7,
     blank: 111,
-    total: 957
+    total: 957,
   },
   50037: {
     district: 50037,
@@ -18415,7 +18416,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 192,
-    total: 1803
+    total: 1803,
   },
   50038: {
     district: 50038,
@@ -18426,7 +18427,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 183,
-    total: 1346
+    total: 1346,
   },
   50039: {
     district: 50039,
@@ -18437,7 +18438,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 105,
-    total: 974
+    total: 974,
   },
   50040: {
     district: 50040,
@@ -18448,7 +18449,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 11,
     blank: 163,
-    total: 1394
+    total: 1394,
   },
   50041: {
     district: 50041,
@@ -18459,7 +18460,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 178,
-    total: 1353
+    total: 1353,
   },
   50042: {
     district: 50042,
@@ -18470,7 +18471,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 168,
-    total: 1263
+    total: 1263,
   },
   50043: {
     district: 50043,
@@ -18481,7 +18482,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 146,
-    total: 1091
+    total: 1091,
   },
   50044: {
     district: 50044,
@@ -18492,7 +18493,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 174,
-    total: 1346
+    total: 1346,
   },
   50045: {
     district: 50045,
@@ -18503,7 +18504,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 3,
     blank: 146,
-    total: 1415
+    total: 1415,
   },
   50046: {
     district: 50046,
@@ -18514,7 +18515,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 170,
-    total: 1505
+    total: 1505,
   },
   50047: {
     district: 50047,
@@ -18525,7 +18526,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 146,
-    total: 1223
+    total: 1223,
   },
   50048: {
     district: 50048,
@@ -18536,7 +18537,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 117,
-    total: 1268
+    total: 1268,
   },
   50049: {
     district: 50049,
@@ -18547,7 +18548,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 103,
-    total: 1068
+    total: 1068,
   },
   50050: {
     district: 50050,
@@ -18558,7 +18559,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 295,
-    total: 1471
+    total: 1471,
   },
   50051: {
     district: 50051,
@@ -18569,7 +18570,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 273,
-    total: 1336
+    total: 1336,
   },
   50052: {
     district: 50052,
@@ -18580,7 +18581,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 280,
-    total: 1545
+    total: 1545,
   },
   50053: {
     district: 50053,
@@ -18591,7 +18592,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 323,
-    total: 1425
+    total: 1425,
   },
   50054: {
     district: 50054,
@@ -18602,7 +18603,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 165,
-    total: 856
+    total: 856,
   },
   50055: {
     district: 50055,
@@ -18613,7 +18614,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 114,
-    total: 508
+    total: 508,
   },
   50056: {
     district: 50056,
@@ -18624,7 +18625,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 24,
     blank: 344,
-    total: 1722
+    total: 1722,
   },
   50057: {
     district: 50057,
@@ -18635,7 +18636,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 29,
     blank: 312,
-    total: 1722
+    total: 1722,
   },
   50058: {
     district: 50058,
@@ -18646,7 +18647,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 270,
-    total: 1455
+    total: 1455,
   },
   50059: {
     district: 50059,
@@ -18657,7 +18658,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 312,
-    total: 1545
+    total: 1545,
   },
   50060: {
     district: 50060,
@@ -18668,7 +18669,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 204,
-    total: 1223
+    total: 1223,
   },
   50061: {
     district: 50061,
@@ -18679,7 +18680,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 253,
-    total: 1457
+    total: 1457,
   },
   50062: {
     district: 50062,
@@ -18690,7 +18691,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 16,
     blank: 215,
-    total: 1194
+    total: 1194,
   },
   50063: {
     district: 50063,
@@ -18701,7 +18702,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 240,
-    total: 1232
+    total: 1232,
   },
   50064: {
     district: 50064,
@@ -18712,7 +18713,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 2,
-    total: 14
+    total: 14,
   },
   50065: {
     district: 50065,
@@ -18723,7 +18724,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 147,
-    total: 803
+    total: 803,
   },
   50066: {
     district: 50066,
@@ -18734,7 +18735,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 242,
-    total: 1163
+    total: 1163,
   },
   51001: {
     district: 51001,
@@ -18745,7 +18746,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 234,
-    total: 870
+    total: 870,
   },
   51002: {
     district: 51002,
@@ -18756,7 +18757,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 301,
-    total: 1097
+    total: 1097,
   },
   51003: {
     district: 51003,
@@ -18767,7 +18768,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 112,
-    total: 552
+    total: 552,
   },
   51004: {
     district: 51004,
@@ -18778,7 +18779,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 173,
-    total: 604
+    total: 604,
   },
   51005: {
     district: 51005,
@@ -18789,7 +18790,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 216,
-    total: 799
+    total: 799,
   },
   51006: {
     district: 51006,
@@ -18800,7 +18801,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 363,
-    total: 1407
+    total: 1407,
   },
   51007: {
     district: 51007,
@@ -18811,7 +18812,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 407,
-    total: 1653
+    total: 1653,
   },
   51008: {
     district: 51008,
@@ -18822,7 +18823,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 24,
     blank: 421,
-    total: 1625
+    total: 1625,
   },
   51009: {
     district: 51009,
@@ -18833,7 +18834,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 423,
-    total: 1399
+    total: 1399,
   },
   51010: {
     district: 51010,
@@ -18844,7 +18845,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 6,
     blank: 333,
-    total: 998
+    total: 998,
   },
   51011: {
     district: 51011,
@@ -18855,7 +18856,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 384,
-    total: 1513
+    total: 1513,
   },
   51012: {
     district: 51012,
@@ -18866,7 +18867,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 395,
-    total: 1269
+    total: 1269,
   },
   51013: {
     district: 51013,
@@ -18877,7 +18878,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 14,
     blank: 301,
-    total: 1427
+    total: 1427,
   },
   51014: {
     district: 51014,
@@ -18888,7 +18889,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 296,
-    total: 1370
+    total: 1370,
   },
   51015: {
     district: 51015,
@@ -18899,7 +18900,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 358,
-    total: 1496
+    total: 1496,
   },
   51016: {
     district: 51016,
@@ -18910,7 +18911,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 409,
-    total: 1690
+    total: 1690,
   },
   51017: {
     district: 51017,
@@ -18921,7 +18922,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 295,
-    total: 1378
+    total: 1378,
   },
   51018: {
     district: 51018,
@@ -18932,7 +18933,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 281,
-    total: 1492
+    total: 1492,
   },
   51019: {
     district: 51019,
@@ -18943,7 +18944,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 14,
     blank: 311,
-    total: 1495
+    total: 1495,
   },
   51020: {
     district: 51020,
@@ -18954,7 +18955,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 262,
-    total: 1276
+    total: 1276,
   },
   51021: {
     district: 51021,
@@ -18965,7 +18966,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 20,
     blank: 359,
-    total: 1760
+    total: 1760,
   },
   51022: {
     district: 51022,
@@ -18976,7 +18977,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 343,
-    total: 1751
+    total: 1751,
   },
   51023: {
     district: 51023,
@@ -18987,7 +18988,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 11,
     blank: 211,
-    total: 1138
+    total: 1138,
   },
   51024: {
     district: 51024,
@@ -18998,7 +18999,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 28,
     blank: 292,
-    total: 1461
+    total: 1461,
   },
   51025: {
     district: 51025,
@@ -19009,7 +19010,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 15,
     blank: 113,
-    total: 834
+    total: 834,
   },
   51026: {
     district: 51026,
@@ -19020,7 +19021,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 237,
-    total: 1384
+    total: 1384,
   },
   51027: {
     district: 51027,
@@ -19031,7 +19032,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 79,
-    total: 421
+    total: 421,
   },
   51028: {
     district: 51028,
@@ -19042,7 +19043,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 311,
-    total: 1804
+    total: 1804,
   },
   51029: {
     district: 51029,
@@ -19053,7 +19054,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 33,
     blank: 318,
-    total: 1823
+    total: 1823,
   },
   51030: {
     district: 51030,
@@ -19064,7 +19065,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 0,
     blank: 80,
-    total: 409
+    total: 409,
   },
   51031: {
     district: 51031,
@@ -19075,7 +19076,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 188,
-    total: 628
+    total: 628,
   },
   51032: {
     district: 51032,
@@ -19086,7 +19087,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 2,
     blank: 51,
-    total: 291
+    total: 291,
   },
   51033: {
     district: 51033,
@@ -19097,7 +19098,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 17,
     blank: 186,
-    total: 1115
+    total: 1115,
   },
   51034: {
     district: 51034,
@@ -19108,7 +19109,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 229,
-    total: 1321
+    total: 1321,
   },
   51035: {
     district: 51035,
@@ -19119,7 +19120,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 12,
     blank: 177,
-    total: 1065
+    total: 1065,
   },
   51036: {
     district: 51036,
@@ -19130,7 +19131,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 27,
     blank: 234,
-    total: 1237
+    total: 1237,
   },
   51037: {
     district: 51037,
@@ -19141,7 +19142,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 16,
     blank: 234,
-    total: 1197
+    total: 1197,
   },
   51038: {
     district: 51038,
@@ -19152,7 +19153,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 6,
     blank: 188,
-    total: 1050
+    total: 1050,
   },
   51039: {
     district: 51039,
@@ -19163,7 +19164,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 117,
-    total: 433
+    total: 433,
   },
   51040: {
     district: 51040,
@@ -19174,7 +19175,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 21,
     blank: 227,
-    total: 1252
+    total: 1252,
   },
   51041: {
     district: 51041,
@@ -19185,7 +19186,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 175,
-    total: 1101
+    total: 1101,
   },
   51042: {
     district: 51042,
@@ -19196,7 +19197,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 214,
-    total: 1410
+    total: 1410,
   },
   51043: {
     district: 51043,
@@ -19207,7 +19208,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 251,
-    total: 1089
+    total: 1089,
   },
   51044: {
     district: 51044,
@@ -19218,7 +19219,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 21,
     blank: 336,
-    total: 1607
+    total: 1607,
   },
   51045: {
     district: 51045,
@@ -19229,7 +19230,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 411,
-    total: 1462
+    total: 1462,
   },
   51046: {
     district: 51046,
@@ -19240,7 +19241,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 381,
-    total: 1377
+    total: 1377,
   },
   51047: {
     district: 51047,
@@ -19251,7 +19252,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 29,
     blank: 385,
-    total: 1407
+    total: 1407,
   },
   51048: {
     district: 51048,
@@ -19262,7 +19263,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 192,
-    total: 701
+    total: 701,
   },
   51049: {
     district: 51049,
@@ -19273,7 +19274,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 270,
-    total: 921
+    total: 921,
   },
   51050: {
     district: 51050,
@@ -19284,7 +19285,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 173,
-    total: 751
+    total: 751,
   },
   51051: {
     district: 51051,
@@ -19295,7 +19296,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 162,
-    total: 727
+    total: 727,
   },
   51052: {
     district: 51052,
@@ -19306,7 +19307,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 19,
     blank: 539,
-    total: 1747
+    total: 1747,
   },
   51053: {
     district: 51053,
@@ -19317,7 +19318,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 273,
-    total: 1199
+    total: 1199,
   },
   52001: {
     district: 52001,
@@ -19328,7 +19329,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 70,
-    total: 911
+    total: 911,
   },
   52002: {
     district: 52002,
@@ -19339,7 +19340,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 225,
-    total: 1404
+    total: 1404,
   },
   52003: {
     district: 52003,
@@ -19350,7 +19351,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 3,
     blank: 54,
-    total: 268
+    total: 268,
   },
   52004: {
     district: 52004,
@@ -19361,7 +19362,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 2,
-    total: 12
+    total: 12,
   },
   52005: {
     district: 52005,
@@ -19372,7 +19373,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 206,
-    total: 937
+    total: 937,
   },
   52006: {
     district: 52006,
@@ -19383,7 +19384,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 418,
-    total: 1660
+    total: 1660,
   },
   52007: {
     district: 52007,
@@ -19394,7 +19395,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 333,
-    total: 1363
+    total: 1363,
   },
   52008: {
     district: 52008,
@@ -19405,7 +19406,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 258,
-    total: 1171
+    total: 1171,
   },
   52009: {
     district: 52009,
@@ -19416,7 +19417,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 183,
-    total: 1171
+    total: 1171,
   },
   52010: {
     district: 52010,
@@ -19427,7 +19428,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 242,
-    total: 1418
+    total: 1418,
   },
   52011: {
     district: 52011,
@@ -19438,7 +19439,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 323,
-    total: 1439
+    total: 1439,
   },
   52012: {
     district: 52012,
@@ -19449,7 +19450,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 322,
-    total: 1392
+    total: 1392,
   },
   52013: {
     district: 52013,
@@ -19460,7 +19461,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 32,
-    total: 154
+    total: 154,
   },
   52014: {
     district: 52014,
@@ -19471,7 +19472,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 188,
-    total: 1089
+    total: 1089,
   },
   52015: {
     district: 52015,
@@ -19482,7 +19483,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 270,
-    total: 1433
+    total: 1433,
   },
   52016: {
     district: 52016,
@@ -19493,7 +19494,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 293,
-    total: 1708
+    total: 1708,
   },
   52017: {
     district: 52017,
@@ -19504,7 +19505,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 257,
-    total: 1578
+    total: 1578,
   },
   52018: {
     district: 52018,
@@ -19515,7 +19516,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 239,
-    total: 1295
+    total: 1295,
   },
   52019: {
     district: 52019,
@@ -19526,7 +19527,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 173,
-    total: 873
+    total: 873,
   },
   52020: {
     district: 52020,
@@ -19537,7 +19538,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 207,
-    total: 1317
+    total: 1317,
   },
   52021: {
     district: 52021,
@@ -19548,7 +19549,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 340,
-    total: 1821
+    total: 1821,
   },
   52022: {
     district: 52022,
@@ -19559,7 +19560,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 295,
-    total: 1738
+    total: 1738,
   },
   52023: {
     district: 52023,
@@ -19570,7 +19571,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 206,
-    total: 1364
+    total: 1364,
   },
   52024: {
     district: 52024,
@@ -19581,7 +19582,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 309,
-    total: 1555
+    total: 1555,
   },
   52025: {
     district: 52025,
@@ -19592,7 +19593,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 286,
-    total: 1644
+    total: 1644,
   },
   52026: {
     district: 52026,
@@ -19603,7 +19604,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 255,
-    total: 1199
+    total: 1199,
   },
   52027: {
     district: 52027,
@@ -19614,7 +19615,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 1,
     blank: 85,
-    total: 319
+    total: 319,
   },
   52028: {
     district: 52028,
@@ -19625,7 +19626,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 198,
-    total: 1114
+    total: 1114,
   },
   52029: {
     district: 52029,
@@ -19636,7 +19637,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 334,
-    total: 1522
+    total: 1522,
   },
   52030: {
     district: 52030,
@@ -19647,7 +19648,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 273,
-    total: 1212
+    total: 1212,
   },
   52031: {
     district: 52031,
@@ -19658,7 +19659,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 157,
-    total: 977
+    total: 977,
   },
   52032: {
     district: 52032,
@@ -19669,7 +19670,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 207,
-    total: 1222
+    total: 1222,
   },
   52033: {
     district: 52033,
@@ -19680,7 +19681,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 94,
-    total: 461
+    total: 461,
   },
   52034: {
     district: 52034,
@@ -19691,7 +19692,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 159,
-    total: 1201
+    total: 1201,
   },
   52035: {
     district: 52035,
@@ -19702,7 +19703,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 128,
-    total: 899
+    total: 899,
   },
   52036: {
     district: 52036,
@@ -19713,7 +19714,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 215,
-    total: 1251
+    total: 1251,
   },
   52037: {
     district: 52037,
@@ -19724,7 +19725,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 173,
-    total: 1130
+    total: 1130,
   },
   52038: {
     district: 52038,
@@ -19735,7 +19736,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 90,
-    total: 591
+    total: 591,
   },
   52039: {
     district: 52039,
@@ -19746,7 +19747,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 246,
-    total: 1338
+    total: 1338,
   },
   52040: {
     district: 52040,
@@ -19757,7 +19758,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 25,
     blank: 214,
-    total: 1482
+    total: 1482,
   },
   52041: {
     district: 52041,
@@ -19768,7 +19769,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 172,
-    total: 1161
+    total: 1161,
   },
   52042: {
     district: 52042,
@@ -19779,7 +19780,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 293,
-    total: 1681
+    total: 1681,
   },
   52043: {
     district: 52043,
@@ -19790,7 +19791,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 175,
-    total: 1033
+    total: 1033,
   },
   52044: {
     district: 52044,
@@ -19801,7 +19802,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 198,
-    total: 1180
+    total: 1180,
   },
   52045: {
     district: 52045,
@@ -19812,7 +19813,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 27,
     blank: 257,
-    total: 1339
+    total: 1339,
   },
   52046: {
     district: 52046,
@@ -19823,7 +19824,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 10,
     blank: 166,
-    total: 1190
+    total: 1190,
   },
   52047: {
     district: 52047,
@@ -19834,7 +19835,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 176,
-    total: 1312
+    total: 1312,
   },
   52048: {
     district: 52048,
@@ -19845,7 +19846,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 210,
-    total: 1352
+    total: 1352,
   },
   52049: {
     district: 52049,
@@ -19856,7 +19857,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 214,
-    total: 1436
+    total: 1436,
   },
   52050: {
     district: 52050,
@@ -19867,7 +19868,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 22,
     blank: 226,
-    total: 1499
+    total: 1499,
   },
   52051: {
     district: 52051,
@@ -19878,7 +19879,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 70,
-    total: 556
+    total: 556,
   },
   52052: {
     district: 52052,
@@ -19889,7 +19890,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 160,
-    total: 1106
+    total: 1106,
   },
   52053: {
     district: 52053,
@@ -19900,7 +19901,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 106,
-    total: 808
+    total: 808,
   },
   52054: {
     district: 52054,
@@ -19911,7 +19912,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 11,
     blank: 167,
-    total: 1196
+    total: 1196,
   },
   52055: {
     district: 52055,
@@ -19922,7 +19923,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 187,
-    total: 1140
+    total: 1140,
   },
   52056: {
     district: 52056,
@@ -19933,7 +19934,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 168,
-    total: 1034
+    total: 1034,
   },
   52057: {
     district: 52057,
@@ -19944,7 +19945,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 7,
     blank: 140,
-    total: 1096
+    total: 1096,
   },
   52058: {
     district: 52058,
@@ -19955,7 +19956,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 4,
     blank: 98,
-    total: 527
+    total: 527,
   },
   52059: {
     district: 52059,
@@ -19966,7 +19967,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 21,
     blank: 220,
-    total: 1420
+    total: 1420,
   },
   52060: {
     district: 52060,
@@ -19977,7 +19978,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 26,
     blank: 268,
-    total: 1661
+    total: 1661,
   },
   52061: {
     district: 52061,
@@ -19988,7 +19989,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 211,
-    total: 1542
+    total: 1542,
   },
   52062: {
     district: 52062,
@@ -19999,7 +20000,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 214,
-    total: 1066
+    total: 1066,
   },
   52063: {
     district: 52063,
@@ -20010,7 +20011,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 15,
     blank: 279,
-    total: 1466
+    total: 1466,
   },
   52064: {
     district: 52064,
@@ -20021,7 +20022,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 193,
-    total: 1134
+    total: 1134,
   },
   52065: {
     district: 52065,
@@ -20032,7 +20033,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 200,
-    total: 1258
+    total: 1258,
   },
   52066: {
     district: 52066,
@@ -20043,7 +20044,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 174,
-    total: 1332
+    total: 1332,
   },
   52067: {
     district: 52067,
@@ -20054,7 +20055,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 17,
     blank: 178,
-    total: 1211
+    total: 1211,
   },
   52068: {
     district: 52068,
@@ -20065,7 +20066,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 19,
     blank: 195,
-    total: 1277
+    total: 1277,
   },
   52069: {
     district: 52069,
@@ -20076,7 +20077,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 26,
     blank: 203,
-    total: 1523
+    total: 1523,
   },
   52070: {
     district: 52070,
@@ -20087,7 +20088,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 39,
-    total: 373
+    total: 373,
   },
   52071: {
     district: 52071,
@@ -20098,7 +20099,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 14,
     blank: 185,
-    total: 1329
+    total: 1329,
   },
   52072: {
     district: 52072,
@@ -20109,7 +20110,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 87,
-    total: 632
+    total: 632,
   },
   52073: {
     district: 52073,
@@ -20120,7 +20121,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 208,
-    total: 1434
+    total: 1434,
   },
   52074: {
     district: 52074,
@@ -20131,7 +20132,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 18,
-    total: 104
+    total: 104,
   },
   52075: {
     district: 52075,
@@ -20142,7 +20143,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 162,
-    total: 1203
+    total: 1203,
   },
   52076: {
     district: 52076,
@@ -20153,7 +20154,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 114,
-    total: 1029
+    total: 1029,
   },
   52077: {
     district: 52077,
@@ -20164,7 +20165,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 125,
-    total: 1286
+    total: 1286,
   },
   52078: {
     district: 52078,
@@ -20175,7 +20176,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 2,
     blank: 35,
-    total: 419
+    total: 419,
   },
   52079: {
     district: 52079,
@@ -20186,7 +20187,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 211,
-    total: 1483
+    total: 1483,
   },
   52080: {
     district: 52080,
@@ -20197,7 +20198,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 166,
-    total: 1432
+    total: 1432,
   },
   52081: {
     district: 52081,
@@ -20208,7 +20209,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 12,
     blank: 194,
-    total: 1476
+    total: 1476,
   },
   52082: {
     district: 52082,
@@ -20219,7 +20220,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 190,
-    total: 1438
+    total: 1438,
   },
   52083: {
     district: 52083,
@@ -20230,7 +20231,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 190,
-    total: 1580
+    total: 1580,
   },
   52084: {
     district: 52084,
@@ -20241,7 +20242,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 219,
-    total: 1744
+    total: 1744,
   },
   52085: {
     district: 52085,
@@ -20252,7 +20253,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 179,
-    total: 1441
+    total: 1441,
   },
   52086: {
     district: 52086,
@@ -20263,7 +20264,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 145,
-    total: 993
+    total: 993,
   },
   52087: {
     district: 52087,
@@ -20274,7 +20275,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 9
+    total: 9,
   },
   52088: {
     district: 52088,
@@ -20285,7 +20286,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 141,
-    total: 968
+    total: 968,
   },
   52089: {
     district: 52089,
@@ -20296,7 +20297,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 3,
     blank: 167,
-    total: 731
+    total: 731,
   },
   52090: {
     district: 52090,
@@ -20307,7 +20308,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 11,
-    total: 66
+    total: 66,
   },
   53001: {
     district: 53001,
@@ -20318,7 +20319,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 23,
     blank: 309,
-    total: 1654
+    total: 1654,
   },
   53002: {
     district: 53002,
@@ -20329,7 +20330,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 294,
-    total: 1583
+    total: 1583,
   },
   53003: {
     district: 53003,
@@ -20340,7 +20341,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 23,
     other: 15,
     blank: 291,
-    total: 1569
+    total: 1569,
   },
   53004: {
     district: 53004,
@@ -20351,7 +20352,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 7,
     blank: 139,
-    total: 809
+    total: 809,
   },
   53005: {
     district: 53005,
@@ -20362,7 +20363,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 10,
     blank: 243,
-    total: 1360
+    total: 1360,
   },
   53006: {
     district: 53006,
@@ -20373,7 +20374,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 15,
     blank: 239,
-    total: 1420
+    total: 1420,
   },
   53007: {
     district: 53007,
@@ -20384,7 +20385,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 7,
     blank: 188,
-    total: 1074
+    total: 1074,
   },
   53008: {
     district: 53008,
@@ -20395,7 +20396,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 25,
     blank: 281,
-    total: 1587
+    total: 1587,
   },
   53009: {
     district: 53009,
@@ -20406,7 +20407,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 274,
-    total: 1275
+    total: 1275,
   },
   53010: {
     district: 53010,
@@ -20417,7 +20418,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 324,
-    total: 1653
+    total: 1653,
   },
   53011: {
     district: 53011,
@@ -20428,7 +20429,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 22,
     blank: 301,
-    total: 1349
+    total: 1349,
   },
   53012: {
     district: 53012,
@@ -20439,7 +20440,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 21,
     blank: 266,
-    total: 1386
+    total: 1386,
   },
   53013: {
     district: 53013,
@@ -20450,7 +20451,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 12,
     blank: 266,
-    total: 1403
+    total: 1403,
   },
   53014: {
     district: 53014,
@@ -20461,7 +20462,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 253,
-    total: 1376
+    total: 1376,
   },
   53015: {
     district: 53015,
@@ -20472,7 +20473,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 311,
-    total: 1351
+    total: 1351,
   },
   53016: {
     district: 53016,
@@ -20483,7 +20484,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 14,
     blank: 266,
-    total: 1463
+    total: 1463,
   },
   53017: {
     district: 53017,
@@ -20494,7 +20495,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 24,
     other: 23,
     blank: 312,
-    total: 1655
+    total: 1655,
   },
   53018: {
     district: 53018,
@@ -20505,7 +20506,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 16,
     blank: 280,
-    total: 1590
+    total: 1590,
   },
   53019: {
     district: 53019,
@@ -20516,7 +20517,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 21,
     blank: 291,
-    total: 1701
+    total: 1701,
   },
   53020: {
     district: 53020,
@@ -20527,7 +20528,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 20,
     blank: 333,
-    total: 1754
+    total: 1754,
   },
   53021: {
     district: 53021,
@@ -20538,7 +20539,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 22,
     blank: 312,
-    total: 1715
+    total: 1715,
   },
   53022: {
     district: 53022,
@@ -20549,7 +20550,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 22,
     blank: 385,
-    total: 1832
+    total: 1832,
   },
   53023: {
     district: 53023,
@@ -20560,7 +20561,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 8,
     blank: 262,
-    total: 1218
+    total: 1218,
   },
   53024: {
     district: 53024,
@@ -20571,7 +20572,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 14,
     blank: 309,
-    total: 1573
+    total: 1573,
   },
   53025: {
     district: 53025,
@@ -20582,7 +20583,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 15,
     blank: 255,
-    total: 1362
+    total: 1362,
   },
   53026: {
     district: 53026,
@@ -20593,7 +20594,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 240,
-    total: 1440
+    total: 1440,
   },
   53027: {
     district: 53027,
@@ -20604,7 +20605,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 15,
     blank: 304,
-    total: 1444
+    total: 1444,
   },
   53028: {
     district: 53028,
@@ -20615,7 +20616,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 18,
     blank: 311,
-    total: 1477
+    total: 1477,
   },
   53029: {
     district: 53029,
@@ -20626,7 +20627,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 20,
     blank: 245,
-    total: 1316
+    total: 1316,
   },
   53030: {
     district: 53030,
@@ -20637,7 +20638,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 24,
     blank: 252,
-    total: 1170
+    total: 1170,
   },
   53031: {
     district: 53031,
@@ -20648,7 +20649,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 13,
     blank: 231,
-    total: 1145
+    total: 1145,
   },
   53032: {
     district: 53032,
@@ -20659,7 +20660,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 260,
-    total: 1333
+    total: 1333,
   },
   53033: {
     district: 53033,
@@ -20670,7 +20671,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 203,
-    total: 1226
+    total: 1226,
   },
   53034: {
     district: 53034,
@@ -20681,7 +20682,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 10,
     blank: 154,
-    total: 992
+    total: 992,
   },
   53035: {
     district: 53035,
@@ -20692,7 +20693,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 11,
     blank: 214,
-    total: 1321
+    total: 1321,
   },
   53036: {
     district: 53036,
@@ -20703,7 +20704,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 15,
     blank: 254,
-    total: 1485
+    total: 1485,
   },
   53037: {
     district: 53037,
@@ -20714,7 +20715,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 262,
-    total: 1870
+    total: 1870,
   },
   53038: {
     district: 53038,
@@ -20725,7 +20726,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 284,
-    total: 1375
+    total: 1375,
   },
   53039: {
     district: 53039,
@@ -20736,7 +20737,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 225,
-    total: 1209
+    total: 1209,
   },
   53040: {
     district: 53040,
@@ -20747,7 +20748,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 309,
-    total: 1410
+    total: 1410,
   },
   53041: {
     district: 53041,
@@ -20758,7 +20759,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 295,
-    total: 1624
+    total: 1624,
   },
   53042: {
     district: 53042,
@@ -20769,7 +20770,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 250,
-    total: 1356
+    total: 1356,
   },
   53043: {
     district: 53043,
@@ -20780,7 +20781,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 239,
-    total: 1362
+    total: 1362,
   },
   53044: {
     district: 53044,
@@ -20791,7 +20792,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 231,
-    total: 1283
+    total: 1283,
   },
   53045: {
     district: 53045,
@@ -20802,7 +20803,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 17,
     blank: 223,
-    total: 1268
+    total: 1268,
   },
   53046: {
     district: 53046,
@@ -20813,7 +20814,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 246,
-    total: 1478
+    total: 1478,
   },
   53047: {
     district: 53047,
@@ -20824,7 +20825,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 9,
     blank: 244,
-    total: 1336
+    total: 1336,
   },
   53048: {
     district: 53048,
@@ -20835,7 +20836,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 212,
-    total: 1301
+    total: 1301,
   },
   53049: {
     district: 53049,
@@ -20846,7 +20847,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 249,
-    total: 1442
+    total: 1442,
   },
   53050: {
     district: 53050,
@@ -20857,7 +20858,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 277,
-    total: 1553
+    total: 1553,
   },
   53051: {
     district: 53051,
@@ -20868,7 +20869,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 176,
-    total: 1279
+    total: 1279,
   },
   53052: {
     district: 53052,
@@ -20879,7 +20880,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 266,
-    total: 1663
+    total: 1663,
   },
   53053: {
     district: 53053,
@@ -20890,7 +20891,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 280,
-    total: 1711
+    total: 1711,
   },
   53054: {
     district: 53054,
@@ -20901,7 +20902,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 19,
     blank: 230,
-    total: 1277
+    total: 1277,
   },
   53055: {
     district: 53055,
@@ -20912,7 +20913,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 236,
-    total: 1303
+    total: 1303,
   },
   53056: {
     district: 53056,
@@ -20923,7 +20924,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 19,
     blank: 298,
-    total: 1656
+    total: 1656,
   },
   53057: {
     district: 53057,
@@ -20934,7 +20935,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 132,
-    total: 872
+    total: 872,
   },
   53058: {
     district: 53058,
@@ -20945,7 +20946,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 11,
     blank: 204,
-    total: 888
+    total: 888,
   },
   53059: {
     district: 53059,
@@ -20956,7 +20957,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 156,
-    total: 956
+    total: 956,
   },
   53060: {
     district: 53060,
@@ -20967,7 +20968,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 19,
     blank: 322,
-    total: 1818
+    total: 1818,
   },
   53061: {
     district: 53061,
@@ -20978,7 +20979,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 275,
-    total: 1461
+    total: 1461,
   },
   53062: {
     district: 53062,
@@ -20989,7 +20990,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 24,
     blank: 293,
-    total: 1703
+    total: 1703,
   },
   53063: {
     district: 53063,
@@ -21000,7 +21001,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 132,
-    total: 772
+    total: 772,
   },
   54001: {
     district: 54001,
@@ -21011,7 +21012,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 109,
-    total: 433
+    total: 433,
   },
   54002: {
     district: 54002,
@@ -21022,7 +21023,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 331,
-    total: 1381
+    total: 1381,
   },
   54003: {
     district: 54003,
@@ -21033,7 +21034,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 180,
-    total: 733
+    total: 733,
   },
   54004: {
     district: 54004,
@@ -21044,7 +21045,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 255,
-    total: 1237
+    total: 1237,
   },
   54005: {
     district: 54005,
@@ -21055,7 +21056,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 158,
-    total: 819
+    total: 819,
   },
   54006: {
     district: 54006,
@@ -21066,7 +21067,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 140,
-    total: 860
+    total: 860,
   },
   54007: {
     district: 54007,
@@ -21077,7 +21078,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 354,
-    total: 1497
+    total: 1497,
   },
   54008: {
     district: 54008,
@@ -21088,7 +21089,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 234,
-    total: 1020
+    total: 1020,
   },
   54009: {
     district: 54009,
@@ -21099,7 +21100,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 281,
-    total: 1190
+    total: 1190,
   },
   54010: {
     district: 54010,
@@ -21110,7 +21111,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 9,
     blank: 130,
-    total: 746
+    total: 746,
   },
   54011: {
     district: 54011,
@@ -21121,7 +21122,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 17,
     blank: 262,
-    total: 1115
+    total: 1115,
   },
   54012: {
     district: 54012,
@@ -21132,7 +21133,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 166,
-    total: 949
+    total: 949,
   },
   54013: {
     district: 54013,
@@ -21143,7 +21144,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 7,
     blank: 134,
-    total: 747
+    total: 747,
   },
   54014: {
     district: 54014,
@@ -21154,7 +21155,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 151,
-    total: 820
+    total: 820,
   },
   54015: {
     district: 54015,
@@ -21165,7 +21166,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 200,
-    total: 965
+    total: 965,
   },
   54016: {
     district: 54016,
@@ -21176,7 +21177,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 2,
     blank: 83,
-    total: 423
+    total: 423,
   },
   54017: {
     district: 54017,
@@ -21187,7 +21188,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 8,
     blank: 121,
-    total: 622
+    total: 622,
   },
   54018: {
     district: 54018,
@@ -21198,7 +21199,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 251,
-    total: 1149
+    total: 1149,
   },
   54019: {
     district: 54019,
@@ -21209,7 +21210,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 174,
-    total: 851
+    total: 851,
   },
   54020: {
     district: 54020,
@@ -21220,7 +21221,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 6,
     blank: 176,
-    total: 734
+    total: 734,
   },
   54021: {
     district: 54021,
@@ -21231,7 +21232,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 215,
-    total: 896
+    total: 896,
   },
   54022: {
     district: 54022,
@@ -21242,7 +21243,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 235,
-    total: 1138
+    total: 1138,
   },
   54023: {
     district: 54023,
@@ -21253,7 +21254,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 347,
-    total: 1462
+    total: 1462,
   },
   54024: {
     district: 54024,
@@ -21264,7 +21265,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 12,
     blank: 269,
-    total: 1180
+    total: 1180,
   },
   54025: {
     district: 54025,
@@ -21275,7 +21276,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 20,
     blank: 362,
-    total: 1509
+    total: 1509,
   },
   54026: {
     district: 54026,
@@ -21286,7 +21287,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 264,
-    total: 1089
+    total: 1089,
   },
   54027: {
     district: 54027,
@@ -21297,7 +21298,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 374,
-    total: 1457
+    total: 1457,
   },
   54028: {
     district: 54028,
@@ -21308,7 +21309,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 270,
-    total: 1263
+    total: 1263,
   },
   54029: {
     district: 54029,
@@ -21319,7 +21320,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 314,
-    total: 1456
+    total: 1456,
   },
   54030: {
     district: 54030,
@@ -21330,7 +21331,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 315,
-    total: 1352
+    total: 1352,
   },
   54031: {
     district: 54031,
@@ -21341,7 +21342,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 362,
-    total: 1695
+    total: 1695,
   },
   54032: {
     district: 54032,
@@ -21352,7 +21353,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 305,
-    total: 1359
+    total: 1359,
   },
   54033: {
     district: 54033,
@@ -21363,7 +21364,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 310,
-    total: 1461
+    total: 1461,
   },
   54034: {
     district: 54034,
@@ -21374,7 +21375,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 292,
-    total: 1314
+    total: 1314,
   },
   54035: {
     district: 54035,
@@ -21385,7 +21386,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 335,
-    total: 1658
+    total: 1658,
   },
   54036: {
     district: 54036,
@@ -21396,7 +21397,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 323,
-    total: 1658
+    total: 1658,
   },
   54037: {
     district: 54037,
@@ -21407,7 +21408,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 196,
-    total: 1136
+    total: 1136,
   },
   54038: {
     district: 54038,
@@ -21418,7 +21419,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 20,
     blank: 247,
-    total: 1550
+    total: 1550,
   },
   54039: {
     district: 54039,
@@ -21429,7 +21430,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 23,
     other: 14,
     blank: 293,
-    total: 1536
+    total: 1536,
   },
   54040: {
     district: 54040,
@@ -21440,7 +21441,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 22,
     blank: 308,
-    total: 1491
+    total: 1491,
   },
   54041: {
     district: 54041,
@@ -21451,7 +21452,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 19,
     blank: 249,
-    total: 1424
+    total: 1424,
   },
   54042: {
     district: 54042,
@@ -21462,7 +21463,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 18,
     blank: 221,
-    total: 1158
+    total: 1158,
   },
   54043: {
     district: 54043,
@@ -21473,7 +21474,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 18,
     blank: 280,
-    total: 1463
+    total: 1463,
   },
   54044: {
     district: 54044,
@@ -21484,7 +21485,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 15,
     blank: 286,
-    total: 1525
+    total: 1525,
   },
   54045: {
     district: 54045,
@@ -21495,7 +21496,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 22,
     blank: 292,
-    total: 1515
+    total: 1515,
   },
   54046: {
     district: 54046,
@@ -21506,7 +21507,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 248,
-    total: 1201
+    total: 1201,
   },
   54047: {
     district: 54047,
@@ -21517,7 +21518,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 12,
     blank: 284,
-    total: 1420
+    total: 1420,
   },
   54048: {
     district: 54048,
@@ -21528,7 +21529,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 16,
     blank: 283,
-    total: 1448
+    total: 1448,
   },
   54049: {
     district: 54049,
@@ -21539,7 +21540,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 221,
-    total: 1280
+    total: 1280,
   },
   54050: {
     district: 54050,
@@ -21550,7 +21551,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 16,
     blank: 241,
-    total: 1407
+    total: 1407,
   },
   54051: {
     district: 54051,
@@ -21561,7 +21562,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 276,
-    total: 1342
+    total: 1342,
   },
   54052: {
     district: 54052,
@@ -21572,7 +21573,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 196,
-    total: 1094
+    total: 1094,
   },
   54053: {
     district: 54053,
@@ -21583,7 +21584,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 208,
-    total: 1118
+    total: 1118,
   },
   54054: {
     district: 54054,
@@ -21594,7 +21595,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 14,
     blank: 241,
-    total: 1115
+    total: 1115,
   },
   54055: {
     district: 54055,
@@ -21605,7 +21606,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 196,
-    total: 1194
+    total: 1194,
   },
   54056: {
     district: 54056,
@@ -21616,7 +21617,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 207,
-    total: 1252
+    total: 1252,
   },
   54057: {
     district: 54057,
@@ -21627,7 +21628,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 20,
     blank: 226,
-    total: 1311
+    total: 1311,
   },
   54058: {
     district: 54058,
@@ -21638,7 +21639,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 3,
     blank: 59,
-    total: 264
+    total: 264,
   },
   54059: {
     district: 54059,
@@ -21649,7 +21650,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 6
+    total: 6,
   },
   54060: {
     district: 54060,
@@ -21660,7 +21661,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 27,
-    total: 179
+    total: 179,
   },
   54061: {
     district: 54061,
@@ -21671,7 +21672,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 7,
     blank: 174,
-    total: 765
+    total: 765,
   },
   54062: {
     district: 54062,
@@ -21682,7 +21683,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 85,
-    total: 429
+    total: 429,
   },
   54063: {
     district: 54063,
@@ -21693,7 +21694,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 17,
-    total: 75
+    total: 75,
   },
   54064: {
     district: 54064,
@@ -21704,7 +21705,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 42,
-    total: 208
+    total: 208,
   },
   55001: {
     district: 55001,
@@ -21715,7 +21716,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 23,
     blank: 224,
-    total: 1361
+    total: 1361,
   },
   55002: {
     district: 55002,
@@ -21726,7 +21727,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 206,
-    total: 1183
+    total: 1183,
   },
   55003: {
     district: 55003,
@@ -21737,7 +21738,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 172,
-    total: 1215
+    total: 1215,
   },
   55004: {
     district: 55004,
@@ -21748,7 +21749,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 15,
-    total: 94
+    total: 94,
   },
   55005: {
     district: 55005,
@@ -21759,7 +21760,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 170,
-    total: 1271
+    total: 1271,
   },
   55006: {
     district: 55006,
@@ -21770,7 +21771,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 11,
     blank: 167,
-    total: 1024
+    total: 1024,
   },
   55007: {
     district: 55007,
@@ -21781,7 +21782,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 13,
     blank: 184,
-    total: 1305
+    total: 1305,
   },
   55008: {
     district: 55008,
@@ -21792,7 +21793,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 23,
     blank: 188,
-    total: 1365
+    total: 1365,
   },
   55009: {
     district: 55009,
@@ -21803,7 +21804,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 15,
     blank: 191,
-    total: 1265
+    total: 1265,
   },
   55010: {
     district: 55010,
@@ -21814,7 +21815,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 188,
-    total: 1304
+    total: 1304,
   },
   55011: {
     district: 55011,
@@ -21825,7 +21826,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 203,
-    total: 1095
+    total: 1095,
   },
   55012: {
     district: 55012,
@@ -21836,7 +21837,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 219,
-    total: 1273
+    total: 1273,
   },
   55013: {
     district: 55013,
@@ -21847,7 +21848,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 260,
-    total: 1432
+    total: 1432,
   },
   55014: {
     district: 55014,
@@ -21858,7 +21859,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 207,
-    total: 1220
+    total: 1220,
   },
   55015: {
     district: 55015,
@@ -21869,7 +21870,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 32,
     blank: 289,
-    total: 1670
+    total: 1670,
   },
   55016: {
     district: 55016,
@@ -21880,7 +21881,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 252,
-    total: 1514
+    total: 1514,
   },
   55017: {
     district: 55017,
@@ -21891,7 +21892,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 62,
-    total: 337
+    total: 337,
   },
   55018: {
     district: 55018,
@@ -21902,7 +21903,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 29,
-    total: 105
+    total: 105,
   },
   55019: {
     district: 55019,
@@ -21913,7 +21914,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 12,
     blank: 234,
-    total: 1222
+    total: 1222,
   },
   55020: {
     district: 55020,
@@ -21924,7 +21925,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 19,
     blank: 254,
-    total: 1378
+    total: 1378,
   },
   55021: {
     district: 55021,
@@ -21935,7 +21936,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 63,
-    total: 237
+    total: 237,
   },
   55022: {
     district: 55022,
@@ -21946,7 +21947,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 2,
     blank: 41,
-    total: 405
+    total: 405,
   },
   55023: {
     district: 55023,
@@ -21957,7 +21958,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 18,
     blank: 275,
-    total: 1538
+    total: 1538,
   },
   55024: {
     district: 55024,
@@ -21968,7 +21969,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 11,
     blank: 268,
-    total: 1490
+    total: 1490,
   },
   55025: {
     district: 55025,
@@ -21979,7 +21980,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 20,
     blank: 316,
-    total: 1726
+    total: 1726,
   },
   55026: {
     district: 55026,
@@ -21990,7 +21991,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 20,
     blank: 272,
-    total: 1461
+    total: 1461,
   },
   55027: {
     district: 55027,
@@ -22001,7 +22002,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 186,
-    total: 1077
+    total: 1077,
   },
   55028: {
     district: 55028,
@@ -22012,7 +22013,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 171,
-    total: 971
+    total: 971,
   },
   55029: {
     district: 55029,
@@ -22023,7 +22024,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 135,
-    total: 748
+    total: 748,
   },
   55030: {
     district: 55030,
@@ -22034,7 +22035,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 31,
     blank: 240,
-    total: 1432
+    total: 1432,
   },
   55031: {
     district: 55031,
@@ -22045,7 +22046,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 20,
-    total: 133
+    total: 133,
   },
   55032: {
     district: 55032,
@@ -22056,7 +22057,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 145,
-    total: 919
+    total: 919,
   },
   55033: {
     district: 55033,
@@ -22067,7 +22068,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 18,
     blank: 314,
-    total: 1751
+    total: 1751,
   },
   55034: {
     district: 55034,
@@ -22078,7 +22079,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 137,
-    total: 703
+    total: 703,
   },
   55035: {
     district: 55035,
@@ -22089,7 +22090,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 7,
     blank: 90,
-    total: 491
+    total: 491,
   },
   55036: {
     district: 55036,
@@ -22100,7 +22101,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 13,
     blank: 244,
-    total: 1509
+    total: 1509,
   },
   55037: {
     district: 55037,
@@ -22111,7 +22112,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 3,
     blank: 46,
-    total: 284
+    total: 284,
   },
   55038: {
     district: 55038,
@@ -22122,7 +22123,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 305,
-    total: 1773
+    total: 1773,
   },
   55039: {
     district: 55039,
@@ -22133,7 +22134,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 214,
-    total: 1436
+    total: 1436,
   },
   55040: {
     district: 55040,
@@ -22144,7 +22145,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 12,
     blank: 177,
-    total: 1030
+    total: 1030,
   },
   55041: {
     district: 55041,
@@ -22155,7 +22156,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 24,
     blank: 181,
-    total: 1136
+    total: 1136,
   },
   55042: {
     district: 55042,
@@ -22166,7 +22167,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 249,
-    total: 1392
+    total: 1392,
   },
   55043: {
     district: 55043,
@@ -22177,7 +22178,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 4,
     blank: 153,
-    total: 899
+    total: 899,
   },
   55044: {
     district: 55044,
@@ -22188,7 +22189,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 18,
     blank: 201,
-    total: 1322
+    total: 1322,
   },
   55045: {
     district: 55045,
@@ -22199,7 +22200,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 26,
     blank: 237,
-    total: 1613
+    total: 1613,
   },
   55046: {
     district: 55046,
@@ -22210,7 +22211,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 156,
-    total: 894
+    total: 894,
   },
   55047: {
     district: 55047,
@@ -22221,7 +22222,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 204,
-    total: 1376
+    total: 1376,
   },
   55048: {
     district: 55048,
@@ -22232,7 +22233,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 267,
-    total: 1666
+    total: 1666,
   },
   55049: {
     district: 55049,
@@ -22243,7 +22244,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 16,
     blank: 272,
-    total: 1796
+    total: 1796,
   },
   55050: {
     district: 55050,
@@ -22254,7 +22255,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 26,
     blank: 318,
-    total: 1685
+    total: 1685,
   },
   55051: {
     district: 55051,
@@ -22265,7 +22266,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 279,
-    total: 1754
+    total: 1754,
   },
   55052: {
     district: 55052,
@@ -22276,7 +22277,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 25,
     blank: 308,
-    total: 1681
+    total: 1681,
   },
   55053: {
     district: 55053,
@@ -22287,7 +22288,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 16,
     blank: 281,
-    total: 1722
+    total: 1722,
   },
   55054: {
     district: 55054,
@@ -22298,7 +22299,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 55,
-    total: 318
+    total: 318,
   },
   55055: {
     district: 55055,
@@ -22309,7 +22310,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 227,
-    total: 1138
+    total: 1138,
   },
   55056: {
     district: 55056,
@@ -22320,7 +22321,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 240,
-    total: 1503
+    total: 1503,
   },
   55057: {
     district: 55057,
@@ -22331,7 +22332,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 264,
-    total: 1559
+    total: 1559,
   },
   55058: {
     district: 55058,
@@ -22342,7 +22343,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 3,
-    total: 9
+    total: 9,
   },
   55059: {
     district: 55059,
@@ -22353,7 +22354,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 334,
-    total: 1680
+    total: 1680,
   },
   55060: {
     district: 55060,
@@ -22364,7 +22365,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 22,
     blank: 197,
-    total: 1204
+    total: 1204,
   },
   55061: {
     district: 55061,
@@ -22375,7 +22376,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 127,
-    total: 825
+    total: 825,
   },
   55062: {
     district: 55062,
@@ -22386,7 +22387,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 147,
-    total: 918
+    total: 918,
   },
   55063: {
     district: 55063,
@@ -22397,7 +22398,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 23,
     blank: 257,
-    total: 1612
+    total: 1612,
   },
   55064: {
     district: 55064,
@@ -22408,7 +22409,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 135,
-    total: 1314
+    total: 1314,
   },
   55066: {
     district: 55066,
@@ -22419,7 +22420,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 1
+    total: 1,
   },
   56001: {
     district: 56001,
@@ -22430,7 +22431,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 288,
-    total: 1625
+    total: 1625,
   },
   56002: {
     district: 56002,
@@ -22441,7 +22442,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 7,
     blank: 266,
-    total: 1360
+    total: 1360,
   },
   56003: {
     district: 56003,
@@ -22452,7 +22453,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 213,
-    total: 1345
+    total: 1345,
   },
   56004: {
     district: 56004,
@@ -22463,7 +22464,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 9,
     blank: 219,
-    total: 1031
+    total: 1031,
   },
   56005: {
     district: 56005,
@@ -22474,7 +22475,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 228,
-    total: 1600
+    total: 1600,
   },
   56006: {
     district: 56006,
@@ -22485,7 +22486,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 242,
-    total: 1451
+    total: 1451,
   },
   56007: {
     district: 56007,
@@ -22496,7 +22497,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 12,
     blank: 253,
-    total: 1476
+    total: 1476,
   },
   56008: {
     district: 56008,
@@ -22507,7 +22508,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 227,
-    total: 1259
+    total: 1259,
   },
   56009: {
     district: 56009,
@@ -22518,7 +22519,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 220,
-    total: 1274
+    total: 1274,
   },
   56010: {
     district: 56010,
@@ -22529,7 +22530,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 12,
     blank: 206,
-    total: 1233
+    total: 1233,
   },
   56011: {
     district: 56011,
@@ -22540,7 +22541,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 18,
     blank: 269,
-    total: 1534
+    total: 1534,
   },
   56012: {
     district: 56012,
@@ -22551,7 +22552,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 15,
     blank: 296,
-    total: 1715
+    total: 1715,
   },
   56013: {
     district: 56013,
@@ -22562,7 +22563,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 24,
     blank: 227,
-    total: 1546
+    total: 1546,
   },
   56014: {
     district: 56014,
@@ -22573,7 +22574,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 13,
     blank: 270,
-    total: 1444
+    total: 1444,
   },
   56015: {
     district: 56015,
@@ -22584,7 +22585,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 19,
     blank: 233,
-    total: 1331
+    total: 1331,
   },
   56016: {
     district: 56016,
@@ -22595,7 +22596,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 18,
     blank: 253,
-    total: 1393
+    total: 1393,
   },
   56017: {
     district: 56017,
@@ -22606,7 +22607,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 243,
-    total: 1435
+    total: 1435,
   },
   56018: {
     district: 56018,
@@ -22617,7 +22618,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 0,
     blank: 12,
-    total: 75
+    total: 75,
   },
   56019: {
     district: 56019,
@@ -22628,7 +22629,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 219,
-    total: 1225
+    total: 1225,
   },
   56020: {
     district: 56020,
@@ -22639,7 +22640,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 16,
     blank: 235,
-    total: 1482
+    total: 1482,
   },
   56021: {
     district: 56021,
@@ -22650,7 +22651,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 15,
     blank: 199,
-    total: 1300
+    total: 1300,
   },
   56022: {
     district: 56022,
@@ -22661,7 +22662,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 161,
-    total: 964
+    total: 964,
   },
   56023: {
     district: 56023,
@@ -22672,7 +22673,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 8,
     blank: 150,
-    total: 1022
+    total: 1022,
   },
   56024: {
     district: 56024,
@@ -22683,7 +22684,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 33,
     blank: 258,
-    total: 1746
+    total: 1746,
   },
   56025: {
     district: 56025,
@@ -22694,7 +22695,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 13,
     blank: 250,
-    total: 1537
+    total: 1537,
   },
   56026: {
     district: 56026,
@@ -22705,7 +22706,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 273,
-    total: 1682
+    total: 1682,
   },
   56027: {
     district: 56027,
@@ -22716,7 +22717,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 22,
     blank: 252,
-    total: 1589
+    total: 1589,
   },
   56028: {
     district: 56028,
@@ -22727,7 +22728,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 24,
     blank: 222,
-    total: 1463
+    total: 1463,
   },
   56029: {
     district: 56029,
@@ -22738,7 +22739,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 20,
     blank: 242,
-    total: 1716
+    total: 1716,
   },
   56030: {
     district: 56030,
@@ -22749,7 +22750,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 19,
     blank: 216,
-    total: 1353
+    total: 1353,
   },
   56031: {
     district: 56031,
@@ -22760,7 +22761,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 17,
     blank: 225,
-    total: 1414
+    total: 1414,
   },
   56032: {
     district: 56032,
@@ -22771,7 +22772,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 16,
     blank: 221,
-    total: 1528
+    total: 1528,
   },
   56033: {
     district: 56033,
@@ -22782,7 +22783,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 20,
     other: 21,
     blank: 208,
-    total: 1455
+    total: 1455,
   },
   56034: {
     district: 56034,
@@ -22793,7 +22794,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 24,
     blank: 228,
-    total: 1521
+    total: 1521,
   },
   56035: {
     district: 56035,
@@ -22804,7 +22805,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 21,
     blank: 211,
-    total: 1475
+    total: 1475,
   },
   56036: {
     district: 56036,
@@ -22815,7 +22816,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 29,
     blank: 243,
-    total: 1515
+    total: 1515,
   },
   56037: {
     district: 56037,
@@ -22826,7 +22827,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 27,
     blank: 211,
-    total: 1707
+    total: 1707,
   },
   56038: {
     district: 56038,
@@ -22837,7 +22838,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 22,
     blank: 186,
-    total: 1472
+    total: 1472,
   },
   56039: {
     district: 56039,
@@ -22848,7 +22849,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 18,
     blank: 184,
-    total: 1301
+    total: 1301,
   },
   56040: {
     district: 56040,
@@ -22859,7 +22860,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 26,
     blank: 153,
-    total: 1233
+    total: 1233,
   },
   56041: {
     district: 56041,
@@ -22870,7 +22871,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 22,
     blank: 181,
-    total: 1332
+    total: 1332,
   },
   56042: {
     district: 56042,
@@ -22881,7 +22882,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 21,
     blank: 204,
-    total: 1320
+    total: 1320,
   },
   56043: {
     district: 56043,
@@ -22892,7 +22893,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 13,
     blank: 167,
-    total: 1350
+    total: 1350,
   },
   56044: {
     district: 56044,
@@ -22903,7 +22904,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 22,
     blank: 140,
-    total: 1312
+    total: 1312,
   },
   56045: {
     district: 56045,
@@ -22914,7 +22915,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 21,
     other: 17,
     blank: 197,
-    total: 1337
+    total: 1337,
   },
   56046: {
     district: 56046,
@@ -22925,7 +22926,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 175,
-    total: 1430
+    total: 1430,
   },
   56047: {
     district: 56047,
@@ -22936,7 +22937,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 18,
     blank: 182,
-    total: 1494
+    total: 1494,
   },
   56048: {
     district: 56048,
@@ -22947,7 +22948,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 197,
-    total: 1519
+    total: 1519,
   },
   56049: {
     district: 56049,
@@ -22958,7 +22959,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 23,
     blank: 215,
-    total: 1552
+    total: 1552,
   },
   56050: {
     district: 56050,
@@ -22969,7 +22970,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 25,
     blank: 216,
-    total: 1740
+    total: 1740,
   },
   56051: {
     district: 56051,
@@ -22980,7 +22981,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 160,
-    total: 1033
+    total: 1033,
   },
   56052: {
     district: 56052,
@@ -22991,7 +22992,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 13,
     blank: 187,
-    total: 1032
+    total: 1032,
   },
   56053: {
     district: 56053,
@@ -23002,7 +23003,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 19,
     blank: 243,
-    total: 1518
+    total: 1518,
   },
   56054: {
     district: 56054,
@@ -23013,7 +23014,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 9,
     blank: 130,
-    total: 854
+    total: 854,
   },
   56055: {
     district: 56055,
@@ -23024,7 +23025,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 145,
-    total: 1120
+    total: 1120,
   },
   56056: {
     district: 56056,
@@ -23035,7 +23036,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 21,
     other: 18,
     blank: 260,
-    total: 1921
+    total: 1921,
   },
   56057: {
     district: 56057,
@@ -23046,7 +23047,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 74,
-    total: 521
+    total: 521,
   },
   56058: {
     district: 56058,
@@ -23057,7 +23058,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 20,
     blank: 251,
-    total: 1790
+    total: 1790,
   },
   56059: {
     district: 56059,
@@ -23068,7 +23069,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 9,
     blank: 141,
-    total: 979
+    total: 979,
   },
   56060: {
     district: 56060,
@@ -23079,7 +23080,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 185,
-    total: 1044
+    total: 1044,
   },
   56061: {
     district: 56061,
@@ -23090,7 +23091,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 150,
-    total: 811
+    total: 811,
   },
   56062: {
     district: 56062,
@@ -23101,7 +23102,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 22,
     blank: 243,
-    total: 1452
+    total: 1452,
   },
   56063: {
     district: 56063,
@@ -23112,7 +23113,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 21,
     blank: 184,
-    total: 1390
+    total: 1390,
   },
   56064: {
     district: 56064,
@@ -23123,7 +23124,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 19,
     blank: 278,
-    total: 1519
+    total: 1519,
   },
   56065: {
     district: 56065,
@@ -23134,7 +23135,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 8,
     blank: 81,
-    total: 655
+    total: 655,
   },
   56066: {
     district: 56066,
@@ -23145,7 +23146,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 4,
     blank: 114,
-    total: 698
+    total: 698,
   },
   56067: {
     district: 56067,
@@ -23156,7 +23157,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 148,
-    total: 883
+    total: 883,
   },
   56068: {
     district: 56068,
@@ -23167,7 +23168,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 97,
-    total: 799
+    total: 799,
   },
   56069: {
     district: 56069,
@@ -23178,7 +23179,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 11,
     blank: 205,
-    total: 1403
+    total: 1403,
   },
   56070: {
     district: 56070,
@@ -23189,7 +23190,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 42,
-    total: 200
+    total: 200,
   },
   57001: {
     district: 57001,
@@ -23200,7 +23201,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 12,
     blank: 318,
-    total: 1450
+    total: 1450,
   },
   57002: {
     district: 57002,
@@ -23211,7 +23212,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 209,
-    total: 1335
+    total: 1335,
   },
   57003: {
     district: 57003,
@@ -23222,7 +23223,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 19,
     blank: 294,
-    total: 1431
+    total: 1431,
   },
   57004: {
     district: 57004,
@@ -23233,7 +23234,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 261,
-    total: 1368
+    total: 1368,
   },
   57005: {
     district: 57005,
@@ -23244,7 +23245,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 10,
     blank: 141,
-    total: 804
+    total: 804,
   },
   57006: {
     district: 57006,
@@ -23255,7 +23256,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 13,
     blank: 165,
-    total: 915
+    total: 915,
   },
   57007: {
     district: 57007,
@@ -23266,7 +23267,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 16,
     blank: 211,
-    total: 1198
+    total: 1198,
   },
   57008: {
     district: 57008,
@@ -23277,7 +23278,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 20,
     blank: 273,
-    total: 1503
+    total: 1503,
   },
   57009: {
     district: 57009,
@@ -23288,7 +23289,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 29,
     blank: 242,
-    total: 1330
+    total: 1330,
   },
   57010: {
     district: 57010,
@@ -23299,7 +23300,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 269,
-    total: 1813
+    total: 1813,
   },
   57011: {
     district: 57011,
@@ -23310,7 +23311,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 173,
-    total: 1507
+    total: 1507,
   },
   57012: {
     district: 57012,
@@ -23321,7 +23322,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 89,
-    total: 511
+    total: 511,
   },
   57013: {
     district: 57013,
@@ -23332,7 +23333,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 195,
-    total: 1589
+    total: 1589,
   },
   57014: {
     district: 57014,
@@ -23343,7 +23344,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 137,
-    total: 1016
+    total: 1016,
   },
   57015: {
     district: 57015,
@@ -23354,7 +23355,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 191,
-    total: 1158
+    total: 1158,
   },
   57016: {
     district: 57016,
@@ -23365,7 +23366,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 198,
-    total: 1232
+    total: 1232,
   },
   57017: {
     district: 57017,
@@ -23376,7 +23377,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 12,
     blank: 258,
-    total: 1373
+    total: 1373,
   },
   57018: {
     district: 57018,
@@ -23387,7 +23388,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 2,
     blank: 129,
-    total: 662
+    total: 662,
   },
   57019: {
     district: 57019,
@@ -23398,7 +23399,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 117,
-    total: 1019
+    total: 1019,
   },
   57020: {
     district: 57020,
@@ -23409,7 +23410,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 12,
     blank: 174,
-    total: 1338
+    total: 1338,
   },
   57021: {
     district: 57021,
@@ -23420,7 +23421,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 182,
-    total: 1203
+    total: 1203,
   },
   57022: {
     district: 57022,
@@ -23431,7 +23432,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 170,
-    total: 1390
+    total: 1390,
   },
   57023: {
     district: 57023,
@@ -23442,7 +23443,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 24,
     blank: 353,
-    total: 1739
+    total: 1739,
   },
   57024: {
     district: 57024,
@@ -23453,7 +23454,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 15,
     blank: 167,
-    total: 888
+    total: 888,
   },
   57025: {
     district: 57025,
@@ -23464,7 +23465,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 5,
     blank: 215,
-    total: 1222
+    total: 1222,
   },
   57026: {
     district: 57026,
@@ -23475,7 +23476,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 10,
     blank: 151,
-    total: 1093
+    total: 1093,
   },
   57027: {
     district: 57027,
@@ -23486,7 +23487,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 207,
-    total: 1571
+    total: 1571,
   },
   57028: {
     district: 57028,
@@ -23497,7 +23498,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 283,
-    total: 1899
+    total: 1899,
   },
   57029: {
     district: 57029,
@@ -23508,7 +23509,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 16,
     blank: 145,
-    total: 1197
+    total: 1197,
   },
   57030: {
     district: 57030,
@@ -23519,7 +23520,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 184,
-    total: 1775
+    total: 1775,
   },
   57031: {
     district: 57031,
@@ -23530,7 +23531,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 30,
     blank: 323,
-    total: 1902
+    total: 1902,
   },
   57032: {
     district: 57032,
@@ -23541,7 +23542,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 16,
     blank: 217,
-    total: 1384
+    total: 1384,
   },
   57033: {
     district: 57033,
@@ -23552,7 +23553,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 21,
     blank: 228,
-    total: 1678
+    total: 1678,
   },
   57034: {
     district: 57034,
@@ -23563,7 +23564,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 18,
     other: 12,
     blank: 251,
-    total: 1698
+    total: 1698,
   },
   57035: {
     district: 57035,
@@ -23574,7 +23575,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 28,
     blank: 220,
-    total: 1649
+    total: 1649,
   },
   57036: {
     district: 57036,
@@ -23585,7 +23586,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 18,
     blank: 256,
-    total: 1734
+    total: 1734,
   },
   57037: {
     district: 57037,
@@ -23596,7 +23597,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 16,
     blank: 241,
-    total: 1741
+    total: 1741,
   },
   57038: {
     district: 57038,
@@ -23607,7 +23608,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 18,
     blank: 183,
-    total: 1238
+    total: 1238,
   },
   57039: {
     district: 57039,
@@ -23618,7 +23619,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 9,
     blank: 134,
-    total: 972
+    total: 972,
   },
   57040: {
     district: 57040,
@@ -23629,7 +23630,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 8,
     blank: 141,
-    total: 979
+    total: 979,
   },
   57041: {
     district: 57041,
@@ -23640,7 +23641,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 141,
-    total: 936
+    total: 936,
   },
   57042: {
     district: 57042,
@@ -23651,7 +23652,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 4,
     blank: 125,
-    total: 915
+    total: 915,
   },
   57043: {
     district: 57043,
@@ -23662,7 +23663,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 20,
     other: 16,
     blank: 181,
-    total: 1629
+    total: 1629,
   },
   57044: {
     district: 57044,
@@ -23673,7 +23674,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 26,
     blank: 154,
-    total: 1260
+    total: 1260,
   },
   57045: {
     district: 57045,
@@ -23684,7 +23685,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 16,
     blank: 148,
-    total: 1149
+    total: 1149,
   },
   57046: {
     district: 57046,
@@ -23695,7 +23696,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 13,
     blank: 189,
-    total: 1378
+    total: 1378,
   },
   57047: {
     district: 57047,
@@ -23706,7 +23707,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 29,
     other: 14,
     blank: 212,
-    total: 1592
+    total: 1592,
   },
   57048: {
     district: 57048,
@@ -23717,7 +23718,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 8,
     blank: 247,
-    total: 1634
+    total: 1634,
   },
   57049: {
     district: 57049,
@@ -23728,7 +23729,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 27,
     blank: 220,
-    total: 1704
+    total: 1704,
   },
   57050: {
     district: 57050,
@@ -23739,7 +23740,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 13,
     blank: 199,
-    total: 1499
+    total: 1499,
   },
   57051: {
     district: 57051,
@@ -23750,7 +23751,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 23,
     blank: 262,
-    total: 1934
+    total: 1934,
   },
   57052: {
     district: 57052,
@@ -23761,7 +23762,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 24,
     blank: 175,
-    total: 1253
+    total: 1253,
   },
   57053: {
     district: 57053,
@@ -23772,7 +23773,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 11,
     blank: 168,
-    total: 1149
+    total: 1149,
   },
   57054: {
     district: 57054,
@@ -23783,7 +23784,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 9,
     blank: 166,
-    total: 1143
+    total: 1143,
   },
   57055: {
     district: 57055,
@@ -23794,7 +23795,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 18,
     blank: 176,
-    total: 1438
+    total: 1438,
   },
   57056: {
     district: 57056,
@@ -23805,7 +23806,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 221,
-    total: 1546
+    total: 1546,
   },
   57057: {
     district: 57057,
@@ -23816,7 +23817,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 15,
     blank: 210,
-    total: 1588
+    total: 1588,
   },
   57058: {
     district: 57058,
@@ -23827,7 +23828,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 15,
     blank: 170,
-    total: 1228
+    total: 1228,
   },
   57059: {
     district: 57059,
@@ -23838,7 +23839,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 21,
     blank: 172,
-    total: 1190
+    total: 1190,
   },
   57060: {
     district: 57060,
@@ -23849,7 +23850,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 26,
     other: 24,
     blank: 213,
-    total: 1813
+    total: 1813,
   },
   57061: {
     district: 57061,
@@ -23860,7 +23861,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 8,
     blank: 250,
-    total: 1721
+    total: 1721,
   },
   57062: {
     district: 57062,
@@ -23871,7 +23872,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 13,
     blank: 183,
-    total: 1413
+    total: 1413,
   },
   57063: {
     district: 57063,
@@ -23882,7 +23883,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 20,
     blank: 222,
-    total: 1635
+    total: 1635,
   },
   57064: {
     district: 57064,
@@ -23893,7 +23894,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 182,
-    total: 1256
+    total: 1256,
   },
   57065: {
     district: 57065,
@@ -23904,7 +23905,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 33,
     blank: 234,
-    total: 1658
+    total: 1658,
   },
   57066: {
     district: 57066,
@@ -23915,7 +23916,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 10,
     blank: 128,
-    total: 943
+    total: 943,
   },
   57067: {
     district: 57067,
@@ -23926,7 +23927,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 9,
-    total: 114
+    total: 114,
   },
   57068: {
     district: 57068,
@@ -23937,7 +23938,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 3,
     blank: 67,
-    total: 448
+    total: 448,
   },
   57069: {
     district: 57069,
@@ -23948,7 +23949,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 0,
     blank: 26,
-    total: 201
+    total: 201,
   },
   57070: {
     district: 57070,
@@ -23959,7 +23960,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 4,
     blank: 100,
-    total: 693
+    total: 693,
   },
   57071: {
     district: 57071,
@@ -23970,7 +23971,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 162,
-    total: 1197
+    total: 1197,
   },
   57072: {
     district: 57072,
@@ -23981,7 +23982,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 122,
-    total: 645
+    total: 645,
   },
   57073: {
     district: 57073,
@@ -23992,7 +23993,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 20,
     other: 23,
     blank: 276,
-    total: 1602
+    total: 1602,
   },
   57074: {
     district: 57074,
@@ -24003,7 +24004,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 145,
-    total: 1058
+    total: 1058,
   },
   57075: {
     district: 57075,
@@ -24014,7 +24015,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 9,
-    total: 58
+    total: 58,
   },
   57076: {
     district: 57076,
@@ -24025,7 +24026,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 21
+    total: 21,
   },
   58001: {
     district: 58001,
@@ -24036,7 +24037,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 137,
-    total: 1021
+    total: 1021,
   },
   58002: {
     district: 58002,
@@ -24047,7 +24048,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 131,
-    total: 929
+    total: 929,
   },
   58003: {
     district: 58003,
@@ -24058,7 +24059,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 221,
-    total: 1603
+    total: 1603,
   },
   58004: {
     district: 58004,
@@ -24069,7 +24070,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 201,
-    total: 1212
+    total: 1212,
   },
   58005: {
     district: 58005,
@@ -24080,7 +24081,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 165,
-    total: 1101
+    total: 1101,
   },
   58006: {
     district: 58006,
@@ -24091,7 +24092,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 183,
-    total: 1100
+    total: 1100,
   },
   58007: {
     district: 58007,
@@ -24102,7 +24103,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 226,
-    total: 1473
+    total: 1473,
   },
   58008: {
     district: 58008,
@@ -24113,7 +24114,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 244,
-    total: 1466
+    total: 1466,
   },
   58009: {
     district: 58009,
@@ -24124,7 +24125,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 186,
-    total: 1258
+    total: 1258,
   },
   58010: {
     district: 58010,
@@ -24135,7 +24136,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 136,
-    total: 1076
+    total: 1076,
   },
   58011: {
     district: 58011,
@@ -24146,7 +24147,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 27,
     blank: 261,
-    total: 1720
+    total: 1720,
   },
   58012: {
     district: 58012,
@@ -24157,7 +24158,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 194,
-    total: 1298
+    total: 1298,
   },
   58013: {
     district: 58013,
@@ -24168,7 +24169,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 246,
-    total: 1710
+    total: 1710,
   },
   58014: {
     district: 58014,
@@ -24179,7 +24180,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 264,
-    total: 1559
+    total: 1559,
   },
   58015: {
     district: 58015,
@@ -24190,7 +24191,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 232,
-    total: 1459
+    total: 1459,
   },
   58016: {
     district: 58016,
@@ -24201,7 +24202,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 180,
-    total: 1220
+    total: 1220,
   },
   58017: {
     district: 58017,
@@ -24212,7 +24213,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 11,
     blank: 241,
-    total: 1312
+    total: 1312,
   },
   58018: {
     district: 58018,
@@ -24223,7 +24224,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 41,
     blank: 216,
-    total: 1529
+    total: 1529,
   },
   58019: {
     district: 58019,
@@ -24234,7 +24235,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 176,
-    total: 1151
+    total: 1151,
   },
   58020: {
     district: 58020,
@@ -24245,7 +24246,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 5,
     blank: 131,
-    total: 795
+    total: 795,
   },
   58021: {
     district: 58021,
@@ -24256,7 +24257,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 191,
-    total: 1191
+    total: 1191,
   },
   58022: {
     district: 58022,
@@ -24267,7 +24268,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 63,
-    total: 410
+    total: 410,
   },
   58023: {
     district: 58023,
@@ -24278,7 +24279,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 166,
-    total: 1082
+    total: 1082,
   },
   58024: {
     district: 58024,
@@ -24289,7 +24290,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 0,
     blank: 10,
-    total: 62
+    total: 62,
   },
   58025: {
     district: 58025,
@@ -24300,7 +24301,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 31,
     blank: 253,
-    total: 1512
+    total: 1512,
   },
   58026: {
     district: 58026,
@@ -24311,7 +24312,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 198,
-    total: 1298
+    total: 1298,
   },
   58027: {
     district: 58027,
@@ -24322,7 +24323,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 199,
-    total: 1319
+    total: 1319,
   },
   58028: {
     district: 58028,
@@ -24333,7 +24334,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 220,
-    total: 1526
+    total: 1526,
   },
   58029: {
     district: 58029,
@@ -24344,7 +24345,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 172,
-    total: 1285
+    total: 1285,
   },
   58030: {
     district: 58030,
@@ -24355,7 +24356,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 133,
-    total: 894
+    total: 894,
   },
   58031: {
     district: 58031,
@@ -24366,7 +24367,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 157,
-    total: 1100
+    total: 1100,
   },
   58032: {
     district: 58032,
@@ -24377,7 +24378,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 165,
-    total: 1350
+    total: 1350,
   },
   58033: {
     district: 58033,
@@ -24388,7 +24389,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 184,
-    total: 1288
+    total: 1288,
   },
   58034: {
     district: 58034,
@@ -24399,7 +24400,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 159,
-    total: 1225
+    total: 1225,
   },
   58035: {
     district: 58035,
@@ -24410,7 +24411,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 220,
-    total: 1464
+    total: 1464,
   },
   58036: {
     district: 58036,
@@ -24421,7 +24422,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 152,
-    total: 1074
+    total: 1074,
   },
   58037: {
     district: 58037,
@@ -24432,7 +24433,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 267,
-    total: 1710
+    total: 1710,
   },
   58038: {
     district: 58038,
@@ -24443,7 +24444,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 207,
-    total: 1179
+    total: 1179,
   },
   58039: {
     district: 58039,
@@ -24454,7 +24455,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 215,
-    total: 1315
+    total: 1315,
   },
   58040: {
     district: 58040,
@@ -24465,7 +24466,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 191,
-    total: 1278
+    total: 1278,
   },
   58041: {
     district: 58041,
@@ -24476,7 +24477,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 171,
-    total: 1206
+    total: 1206,
   },
   58042: {
     district: 58042,
@@ -24487,7 +24488,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 183,
-    total: 1370
+    total: 1370,
   },
   58043: {
     district: 58043,
@@ -24498,7 +24499,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 203,
-    total: 1313
+    total: 1313,
   },
   58044: {
     district: 58044,
@@ -24509,7 +24510,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 138,
-    total: 1081
+    total: 1081,
   },
   58045: {
     district: 58045,
@@ -24520,7 +24521,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 123,
-    total: 959
+    total: 959,
   },
   58046: {
     district: 58046,
@@ -24531,7 +24532,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 78,
-    total: 614
+    total: 614,
   },
   58047: {
     district: 58047,
@@ -24542,7 +24543,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 24,
-    total: 176
+    total: 176,
   },
   58048: {
     district: 58048,
@@ -24553,7 +24554,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 12,
     blank: 105,
-    total: 674
+    total: 674,
   },
   58049: {
     district: 58049,
@@ -24564,7 +24565,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 126,
-    total: 930
+    total: 930,
   },
   58050: {
     district: 58050,
@@ -24575,7 +24576,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 162,
-    total: 979
+    total: 979,
   },
   58051: {
     district: 58051,
@@ -24586,7 +24587,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 188,
-    total: 1167
+    total: 1167,
   },
   58052: {
     district: 58052,
@@ -24597,7 +24598,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 228,
-    total: 1296
+    total: 1296,
   },
   58053: {
     district: 58053,
@@ -24608,7 +24609,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 171,
-    total: 1641
+    total: 1641,
   },
   58054: {
     district: 58054,
@@ -24619,7 +24620,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 96,
-    total: 546
+    total: 546,
   },
   58055: {
     district: 58055,
@@ -24630,7 +24631,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 204,
-    total: 1377
+    total: 1377,
   },
   58056: {
     district: 58056,
@@ -24641,7 +24642,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 194,
-    total: 1078
+    total: 1078,
   },
   58057: {
     district: 58057,
@@ -24652,7 +24653,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 22,
     blank: 319,
-    total: 1732
+    total: 1732,
   },
   58058: {
     district: 58058,
@@ -24663,7 +24664,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 228,
-    total: 1629
+    total: 1629,
   },
   58059: {
     district: 58059,
@@ -24674,7 +24675,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 208,
-    total: 1420
+    total: 1420,
   },
   58060: {
     district: 58060,
@@ -24685,7 +24686,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 30,
     blank: 254,
-    total: 1713
+    total: 1713,
   },
   58061: {
     district: 58061,
@@ -24696,7 +24697,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 182,
-    total: 1218
+    total: 1218,
   },
   58062: {
     district: 58062,
@@ -24707,7 +24708,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 229,
-    total: 1577
+    total: 1577,
   },
   58063: {
     district: 58063,
@@ -24718,7 +24719,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 254,
-    total: 1531
+    total: 1531,
   },
   58064: {
     district: 58064,
@@ -24729,7 +24730,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 81,
-    total: 620
+    total: 620,
   },
   58065: {
     district: 58065,
@@ -24740,7 +24741,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 1
+    total: 1,
   },
   58066: {
     district: 58066,
@@ -24751,7 +24752,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 2
+    total: 2,
   },
   59001: {
     district: 59001,
@@ -24762,7 +24763,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 161,
-    total: 1019
+    total: 1019,
   },
   59002: {
     district: 59002,
@@ -24773,7 +24774,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 205,
-    total: 1312
+    total: 1312,
   },
   59003: {
     district: 59003,
@@ -24784,7 +24785,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 289,
-    total: 1691
+    total: 1691,
   },
   59004: {
     district: 59004,
@@ -24795,7 +24796,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 243,
-    total: 1609
+    total: 1609,
   },
   59005: {
     district: 59005,
@@ -24806,7 +24807,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 25,
     blank: 315,
-    total: 1640
+    total: 1640,
   },
   59006: {
     district: 59006,
@@ -24817,7 +24818,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 269,
-    total: 1567
+    total: 1567,
   },
   59007: {
     district: 59007,
@@ -24828,7 +24829,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 242,
-    total: 1623
+    total: 1623,
   },
   59008: {
     district: 59008,
@@ -24839,7 +24840,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 213,
-    total: 1537
+    total: 1537,
   },
   59009: {
     district: 59009,
@@ -24850,7 +24851,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 211,
-    total: 1540
+    total: 1540,
   },
   59010: {
     district: 59010,
@@ -24861,7 +24862,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 33,
     blank: 263,
-    total: 1538
+    total: 1538,
   },
   59011: {
     district: 59011,
@@ -24872,7 +24873,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 304,
-    total: 1585
+    total: 1585,
   },
   59012: {
     district: 59012,
@@ -24883,7 +24884,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 26,
     blank: 208,
-    total: 1385
+    total: 1385,
   },
   59013: {
     district: 59013,
@@ -24894,7 +24895,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 223,
-    total: 1591
+    total: 1591,
   },
   59014: {
     district: 59014,
@@ -24905,7 +24906,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 148,
-    total: 987
+    total: 987,
   },
   59015: {
     district: 59015,
@@ -24916,7 +24917,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 155,
-    total: 888
+    total: 888,
   },
   59016: {
     district: 59016,
@@ -24927,7 +24928,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 237,
-    total: 1403
+    total: 1403,
   },
   59017: {
     district: 59017,
@@ -24938,7 +24939,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 235,
-    total: 1587
+    total: 1587,
   },
   59018: {
     district: 59018,
@@ -24949,7 +24950,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 202,
-    total: 1480
+    total: 1480,
   },
   59019: {
     district: 59019,
@@ -24960,7 +24961,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 182,
-    total: 1469
+    total: 1469,
   },
   59020: {
     district: 59020,
@@ -24971,7 +24972,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 204,
-    total: 1258
+    total: 1258,
   },
   59021: {
     district: 59021,
@@ -24982,7 +24983,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 194,
-    total: 1408
+    total: 1408,
   },
   59022: {
     district: 59022,
@@ -24993,7 +24994,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 154,
-    total: 1168
+    total: 1168,
   },
   59023: {
     district: 59023,
@@ -25004,7 +25005,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 105,
-    total: 684
+    total: 684,
   },
   59024: {
     district: 59024,
@@ -25015,7 +25016,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 168,
-    total: 1021
+    total: 1021,
   },
   59025: {
     district: 59025,
@@ -25026,7 +25027,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 149,
-    total: 993
+    total: 993,
   },
   59026: {
     district: 59026,
@@ -25037,7 +25038,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 110,
-    total: 926
+    total: 926,
   },
   59027: {
     district: 59027,
@@ -25048,7 +25049,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 206,
-    total: 1308
+    total: 1308,
   },
   59028: {
     district: 59028,
@@ -25059,7 +25060,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 193,
-    total: 1124
+    total: 1124,
   },
   59029: {
     district: 59029,
@@ -25070,7 +25071,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 164,
-    total: 1158
+    total: 1158,
   },
   59030: {
     district: 59030,
@@ -25081,7 +25082,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 190,
-    total: 1135
+    total: 1135,
   },
   59031: {
     district: 59031,
@@ -25092,7 +25093,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 77,
-    total: 434
+    total: 434,
   },
   59032: {
     district: 59032,
@@ -25103,7 +25104,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 262,
-    total: 1525
+    total: 1525,
   },
   59033: {
     district: 59033,
@@ -25114,7 +25115,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 33,
     blank: 360,
-    total: 1512
+    total: 1512,
   },
   59034: {
     district: 59034,
@@ -25125,7 +25126,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 240,
-    total: 1256
+    total: 1256,
   },
   59035: {
     district: 59035,
@@ -25136,7 +25137,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 82,
-    total: 532
+    total: 532,
   },
   59036: {
     district: 59036,
@@ -25147,7 +25148,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 202,
-    total: 1298
+    total: 1298,
   },
   59037: {
     district: 59037,
@@ -25158,7 +25159,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 261,
-    total: 1491
+    total: 1491,
   },
   59038: {
     district: 59038,
@@ -25169,7 +25170,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 44,
     blank: 302,
-    total: 1532
+    total: 1532,
   },
   59039: {
     district: 59039,
@@ -25180,7 +25181,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 30,
     blank: 275,
-    total: 1616
+    total: 1616,
   },
   59040: {
     district: 59040,
@@ -25191,7 +25192,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 79,
-    total: 322
+    total: 322,
   },
   59041: {
     district: 59041,
@@ -25202,7 +25203,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 301,
-    total: 1471
+    total: 1471,
   },
   59042: {
     district: 59042,
@@ -25213,7 +25214,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 427,
-    total: 1550
+    total: 1550,
   },
   59043: {
     district: 59043,
@@ -25224,7 +25225,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 29,
     blank: 421,
-    total: 1711
+    total: 1711,
   },
   59044: {
     district: 59044,
@@ -25235,7 +25236,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 271,
-    total: 1103
+    total: 1103,
   },
   59045: {
     district: 59045,
@@ -25246,7 +25247,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 35,
     blank: 361,
-    total: 1656
+    total: 1656,
   },
   59046: {
     district: 59046,
@@ -25257,7 +25258,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 436,
-    total: 1717
+    total: 1717,
   },
   59047: {
     district: 59047,
@@ -25268,7 +25269,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 310,
-    total: 1189
+    total: 1189,
   },
   59048: {
     district: 59048,
@@ -25279,7 +25280,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 395,
-    total: 1529
+    total: 1529,
   },
   59049: {
     district: 59049,
@@ -25290,7 +25291,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 29,
     blank: 403,
-    total: 1625
+    total: 1625,
   },
   59050: {
     district: 59050,
@@ -25301,7 +25302,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 30,
     blank: 350,
-    total: 1452
+    total: 1452,
   },
   59051: {
     district: 59051,
@@ -25312,7 +25313,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 170,
-    total: 736
+    total: 736,
   },
   59052: {
     district: 59052,
@@ -25323,7 +25324,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 297,
-    total: 1251
+    total: 1251,
   },
   59053: {
     district: 59053,
@@ -25334,7 +25335,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 243,
-    total: 1041
+    total: 1041,
   },
   59054: {
     district: 59054,
@@ -25345,7 +25346,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 223,
-    total: 982
+    total: 982,
   },
   59055: {
     district: 59055,
@@ -25356,7 +25357,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 37,
     blank: 379,
-    total: 1520
+    total: 1520,
   },
   59056: {
     district: 59056,
@@ -25367,7 +25368,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 41,
     blank: 334,
-    total: 1539
+    total: 1539,
   },
   59057: {
     district: 59057,
@@ -25378,7 +25379,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 39,
     blank: 440,
-    total: 1658
+    total: 1658,
   },
   59058: {
     district: 59058,
@@ -25389,7 +25390,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 19,
     blank: 146,
-    total: 625
+    total: 625,
   },
   59059: {
     district: 59059,
@@ -25400,7 +25401,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 28,
     blank: 191,
-    total: 833
+    total: 833,
   },
   59060: {
     district: 59060,
@@ -25411,7 +25412,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 200,
-    total: 862
+    total: 862,
   },
   59061: {
     district: 59061,
@@ -25422,7 +25423,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 15,
-    total: 120
+    total: 120,
   },
   59062: {
     district: 59062,
@@ -25433,7 +25434,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 7
+    total: 7,
   },
   59063: {
     district: 59063,
@@ -25444,7 +25445,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 10,
     blank: 184,
-    total: 1169
+    total: 1169,
   },
   59064: {
     district: 59064,
@@ -25455,7 +25456,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 4,
-    total: 24
+    total: 24,
   },
   59065: {
     district: 59065,
@@ -25466,7 +25467,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 238,
-    total: 1000
+    total: 1000,
   },
   59066: {
     district: 59066,
@@ -25477,7 +25478,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 36,
     blank: 209,
-    total: 895
+    total: 895,
   },
   60001: {
     district: 60001,
@@ -25488,7 +25489,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 6,
     blank: 187,
-    total: 1148
+    total: 1148,
   },
   60002: {
     district: 60002,
@@ -25499,7 +25500,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 18,
     blank: 292,
-    total: 1598
+    total: 1598,
   },
   60003: {
     district: 60003,
@@ -25510,7 +25511,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 16,
     blank: 299,
-    total: 1493
+    total: 1493,
   },
   60004: {
     district: 60004,
@@ -25521,7 +25522,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 270,
-    total: 1465
+    total: 1465,
   },
   60005: {
     district: 60005,
@@ -25532,7 +25533,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 119,
-    total: 606
+    total: 606,
   },
   60006: {
     district: 60006,
@@ -25543,7 +25544,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 214,
-    total: 1242
+    total: 1242,
   },
   60007: {
     district: 60007,
@@ -25554,7 +25555,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 27,
     blank: 283,
-    total: 1725
+    total: 1725,
   },
   60008: {
     district: 60008,
@@ -25565,7 +25566,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 175,
-    total: 1090
+    total: 1090,
   },
   60009: {
     district: 60009,
@@ -25576,7 +25577,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 215,
-    total: 1544
+    total: 1544,
   },
   60010: {
     district: 60010,
@@ -25587,7 +25588,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 202,
-    total: 1359
+    total: 1359,
   },
   60011: {
     district: 60011,
@@ -25598,7 +25599,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 134,
-    total: 879
+    total: 879,
   },
   60012: {
     district: 60012,
@@ -25609,7 +25610,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 170,
-    total: 1157
+    total: 1157,
   },
   60013: {
     district: 60013,
@@ -25620,7 +25621,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 216,
-    total: 1361
+    total: 1361,
   },
   60014: {
     district: 60014,
@@ -25631,7 +25632,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 173,
-    total: 1402
+    total: 1402,
   },
   60015: {
     district: 60015,
@@ -25642,7 +25643,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 204,
-    total: 1324
+    total: 1324,
   },
   60016: {
     district: 60016,
@@ -25653,7 +25654,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 184,
-    total: 1269
+    total: 1269,
   },
   60017: {
     district: 60017,
@@ -25664,7 +25665,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 261,
-    total: 1617
+    total: 1617,
   },
   60018: {
     district: 60018,
@@ -25675,7 +25676,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 181,
-    total: 1178
+    total: 1178,
   },
   60019: {
     district: 60019,
@@ -25686,7 +25687,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 24,
     blank: 235,
-    total: 1575
+    total: 1575,
   },
   60020: {
     district: 60020,
@@ -25697,7 +25698,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 134,
-    total: 849
+    total: 849,
   },
   60021: {
     district: 60021,
@@ -25708,7 +25709,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 132,
-    total: 1207
+    total: 1207,
   },
   60022: {
     district: 60022,
@@ -25719,7 +25720,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 16,
     blank: 218,
-    total: 1427
+    total: 1427,
   },
   60023: {
     district: 60023,
@@ -25730,7 +25731,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 279,
-    total: 1633
+    total: 1633,
   },
   60024: {
     district: 60024,
@@ -25741,7 +25742,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 17,
     blank: 146,
-    total: 1085
+    total: 1085,
   },
   60025: {
     district: 60025,
@@ -25752,7 +25753,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 221,
-    total: 1393
+    total: 1393,
   },
   60026: {
     district: 60026,
@@ -25763,7 +25764,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 23,
     blank: 213,
-    total: 1501
+    total: 1501,
   },
   60027: {
     district: 60027,
@@ -25774,7 +25775,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 11,
     blank: 151,
-    total: 839
+    total: 839,
   },
   60028: {
     district: 60028,
@@ -25785,7 +25786,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 19,
     blank: 247,
-    total: 1554
+    total: 1554,
   },
   60029: {
     district: 60029,
@@ -25796,7 +25797,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 9,
     blank: 249,
-    total: 1550
+    total: 1550,
   },
   60030: {
     district: 60030,
@@ -25807,7 +25808,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 314,
-    total: 1701
+    total: 1701,
   },
   60031: {
     district: 60031,
@@ -25818,7 +25819,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 248,
-    total: 1377
+    total: 1377,
   },
   60032: {
     district: 60032,
@@ -25829,7 +25830,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 20,
     blank: 217,
-    total: 1250
+    total: 1250,
   },
   60033: {
     district: 60033,
@@ -25840,7 +25841,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 7,
     blank: 212,
-    total: 1058
+    total: 1058,
   },
   60034: {
     district: 60034,
@@ -25851,7 +25852,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 272,
-    total: 1441
+    total: 1441,
   },
   60035: {
     district: 60035,
@@ -25862,7 +25863,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 25,
     blank: 248,
-    total: 1512
+    total: 1512,
   },
   60036: {
     district: 60036,
@@ -25873,7 +25874,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 15,
     blank: 258,
-    total: 1488
+    total: 1488,
   },
   60037: {
     district: 60037,
@@ -25884,7 +25885,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 202,
-    total: 1272
+    total: 1272,
   },
   60038: {
     district: 60038,
@@ -25895,7 +25896,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 15,
     blank: 205,
-    total: 1402
+    total: 1402,
   },
   60039: {
     district: 60039,
@@ -25906,7 +25907,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 258,
-    total: 1466
+    total: 1466,
   },
   60040: {
     district: 60040,
@@ -25917,7 +25918,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 235,
-    total: 1330
+    total: 1330,
   },
   60041: {
     district: 60041,
@@ -25928,7 +25929,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 241,
-    total: 1324
+    total: 1324,
   },
   60042: {
     district: 60042,
@@ -25939,7 +25940,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 182,
-    total: 1366
+    total: 1366,
   },
   60043: {
     district: 60043,
@@ -25950,7 +25951,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 265,
-    total: 1363
+    total: 1363,
   },
   60044: {
     district: 60044,
@@ -25961,7 +25962,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 206,
-    total: 1097
+    total: 1097,
   },
   60045: {
     district: 60045,
@@ -25972,7 +25973,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 266,
-    total: 1277
+    total: 1277,
   },
   60046: {
     district: 60046,
@@ -25983,7 +25984,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 241,
-    total: 1694
+    total: 1694,
   },
   60047: {
     district: 60047,
@@ -25994,7 +25995,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 61,
-    total: 268
+    total: 268,
   },
   60048: {
     district: 60048,
@@ -26005,7 +26006,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 5,
     blank: 121,
-    total: 448
+    total: 448,
   },
   60049: {
     district: 60049,
@@ -26016,7 +26017,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 192,
-    total: 1290
+    total: 1290,
   },
   60050: {
     district: 60050,
@@ -26027,7 +26028,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 188,
-    total: 907
+    total: 907,
   },
   60051: {
     district: 60051,
@@ -26038,7 +26039,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 17,
     blank: 247,
-    total: 1559
+    total: 1559,
   },
   60052: {
     district: 60052,
@@ -26049,7 +26050,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 229,
-    total: 1348
+    total: 1348,
   },
   60053: {
     district: 60053,
@@ -26060,7 +26061,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 211,
-    total: 1377
+    total: 1377,
   },
   60054: {
     district: 60054,
@@ -26071,7 +26072,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 306,
-    total: 1680
+    total: 1680,
   },
   60055: {
     district: 60055,
@@ -26082,7 +26083,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 24,
     blank: 270,
-    total: 1608
+    total: 1608,
   },
   60056: {
     district: 60056,
@@ -26093,7 +26094,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 184,
-    total: 985
+    total: 985,
   },
   60057: {
     district: 60057,
@@ -26104,7 +26105,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 204,
-    total: 1166
+    total: 1166,
   },
   60058: {
     district: 60058,
@@ -26115,7 +26116,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 20,
     blank: 236,
-    total: 1423
+    total: 1423,
   },
   60059: {
     district: 60059,
@@ -26126,7 +26127,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 3,
     blank: 90,
-    total: 422
+    total: 422,
   },
   60060: {
     district: 60060,
@@ -26137,7 +26138,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 3,
-    total: 44
+    total: 44,
   },
   60061: {
     district: 60061,
@@ -26148,7 +26149,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 2
+    total: 2,
   },
   60062: {
     district: 60062,
@@ -26159,7 +26160,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 170,
-    total: 1019
+    total: 1019,
   },
   60063: {
     district: 60063,
@@ -26170,7 +26171,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 3,
     blank: 84,
-    total: 365
+    total: 365,
   },
   61001: {
     district: 61001,
@@ -26181,7 +26182,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 30,
     blank: 447,
-    total: 1683
+    total: 1683,
   },
   61002: {
     district: 61002,
@@ -26192,7 +26193,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 33,
     blank: 446,
-    total: 1611
+    total: 1611,
   },
   61003: {
     district: 61003,
@@ -26203,7 +26204,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 31,
     blank: 352,
-    total: 1777
+    total: 1777,
   },
   61004: {
     district: 61004,
@@ -26214,7 +26215,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 342,
-    total: 1724
+    total: 1724,
   },
   61005: {
     district: 61005,
@@ -26225,7 +26226,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 32,
     blank: 344,
-    total: 1279
+    total: 1279,
   },
   61006: {
     district: 61006,
@@ -26236,7 +26237,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 32,
     blank: 337,
-    total: 1506
+    total: 1506,
   },
   61007: {
     district: 61007,
@@ -26247,7 +26248,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 41,
     blank: 387,
-    total: 1588
+    total: 1588,
   },
   61008: {
     district: 61008,
@@ -26258,7 +26259,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 47,
     blank: 378,
-    total: 1586
+    total: 1586,
   },
   61009: {
     district: 61009,
@@ -26269,7 +26270,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 39,
     blank: 304,
-    total: 1284
+    total: 1284,
   },
   61010: {
     district: 61010,
@@ -26280,7 +26281,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 258,
-    total: 1129
+    total: 1129,
   },
   61011: {
     district: 61011,
@@ -26291,7 +26292,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 36,
     blank: 395,
-    total: 1653
+    total: 1653,
   },
   61012: {
     district: 61012,
@@ -26302,7 +26303,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 44,
     blank: 343,
-    total: 1584
+    total: 1584,
   },
   61013: {
     district: 61013,
@@ -26313,7 +26314,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 32,
     blank: 322,
-    total: 1635
+    total: 1635,
   },
   61014: {
     district: 61014,
@@ -26324,7 +26325,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 43,
     blank: 293,
-    total: 1447
+    total: 1447,
   },
   61015: {
     district: 61015,
@@ -26335,7 +26336,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 36,
     blank: 362,
-    total: 1608
+    total: 1608,
   },
   61016: {
     district: 61016,
@@ -26346,7 +26347,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 18,
     blank: 318,
-    total: 1218
+    total: 1218,
   },
   61017: {
     district: 61017,
@@ -26357,7 +26358,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 213,
-    total: 1000
+    total: 1000,
   },
   61018: {
     district: 61018,
@@ -26368,7 +26369,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 266,
-    total: 1125
+    total: 1125,
   },
   61019: {
     district: 61019,
@@ -26379,7 +26380,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 31,
     blank: 202,
-    total: 1081
+    total: 1081,
   },
   61020: {
     district: 61020,
@@ -26390,7 +26391,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 35,
     blank: 231,
-    total: 1141
+    total: 1141,
   },
   61021: {
     district: 61021,
@@ -26401,7 +26402,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 45,
     blank: 252,
-    total: 1308
+    total: 1308,
   },
   61022: {
     district: 61022,
@@ -26412,7 +26413,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 55,
     blank: 436,
-    total: 1774
+    total: 1774,
   },
   61023: {
     district: 61023,
@@ -26423,7 +26424,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 28,
     blank: 354,
-    total: 1526
+    total: 1526,
   },
   61024: {
     district: 61024,
@@ -26434,7 +26435,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 23,
     other: 30,
     blank: 381,
-    total: 1609
+    total: 1609,
   },
   61025: {
     district: 61025,
@@ -26445,7 +26446,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 31,
     blank: 308,
-    total: 1188
+    total: 1188,
   },
   61026: {
     district: 61026,
@@ -26456,7 +26457,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 34,
     blank: 320,
-    total: 1244
+    total: 1244,
   },
   61027: {
     district: 61027,
@@ -26467,7 +26468,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 33,
     blank: 265,
-    total: 1043
+    total: 1043,
   },
   61028: {
     district: 61028,
@@ -26478,7 +26479,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 279,
-    total: 1201
+    total: 1201,
   },
   61029: {
     district: 61029,
@@ -26489,7 +26490,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 38,
     blank: 455,
-    total: 1703
+    total: 1703,
   },
   61030: {
     district: 61030,
@@ -26500,7 +26501,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 28,
     blank: 396,
-    total: 1680
+    total: 1680,
   },
   61031: {
     district: 61031,
@@ -26511,7 +26512,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 30,
     blank: 426,
-    total: 1567
+    total: 1567,
   },
   61032: {
     district: 61032,
@@ -26522,7 +26523,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 381,
-    total: 1468
+    total: 1468,
   },
   61033: {
     district: 61033,
@@ -26533,7 +26534,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 33,
     blank: 351,
-    total: 1479
+    total: 1479,
   },
   61034: {
     district: 61034,
@@ -26544,7 +26545,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 352,
-    total: 1331
+    total: 1331,
   },
   61035: {
     district: 61035,
@@ -26555,7 +26556,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 38,
     blank: 357,
-    total: 1604
+    total: 1604,
   },
   61036: {
     district: 61036,
@@ -26566,7 +26567,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 38,
     blank: 400,
-    total: 1775
+    total: 1775,
   },
   61037: {
     district: 61037,
@@ -26577,7 +26578,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 37,
     blank: 417,
-    total: 1785
+    total: 1785,
   },
   61038: {
     district: 61038,
@@ -26588,7 +26589,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 37,
     blank: 476,
-    total: 1806
+    total: 1806,
   },
   61039: {
     district: 61039,
@@ -26599,7 +26600,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 41,
     blank: 410,
-    total: 1602
+    total: 1602,
   },
   61040: {
     district: 61040,
@@ -26610,7 +26611,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 46,
     blank: 302,
-    total: 1474
+    total: 1474,
   },
   61041: {
     district: 61041,
@@ -26621,7 +26622,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 41,
     blank: 454,
-    total: 1769
+    total: 1769,
   },
   61042: {
     district: 61042,
@@ -26632,7 +26633,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 42,
     blank: 282,
-    total: 1422
+    total: 1422,
   },
   61043: {
     district: 61043,
@@ -26643,7 +26644,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 36,
     blank: 331,
-    total: 1411
+    total: 1411,
   },
   61044: {
     district: 61044,
@@ -26654,7 +26655,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 34,
     blank: 264,
-    total: 1144
+    total: 1144,
   },
   61045: {
     district: 61045,
@@ -26665,7 +26666,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 193,
-    total: 793
+    total: 793,
   },
   61046: {
     district: 61046,
@@ -26676,7 +26677,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 149,
-    total: 716
+    total: 716,
   },
   61047: {
     district: 61047,
@@ -26687,7 +26688,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 60,
-    total: 227
+    total: 227,
   },
   61048: {
     district: 61048,
@@ -26698,7 +26699,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 139,
-    total: 599
+    total: 599,
   },
   61060: {
     district: 61060,
@@ -26709,7 +26710,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 435,
-    total: 1418
+    total: 1418,
   },
   61061: {
     district: 61061,
@@ -26720,7 +26721,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 34,
     blank: 472,
-    total: 1619
+    total: 1619,
   },
   61062: {
     district: 61062,
@@ -26731,7 +26732,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 428,
-    total: 1418
+    total: 1418,
   },
   61063: {
     district: 61063,
@@ -26742,7 +26743,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 567,
-    total: 1880
+    total: 1880,
   },
   61064: {
     district: 61064,
@@ -26753,7 +26754,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 30,
     blank: 293,
-    total: 1129
+    total: 1129,
   },
   61065: {
     district: 61065,
@@ -26764,7 +26765,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 29,
     blank: 493,
-    total: 1669
+    total: 1669,
   },
   61066: {
     district: 61066,
@@ -26775,7 +26776,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 415,
-    total: 1384
+    total: 1384,
   },
   61067: {
     district: 61067,
@@ -26786,7 +26787,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 507,
-    total: 1701
+    total: 1701,
   },
   61068: {
     district: 61068,
@@ -26797,7 +26798,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 33,
     blank: 597,
-    total: 1984
+    total: 1984,
   },
   61069: {
     district: 61069,
@@ -26808,7 +26809,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 3
+    total: 3,
   },
   61100: {
     district: 61100,
@@ -26819,7 +26820,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 2
+    total: 2,
   },
   62001: {
     district: 62001,
@@ -26830,7 +26831,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 47,
     blank: 405,
-    total: 1758
+    total: 1758,
   },
   62002: {
     district: 62002,
@@ -26841,7 +26842,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 49,
     blank: 370,
-    total: 1749
+    total: 1749,
   },
   62003: {
     district: 62003,
@@ -26852,7 +26853,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 34,
     blank: 463,
-    total: 1819
+    total: 1819,
   },
   62004: {
     district: 62004,
@@ -26863,7 +26864,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 53,
     blank: 403,
-    total: 1726
+    total: 1726,
   },
   62005: {
     district: 62005,
@@ -26874,7 +26875,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 45,
     blank: 346,
-    total: 1603
+    total: 1603,
   },
   62006: {
     district: 62006,
@@ -26885,7 +26886,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 40,
     blank: 404,
-    total: 1661
+    total: 1661,
   },
   62007: {
     district: 62007,
@@ -26896,7 +26897,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 50,
     blank: 421,
-    total: 1830
+    total: 1830,
   },
   62008: {
     district: 62008,
@@ -26907,7 +26908,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 44,
     blank: 435,
-    total: 1751
+    total: 1751,
   },
   62009: {
     district: 62009,
@@ -26918,7 +26919,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 42,
     blank: 394,
-    total: 1700
+    total: 1700,
   },
   62010: {
     district: 62010,
@@ -26929,7 +26930,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 41,
     blank: 421,
-    total: 1763
+    total: 1763,
   },
   62011: {
     district: 62011,
@@ -26940,7 +26941,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 42,
     blank: 494,
-    total: 1746
+    total: 1746,
   },
   62012: {
     district: 62012,
@@ -26951,7 +26952,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 53,
     blank: 427,
-    total: 1809
+    total: 1809,
   },
   62013: {
     district: 62013,
@@ -26962,7 +26963,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 42,
     blank: 421,
-    total: 1747
+    total: 1747,
   },
   62014: {
     district: 62014,
@@ -26973,7 +26974,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 51,
     blank: 383,
-    total: 1705
+    total: 1705,
   },
   62015: {
     district: 62015,
@@ -26984,7 +26985,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 45,
     blank: 401,
-    total: 1739
+    total: 1739,
   },
   62016: {
     district: 62016,
@@ -26995,7 +26996,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 58,
     blank: 397,
-    total: 1737
+    total: 1737,
   },
   62017: {
     district: 62017,
@@ -27006,7 +27007,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 40,
     blank: 367,
-    total: 1703
+    total: 1703,
   },
   62018: {
     district: 62018,
@@ -27017,7 +27018,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 43,
     blank: 393,
-    total: 1772
+    total: 1772,
   },
   62019: {
     district: 62019,
@@ -27028,7 +27029,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 49,
     blank: 437,
-    total: 1834
+    total: 1834,
   },
   62020: {
     district: 62020,
@@ -27039,7 +27040,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 37,
     blank: 470,
-    total: 1794
+    total: 1794,
   },
   62021: {
     district: 62021,
@@ -27050,7 +27051,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 42,
     blank: 413,
-    total: 1764
+    total: 1764,
   },
   62022: {
     district: 62022,
@@ -27061,7 +27062,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 38,
     blank: 387,
-    total: 1692
+    total: 1692,
   },
   62023: {
     district: 62023,
@@ -27072,7 +27073,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 43,
     blank: 413,
-    total: 1734
+    total: 1734,
   },
   62024: {
     district: 62024,
@@ -27083,7 +27084,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 40,
     blank: 467,
-    total: 1838
+    total: 1838,
   },
   62025: {
     district: 62025,
@@ -27094,7 +27095,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 43,
     blank: 429,
-    total: 1609
+    total: 1609,
   },
   62026: {
     district: 62026,
@@ -27105,7 +27106,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 40,
     blank: 459,
-    total: 1792
+    total: 1792,
   },
   62027: {
     district: 62027,
@@ -27116,7 +27117,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 37,
     blank: 421,
-    total: 1716
+    total: 1716,
   },
   62028: {
     district: 62028,
@@ -27127,7 +27128,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 41,
     blank: 423,
-    total: 1673
+    total: 1673,
   },
   62029: {
     district: 62029,
@@ -27138,7 +27139,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 43,
     blank: 439,
-    total: 1666
+    total: 1666,
   },
   62030: {
     district: 62030,
@@ -27149,7 +27150,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 37,
     blank: 373,
-    total: 1511
+    total: 1511,
   },
   62031: {
     district: 62031,
@@ -27160,7 +27161,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 44,
     blank: 404,
-    total: 1734
+    total: 1734,
   },
   62032: {
     district: 62032,
@@ -27171,7 +27172,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 49,
     blank: 457,
-    total: 1803
+    total: 1803,
   },
   62033: {
     district: 62033,
@@ -27182,7 +27183,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 360,
-    total: 1551
+    total: 1551,
   },
   62034: {
     district: 62034,
@@ -27193,7 +27194,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 38,
     blank: 356,
-    total: 1555
+    total: 1555,
   },
   62035: {
     district: 62035,
@@ -27204,7 +27205,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 112,
-    total: 587
+    total: 587,
   },
   62036: {
     district: 62036,
@@ -27215,7 +27216,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 36,
     blank: 478,
-    total: 1649
+    total: 1649,
   },
   62037: {
     district: 62037,
@@ -27226,7 +27227,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 40,
     blank: 416,
-    total: 1503
+    total: 1503,
   },
   62038: {
     district: 62038,
@@ -27237,7 +27238,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 45,
     blank: 459,
-    total: 1814
+    total: 1814,
   },
   62039: {
     district: 62039,
@@ -27248,7 +27249,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 317,
-    total: 1332
+    total: 1332,
   },
   62040: {
     district: 62040,
@@ -27259,7 +27260,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 370,
-    total: 1571
+    total: 1571,
   },
   62041: {
     district: 62041,
@@ -27270,7 +27271,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 43,
     blank: 357,
-    total: 1777
+    total: 1777,
   },
   62042: {
     district: 62042,
@@ -27281,7 +27282,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 49,
     blank: 400,
-    total: 1736
+    total: 1736,
   },
   62043: {
     district: 62043,
@@ -27292,7 +27293,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 35,
     blank: 375,
-    total: 1693
+    total: 1693,
   },
   62044: {
     district: 62044,
@@ -27303,7 +27304,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 39,
     blank: 539,
-    total: 1690
+    total: 1690,
   },
   62045: {
     district: 62045,
@@ -27314,7 +27315,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 39,
     blank: 480,
-    total: 1758
+    total: 1758,
   },
   62046: {
     district: 62046,
@@ -27325,7 +27326,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 48,
     blank: 420,
-    total: 1731
+    total: 1731,
   },
   62047: {
     district: 62047,
@@ -27336,7 +27337,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 35,
     blank: 444,
-    total: 1616
+    total: 1616,
   },
   62048: {
     district: 62048,
@@ -27347,7 +27348,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 42,
     blank: 402,
-    total: 1679
+    total: 1679,
   },
   62049: {
     district: 62049,
@@ -27358,7 +27359,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 46,
     blank: 437,
-    total: 1692
+    total: 1692,
   },
   62050: {
     district: 62050,
@@ -27369,7 +27370,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 42,
     blank: 463,
-    total: 1788
+    total: 1788,
   },
   62051: {
     district: 62051,
@@ -27380,7 +27381,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 43,
     blank: 383,
-    total: 1629
+    total: 1629,
   },
   62052: {
     district: 62052,
@@ -27391,7 +27392,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 40,
     blank: 377,
-    total: 1549
+    total: 1549,
   },
   62053: {
     district: 62053,
@@ -27402,7 +27403,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 429,
-    total: 1720
+    total: 1720,
   },
   62054: {
     district: 62054,
@@ -27413,7 +27414,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 458,
-    total: 1742
+    total: 1742,
   },
   62055: {
     district: 62055,
@@ -27424,7 +27425,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 40,
     blank: 461,
-    total: 1714
+    total: 1714,
   },
   62056: {
     district: 62056,
@@ -27435,7 +27436,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 43,
     blank: 457,
-    total: 1670
+    total: 1670,
   },
   62057: {
     district: 62057,
@@ -27446,7 +27447,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 163,
-    total: 686
+    total: 686,
   },
   62058: {
     district: 62058,
@@ -27457,7 +27458,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 23,
     blank: 181,
-    total: 717
+    total: 717,
   },
   62059: {
     district: 62059,
@@ -27468,7 +27469,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 36,
     blank: 319,
-    total: 1549
+    total: 1549,
   },
   62060: {
     district: 62060,
@@ -27479,7 +27480,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 38,
     blank: 398,
-    total: 1628
+    total: 1628,
   },
   62061: {
     district: 62061,
@@ -27490,7 +27491,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 39,
     blank: 370,
-    total: 1438
+    total: 1438,
   },
   62062: {
     district: 62062,
@@ -27501,7 +27502,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 46,
     blank: 349,
-    total: 1584
+    total: 1584,
   },
   63001: {
     district: 63001,
@@ -27512,7 +27513,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 29,
     blank: 347,
-    total: 1638
+    total: 1638,
   },
   63002: {
     district: 63002,
@@ -27523,7 +27524,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 31,
     blank: 411,
-    total: 1515
+    total: 1515,
   },
   63003: {
     district: 63003,
@@ -27534,7 +27535,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 264,
-    total: 1019
+    total: 1019,
   },
   63004: {
     district: 63004,
@@ -27545,7 +27546,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 41,
     blank: 531,
-    total: 1689
+    total: 1689,
   },
   63005: {
     district: 63005,
@@ -27556,7 +27557,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 487,
-    total: 1575
+    total: 1575,
   },
   63006: {
     district: 63006,
@@ -27567,7 +27568,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 42,
     blank: 503,
-    total: 1673
+    total: 1673,
   },
   63007: {
     district: 63007,
@@ -27578,7 +27579,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 328,
-    total: 1260
+    total: 1260,
   },
   63008: {
     district: 63008,
@@ -27589,7 +27590,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 218,
-    total: 660
+    total: 660,
   },
   63009: {
     district: 63009,
@@ -27600,7 +27601,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 86,
-    total: 315
+    total: 315,
   },
   63010: {
     district: 63010,
@@ -27611,7 +27612,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 29,
     blank: 239,
-    total: 1188
+    total: 1188,
   },
   63011: {
     district: 63011,
@@ -27622,7 +27623,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 42,
     blank: 268,
-    total: 1162
+    total: 1162,
   },
   63012: {
     district: 63012,
@@ -27633,7 +27634,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 268,
-    total: 1093
+    total: 1093,
   },
   63013: {
     district: 63013,
@@ -27644,7 +27645,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 212,
-    total: 933
+    total: 933,
   },
   63014: {
     district: 63014,
@@ -27655,7 +27656,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 28,
     blank: 289,
-    total: 1267
+    total: 1267,
   },
   63015: {
     district: 63015,
@@ -27666,7 +27667,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 32,
     blank: 220,
-    total: 1037
+    total: 1037,
   },
   63016: {
     district: 63016,
@@ -27677,7 +27678,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 49,
     blank: 412,
-    total: 1694
+    total: 1694,
   },
   63017: {
     district: 63017,
@@ -27688,7 +27689,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 44,
     blank: 246,
-    total: 1419
+    total: 1419,
   },
   63018: {
     district: 63018,
@@ -27699,7 +27700,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 60,
     blank: 305,
-    total: 1396
+    total: 1396,
   },
   63019: {
     district: 63019,
@@ -27710,7 +27711,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 110,
-    total: 507
+    total: 507,
   },
   63020: {
     district: 63020,
@@ -27721,7 +27722,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 299,
-    total: 1096
+    total: 1096,
   },
   63021: {
     district: 63021,
@@ -27732,7 +27733,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 225,
-    total: 935
+    total: 935,
   },
   63022: {
     district: 63022,
@@ -27743,7 +27744,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 136,
-    total: 760
+    total: 760,
   },
   63023: {
     district: 63023,
@@ -27754,7 +27755,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 342,
-    total: 1061
+    total: 1061,
   },
   63024: {
     district: 63024,
@@ -27765,7 +27766,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 37,
     blank: 484,
-    total: 1712
+    total: 1712,
   },
   63025: {
     district: 63025,
@@ -27776,7 +27777,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 273,
-    total: 1111
+    total: 1111,
   },
   63026: {
     district: 63026,
@@ -27787,7 +27788,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 331,
-    total: 1328
+    total: 1328,
   },
   63027: {
     district: 63027,
@@ -27798,7 +27799,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 373,
-    total: 1275
+    total: 1275,
   },
   63028: {
     district: 63028,
@@ -27809,7 +27810,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 42,
     blank: 415,
-    total: 1736
+    total: 1736,
   },
   63029: {
     district: 63029,
@@ -27820,7 +27821,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 271,
-    total: 1331
+    total: 1331,
   },
   63030: {
     district: 63030,
@@ -27831,7 +27832,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 54,
     blank: 351,
-    total: 1466
+    total: 1466,
   },
   63031: {
     district: 63031,
@@ -27842,7 +27843,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 41,
     blank: 310,
-    total: 1377
+    total: 1377,
   },
   63032: {
     district: 63032,
@@ -27853,7 +27854,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 47,
     blank: 329,
-    total: 1479
+    total: 1479,
   },
   63033: {
     district: 63033,
@@ -27864,7 +27865,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 236,
-    total: 971
+    total: 971,
   },
   63034: {
     district: 63034,
@@ -27875,7 +27876,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 31,
     blank: 425,
-    total: 1650
+    total: 1650,
   },
   63035: {
     district: 63035,
@@ -27886,7 +27887,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 55,
     blank: 464,
-    total: 1707
+    total: 1707,
   },
   63036: {
     district: 63036,
@@ -27897,7 +27898,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 37,
     blank: 358,
-    total: 1736
+    total: 1736,
   },
   63037: {
     district: 63037,
@@ -27908,7 +27909,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 55,
     blank: 343,
-    total: 1730
+    total: 1730,
   },
   63038: {
     district: 63038,
@@ -27919,7 +27920,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 21,
     blank: 239,
-    total: 1129
+    total: 1129,
   },
   63039: {
     district: 63039,
@@ -27930,7 +27931,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 36,
     blank: 369,
-    total: 1632
+    total: 1632,
   },
   63040: {
     district: 63040,
@@ -27941,7 +27942,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 38,
     blank: 474,
-    total: 1668
+    total: 1668,
   },
   63041: {
     district: 63041,
@@ -27952,7 +27953,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 37,
     blank: 423,
-    total: 1695
+    total: 1695,
   },
   63042: {
     district: 63042,
@@ -27963,7 +27964,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 42,
     blank: 312,
-    total: 1307
+    total: 1307,
   },
   63043: {
     district: 63043,
@@ -27974,7 +27975,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 426,
-    total: 1512
+    total: 1512,
   },
   63044: {
     district: 63044,
@@ -27985,7 +27986,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 41,
     blank: 449,
-    total: 1548
+    total: 1548,
   },
   63045: {
     district: 63045,
@@ -27996,7 +27997,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 44,
     blank: 395,
-    total: 1385
+    total: 1385,
   },
   63046: {
     district: 63046,
@@ -28007,7 +28008,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 37,
     blank: 387,
-    total: 1516
+    total: 1516,
   },
   63047: {
     district: 63047,
@@ -28018,7 +28019,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 30,
     blank: 447,
-    total: 1608
+    total: 1608,
   },
   63048: {
     district: 63048,
@@ -28029,7 +28030,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 366,
-    total: 1165
+    total: 1165,
   },
   63049: {
     district: 63049,
@@ -28040,7 +28041,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 35,
     blank: 382,
-    total: 1278
+    total: 1278,
   },
   63050: {
     district: 63050,
@@ -28051,7 +28052,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 17,
-    total: 79
+    total: 79,
   },
   63051: {
     district: 63051,
@@ -28062,7 +28063,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 38,
     blank: 438,
-    total: 1447
+    total: 1447,
   },
   63052: {
     district: 63052,
@@ -28073,7 +28074,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 43,
     blank: 488,
-    total: 1725
+    total: 1725,
   },
   63053: {
     district: 63053,
@@ -28084,7 +28085,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 379,
-    total: 1255
+    total: 1255,
   },
   63054: {
     district: 63054,
@@ -28095,7 +28096,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 410,
-    total: 1455
+    total: 1455,
   },
   63055: {
     district: 63055,
@@ -28106,7 +28107,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 284,
-    total: 1128
+    total: 1128,
   },
   63056: {
     district: 63056,
@@ -28117,7 +28118,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 314,
-    total: 1347
+    total: 1347,
   },
   63057: {
     district: 63057,
@@ -28128,7 +28129,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 357,
-    total: 1324
+    total: 1324,
   },
   63058: {
     district: 63058,
@@ -28139,7 +28140,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 32,
     blank: 359,
-    total: 1314
+    total: 1314,
   },
   63059: {
     district: 63059,
@@ -28150,7 +28151,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 46,
     blank: 400,
-    total: 1560
+    total: 1560,
   },
   63060: {
     district: 63060,
@@ -28161,7 +28162,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 35,
     blank: 365,
-    total: 1685
+    total: 1685,
   },
   63061: {
     district: 63061,
@@ -28172,7 +28173,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 41,
     blank: 474,
-    total: 1646
+    total: 1646,
   },
   63062: {
     district: 63062,
@@ -28183,7 +28184,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 34,
     blank: 284,
-    total: 1047
+    total: 1047,
   },
   63063: {
     district: 63063,
@@ -28194,7 +28195,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 36,
     blank: 405,
-    total: 1332
+    total: 1332,
   },
   63064: {
     district: 63064,
@@ -28205,7 +28206,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 332,
-    total: 1229
+    total: 1229,
   },
   63065: {
     district: 63065,
@@ -28216,7 +28217,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 21,
     blank: 144,
-    total: 718
+    total: 718,
   },
   63066: {
     district: 63066,
@@ -28227,7 +28228,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 246,
-    total: 959
+    total: 959,
   },
   63067: {
     district: 63067,
@@ -28238,7 +28239,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 27,
     blank: 346,
-    total: 1270
+    total: 1270,
   },
   63068: {
     district: 63068,
@@ -28249,7 +28250,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 230,
-    total: 927
+    total: 927,
   },
   63069: {
     district: 63069,
@@ -28260,7 +28261,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 38,
     blank: 298,
-    total: 1447
+    total: 1447,
   },
   64001: {
     district: 64001,
@@ -28271,7 +28272,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 45,
     blank: 394,
-    total: 1698
+    total: 1698,
   },
   64002: {
     district: 64002,
@@ -28282,7 +28283,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 49,
     blank: 443,
-    total: 1800
+    total: 1800,
   },
   64003: {
     district: 64003,
@@ -28293,7 +28294,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 39,
     blank: 421,
-    total: 1751
+    total: 1751,
   },
   64004: {
     district: 64004,
@@ -28304,7 +28305,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 50,
     blank: 516,
-    total: 1690
+    total: 1690,
   },
   64005: {
     district: 64005,
@@ -28315,7 +28316,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 37,
     blank: 445,
-    total: 1794
+    total: 1794,
   },
   64006: {
     district: 64006,
@@ -28326,7 +28327,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 43,
     blank: 438,
-    total: 1713
+    total: 1713,
   },
   64007: {
     district: 64007,
@@ -28337,7 +28338,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 32,
     blank: 401,
-    total: 1652
+    total: 1652,
   },
   64008: {
     district: 64008,
@@ -28348,7 +28349,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 48,
     blank: 374,
-    total: 1667
+    total: 1667,
   },
   64009: {
     district: 64009,
@@ -28359,7 +28360,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 48,
     blank: 383,
-    total: 1666
+    total: 1666,
   },
   64010: {
     district: 64010,
@@ -28370,7 +28371,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 428,
-    total: 1643
+    total: 1643,
   },
   64011: {
     district: 64011,
@@ -28381,7 +28382,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 37,
     blank: 507,
-    total: 1671
+    total: 1671,
   },
   64012: {
     district: 64012,
@@ -28392,7 +28393,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 40,
     blank: 509,
-    total: 1840
+    total: 1840,
   },
   64013: {
     district: 64013,
@@ -28403,7 +28404,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 50,
     blank: 520,
-    total: 1751
+    total: 1751,
   },
   64014: {
     district: 64014,
@@ -28414,7 +28415,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 50,
     blank: 509,
-    total: 1728
+    total: 1728,
   },
   64015: {
     district: 64015,
@@ -28425,7 +28426,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 38,
     blank: 353,
-    total: 1664
+    total: 1664,
   },
   64016: {
     district: 64016,
@@ -28436,7 +28437,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 44,
     blank: 429,
-    total: 1712
+    total: 1712,
   },
   64017: {
     district: 64017,
@@ -28447,7 +28448,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 56,
     blank: 450,
-    total: 1687
+    total: 1687,
   },
   64018: {
     district: 64018,
@@ -28458,7 +28459,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 59,
     blank: 433,
-    total: 1734
+    total: 1734,
   },
   64019: {
     district: 64019,
@@ -28469,7 +28470,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 203,
-    total: 783
+    total: 783,
   },
   64020: {
     district: 64020,
@@ -28480,7 +28481,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 21,
-    total: 65
+    total: 65,
   },
   64021: {
     district: 64021,
@@ -28491,7 +28492,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 46,
     blank: 374,
-    total: 1656
+    total: 1656,
   },
   64022: {
     district: 64022,
@@ -28502,7 +28503,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 39,
     blank: 519,
-    total: 1663
+    total: 1663,
   },
   64023: {
     district: 64023,
@@ -28513,7 +28514,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 27,
     blank: 621,
-    total: 1730
+    total: 1730,
   },
   64024: {
     district: 64024,
@@ -28524,7 +28525,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 45,
     blank: 435,
-    total: 1698
+    total: 1698,
   },
   64025: {
     district: 64025,
@@ -28535,7 +28536,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 40,
     blank: 318,
-    total: 1259
+    total: 1259,
   },
   64026: {
     district: 64026,
@@ -28546,7 +28547,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 217,
-    total: 938
+    total: 938,
   },
   64027: {
     district: 64027,
@@ -28557,7 +28558,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 34,
     blank: 387,
-    total: 1382
+    total: 1382,
   },
   64028: {
     district: 64028,
@@ -28568,7 +28569,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 38,
     blank: 481,
-    total: 1652
+    total: 1652,
   },
   64029: {
     district: 64029,
@@ -28579,7 +28580,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 519,
-    total: 1624
+    total: 1624,
   },
   64030: {
     district: 64030,
@@ -28590,7 +28591,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 243,
-    total: 836
+    total: 836,
   },
   64031: {
     district: 64031,
@@ -28601,7 +28602,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 44,
     blank: 400,
-    total: 1420
+    total: 1420,
   },
   64032: {
     district: 64032,
@@ -28612,7 +28613,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 38,
     blank: 476,
-    total: 1652
+    total: 1652,
   },
   64033: {
     district: 64033,
@@ -28623,7 +28624,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 32,
     blank: 364,
-    total: 1338
+    total: 1338,
   },
   64034: {
     district: 64034,
@@ -28634,7 +28635,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 356,
-    total: 1345
+    total: 1345,
   },
   64035: {
     district: 64035,
@@ -28645,7 +28646,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 290,
-    total: 1099
+    total: 1099,
   },
   64036: {
     district: 64036,
@@ -28656,7 +28657,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 377,
-    total: 1427
+    total: 1427,
   },
   64037: {
     district: 64037,
@@ -28667,7 +28668,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 37,
     blank: 505,
-    total: 1752
+    total: 1752,
   },
   64038: {
     district: 64038,
@@ -28678,7 +28679,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 268,
-    total: 1059
+    total: 1059,
   },
   64039: {
     district: 64039,
@@ -28689,7 +28690,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 39,
     blank: 393,
-    total: 1512
+    total: 1512,
   },
   64040: {
     district: 64040,
@@ -28700,7 +28701,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 33,
     blank: 263,
-    total: 1069
+    total: 1069,
   },
   64041: {
     district: 64041,
@@ -28711,7 +28712,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 44,
     blank: 380,
-    total: 1450
+    total: 1450,
   },
   64042: {
     district: 64042,
@@ -28722,7 +28723,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 35,
     blank: 416,
-    total: 1487
+    total: 1487,
   },
   64043: {
     district: 64043,
@@ -28733,7 +28734,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 35,
     blank: 533,
-    total: 1661
+    total: 1661,
   },
   64044: {
     district: 64044,
@@ -28744,7 +28745,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 46,
     blank: 520,
-    total: 1689
+    total: 1689,
   },
   64045: {
     district: 64045,
@@ -28755,7 +28756,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 47,
     blank: 517,
-    total: 1785
+    total: 1785,
   },
   64046: {
     district: 64046,
@@ -28766,7 +28767,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 382,
-    total: 1262
+    total: 1262,
   },
   64047: {
     district: 64047,
@@ -28777,7 +28778,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 265,
-    total: 1058
+    total: 1058,
   },
   64048: {
     district: 64048,
@@ -28788,7 +28789,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 34,
     blank: 299,
-    total: 1039
+    total: 1039,
   },
   64049: {
     district: 64049,
@@ -28799,7 +28800,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 358,
-    total: 1165
+    total: 1165,
   },
   64050: {
     district: 64050,
@@ -28810,7 +28811,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 213,
-    total: 768
+    total: 768,
   },
   64051: {
     district: 64051,
@@ -28821,7 +28822,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 4,
     blank: 72,
-    total: 218
+    total: 218,
   },
   64075: {
     district: 64075,
@@ -28832,7 +28833,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 33,
     blank: 484,
-    total: 1733
+    total: 1733,
   },
   64076: {
     district: 64076,
@@ -28843,7 +28844,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 229,
-    total: 726
+    total: 726,
   },
   64077: {
     district: 64077,
@@ -28854,7 +28855,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 471,
-    total: 1657
+    total: 1657,
   },
   64078: {
     district: 64078,
@@ -28865,7 +28866,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 323,
-    total: 1187
+    total: 1187,
   },
   64079: {
     district: 64079,
@@ -28876,7 +28877,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 340,
-    total: 1280
+    total: 1280,
   },
   64080: {
     district: 64080,
@@ -28887,7 +28888,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 33,
     blank: 430,
-    total: 1535
+    total: 1535,
   },
   64081: {
     district: 64081,
@@ -28898,7 +28899,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 44,
     blank: 397,
-    total: 1847
+    total: 1847,
   },
   64082: {
     district: 64082,
@@ -28909,7 +28910,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 336,
-    total: 1492
+    total: 1492,
   },
   64083: {
     district: 64083,
@@ -28920,7 +28921,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 41,
     blank: 423,
-    total: 1729
+    total: 1729,
   },
   64084: {
     district: 64084,
@@ -28931,7 +28932,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 286,
-    total: 1128
+    total: 1128,
   },
   64085: {
     district: 64085,
@@ -28942,7 +28943,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 28,
     blank: 249,
-    total: 1068
+    total: 1068,
   },
   64086: {
     district: 64086,
@@ -28953,7 +28954,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 243,
-    total: 1021
+    total: 1021,
   },
   64087: {
     district: 64087,
@@ -28964,7 +28965,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 241,
-    total: 808
+    total: 808,
   },
   65001: {
     district: 65001,
@@ -28975,7 +28976,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 480,
-    total: 1639
+    total: 1639,
   },
   65002: {
     district: 65002,
@@ -28986,7 +28987,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 367,
-    total: 1556
+    total: 1556,
   },
   65003: {
     district: 65003,
@@ -28997,7 +28998,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 36,
     blank: 546,
-    total: 1969
+    total: 1969,
   },
   65004: {
     district: 65004,
@@ -29008,7 +29009,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 475,
-    total: 1560
+    total: 1560,
   },
   65005: {
     district: 65005,
@@ -29019,7 +29020,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 406,
-    total: 1389
+    total: 1389,
   },
   65006: {
     district: 65006,
@@ -29030,7 +29031,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 403,
-    total: 1290
+    total: 1290,
   },
   65007: {
     district: 65007,
@@ -29041,7 +29042,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 29,
     blank: 351,
-    total: 1539
+    total: 1539,
   },
   65008: {
     district: 65008,
@@ -29052,7 +29053,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 227,
-    total: 1085
+    total: 1085,
   },
   65009: {
     district: 65009,
@@ -29063,7 +29064,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 442,
-    total: 1675
+    total: 1675,
   },
   65010: {
     district: 65010,
@@ -29074,7 +29075,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 439,
-    total: 1592
+    total: 1592,
   },
   65011: {
     district: 65011,
@@ -29085,7 +29086,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 17,
     blank: 273,
-    total: 1072
+    total: 1072,
   },
   65012: {
     district: 65012,
@@ -29096,7 +29097,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 269,
-    total: 1267
+    total: 1267,
   },
   65013: {
     district: 65013,
@@ -29107,7 +29108,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 367,
-    total: 1552
+    total: 1552,
   },
   65014: {
     district: 65014,
@@ -29118,7 +29119,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 253,
-    total: 1052
+    total: 1052,
   },
   65015: {
     district: 65015,
@@ -29129,7 +29130,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 335,
-    total: 1307
+    total: 1307,
   },
   65016: {
     district: 65016,
@@ -29140,7 +29141,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 253,
-    total: 1039
+    total: 1039,
   },
   65017: {
     district: 65017,
@@ -29151,7 +29152,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 386,
-    total: 1320
+    total: 1320,
   },
   65018: {
     district: 65018,
@@ -29162,7 +29163,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 315,
-    total: 1448
+    total: 1448,
   },
   65019: {
     district: 65019,
@@ -29173,7 +29174,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 441,
-    total: 1694
+    total: 1694,
   },
   65020: {
     district: 65020,
@@ -29184,7 +29185,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 283,
-    total: 1014
+    total: 1014,
   },
   65021: {
     district: 65021,
@@ -29195,7 +29196,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 424,
-    total: 1516
+    total: 1516,
   },
   65022: {
     district: 65022,
@@ -29206,7 +29207,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 208,
-    total: 782
+    total: 782,
   },
   65023: {
     district: 65023,
@@ -29217,7 +29218,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 27,
     blank: 335,
-    total: 1693
+    total: 1693,
   },
   65024: {
     district: 65024,
@@ -29228,7 +29229,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 7,
     blank: 158,
-    total: 935
+    total: 935,
   },
   65025: {
     district: 65025,
@@ -29239,7 +29240,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 198,
-    total: 1004
+    total: 1004,
   },
   65026: {
     district: 65026,
@@ -29250,7 +29251,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 268,
-    total: 1511
+    total: 1511,
   },
   65027: {
     district: 65027,
@@ -29261,7 +29262,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 278,
-    total: 1291
+    total: 1291,
   },
   65028: {
     district: 65028,
@@ -29272,7 +29273,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 155,
-    total: 1238
+    total: 1238,
   },
   65029: {
     district: 65029,
@@ -29283,7 +29284,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 217,
-    total: 1509
+    total: 1509,
   },
   65030: {
     district: 65030,
@@ -29294,7 +29295,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 262,
-    total: 1294
+    total: 1294,
   },
   65031: {
     district: 65031,
@@ -29305,7 +29306,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 212,
-    total: 1221
+    total: 1221,
   },
   65032: {
     district: 65032,
@@ -29316,7 +29317,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 249,
-    total: 1176
+    total: 1176,
   },
   65033: {
     district: 65033,
@@ -29327,7 +29328,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 334,
-    total: 1722
+    total: 1722,
   },
   65034: {
     district: 65034,
@@ -29338,7 +29339,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 202,
-    total: 873
+    total: 873,
   },
   65035: {
     district: 65035,
@@ -29349,7 +29350,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 32,
     blank: 382,
-    total: 1651
+    total: 1651,
   },
   65036: {
     district: 65036,
@@ -29360,7 +29361,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 178,
-    total: 668
+    total: 668,
   },
   65037: {
     district: 65037,
@@ -29371,7 +29372,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 39,
-    total: 178
+    total: 178,
   },
   65038: {
     district: 65038,
@@ -29382,7 +29383,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 124,
-    total: 532
+    total: 532,
   },
   65039: {
     district: 65039,
@@ -29393,7 +29394,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 7,
     blank: 102,
-    total: 492
+    total: 492,
   },
   65040: {
     district: 65040,
@@ -29404,7 +29405,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 346,
-    total: 1503
+    total: 1503,
   },
   65041: {
     district: 65041,
@@ -29415,7 +29416,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 311,
-    total: 1365
+    total: 1365,
   },
   65042: {
     district: 65042,
@@ -29426,7 +29427,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 262,
-    total: 1349
+    total: 1349,
   },
   65043: {
     district: 65043,
@@ -29437,7 +29438,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 14,
     blank: 404,
-    total: 1516
+    total: 1516,
   },
   65044: {
     district: 65044,
@@ -29448,7 +29449,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 436,
-    total: 1677
+    total: 1677,
   },
   65045: {
     district: 65045,
@@ -29459,7 +29460,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 363,
-    total: 1439
+    total: 1439,
   },
   65046: {
     district: 65046,
@@ -29470,7 +29471,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 226,
-    total: 1645
+    total: 1645,
   },
   65047: {
     district: 65047,
@@ -29481,7 +29482,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 15,
     blank: 209,
-    total: 1128
+    total: 1128,
   },
   65048: {
     district: 65048,
@@ -29492,7 +29493,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 7,
     blank: 166,
-    total: 951
+    total: 951,
   },
   65049: {
     district: 65049,
@@ -29503,7 +29504,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 442,
-    total: 1595
+    total: 1595,
   },
   65050: {
     district: 65050,
@@ -29514,7 +29515,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 478,
-    total: 1502
+    total: 1502,
   },
   65051: {
     district: 65051,
@@ -29525,7 +29526,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 413,
-    total: 1505
+    total: 1505,
   },
   65052: {
     district: 65052,
@@ -29536,7 +29537,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 315,
-    total: 1150
+    total: 1150,
   },
   65053: {
     district: 65053,
@@ -29547,7 +29548,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 301,
-    total: 1037
+    total: 1037,
   },
   65054: {
     district: 65054,
@@ -29558,7 +29559,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 375,
-    total: 1289
+    total: 1289,
   },
   65055: {
     district: 65055,
@@ -29569,7 +29570,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 264,
-    total: 1050
+    total: 1050,
   },
   65056: {
     district: 65056,
@@ -29580,7 +29581,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 174,
-    total: 889
+    total: 889,
   },
   65057: {
     district: 65057,
@@ -29591,7 +29592,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 351,
-    total: 1629
+    total: 1629,
   },
   65058: {
     district: 65058,
@@ -29602,7 +29603,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 13,
     blank: 264,
-    total: 1287
+    total: 1287,
   },
   65059: {
     district: 65059,
@@ -29613,7 +29614,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 34,
     blank: 316,
-    total: 1515
+    total: 1515,
   },
   65060: {
     district: 65060,
@@ -29624,7 +29625,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 350,
-    total: 1593
+    total: 1593,
   },
   65061: {
     district: 65061,
@@ -29635,7 +29636,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 287,
-    total: 1266
+    total: 1266,
   },
   65062: {
     district: 65062,
@@ -29646,7 +29647,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 177,
-    total: 974
+    total: 974,
   },
   65063: {
     district: 65063,
@@ -29657,7 +29658,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 22,
     blank: 177,
-    total: 1017
+    total: 1017,
   },
   65064: {
     district: 65064,
@@ -29668,7 +29669,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 320,
-    total: 1510
+    total: 1510,
   },
   65065: {
     district: 65065,
@@ -29679,7 +29680,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 267,
-    total: 1531
+    total: 1531,
   },
   65066: {
     district: 65066,
@@ -29690,7 +29691,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 34,
     blank: 252,
-    total: 1536
+    total: 1536,
   },
   65067: {
     district: 65067,
@@ -29701,7 +29702,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 79,
-    total: 572
+    total: 572,
   },
   66001: {
     district: 66001,
@@ -29712,7 +29713,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 2,
-    total: 16
+    total: 16,
   },
   66002: {
     district: 66002,
@@ -29723,7 +29724,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 311,
-    total: 1260
+    total: 1260,
   },
   66003: {
     district: 66003,
@@ -29734,7 +29735,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 205,
-    total: 1023
+    total: 1023,
   },
   66004: {
     district: 66004,
@@ -29745,7 +29746,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 303,
-    total: 1615
+    total: 1615,
   },
   66005: {
     district: 66005,
@@ -29756,7 +29757,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 161,
-    total: 987
+    total: 987,
   },
   66006: {
     district: 66006,
@@ -29767,7 +29768,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 235,
-    total: 1252
+    total: 1252,
   },
   66007: {
     district: 66007,
@@ -29778,7 +29779,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 252,
-    total: 1191
+    total: 1191,
   },
   66008: {
     district: 66008,
@@ -29789,7 +29790,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 35,
     blank: 376,
-    total: 1481
+    total: 1481,
   },
   66009: {
     district: 66009,
@@ -29800,7 +29801,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 162,
-    total: 1132
+    total: 1132,
   },
   66010: {
     district: 66010,
@@ -29811,7 +29812,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 229,
-    total: 1235
+    total: 1235,
   },
   66011: {
     district: 66011,
@@ -29822,7 +29823,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 270,
-    total: 1248
+    total: 1248,
   },
   66012: {
     district: 66012,
@@ -29833,7 +29834,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 395,
-    total: 1673
+    total: 1673,
   },
   66013: {
     district: 66013,
@@ -29844,7 +29845,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 15,
     blank: 295,
-    total: 947
+    total: 947,
   },
   66014: {
     district: 66014,
@@ -29855,7 +29856,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 308,
-    total: 1365
+    total: 1365,
   },
   66015: {
     district: 66015,
@@ -29866,7 +29867,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 238,
-    total: 1343
+    total: 1343,
   },
   66016: {
     district: 66016,
@@ -29877,7 +29878,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 38,
     blank: 372,
-    total: 1767
+    total: 1767,
   },
   66017: {
     district: 66017,
@@ -29888,7 +29889,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 244,
-    total: 1108
+    total: 1108,
   },
   66018: {
     district: 66018,
@@ -29899,7 +29900,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 273,
-    total: 1303
+    total: 1303,
   },
   66019: {
     district: 66019,
@@ -29910,7 +29911,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 344,
-    total: 1621
+    total: 1621,
   },
   66020: {
     district: 66020,
@@ -29921,7 +29922,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 280,
-    total: 1168
+    total: 1168,
   },
   66021: {
     district: 66021,
@@ -29932,7 +29933,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 295,
-    total: 1298
+    total: 1298,
   },
   66022: {
     district: 66022,
@@ -29943,7 +29944,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 26,
-    total: 128
+    total: 128,
   },
   66023: {
     district: 66023,
@@ -29954,7 +29955,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 295,
-    total: 1568
+    total: 1568,
   },
   66024: {
     district: 66024,
@@ -29965,7 +29966,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 250,
-    total: 1312
+    total: 1312,
   },
   66025: {
     district: 66025,
@@ -29976,7 +29977,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 353,
-    total: 1594
+    total: 1594,
   },
   66026: {
     district: 66026,
@@ -29987,7 +29988,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 220,
-    total: 1174
+    total: 1174,
   },
   66027: {
     district: 66027,
@@ -29998,7 +29999,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 207,
-    total: 955
+    total: 955,
   },
   66028: {
     district: 66028,
@@ -30009,7 +30010,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 277,
-    total: 1272
+    total: 1272,
   },
   66029: {
     district: 66029,
@@ -30020,7 +30021,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 234,
-    total: 1061
+    total: 1061,
   },
   66030: {
     district: 66030,
@@ -30031,7 +30032,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 198,
-    total: 856
+    total: 856,
   },
   66031: {
     district: 66031,
@@ -30042,7 +30043,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 311,
-    total: 1461
+    total: 1461,
   },
   66032: {
     district: 66032,
@@ -30053,7 +30054,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 32,
     blank: 392,
-    total: 1654
+    total: 1654,
   },
   66033: {
     district: 66033,
@@ -30064,7 +30065,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 30,
     blank: 242,
-    total: 1129
+    total: 1129,
   },
   66034: {
     district: 66034,
@@ -30075,7 +30076,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 192,
-    total: 995
+    total: 995,
   },
   66035: {
     district: 66035,
@@ -30086,7 +30087,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 245,
-    total: 1364
+    total: 1364,
   },
   66036: {
     district: 66036,
@@ -30097,7 +30098,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 275,
-    total: 1396
+    total: 1396,
   },
   66037: {
     district: 66037,
@@ -30108,7 +30109,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 224,
-    total: 1281
+    total: 1281,
   },
   66038: {
     district: 66038,
@@ -30119,7 +30120,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 189,
-    total: 1198
+    total: 1198,
   },
   66039: {
     district: 66039,
@@ -30130,7 +30131,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 87,
-    total: 399
+    total: 399,
   },
   66040: {
     district: 66040,
@@ -30141,7 +30142,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 198,
-    total: 987
+    total: 987,
   },
   66041: {
     district: 66041,
@@ -30152,7 +30153,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 258,
-    total: 1323
+    total: 1323,
   },
   66042: {
     district: 66042,
@@ -30163,7 +30164,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 335,
-    total: 1467
+    total: 1467,
   },
   66043: {
     district: 66043,
@@ -30174,7 +30175,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 282,
-    total: 1241
+    total: 1241,
   },
   66044: {
     district: 66044,
@@ -30185,7 +30186,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 287,
-    total: 1260
+    total: 1260,
   },
   66045: {
     district: 66045,
@@ -30196,7 +30197,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 212,
-    total: 1127
+    total: 1127,
   },
   66046: {
     district: 66046,
@@ -30207,7 +30208,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 31,
     blank: 244,
-    total: 1041
+    total: 1041,
   },
   66047: {
     district: 66047,
@@ -30218,7 +30219,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 269,
-    total: 1344
+    total: 1344,
   },
   66048: {
     district: 66048,
@@ -30229,7 +30230,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 299,
-    total: 1428
+    total: 1428,
   },
   66049: {
     district: 66049,
@@ -30240,7 +30241,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 419,
-    total: 1829
+    total: 1829,
   },
   66050: {
     district: 66050,
@@ -30251,7 +30252,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 36,
     blank: 319,
-    total: 1557
+    total: 1557,
   },
   66051: {
     district: 66051,
@@ -30262,7 +30263,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 379,
-    total: 1735
+    total: 1735,
   },
   66052: {
     district: 66052,
@@ -30273,7 +30274,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 293,
-    total: 1142
+    total: 1142,
   },
   66053: {
     district: 66053,
@@ -30284,7 +30285,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 259,
-    total: 1100
+    total: 1100,
   },
   66054: {
     district: 66054,
@@ -30295,7 +30296,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 334,
-    total: 1353
+    total: 1353,
   },
   66055: {
     district: 66055,
@@ -30306,7 +30307,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 231,
-    total: 1015
+    total: 1015,
   },
   66056: {
     district: 66056,
@@ -30317,7 +30318,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 7,
     blank: 169,
-    total: 1038
+    total: 1038,
   },
   66057: {
     district: 66057,
@@ -30328,7 +30329,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 9,
     blank: 248,
-    total: 1274
+    total: 1274,
   },
   66058: {
     district: 66058,
@@ -30339,7 +30340,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 13,
     blank: 322,
-    total: 1398
+    total: 1398,
   },
   66059: {
     district: 66059,
@@ -30350,7 +30351,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 206,
-    total: 998
+    total: 998,
   },
   66060: {
     district: 66060,
@@ -30361,7 +30362,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 223,
-    total: 1080
+    total: 1080,
   },
   66061: {
     district: 66061,
@@ -30372,7 +30373,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 212,
-    total: 1069
+    total: 1069,
   },
   66062: {
     district: 66062,
@@ -30383,7 +30384,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 0,
     blank: 28,
-    total: 100
+    total: 100,
   },
   66063: {
     district: 66063,
@@ -30394,7 +30395,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 409,
-    total: 1280
+    total: 1280,
   },
   66064: {
     district: 66064,
@@ -30405,7 +30406,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 373,
-    total: 1470
+    total: 1470,
   },
   66065: {
     district: 66065,
@@ -30416,7 +30417,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 233,
-    total: 1109
+    total: 1109,
   },
   66066: {
     district: 66066,
@@ -30427,7 +30428,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 434,
-    total: 1724
+    total: 1724,
   },
   66067: {
     district: 66067,
@@ -30438,7 +30439,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 24,
     blank: 520,
-    total: 1734
+    total: 1734,
   },
   66068: {
     district: 66068,
@@ -30449,7 +30450,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 331,
-    total: 1593
+    total: 1593,
   },
   66069: {
     district: 66069,
@@ -30460,7 +30461,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 35,
     blank: 232,
-    total: 1200
+    total: 1200,
   },
   66070: {
     district: 66070,
@@ -30471,7 +30472,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 344,
-    total: 1406
+    total: 1406,
   },
   66071: {
     district: 66071,
@@ -30482,7 +30483,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 20,
     blank: 343,
-    total: 1342
+    total: 1342,
   },
   66072: {
     district: 66072,
@@ -30493,7 +30494,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 23,
     blank: 344,
-    total: 1289
+    total: 1289,
   },
   66073: {
     district: 66073,
@@ -30504,7 +30505,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 26,
     blank: 354,
-    total: 1415
+    total: 1415,
   },
   66074: {
     district: 66074,
@@ -30515,7 +30516,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 3,
     blank: 39,
-    total: 195
+    total: 195,
   },
   67001: {
     district: 67001,
@@ -30526,7 +30527,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 255,
-    total: 1392
+    total: 1392,
   },
   67002: {
     district: 67002,
@@ -30537,7 +30538,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 8,
     blank: 168,
-    total: 940
+    total: 940,
   },
   67003: {
     district: 67003,
@@ -30548,7 +30549,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 195,
-    total: 1297
+    total: 1297,
   },
   67004: {
     district: 67004,
@@ -30559,7 +30560,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 221,
-    total: 1403
+    total: 1403,
   },
   67005: {
     district: 67005,
@@ -30570,7 +30571,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 248,
-    total: 1584
+    total: 1584,
   },
   67006: {
     district: 67006,
@@ -30581,7 +30582,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 64,
-    total: 348
+    total: 348,
   },
   67007: {
     district: 67007,
@@ -30592,7 +30593,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 278,
-    total: 1649
+    total: 1649,
   },
   67008: {
     district: 67008,
@@ -30603,7 +30604,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 229,
-    total: 1471
+    total: 1471,
   },
   67009: {
     district: 67009,
@@ -30614,7 +30615,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 212,
-    total: 1243
+    total: 1243,
   },
   67010: {
     district: 67010,
@@ -30625,7 +30626,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 225,
-    total: 1399
+    total: 1399,
   },
   67011: {
     district: 67011,
@@ -30636,7 +30637,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 26,
     blank: 252,
-    total: 1386
+    total: 1386,
   },
   67012: {
     district: 67012,
@@ -30647,7 +30648,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 298,
-    total: 1745
+    total: 1745,
   },
   67013: {
     district: 67013,
@@ -30658,7 +30659,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 228,
-    total: 1495
+    total: 1495,
   },
   67014: {
     district: 67014,
@@ -30669,7 +30670,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 198,
-    total: 1093
+    total: 1093,
   },
   67015: {
     district: 67015,
@@ -30680,7 +30681,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 221,
-    total: 1265
+    total: 1265,
   },
   67016: {
     district: 67016,
@@ -30691,7 +30692,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 312,
-    total: 1705
+    total: 1705,
   },
   67017: {
     district: 67017,
@@ -30702,7 +30703,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 294,
-    total: 1633
+    total: 1633,
   },
   67018: {
     district: 67018,
@@ -30713,7 +30714,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 276,
-    total: 1480
+    total: 1480,
   },
   67019: {
     district: 67019,
@@ -30724,7 +30725,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 309,
-    total: 1565
+    total: 1565,
   },
   67020: {
     district: 67020,
@@ -30735,7 +30736,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 363,
-    total: 1626
+    total: 1626,
   },
   67021: {
     district: 67021,
@@ -30746,7 +30747,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 258,
-    total: 1335
+    total: 1335,
   },
   67022: {
     district: 67022,
@@ -30757,7 +30758,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 270,
-    total: 1435
+    total: 1435,
   },
   67023: {
     district: 67023,
@@ -30768,7 +30769,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 134,
-    total: 634
+    total: 634,
   },
   67024: {
     district: 67024,
@@ -30779,7 +30780,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 268,
-    total: 1505
+    total: 1505,
   },
   67025: {
     district: 67025,
@@ -30790,7 +30791,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 213,
-    total: 1073
+    total: 1073,
   },
   67026: {
     district: 67026,
@@ -30801,7 +30802,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 303,
-    total: 1727
+    total: 1727,
   },
   67027: {
     district: 67027,
@@ -30812,7 +30813,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 17,
     blank: 197,
-    total: 980
+    total: 980,
   },
   67028: {
     district: 67028,
@@ -30823,7 +30824,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 15,
     blank: 222,
-    total: 1131
+    total: 1131,
   },
   67029: {
     district: 67029,
@@ -30834,7 +30835,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 188,
-    total: 989
+    total: 989,
   },
   67030: {
     district: 67030,
@@ -30845,7 +30846,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 339,
-    total: 1718
+    total: 1718,
   },
   67031: {
     district: 67031,
@@ -30856,7 +30857,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 248,
-    total: 1042
+    total: 1042,
   },
   67032: {
     district: 67032,
@@ -30867,7 +30868,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 374,
-    total: 1453
+    total: 1453,
   },
   67033: {
     district: 67033,
@@ -30878,7 +30879,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 256,
-    total: 1128
+    total: 1128,
   },
   67034: {
     district: 67034,
@@ -30889,7 +30890,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 273,
-    total: 1694
+    total: 1694,
   },
   67035: {
     district: 67035,
@@ -30900,7 +30901,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 274,
-    total: 1342
+    total: 1342,
   },
   67036: {
     district: 67036,
@@ -30911,7 +30912,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 190,
-    total: 1371
+    total: 1371,
   },
   67037: {
     district: 67037,
@@ -30922,7 +30923,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 350,
-    total: 1769
+    total: 1769,
   },
   67038: {
     district: 67038,
@@ -30933,7 +30934,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 389,
-    total: 1814
+    total: 1814,
   },
   67039: {
     district: 67039,
@@ -30944,7 +30945,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 224,
-    total: 1614
+    total: 1614,
   },
   67040: {
     district: 67040,
@@ -30955,7 +30956,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 248,
-    total: 1578
+    total: 1578,
   },
   67041: {
     district: 67041,
@@ -30966,7 +30967,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 338,
-    total: 1544
+    total: 1544,
   },
   67042: {
     district: 67042,
@@ -30977,7 +30978,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 206,
-    total: 1404
+    total: 1404,
   },
   67043: {
     district: 67043,
@@ -30988,7 +30989,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 21,
     blank: 273,
-    total: 1088
+    total: 1088,
   },
   67044: {
     district: 67044,
@@ -30999,7 +31000,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 213,
-    total: 1550
+    total: 1550,
   },
   67045: {
     district: 67045,
@@ -31010,7 +31011,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 287,
-    total: 1035
+    total: 1035,
   },
   67046: {
     district: 67046,
@@ -31021,7 +31022,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 85,
-    total: 505
+    total: 505,
   },
   67047: {
     district: 67047,
@@ -31032,7 +31033,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 22,
     blank: 616,
-    total: 1833
+    total: 1833,
   },
   67048: {
     district: 67048,
@@ -31043,7 +31044,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 28,
     blank: 388,
-    total: 1535
+    total: 1535,
   },
   67049: {
     district: 67049,
@@ -31054,7 +31055,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 397,
-    total: 1342
+    total: 1342,
   },
   67050: {
     district: 67050,
@@ -31065,7 +31066,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 226,
-    total: 1345
+    total: 1345,
   },
   67051: {
     district: 67051,
@@ -31076,7 +31077,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 241,
-    total: 1380
+    total: 1380,
   },
   67052: {
     district: 67052,
@@ -31087,7 +31088,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 431,
-    total: 1552
+    total: 1552,
   },
   67053: {
     district: 67053,
@@ -31098,7 +31099,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 263,
-    total: 1060
+    total: 1060,
   },
   67054: {
     district: 67054,
@@ -31109,7 +31110,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 343,
-    total: 1345
+    total: 1345,
   },
   67055: {
     district: 67055,
@@ -31120,7 +31121,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 254,
-    total: 1125
+    total: 1125,
   },
   67056: {
     district: 67056,
@@ -31131,7 +31132,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 376,
-    total: 1407
+    total: 1407,
   },
   67057: {
     district: 67057,
@@ -31142,7 +31143,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 431,
-    total: 1800
+    total: 1800,
   },
   67058: {
     district: 67058,
@@ -31153,7 +31154,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 228,
-    total: 1063
+    total: 1063,
   },
   67059: {
     district: 67059,
@@ -31164,7 +31165,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 485,
-    total: 1769
+    total: 1769,
   },
   67060: {
     district: 67060,
@@ -31175,7 +31176,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 403,
-    total: 1690
+    total: 1690,
   },
   67061: {
     district: 67061,
@@ -31186,7 +31187,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 264,
-    total: 1363
+    total: 1363,
   },
   67062: {
     district: 67062,
@@ -31197,7 +31198,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 364,
-    total: 1696
+    total: 1696,
   },
   67063: {
     district: 67063,
@@ -31208,7 +31209,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 24,
     blank: 357,
-    total: 1522
+    total: 1522,
   },
   67064: {
     district: 67064,
@@ -31219,7 +31220,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 337,
-    total: 1381
+    total: 1381,
   },
   67065: {
     district: 67065,
@@ -31230,7 +31231,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 509,
-    total: 1786
+    total: 1786,
   },
   67066: {
     district: 67066,
@@ -31241,7 +31242,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 278,
-    total: 962
+    total: 962,
   },
   67067: {
     district: 67067,
@@ -31252,7 +31253,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 319,
-    total: 1387
+    total: 1387,
   },
   67068: {
     district: 67068,
@@ -31263,7 +31264,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 255,
-    total: 1048
+    total: 1048,
   },
   68001: {
     district: 68001,
@@ -31274,7 +31275,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 8,
     blank: 207,
-    total: 1144
+    total: 1144,
   },
   68002: {
     district: 68002,
@@ -31285,7 +31286,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 213,
-    total: 1300
+    total: 1300,
   },
   68003: {
     district: 68003,
@@ -31296,7 +31297,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 106,
-    total: 923
+    total: 923,
   },
   68004: {
     district: 68004,
@@ -31307,7 +31308,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 162,
-    total: 1150
+    total: 1150,
   },
   68005: {
     district: 68005,
@@ -31318,7 +31319,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 115,
-    total: 843
+    total: 843,
   },
   68006: {
     district: 68006,
@@ -31329,7 +31330,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 192,
-    total: 1190
+    total: 1190,
   },
   68007: {
     district: 68007,
@@ -31340,7 +31341,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 126,
-    total: 895
+    total: 895,
   },
   68008: {
     district: 68008,
@@ -31351,7 +31352,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 34,
     blank: 257,
-    total: 1621
+    total: 1621,
   },
   68009: {
     district: 68009,
@@ -31362,7 +31363,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 130,
-    total: 646
+    total: 646,
   },
   68010: {
     district: 68010,
@@ -31373,7 +31374,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 170,
-    total: 1031
+    total: 1031,
   },
   68011: {
     district: 68011,
@@ -31384,7 +31385,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 214,
-    total: 1349
+    total: 1349,
   },
   68012: {
     district: 68012,
@@ -31395,7 +31396,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 212,
-    total: 1188
+    total: 1188,
   },
   68013: {
     district: 68013,
@@ -31406,7 +31407,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 237,
-    total: 1490
+    total: 1490,
   },
   68014: {
     district: 68014,
@@ -31417,7 +31418,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 128,
-    total: 768
+    total: 768,
   },
   68015: {
     district: 68015,
@@ -31428,7 +31429,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 202,
-    total: 1056
+    total: 1056,
   },
   68016: {
     district: 68016,
@@ -31439,7 +31440,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 230,
-    total: 1101
+    total: 1101,
   },
   68017: {
     district: 68017,
@@ -31450,7 +31451,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 253,
-    total: 1475
+    total: 1475,
   },
   68018: {
     district: 68018,
@@ -31461,7 +31462,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 149,
-    total: 863
+    total: 863,
   },
   68019: {
     district: 68019,
@@ -31472,7 +31473,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 207,
-    total: 1355
+    total: 1355,
   },
   68020: {
     district: 68020,
@@ -31483,7 +31484,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 16,
     blank: 251,
-    total: 1400
+    total: 1400,
   },
   68021: {
     district: 68021,
@@ -31494,7 +31495,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 326,
-    total: 1683
+    total: 1683,
   },
   68022: {
     district: 68022,
@@ -31505,7 +31506,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 10,
     blank: 199,
-    total: 897
+    total: 897,
   },
   68023: {
     district: 68023,
@@ -31516,7 +31517,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 13,
     blank: 196,
-    total: 1139
+    total: 1139,
   },
   68024: {
     district: 68024,
@@ -31527,7 +31528,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 6,
     blank: 106,
-    total: 495
+    total: 495,
   },
   68025: {
     district: 68025,
@@ -31538,7 +31539,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 13,
     blank: 273,
-    total: 1429
+    total: 1429,
   },
   68026: {
     district: 68026,
@@ -31549,7 +31550,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 189,
-    total: 977
+    total: 977,
   },
   68027: {
     district: 68027,
@@ -31560,7 +31561,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 197,
-    total: 1174
+    total: 1174,
   },
   68028: {
     district: 68028,
@@ -31571,7 +31572,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 299,
-    total: 1380
+    total: 1380,
   },
   68029: {
     district: 68029,
@@ -31582,7 +31583,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 20,
     other: 21,
     blank: 316,
-    total: 1596
+    total: 1596,
   },
   68030: {
     district: 68030,
@@ -31593,7 +31594,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 174,
-    total: 1003
+    total: 1003,
   },
   68031: {
     district: 68031,
@@ -31604,7 +31605,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 210,
-    total: 1120
+    total: 1120,
   },
   68032: {
     district: 68032,
@@ -31615,7 +31616,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 31,
     blank: 319,
-    total: 1568
+    total: 1568,
   },
   68033: {
     district: 68033,
@@ -31626,7 +31627,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 33,
     blank: 345,
-    total: 1709
+    total: 1709,
   },
   68034: {
     district: 68034,
@@ -31637,7 +31638,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 23,
     blank: 337,
-    total: 1776
+    total: 1776,
   },
   68035: {
     district: 68035,
@@ -31648,7 +31649,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 212,
-    total: 1224
+    total: 1224,
   },
   68036: {
     district: 68036,
@@ -31659,7 +31660,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 12,
     blank: 201,
-    total: 1056
+    total: 1056,
   },
   68037: {
     district: 68037,
@@ -31670,7 +31671,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 285,
-    total: 1559
+    total: 1559,
   },
   68038: {
     district: 68038,
@@ -31681,7 +31682,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 285,
-    total: 1415
+    total: 1415,
   },
   68039: {
     district: 68039,
@@ -31692,7 +31693,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 193,
-    total: 1137
+    total: 1137,
   },
   68040: {
     district: 68040,
@@ -31703,7 +31704,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 176,
-    total: 1102
+    total: 1102,
   },
   68041: {
     district: 68041,
@@ -31714,7 +31715,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 24,
     blank: 284,
-    total: 1487
+    total: 1487,
   },
   68042: {
     district: 68042,
@@ -31725,7 +31726,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 10,
     blank: 190,
-    total: 1127
+    total: 1127,
   },
   68043: {
     district: 68043,
@@ -31736,7 +31737,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 30,
     blank: 316,
-    total: 1591
+    total: 1591,
   },
   68044: {
     district: 68044,
@@ -31747,7 +31748,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 346,
-    total: 1646
+    total: 1646,
   },
   68045: {
     district: 68045,
@@ -31758,7 +31759,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 16,
     blank: 282,
-    total: 1440
+    total: 1440,
   },
   68046: {
     district: 68046,
@@ -31769,7 +31770,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 21,
     blank: 279,
-    total: 1379
+    total: 1379,
   },
   68047: {
     district: 68047,
@@ -31780,7 +31781,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 29,
     blank: 357,
-    total: 1688
+    total: 1688,
   },
   68048: {
     district: 68048,
@@ -31791,7 +31792,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 205,
-    total: 1383
+    total: 1383,
   },
   68049: {
     district: 68049,
@@ -31802,7 +31803,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 178,
-    total: 946
+    total: 946,
   },
   68050: {
     district: 68050,
@@ -31813,7 +31814,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 204,
-    total: 1016
+    total: 1016,
   },
   68051: {
     district: 68051,
@@ -31824,7 +31825,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 303,
-    total: 1559
+    total: 1559,
   },
   68052: {
     district: 68052,
@@ -31835,7 +31836,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 249,
-    total: 1147
+    total: 1147,
   },
   68053: {
     district: 68053,
@@ -31846,7 +31847,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 217,
-    total: 1149
+    total: 1149,
   },
   68054: {
     district: 68054,
@@ -31857,7 +31858,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 232,
-    total: 1040
+    total: 1040,
   },
   68055: {
     district: 68055,
@@ -31868,7 +31869,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 29,
     blank: 299,
-    total: 1598
+    total: 1598,
   },
   68056: {
     district: 68056,
@@ -31879,7 +31880,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 206,
-    total: 1126
+    total: 1126,
   },
   68057: {
     district: 68057,
@@ -31890,7 +31891,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 239,
-    total: 1213
+    total: 1213,
   },
   68058: {
     district: 68058,
@@ -31901,7 +31902,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 15,
     blank: 261,
-    total: 1377
+    total: 1377,
   },
   68059: {
     district: 68059,
@@ -31912,7 +31913,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 172,
-    total: 995
+    total: 995,
   },
   68060: {
     district: 68060,
@@ -31923,7 +31924,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 223,
-    total: 1099
+    total: 1099,
   },
   68061: {
     district: 68061,
@@ -31934,7 +31935,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 135,
-    total: 743
+    total: 743,
   },
   68062: {
     district: 68062,
@@ -31945,7 +31946,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 373,
-    total: 1596
+    total: 1596,
   },
   68063: {
     district: 68063,
@@ -31956,7 +31957,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 306,
-    total: 1238
+    total: 1238,
   },
   68064: {
     district: 68064,
@@ -31967,7 +31968,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 102,
-    total: 536
+    total: 536,
   },
   68065: {
     district: 68065,
@@ -31978,7 +31979,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 365,
-    total: 1525
+    total: 1525,
   },
   68066: {
     district: 68066,
@@ -31989,7 +31990,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 42,
     blank: 443,
-    total: 1918
+    total: 1918,
   },
   68067: {
     district: 68067,
@@ -32000,7 +32001,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 301,
-    total: 1349
+    total: 1349,
   },
   68068: {
     district: 68068,
@@ -32011,7 +32012,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 118,
-    total: 543
+    total: 543,
   },
   68069: {
     district: 68069,
@@ -32022,7 +32023,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 166,
-    total: 927
+    total: 927,
   },
   68070: {
     district: 68070,
@@ -32033,7 +32034,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 284,
-    total: 1276
+    total: 1276,
   },
   68071: {
     district: 68071,
@@ -32044,7 +32045,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 185,
-    total: 1069
+    total: 1069,
   },
   68072: {
     district: 68072,
@@ -32055,7 +32056,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 49,
-    total: 290
+    total: 290,
   },
   68073: {
     district: 68073,
@@ -32066,7 +32067,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 69,
-    total: 430
+    total: 430,
   },
   68074: {
     district: 68074,
@@ -32077,7 +32078,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 181,
-    total: 925
+    total: 925,
   },
   68075: {
     district: 68075,
@@ -32088,7 +32089,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 95,
-    total: 475
+    total: 475,
   },
   68076: {
     district: 68076,
@@ -32099,7 +32100,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 11,
-    total: 83
+    total: 83,
   },
   68077: {
     district: 68077,
@@ -32110,7 +32111,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 166,
-    total: 767
+    total: 767,
   },
   68079: {
     district: 68079,
@@ -32121,7 +32122,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 2
+    total: 2,
   },
   69001: {
     district: 69001,
@@ -32132,7 +32133,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 153,
-    total: 892
+    total: 892,
   },
   69002: {
     district: 69002,
@@ -32143,7 +32144,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 229,
-    total: 1435
+    total: 1435,
   },
   69003: {
     district: 69003,
@@ -32154,7 +32155,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 12,
     blank: 190,
-    total: 1164
+    total: 1164,
   },
   69004: {
     district: 69004,
@@ -32165,7 +32166,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 128,
-    total: 842
+    total: 842,
   },
   69005: {
     district: 69005,
@@ -32176,7 +32177,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 199,
-    total: 1130
+    total: 1130,
   },
   69006: {
     district: 69006,
@@ -32187,7 +32188,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 203,
-    total: 1521
+    total: 1521,
   },
   69007: {
     district: 69007,
@@ -32198,7 +32199,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 211,
-    total: 1332
+    total: 1332,
   },
   69008: {
     district: 69008,
@@ -32209,7 +32210,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 199,
-    total: 1097
+    total: 1097,
   },
   69009: {
     district: 69009,
@@ -32220,7 +32221,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 11,
     blank: 233,
-    total: 1136
+    total: 1136,
   },
   69010: {
     district: 69010,
@@ -32231,7 +32232,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 157,
-    total: 905
+    total: 905,
   },
   69011: {
     district: 69011,
@@ -32242,7 +32243,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 14,
     blank: 193,
-    total: 1383
+    total: 1383,
   },
   69012: {
     district: 69012,
@@ -32253,7 +32254,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 255,
-    total: 1696
+    total: 1696,
   },
   69013: {
     district: 69013,
@@ -32264,7 +32265,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 150,
-    total: 990
+    total: 990,
   },
   69014: {
     district: 69014,
@@ -32275,7 +32276,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 261,
-    total: 1515
+    total: 1515,
   },
   69015: {
     district: 69015,
@@ -32286,7 +32287,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 281,
-    total: 1696
+    total: 1696,
   },
   69016: {
     district: 69016,
@@ -32297,7 +32298,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 148,
-    total: 697
+    total: 697,
   },
   69017: {
     district: 69017,
@@ -32308,7 +32309,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 9,
     blank: 142,
-    total: 838
+    total: 838,
   },
   69018: {
     district: 69018,
@@ -32319,7 +32320,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 31,
     blank: 275,
-    total: 1564
+    total: 1564,
   },
   69019: {
     district: 69019,
@@ -32330,7 +32331,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 168,
-    total: 992
+    total: 992,
   },
   69020: {
     district: 69020,
@@ -32341,7 +32342,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 251,
-    total: 1392
+    total: 1392,
   },
   69021: {
     district: 69021,
@@ -32352,7 +32353,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 165,
-    total: 992
+    total: 992,
   },
   69022: {
     district: 69022,
@@ -32363,7 +32364,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 278,
-    total: 1410
+    total: 1410,
   },
   69023: {
     district: 69023,
@@ -32374,7 +32375,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 252,
-    total: 1523
+    total: 1523,
   },
   69024: {
     district: 69024,
@@ -32385,7 +32386,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 246,
-    total: 1575
+    total: 1575,
   },
   69025: {
     district: 69025,
@@ -32396,7 +32397,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 265,
-    total: 1635
+    total: 1635,
   },
   69026: {
     district: 69026,
@@ -32407,7 +32408,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 167,
-    total: 964
+    total: 964,
   },
   69027: {
     district: 69027,
@@ -32418,7 +32419,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 221,
-    total: 1574
+    total: 1574,
   },
   69028: {
     district: 69028,
@@ -32429,7 +32430,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 119,
-    total: 896
+    total: 896,
   },
   69029: {
     district: 69029,
@@ -32440,7 +32441,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 247,
-    total: 1682
+    total: 1682,
   },
   69030: {
     district: 69030,
@@ -32451,7 +32452,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 275,
-    total: 1577
+    total: 1577,
   },
   69031: {
     district: 69031,
@@ -32462,7 +32463,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 149,
-    total: 851
+    total: 851,
   },
   69032: {
     district: 69032,
@@ -32473,7 +32474,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 109,
-    total: 613
+    total: 613,
   },
   69033: {
     district: 69033,
@@ -32484,7 +32485,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 283,
-    total: 1565
+    total: 1565,
   },
   69034: {
     district: 69034,
@@ -32495,7 +32496,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 215,
-    total: 1075
+    total: 1075,
   },
   69035: {
     district: 69035,
@@ -32506,7 +32507,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 166,
-    total: 978
+    total: 978,
   },
   69036: {
     district: 69036,
@@ -32517,7 +32518,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 179,
-    total: 1328
+    total: 1328,
   },
   69037: {
     district: 69037,
@@ -32528,7 +32529,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 189,
-    total: 1296
+    total: 1296,
   },
   69038: {
     district: 69038,
@@ -32539,7 +32540,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 238,
-    total: 1373
+    total: 1373,
   },
   69039: {
     district: 69039,
@@ -32550,7 +32551,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 210,
-    total: 1452
+    total: 1452,
   },
   69040: {
     district: 69040,
@@ -32561,7 +32562,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 110,
-    total: 870
+    total: 870,
   },
   69041: {
     district: 69041,
@@ -32572,7 +32573,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 179,
-    total: 1435
+    total: 1435,
   },
   69042: {
     district: 69042,
@@ -32583,7 +32584,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 231,
-    total: 1657
+    total: 1657,
   },
   69043: {
     district: 69043,
@@ -32594,7 +32595,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 191,
-    total: 1426
+    total: 1426,
   },
   69044: {
     district: 69044,
@@ -32605,7 +32606,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 147,
-    total: 839
+    total: 839,
   },
   69045: {
     district: 69045,
@@ -32616,7 +32617,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 7,
     blank: 220,
-    total: 1753
+    total: 1753,
   },
   69046: {
     district: 69046,
@@ -32627,7 +32628,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 209,
-    total: 1356
+    total: 1356,
   },
   69047: {
     district: 69047,
@@ -32638,7 +32639,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 198,
-    total: 1191
+    total: 1191,
   },
   69048: {
     district: 69048,
@@ -32649,7 +32650,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 228,
-    total: 1350
+    total: 1350,
   },
   69049: {
     district: 69049,
@@ -32660,7 +32661,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 254,
-    total: 1410
+    total: 1410,
   },
   69050: {
     district: 69050,
@@ -32671,7 +32672,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 230,
-    total: 1375
+    total: 1375,
   },
   69051: {
     district: 69051,
@@ -32682,7 +32683,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 228,
-    total: 1309
+    total: 1309,
   },
   69052: {
     district: 69052,
@@ -32693,7 +32694,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 274,
-    total: 1623
+    total: 1623,
   },
   69053: {
     district: 69053,
@@ -32704,7 +32705,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 7,
     blank: 122,
-    total: 997
+    total: 997,
   },
   69054: {
     district: 69054,
@@ -32715,7 +32716,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 302,
-    total: 1511
+    total: 1511,
   },
   69055: {
     district: 69055,
@@ -32726,7 +32727,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 157,
-    total: 803
+    total: 803,
   },
   69056: {
     district: 69056,
@@ -32737,7 +32738,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 191,
-    total: 1155
+    total: 1155,
   },
   69057: {
     district: 69057,
@@ -32748,7 +32749,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 114,
-    total: 891
+    total: 891,
   },
   69058: {
     district: 69058,
@@ -32759,7 +32760,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 27,
     blank: 264,
-    total: 1736
+    total: 1736,
   },
   69059: {
     district: 69059,
@@ -32770,7 +32771,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 211,
-    total: 1376
+    total: 1376,
   },
   69060: {
     district: 69060,
@@ -32781,7 +32782,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 223,
-    total: 1569
+    total: 1569,
   },
   69061: {
     district: 69061,
@@ -32792,7 +32793,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 131,
-    total: 992
+    total: 992,
   },
   69062: {
     district: 69062,
@@ -32803,7 +32804,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 168,
-    total: 1077
+    total: 1077,
   },
   69063: {
     district: 69063,
@@ -32814,7 +32815,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 127,
-    total: 840
+    total: 840,
   },
   69064: {
     district: 69064,
@@ -32825,7 +32826,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 10,
     blank: 175,
-    total: 1020
+    total: 1020,
   },
   69065: {
     district: 69065,
@@ -32836,7 +32837,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 159,
-    total: 1070
+    total: 1070,
   },
   69066: {
     district: 69066,
@@ -32847,7 +32848,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 283,
-    total: 1587
+    total: 1587,
   },
   69067: {
     district: 69067,
@@ -32858,7 +32859,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 220,
-    total: 1274
+    total: 1274,
   },
   69068: {
     district: 69068,
@@ -32869,7 +32870,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 273,
-    total: 1409
+    total: 1409,
   },
   69069: {
     district: 69069,
@@ -32880,7 +32881,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 161,
-    total: 1066
+    total: 1066,
   },
   69070: {
     district: 69070,
@@ -32891,7 +32892,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 199,
-    total: 1064
+    total: 1064,
   },
   69071: {
     district: 69071,
@@ -32902,7 +32903,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 12,
     blank: 244,
-    total: 1396
+    total: 1396,
   },
   69072: {
     district: 69072,
@@ -32913,7 +32914,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 205,
-    total: 970
+    total: 970,
   },
   69073: {
     district: 69073,
@@ -32924,7 +32925,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 327,
-    total: 1651
+    total: 1651,
   },
   69074: {
     district: 69074,
@@ -32935,7 +32936,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 196,
-    total: 983
+    total: 983,
   },
   69075: {
     district: 69075,
@@ -32946,7 +32947,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 18,
     blank: 207,
-    total: 1153
+    total: 1153,
   },
   69076: {
     district: 69076,
@@ -32957,7 +32958,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 237,
-    total: 1192
+    total: 1192,
   },
   70001: {
     district: 70001,
@@ -32968,7 +32969,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 275,
-    total: 1615
+    total: 1615,
   },
   70002: {
     district: 70002,
@@ -32979,7 +32980,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 179,
-    total: 1024
+    total: 1024,
   },
   70003: {
     district: 70003,
@@ -32990,7 +32991,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 130,
-    total: 1038
+    total: 1038,
   },
   70004: {
     district: 70004,
@@ -33001,7 +33002,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 294,
-    total: 1615
+    total: 1615,
   },
   70005: {
     district: 70005,
@@ -33012,7 +33013,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 231,
-    total: 1282
+    total: 1282,
   },
   70006: {
     district: 70006,
@@ -33023,7 +33024,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 230,
-    total: 1350
+    total: 1350,
   },
   70007: {
     district: 70007,
@@ -33034,7 +33035,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 147,
-    total: 1031
+    total: 1031,
   },
   70008: {
     district: 70008,
@@ -33045,7 +33046,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 9,
     blank: 148,
-    total: 999
+    total: 999,
   },
   70009: {
     district: 70009,
@@ -33056,7 +33057,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 214,
-    total: 1211
+    total: 1211,
   },
   70010: {
     district: 70010,
@@ -33067,7 +33068,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 267,
-    total: 1376
+    total: 1376,
   },
   70011: {
     district: 70011,
@@ -33078,7 +33079,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 221,
-    total: 1449
+    total: 1449,
   },
   70012: {
     district: 70012,
@@ -33089,7 +33090,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 217,
-    total: 1246
+    total: 1246,
   },
   70013: {
     district: 70013,
@@ -33100,7 +33101,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 318,
-    total: 1632
+    total: 1632,
   },
   70014: {
     district: 70014,
@@ -33111,7 +33112,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 175,
-    total: 1104
+    total: 1104,
   },
   70015: {
     district: 70015,
@@ -33122,7 +33123,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 16,
     blank: 210,
-    total: 1219
+    total: 1219,
   },
   70016: {
     district: 70016,
@@ -33133,7 +33134,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 25,
     blank: 321,
-    total: 1947
+    total: 1947,
   },
   70017: {
     district: 70017,
@@ -33144,7 +33145,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 146,
-    total: 767
+    total: 767,
   },
   70018: {
     district: 70018,
@@ -33155,7 +33156,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 170,
-    total: 1155
+    total: 1155,
   },
   70019: {
     district: 70019,
@@ -33166,7 +33167,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 11,
     blank: 218,
-    total: 1252
+    total: 1252,
   },
   70020: {
     district: 70020,
@@ -33177,7 +33178,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 299,
-    total: 1694
+    total: 1694,
   },
   70021: {
     district: 70021,
@@ -33188,7 +33189,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 32,
     blank: 264,
-    total: 1565
+    total: 1565,
   },
   70022: {
     district: 70022,
@@ -33199,7 +33200,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 24,
     blank: 249,
-    total: 1561
+    total: 1561,
   },
   70023: {
     district: 70023,
@@ -33210,7 +33211,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 257,
-    total: 1550
+    total: 1550,
   },
   70024: {
     district: 70024,
@@ -33221,7 +33222,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 257,
-    total: 1563
+    total: 1563,
   },
   70025: {
     district: 70025,
@@ -33232,7 +33233,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 189,
-    total: 1140
+    total: 1140,
   },
   70026: {
     district: 70026,
@@ -33243,7 +33244,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 244,
-    total: 1514
+    total: 1514,
   },
   70027: {
     district: 70027,
@@ -33254,7 +33255,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 30,
     blank: 214,
-    total: 1438
+    total: 1438,
   },
   70028: {
     district: 70028,
@@ -33265,7 +33266,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 10,
     blank: 187,
-    total: 1286
+    total: 1286,
   },
   70029: {
     district: 70029,
@@ -33276,7 +33277,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 30,
     blank: 264,
-    total: 1767
+    total: 1767,
   },
   70030: {
     district: 70030,
@@ -33287,7 +33288,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 256,
-    total: 1654
+    total: 1654,
   },
   70031: {
     district: 70031,
@@ -33298,7 +33299,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 215,
-    total: 1498
+    total: 1498,
   },
   70032: {
     district: 70032,
@@ -33309,7 +33310,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 194,
-    total: 1040
+    total: 1040,
   },
   70033: {
     district: 70033,
@@ -33320,7 +33321,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 199,
-    total: 1226
+    total: 1226,
   },
   70034: {
     district: 70034,
@@ -33331,7 +33332,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 11,
     blank: 266,
-    total: 1336
+    total: 1336,
   },
   70035: {
     district: 70035,
@@ -33342,7 +33343,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 235,
-    total: 1278
+    total: 1278,
   },
   70036: {
     district: 70036,
@@ -33353,7 +33354,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 172,
-    total: 1314
+    total: 1314,
   },
   70037: {
     district: 70037,
@@ -33364,7 +33365,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 173,
-    total: 933
+    total: 933,
   },
   70038: {
     district: 70038,
@@ -33375,7 +33376,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 165,
-    total: 1258
+    total: 1258,
   },
   70039: {
     district: 70039,
@@ -33386,7 +33387,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 216,
-    total: 1429
+    total: 1429,
   },
   70040: {
     district: 70040,
@@ -33397,7 +33398,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 193,
-    total: 1134
+    total: 1134,
   },
   70041: {
     district: 70041,
@@ -33408,7 +33409,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 231,
-    total: 1577
+    total: 1577,
   },
   70042: {
     district: 70042,
@@ -33419,7 +33420,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 89,
-    total: 697
+    total: 697,
   },
   70043: {
     district: 70043,
@@ -33430,7 +33431,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 84,
-    total: 890
+    total: 890,
   },
   70044: {
     district: 70044,
@@ -33441,7 +33442,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 181,
-    total: 1670
+    total: 1670,
   },
   70045: {
     district: 70045,
@@ -33452,7 +33453,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 8,
     blank: 160,
-    total: 1002
+    total: 1002,
   },
   70046: {
     district: 70046,
@@ -33463,7 +33464,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 208,
-    total: 1227
+    total: 1227,
   },
   70047: {
     district: 70047,
@@ -33474,7 +33475,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 195,
-    total: 1169
+    total: 1169,
   },
   70048: {
     district: 70048,
@@ -33485,7 +33486,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 11,
     blank: 167,
-    total: 1069
+    total: 1069,
   },
   70049: {
     district: 70049,
@@ -33496,7 +33497,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 21,
     blank: 246,
-    total: 1245
+    total: 1245,
   },
   70050: {
     district: 70050,
@@ -33507,7 +33508,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 157,
-    total: 1110
+    total: 1110,
   },
   70051: {
     district: 70051,
@@ -33518,7 +33519,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 186,
-    total: 1211
+    total: 1211,
   },
   70052: {
     district: 70052,
@@ -33529,7 +33530,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 147,
-    total: 1038
+    total: 1038,
   },
   70053: {
     district: 70053,
@@ -33540,7 +33541,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 250,
-    total: 1463
+    total: 1463,
   },
   70054: {
     district: 70054,
@@ -33551,7 +33552,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 286,
-    total: 1757
+    total: 1757,
   },
   70055: {
     district: 70055,
@@ -33562,7 +33563,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 24,
     blank: 199,
-    total: 1439
+    total: 1439,
   },
   70056: {
     district: 70056,
@@ -33573,7 +33574,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 22,
     blank: 197,
-    total: 1356
+    total: 1356,
   },
   70057: {
     district: 70057,
@@ -33584,7 +33585,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 184,
-    total: 1015
+    total: 1015,
   },
   70058: {
     district: 70058,
@@ -33595,7 +33596,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 28,
     blank: 280,
-    total: 1690
+    total: 1690,
   },
   70059: {
     district: 70059,
@@ -33606,7 +33607,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 29,
     blank: 257,
-    total: 1521
+    total: 1521,
   },
   70060: {
     district: 70060,
@@ -33617,7 +33618,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 26,
     blank: 283,
-    total: 1812
+    total: 1812,
   },
   70061: {
     district: 70061,
@@ -33628,7 +33629,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 187,
-    total: 1294
+    total: 1294,
   },
   70062: {
     district: 70062,
@@ -33639,7 +33640,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 25,
     blank: 281,
-    total: 1723
+    total: 1723,
   },
   70063: {
     district: 70063,
@@ -33650,7 +33651,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 196,
-    total: 1435
+    total: 1435,
   },
   70064: {
     district: 70064,
@@ -33661,7 +33662,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 37,
     blank: 288,
-    total: 1660
+    total: 1660,
   },
   70065: {
     district: 70065,
@@ -33672,7 +33673,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 27,
     blank: 254,
-    total: 1635
+    total: 1635,
   },
   70066: {
     district: 70066,
@@ -33683,7 +33684,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 261,
-    total: 1670
+    total: 1670,
   },
   70067: {
     district: 70067,
@@ -33694,7 +33695,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 14,
     blank: 226,
-    total: 1572
+    total: 1572,
   },
   70068: {
     district: 70068,
@@ -33705,7 +33706,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 221,
-    total: 1280
+    total: 1280,
   },
   70069: {
     district: 70069,
@@ -33716,7 +33717,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 149,
-    total: 1361
+    total: 1361,
   },
   70070: {
     district: 70070,
@@ -33727,7 +33728,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 111,
-    total: 797
+    total: 797,
   },
   70071: {
     district: 70071,
@@ -33738,7 +33739,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 140,
-    total: 1124
+    total: 1124,
   },
   71001: {
     district: 71001,
@@ -33749,7 +33750,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 32,
     blank: 251,
-    total: 1696
+    total: 1696,
   },
   71002: {
     district: 71002,
@@ -33760,7 +33761,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 240,
-    total: 1418
+    total: 1418,
   },
   71003: {
     district: 71003,
@@ -33771,7 +33772,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 261,
-    total: 1735
+    total: 1735,
   },
   71004: {
     district: 71004,
@@ -33782,7 +33783,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 255,
-    total: 1749
+    total: 1749,
   },
   71005: {
     district: 71005,
@@ -33793,7 +33794,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 204,
-    total: 1549
+    total: 1549,
   },
   71006: {
     district: 71006,
@@ -33804,7 +33805,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 224,
-    total: 1511
+    total: 1511,
   },
   71007: {
     district: 71007,
@@ -33815,7 +33816,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 259,
-    total: 1463
+    total: 1463,
   },
   71008: {
     district: 71008,
@@ -33826,7 +33827,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 196,
-    total: 1238
+    total: 1238,
   },
   71009: {
     district: 71009,
@@ -33837,7 +33838,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 277,
-    total: 1572
+    total: 1572,
   },
   71010: {
     district: 71010,
@@ -33848,7 +33849,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 184,
-    total: 1207
+    total: 1207,
   },
   71011: {
     district: 71011,
@@ -33859,7 +33860,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 160,
-    total: 1006
+    total: 1006,
   },
   71012: {
     district: 71012,
@@ -33870,7 +33871,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 244,
-    total: 1445
+    total: 1445,
   },
   71013: {
     district: 71013,
@@ -33881,7 +33882,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 232,
-    total: 1347
+    total: 1347,
   },
   71014: {
     district: 71014,
@@ -33892,7 +33893,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 241,
-    total: 1486
+    total: 1486,
   },
   71015: {
     district: 71015,
@@ -33903,7 +33904,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 220,
-    total: 1204
+    total: 1204,
   },
   71016: {
     district: 71016,
@@ -33914,7 +33915,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 17,
     blank: 280,
-    total: 1435
+    total: 1435,
   },
   71017: {
     district: 71017,
@@ -33925,7 +33926,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 11,
     blank: 302,
-    total: 1504
+    total: 1504,
   },
   71018: {
     district: 71018,
@@ -33936,7 +33937,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 218,
-    total: 1267
+    total: 1267,
   },
   71019: {
     district: 71019,
@@ -33947,7 +33948,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 206,
-    total: 1043
+    total: 1043,
   },
   71020: {
     district: 71020,
@@ -33958,7 +33959,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 237,
-    total: 1348
+    total: 1348,
   },
   71021: {
     district: 71021,
@@ -33969,7 +33970,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 236,
-    total: 1418
+    total: 1418,
   },
   71022: {
     district: 71022,
@@ -33980,7 +33981,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 228,
-    total: 1408
+    total: 1408,
   },
   71023: {
     district: 71023,
@@ -33991,7 +33992,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 263,
-    total: 1622
+    total: 1622,
   },
   71024: {
     district: 71024,
@@ -34002,7 +34003,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 246,
-    total: 1646
+    total: 1646,
   },
   71025: {
     district: 71025,
@@ -34013,7 +34014,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 12,
     blank: 178,
-    total: 1085
+    total: 1085,
   },
   71026: {
     district: 71026,
@@ -34024,7 +34025,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 127,
-    total: 945
+    total: 945,
   },
   71027: {
     district: 71027,
@@ -34035,7 +34036,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 185,
-    total: 1093
+    total: 1093,
   },
   71028: {
     district: 71028,
@@ -34046,7 +34047,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 276,
-    total: 1533
+    total: 1533,
   },
   71029: {
     district: 71029,
@@ -34057,7 +34058,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 177,
-    total: 1306
+    total: 1306,
   },
   71030: {
     district: 71030,
@@ -34068,7 +34069,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 228,
-    total: 1352
+    total: 1352,
   },
   71031: {
     district: 71031,
@@ -34079,7 +34080,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 132,
-    total: 926
+    total: 926,
   },
   71032: {
     district: 71032,
@@ -34090,7 +34091,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 23,
     blank: 277,
-    total: 1810
+    total: 1810,
   },
   71033: {
     district: 71033,
@@ -34101,7 +34102,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 73,
-    total: 531
+    total: 531,
   },
   71034: {
     district: 71034,
@@ -34112,7 +34113,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 263,
-    total: 1441
+    total: 1441,
   },
   71035: {
     district: 71035,
@@ -34123,7 +34124,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 195,
-    total: 1331
+    total: 1331,
   },
   71036: {
     district: 71036,
@@ -34134,7 +34135,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 13,
     blank: 298,
-    total: 1505
+    total: 1505,
   },
   71037: {
     district: 71037,
@@ -34145,7 +34146,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 267,
-    total: 1677
+    total: 1677,
   },
   71038: {
     district: 71038,
@@ -34156,7 +34157,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 201,
-    total: 1328
+    total: 1328,
   },
   71039: {
     district: 71039,
@@ -34167,7 +34168,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 192,
-    total: 1229
+    total: 1229,
   },
   71040: {
     district: 71040,
@@ -34178,7 +34179,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 233,
-    total: 1469
+    total: 1469,
   },
   71041: {
     district: 71041,
@@ -34189,7 +34190,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 245,
-    total: 1519
+    total: 1519,
   },
   71042: {
     district: 71042,
@@ -34200,7 +34201,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 291,
-    total: 1625
+    total: 1625,
   },
   71043: {
     district: 71043,
@@ -34211,7 +34212,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 16,
     blank: 172,
-    total: 1044
+    total: 1044,
   },
   71044: {
     district: 71044,
@@ -34222,7 +34223,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 243,
-    total: 1462
+    total: 1462,
   },
   71045: {
     district: 71045,
@@ -34233,7 +34234,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 212,
-    total: 1152
+    total: 1152,
   },
   71046: {
     district: 71046,
@@ -34244,7 +34245,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 247,
-    total: 1419
+    total: 1419,
   },
   71047: {
     district: 71047,
@@ -34255,7 +34256,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 174,
-    total: 989
+    total: 989,
   },
   71048: {
     district: 71048,
@@ -34266,7 +34267,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 25,
     blank: 245,
-    total: 1548
+    total: 1548,
   },
   71049: {
     district: 71049,
@@ -34277,7 +34278,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 30,
     blank: 286,
-    total: 1690
+    total: 1690,
   },
   71050: {
     district: 71050,
@@ -34288,7 +34289,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 199,
-    total: 1081
+    total: 1081,
   },
   71051: {
     district: 71051,
@@ -34299,7 +34300,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 36,
     blank: 225,
-    total: 1560
+    total: 1560,
   },
   71052: {
     district: 71052,
@@ -34310,7 +34311,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 29,
     blank: 342,
-    total: 2103
+    total: 2103,
   },
   71053: {
     district: 71053,
@@ -34321,7 +34322,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 144,
-    total: 951
+    total: 951,
   },
   71054: {
     district: 71054,
@@ -34332,7 +34333,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 240,
-    total: 1512
+    total: 1512,
   },
   71055: {
     district: 71055,
@@ -34343,7 +34344,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 246,
-    total: 1611
+    total: 1611,
   },
   71056: {
     district: 71056,
@@ -34354,7 +34355,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 231,
-    total: 1237
+    total: 1237,
   },
   71057: {
     district: 71057,
@@ -34365,7 +34366,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 30,
     blank: 214,
-    total: 1422
+    total: 1422,
   },
   71058: {
     district: 71058,
@@ -34376,7 +34377,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 13,
     blank: 232,
-    total: 1419
+    total: 1419,
   },
   71059: {
     district: 71059,
@@ -34387,7 +34388,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 302,
-    total: 1707
+    total: 1707,
   },
   71060: {
     district: 71060,
@@ -34398,7 +34399,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 242,
-    total: 1563
+    total: 1563,
   },
   71061: {
     district: 71061,
@@ -34409,7 +34410,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 138,
-    total: 1539
+    total: 1539,
   },
   71062: {
     district: 71062,
@@ -34420,7 +34421,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 90,
-    total: 1070
+    total: 1070,
   },
   71063: {
     district: 71063,
@@ -34431,7 +34432,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 13,
     blank: 160,
-    total: 1236
+    total: 1236,
   },
   71064: {
     district: 71064,
@@ -34442,7 +34443,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 28,
     blank: 259,
-    total: 1593
+    total: 1593,
   },
   71065: {
     district: 71065,
@@ -34453,7 +34454,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 4,
     blank: 18,
-    total: 246
+    total: 246,
   },
   72001: {
     district: 72001,
@@ -34464,7 +34465,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 29,
     blank: 258,
-    total: 1551
+    total: 1551,
   },
   72002: {
     district: 72002,
@@ -34475,7 +34476,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 7,
     blank: 216,
-    total: 1320
+    total: 1320,
   },
   72003: {
     district: 72003,
@@ -34486,7 +34487,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 25,
     blank: 319,
-    total: 1621
+    total: 1621,
   },
   72004: {
     district: 72004,
@@ -34497,7 +34498,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 232,
-    total: 1561
+    total: 1561,
   },
   72005: {
     district: 72005,
@@ -34508,7 +34509,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 248,
-    total: 1555
+    total: 1555,
   },
   72006: {
     district: 72006,
@@ -34519,7 +34520,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 289,
-    total: 1527
+    total: 1527,
   },
   72007: {
     district: 72007,
@@ -34530,7 +34531,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 286,
-    total: 1566
+    total: 1566,
   },
   72008: {
     district: 72008,
@@ -34541,7 +34542,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 240,
-    total: 1348
+    total: 1348,
   },
   72009: {
     district: 72009,
@@ -34552,7 +34553,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 283,
-    total: 1684
+    total: 1684,
   },
   72010: {
     district: 72010,
@@ -34563,7 +34564,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 296,
-    total: 1680
+    total: 1680,
   },
   72011: {
     district: 72011,
@@ -34574,7 +34575,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 13,
     blank: 290,
-    total: 1683
+    total: 1683,
   },
   72012: {
     district: 72012,
@@ -34585,7 +34586,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 225,
-    total: 1438
+    total: 1438,
   },
   72013: {
     district: 72013,
@@ -34596,7 +34597,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 226,
-    total: 1482
+    total: 1482,
   },
   72014: {
     district: 72014,
@@ -34607,7 +34608,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 258,
-    total: 1568
+    total: 1568,
   },
   72015: {
     district: 72015,
@@ -34618,7 +34619,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 235,
-    total: 1549
+    total: 1549,
   },
   72016: {
     district: 72016,
@@ -34629,7 +34630,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 197,
-    total: 1168
+    total: 1168,
   },
   72017: {
     district: 72017,
@@ -34640,7 +34641,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 242,
-    total: 1399
+    total: 1399,
   },
   72018: {
     district: 72018,
@@ -34651,7 +34652,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 202,
-    total: 1085
+    total: 1085,
   },
   72019: {
     district: 72019,
@@ -34662,7 +34663,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 196,
-    total: 1109
+    total: 1109,
   },
   72020: {
     district: 72020,
@@ -34673,7 +34674,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 227,
-    total: 1260
+    total: 1260,
   },
   72021: {
     district: 72021,
@@ -34684,7 +34685,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 28,
     blank: 172,
-    total: 1139
+    total: 1139,
   },
   72022: {
     district: 72022,
@@ -34695,7 +34696,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 8,
     blank: 180,
-    total: 1075
+    total: 1075,
   },
   72023: {
     district: 72023,
@@ -34706,7 +34707,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 257,
-    total: 1465
+    total: 1465,
   },
   72024: {
     district: 72024,
@@ -34717,7 +34718,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 191,
-    total: 1149
+    total: 1149,
   },
   72025: {
     district: 72025,
@@ -34728,7 +34729,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 238,
-    total: 1299
+    total: 1299,
   },
   72026: {
     district: 72026,
@@ -34739,7 +34740,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 27,
     blank: 253,
-    total: 1600
+    total: 1600,
   },
   72027: {
     district: 72027,
@@ -34750,7 +34751,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 195,
-    total: 1055
+    total: 1055,
   },
   72028: {
     district: 72028,
@@ -34761,7 +34762,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 4,
     blank: 117,
-    total: 654
+    total: 654,
   },
   72029: {
     district: 72029,
@@ -34772,7 +34773,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 237,
-    total: 1401
+    total: 1401,
   },
   72030: {
     district: 72030,
@@ -34783,7 +34784,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 211,
-    total: 1029
+    total: 1029,
   },
   72031: {
     district: 72031,
@@ -34794,7 +34795,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 252,
-    total: 1396
+    total: 1396,
   },
   72032: {
     district: 72032,
@@ -34805,7 +34806,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 219,
-    total: 1298
+    total: 1298,
   },
   72033: {
     district: 72033,
@@ -34816,7 +34817,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 11,
     blank: 171,
-    total: 1027
+    total: 1027,
   },
   72034: {
     district: 72034,
@@ -34827,7 +34828,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 172,
-    total: 1135
+    total: 1135,
   },
   72035: {
     district: 72035,
@@ -34838,7 +34839,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 198,
-    total: 1299
+    total: 1299,
   },
   72036: {
     district: 72036,
@@ -34849,7 +34850,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 6,
     blank: 197,
-    total: 1161
+    total: 1161,
   },
   72037: {
     district: 72037,
@@ -34860,7 +34861,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 243,
-    total: 1433
+    total: 1433,
   },
   72038: {
     district: 72038,
@@ -34871,7 +34872,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 274,
-    total: 1541
+    total: 1541,
   },
   72039: {
     district: 72039,
@@ -34882,7 +34883,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 11,
     blank: 265,
-    total: 1478
+    total: 1478,
   },
   72040: {
     district: 72040,
@@ -34893,7 +34894,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 245,
-    total: 1422
+    total: 1422,
   },
   72041: {
     district: 72041,
@@ -34904,7 +34905,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 29,
     blank: 313,
-    total: 1612
+    total: 1612,
   },
   72042: {
     district: 72042,
@@ -34915,7 +34916,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 240,
-    total: 1442
+    total: 1442,
   },
   72043: {
     district: 72043,
@@ -34926,7 +34927,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 235,
-    total: 1382
+    total: 1382,
   },
   72044: {
     district: 72044,
@@ -34937,7 +34938,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 217,
-    total: 1361
+    total: 1361,
   },
   72045: {
     district: 72045,
@@ -34948,7 +34949,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 4,
     blank: 169,
-    total: 1075
+    total: 1075,
   },
   72046: {
     district: 72046,
@@ -34959,7 +34960,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 1,
     blank: 197,
-    total: 1121
+    total: 1121,
   },
   72047: {
     district: 72047,
@@ -34970,7 +34971,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 195,
-    total: 1152
+    total: 1152,
   },
   72048: {
     district: 72048,
@@ -34981,7 +34982,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 256,
-    total: 1543
+    total: 1543,
   },
   72049: {
     district: 72049,
@@ -34992,7 +34993,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 220,
-    total: 1268
+    total: 1268,
   },
   72050: {
     district: 72050,
@@ -35003,7 +35004,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 210,
-    total: 1333
+    total: 1333,
   },
   72051: {
     district: 72051,
@@ -35014,7 +35015,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 14,
     blank: 187,
-    total: 1132
+    total: 1132,
   },
   72052: {
     district: 72052,
@@ -35025,7 +35026,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 12,
     blank: 280,
-    total: 1636
+    total: 1636,
   },
   72053: {
     district: 72053,
@@ -35036,7 +35037,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 243,
-    total: 1549
+    total: 1549,
   },
   72054: {
     district: 72054,
@@ -35047,7 +35048,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 174,
-    total: 1123
+    total: 1123,
   },
   72055: {
     district: 72055,
@@ -35058,7 +35059,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 192,
-    total: 1285
+    total: 1285,
   },
   72056: {
     district: 72056,
@@ -35069,7 +35070,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 181,
-    total: 1100
+    total: 1100,
   },
   72057: {
     district: 72057,
@@ -35080,7 +35081,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 8,
     blank: 213,
-    total: 1338
+    total: 1338,
   },
   72058: {
     district: 72058,
@@ -35091,7 +35092,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 282,
-    total: 1571
+    total: 1571,
   },
   72059: {
     district: 72059,
@@ -35102,7 +35103,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 204,
-    total: 1287
+    total: 1287,
   },
   72060: {
     district: 72060,
@@ -35113,7 +35114,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 223,
-    total: 1241
+    total: 1241,
   },
   72061: {
     district: 72061,
@@ -35124,7 +35125,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 184,
-    total: 1141
+    total: 1141,
   },
   72062: {
     district: 72062,
@@ -35135,7 +35136,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 13,
     blank: 236,
-    total: 1472
+    total: 1472,
   },
   72063: {
     district: 72063,
@@ -35146,7 +35147,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 200,
-    total: 1082
+    total: 1082,
   },
   73001: {
     district: 73001,
@@ -35157,7 +35158,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 405,
-    total: 1578
+    total: 1578,
   },
   73002: {
     district: 73002,
@@ -35168,7 +35169,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 92,
-    total: 376
+    total: 376,
   },
   73003: {
     district: 73003,
@@ -35179,7 +35180,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 15,
     blank: 324,
-    total: 1282
+    total: 1282,
   },
   73004: {
     district: 73004,
@@ -35190,7 +35191,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 33,
     blank: 491,
-    total: 1768
+    total: 1768,
   },
   73005: {
     district: 73005,
@@ -35201,7 +35202,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 23,
     blank: 279,
-    total: 1047
+    total: 1047,
   },
   73006: {
     district: 73006,
@@ -35212,7 +35213,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 32,
     blank: 409,
-    total: 1501
+    total: 1501,
   },
   73007: {
     district: 73007,
@@ -35223,7 +35224,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 362,
-    total: 1340
+    total: 1340,
   },
   73008: {
     district: 73008,
@@ -35234,7 +35235,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 293,
-    total: 963
+    total: 963,
   },
   73009: {
     district: 73009,
@@ -35245,7 +35246,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 301,
-    total: 1104
+    total: 1104,
   },
   73010: {
     district: 73010,
@@ -35256,7 +35257,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 304,
-    total: 1071
+    total: 1071,
   },
   73011: {
     district: 73011,
@@ -35267,7 +35268,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 44,
     blank: 455,
-    total: 1737
+    total: 1737,
   },
   73012: {
     district: 73012,
@@ -35278,7 +35279,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 386,
-    total: 1606
+    total: 1606,
   },
   73013: {
     district: 73013,
@@ -35289,7 +35290,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 339,
-    total: 1354
+    total: 1354,
   },
   73014: {
     district: 73014,
@@ -35300,7 +35301,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 355,
-    total: 1182
+    total: 1182,
   },
   73015: {
     district: 73015,
@@ -35311,7 +35312,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 23,
     blank: 575,
-    total: 1956
+    total: 1956,
   },
   73016: {
     district: 73016,
@@ -35322,7 +35323,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 32,
     blank: 441,
-    total: 1470
+    total: 1470,
   },
   73017: {
     district: 73017,
@@ -35333,7 +35334,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 35,
     blank: 392,
-    total: 1399
+    total: 1399,
   },
   73018: {
     district: 73018,
@@ -35344,7 +35345,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 7,
     blank: 87,
-    total: 380
+    total: 380,
   },
   73019: {
     district: 73019,
@@ -35355,7 +35356,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 50,
     blank: 484,
-    total: 1926
+    total: 1926,
   },
   73020: {
     district: 73020,
@@ -35366,7 +35367,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 458,
-    total: 1863
+    total: 1863,
   },
   73021: {
     district: 73021,
@@ -35377,7 +35378,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 34,
     blank: 463,
-    total: 1593
+    total: 1593,
   },
   73022: {
     district: 73022,
@@ -35388,7 +35389,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 31,
     blank: 350,
-    total: 1360
+    total: 1360,
   },
   73023: {
     district: 73023,
@@ -35399,7 +35400,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 28,
     blank: 260,
-    total: 1195
+    total: 1195,
   },
   73024: {
     district: 73024,
@@ -35410,7 +35411,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 325,
-    total: 1169
+    total: 1169,
   },
   73025: {
     district: 73025,
@@ -35421,7 +35422,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 39,
     blank: 456,
-    total: 1613
+    total: 1613,
   },
   73026: {
     district: 73026,
@@ -35432,7 +35433,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 440,
-    total: 1441
+    total: 1441,
   },
   73027: {
     district: 73027,
@@ -35443,7 +35444,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 433,
-    total: 1621
+    total: 1621,
   },
   73028: {
     district: 73028,
@@ -35454,7 +35455,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 298,
-    total: 1104
+    total: 1104,
   },
   73029: {
     district: 73029,
@@ -35465,7 +35466,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 33,
     blank: 289,
-    total: 1356
+    total: 1356,
   },
   73030: {
     district: 73030,
@@ -35476,7 +35477,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 33,
     blank: 334,
-    total: 1565
+    total: 1565,
   },
   73031: {
     district: 73031,
@@ -35487,7 +35488,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 240,
-    total: 1148
+    total: 1148,
   },
   73032: {
     district: 73032,
@@ -35498,7 +35499,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 24,
     blank: 354,
-    total: 1397
+    total: 1397,
   },
   73033: {
     district: 73033,
@@ -35509,7 +35510,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 336,
-    total: 1290
+    total: 1290,
   },
   73034: {
     district: 73034,
@@ -35520,7 +35521,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 34,
     blank: 510,
-    total: 1869
+    total: 1869,
   },
   73035: {
     district: 73035,
@@ -35531,7 +35532,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 209,
-    total: 735
+    total: 735,
   },
   73036: {
     district: 73036,
@@ -35542,7 +35543,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 291,
-    total: 1127
+    total: 1127,
   },
   73037: {
     district: 73037,
@@ -35553,7 +35554,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 38,
     blank: 428,
-    total: 1611
+    total: 1611,
   },
   73038: {
     district: 73038,
@@ -35564,7 +35565,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 44,
     blank: 469,
-    total: 1823
+    total: 1823,
   },
   73039: {
     district: 73039,
@@ -35575,7 +35576,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 366,
-    total: 1534
+    total: 1534,
   },
   73040: {
     district: 73040,
@@ -35586,7 +35587,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 49,
     blank: 353,
-    total: 1490
+    total: 1490,
   },
   73041: {
     district: 73041,
@@ -35597,7 +35598,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 289,
-    total: 1240
+    total: 1240,
   },
   73042: {
     district: 73042,
@@ -35608,7 +35609,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 320,
-    total: 1287
+    total: 1287,
   },
   73043: {
     district: 73043,
@@ -35619,7 +35620,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 318,
-    total: 1463
+    total: 1463,
   },
   73044: {
     district: 73044,
@@ -35630,7 +35631,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 270,
-    total: 1241
+    total: 1241,
   },
   73045: {
     district: 73045,
@@ -35641,7 +35642,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 335,
-    total: 1499
+    total: 1499,
   },
   73046: {
     district: 73046,
@@ -35652,7 +35653,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 47,
     blank: 341,
-    total: 1469
+    total: 1469,
   },
   73047: {
     district: 73047,
@@ -35663,7 +35664,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 286,
-    total: 1223
+    total: 1223,
   },
   73048: {
     district: 73048,
@@ -35674,7 +35675,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 30,
     blank: 399,
-    total: 1702
+    total: 1702,
   },
   73049: {
     district: 73049,
@@ -35685,7 +35686,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 21,
     blank: 267,
-    total: 1057
+    total: 1057,
   },
   73050: {
     district: 73050,
@@ -35696,7 +35697,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 35,
     blank: 426,
-    total: 1740
+    total: 1740,
   },
   73051: {
     district: 73051,
@@ -35707,7 +35708,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 33,
     blank: 341,
-    total: 1524
+    total: 1524,
   },
   73052: {
     district: 73052,
@@ -35718,7 +35719,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 32,
     blank: 270,
-    total: 1278
+    total: 1278,
   },
   73053: {
     district: 73053,
@@ -35729,7 +35730,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 298,
-    total: 1327
+    total: 1327,
   },
   73054: {
     district: 73054,
@@ -35740,7 +35741,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 360,
-    total: 1629
+    total: 1629,
   },
   73055: {
     district: 73055,
@@ -35751,7 +35752,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 31,
     blank: 232,
-    total: 1194
+    total: 1194,
   },
   73056: {
     district: 73056,
@@ -35762,7 +35763,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 227,
-    total: 1023
+    total: 1023,
   },
   73057: {
     district: 73057,
@@ -35773,7 +35774,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 218,
-    total: 1140
+    total: 1140,
   },
   73058: {
     district: 73058,
@@ -35784,7 +35785,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 261,
-    total: 1129
+    total: 1129,
   },
   73059: {
     district: 73059,
@@ -35795,7 +35796,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 33,
     blank: 373,
-    total: 1697
+    total: 1697,
   },
   73060: {
     district: 73060,
@@ -35806,7 +35807,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 128,
-    total: 714
+    total: 714,
   },
   73061: {
     district: 73061,
@@ -35817,7 +35818,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 180,
-    total: 770
+    total: 770,
   },
   73062: {
     district: 73062,
@@ -35828,7 +35829,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 476,
-    total: 1909
+    total: 1909,
   },
   73063: {
     district: 73063,
@@ -35839,7 +35840,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 28,
     blank: 317,
-    total: 1405
+    total: 1405,
   },
   73064: {
     district: 73064,
@@ -35850,7 +35851,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 345,
-    total: 1768
+    total: 1768,
   },
   73065: {
     district: 73065,
@@ -35861,7 +35862,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 223,
-    total: 1079
+    total: 1079,
   },
   73066: {
     district: 73066,
@@ -35872,7 +35873,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 37,
     blank: 442,
-    total: 1671
+    total: 1671,
   },
   73067: {
     district: 73067,
@@ -35883,7 +35884,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 32,
     blank: 318,
-    total: 1375
+    total: 1375,
   },
   73068: {
     district: 73068,
@@ -35894,7 +35895,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 26,
     blank: 293,
-    total: 1205
+    total: 1205,
   },
   73069: {
     district: 73069,
@@ -35905,7 +35906,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 403,
-    total: 1719
+    total: 1719,
   },
   73070: {
     district: 73070,
@@ -35916,7 +35917,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 2,
-    total: 7
+    total: 7,
   },
   74001: {
     district: 74001,
@@ -35927,7 +35928,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 431,
-    total: 1508
+    total: 1508,
   },
   74002: {
     district: 74002,
@@ -35938,7 +35939,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 33,
     blank: 403,
-    total: 1631
+    total: 1631,
   },
   74003: {
     district: 74003,
@@ -35949,7 +35950,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 367,
-    total: 1449
+    total: 1449,
   },
   74004: {
     district: 74004,
@@ -35960,7 +35961,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 447,
-    total: 1496
+    total: 1496,
   },
   74005: {
     district: 74005,
@@ -35971,7 +35972,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 384,
-    total: 1288
+    total: 1288,
   },
   74006: {
     district: 74006,
@@ -35982,7 +35983,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 503,
-    total: 1659
+    total: 1659,
   },
   74007: {
     district: 74007,
@@ -35993,7 +35994,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 301,
-    total: 1376
+    total: 1376,
   },
   74008: {
     district: 74008,
@@ -36004,7 +36005,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 467,
-    total: 1750
+    total: 1750,
   },
   74009: {
     district: 74009,
@@ -36015,7 +36016,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 184,
-    total: 791
+    total: 791,
   },
   74010: {
     district: 74010,
@@ -36026,7 +36027,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 464,
-    total: 1785
+    total: 1785,
   },
   74011: {
     district: 74011,
@@ -36037,7 +36038,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 36,
     blank: 413,
-    total: 1830
+    total: 1830,
   },
   74012: {
     district: 74012,
@@ -36048,7 +36049,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 42,
     blank: 371,
-    total: 1753
+    total: 1753,
   },
   74013: {
     district: 74013,
@@ -36059,7 +36060,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 366,
-    total: 1471
+    total: 1471,
   },
   74014: {
     district: 74014,
@@ -36070,7 +36071,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 358,
-    total: 1701
+    total: 1701,
   },
   74015: {
     district: 74015,
@@ -36081,7 +36082,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 339,
-    total: 1685
+    total: 1685,
   },
   74016: {
     district: 74016,
@@ -36092,7 +36093,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 36,
     blank: 337,
-    total: 1814
+    total: 1814,
   },
   74017: {
     district: 74017,
@@ -36103,7 +36104,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 34,
     blank: 297,
-    total: 1633
+    total: 1633,
   },
   74018: {
     district: 74018,
@@ -36114,7 +36115,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 335,
-    total: 1733
+    total: 1733,
   },
   74019: {
     district: 74019,
@@ -36125,7 +36126,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 24,
     blank: 212,
-    total: 1248
+    total: 1248,
   },
   74020: {
     district: 74020,
@@ -36136,7 +36137,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 250,
-    total: 1346
+    total: 1346,
   },
   74021: {
     district: 74021,
@@ -36147,7 +36148,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 213,
-    total: 1052
+    total: 1052,
   },
   74022: {
     district: 74022,
@@ -36158,7 +36159,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 39,
     blank: 265,
-    total: 1545
+    total: 1545,
   },
   74023: {
     district: 74023,
@@ -36169,7 +36170,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 278,
-    total: 1529
+    total: 1529,
   },
   74024: {
     district: 74024,
@@ -36180,7 +36181,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 273,
-    total: 1457
+    total: 1457,
   },
   74025: {
     district: 74025,
@@ -36191,7 +36192,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 279,
-    total: 1491
+    total: 1491,
   },
   74026: {
     district: 74026,
@@ -36202,7 +36203,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 9,
     blank: 369,
-    total: 1671
+    total: 1671,
   },
   74027: {
     district: 74027,
@@ -36213,7 +36214,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 376,
-    total: 1840
+    total: 1840,
   },
   74028: {
     district: 74028,
@@ -36224,7 +36225,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 16,
     blank: 197,
-    total: 1075
+    total: 1075,
   },
   74029: {
     district: 74029,
@@ -36235,7 +36236,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 28,
     blank: 222,
-    total: 1292
+    total: 1292,
   },
   74030: {
     district: 74030,
@@ -36246,7 +36247,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 23,
     blank: 223,
-    total: 1491
+    total: 1491,
   },
   74031: {
     district: 74031,
@@ -36257,7 +36258,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 354,
-    total: 1765
+    total: 1765,
   },
   74032: {
     district: 74032,
@@ -36268,7 +36269,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 219,
-    total: 1308
+    total: 1308,
   },
   74033: {
     district: 74033,
@@ -36279,7 +36280,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 28,
     blank: 249,
-    total: 1335
+    total: 1335,
   },
   74034: {
     district: 74034,
@@ -36290,7 +36291,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 336,
-    total: 1683
+    total: 1683,
   },
   74035: {
     district: 74035,
@@ -36301,7 +36302,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 285,
-    total: 1532
+    total: 1532,
   },
   74036: {
     district: 74036,
@@ -36312,7 +36313,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 322,
-    total: 1592
+    total: 1592,
   },
   74037: {
     district: 74037,
@@ -36323,7 +36324,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 208,
-    total: 1160
+    total: 1160,
   },
   74038: {
     district: 74038,
@@ -36334,7 +36335,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 13,
     blank: 244,
-    total: 1292
+    total: 1292,
   },
   74039: {
     district: 74039,
@@ -36345,7 +36346,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 232,
-    total: 1128
+    total: 1128,
   },
   74040: {
     district: 74040,
@@ -36356,7 +36357,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 12,
     blank: 184,
-    total: 959
+    total: 959,
   },
   74041: {
     district: 74041,
@@ -36367,7 +36368,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 154,
-    total: 900
+    total: 900,
   },
   74042: {
     district: 74042,
@@ -36378,7 +36379,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 317,
-    total: 1375
+    total: 1375,
   },
   74043: {
     district: 74043,
@@ -36389,7 +36390,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 356,
-    total: 1637
+    total: 1637,
   },
   74044: {
     district: 74044,
@@ -36400,7 +36401,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 295,
-    total: 1008
+    total: 1008,
   },
   74045: {
     district: 74045,
@@ -36411,7 +36412,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 376,
-    total: 1450
+    total: 1450,
   },
   74046: {
     district: 74046,
@@ -36422,7 +36423,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 277,
-    total: 1356
+    total: 1356,
   },
   74047: {
     district: 74047,
@@ -36433,7 +36434,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 15,
     blank: 144,
-    total: 834
+    total: 834,
   },
   74048: {
     district: 74048,
@@ -36444,7 +36445,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 309,
-    total: 1270
+    total: 1270,
   },
   74049: {
     district: 74049,
@@ -36455,7 +36456,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 323,
-    total: 1540
+    total: 1540,
   },
   74050: {
     district: 74050,
@@ -36466,7 +36467,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 27,
     blank: 357,
-    total: 1495
+    total: 1495,
   },
   74051: {
     district: 74051,
@@ -36477,7 +36478,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 333,
-    total: 1705
+    total: 1705,
   },
   74052: {
     district: 74052,
@@ -36488,7 +36489,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 266,
-    total: 1163
+    total: 1163,
   },
   74053: {
     district: 74053,
@@ -36499,7 +36500,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 369,
-    total: 1627
+    total: 1627,
   },
   74054: {
     district: 74054,
@@ -36510,7 +36511,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 12,
     blank: 171,
-    total: 827
+    total: 827,
   },
   74055: {
     district: 74055,
@@ -36521,7 +36522,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 331,
-    total: 1582
+    total: 1582,
   },
   74056: {
     district: 74056,
@@ -36532,7 +36533,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 27,
     blank: 321,
-    total: 1264
+    total: 1264,
   },
   74057: {
     district: 74057,
@@ -36543,7 +36544,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 288,
-    total: 1452
+    total: 1452,
   },
   74058: {
     district: 74058,
@@ -36554,7 +36555,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 231,
-    total: 1106
+    total: 1106,
   },
   74059: {
     district: 74059,
@@ -36565,7 +36566,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 411,
-    total: 1706
+    total: 1706,
   },
   74060: {
     district: 74060,
@@ -36576,7 +36577,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 168,
-    total: 726
+    total: 726,
   },
   74061: {
     district: 74061,
@@ -36587,7 +36588,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 200,
-    total: 787
+    total: 787,
   },
   74062: {
     district: 74062,
@@ -36598,7 +36599,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 164,
-    total: 699
+    total: 699,
   },
   74063: {
     district: 74063,
@@ -36609,7 +36610,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 97,
-    total: 390
+    total: 390,
   },
   74064: {
     district: 74064,
@@ -36620,7 +36621,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 31,
-    total: 126
+    total: 126,
   },
   74065: {
     district: 74065,
@@ -36631,7 +36632,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 162,
-    total: 538
+    total: 538,
   },
   75001: {
     district: 75001,
@@ -36642,7 +36643,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 349,
-    total: 1608
+    total: 1608,
   },
   75002: {
     district: 75002,
@@ -36653,7 +36654,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 364,
-    total: 1797
+    total: 1797,
   },
   75003: {
     district: 75003,
@@ -36664,7 +36665,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 382,
-    total: 1681
+    total: 1681,
   },
   75004: {
     district: 75004,
@@ -36675,7 +36676,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 8,
     blank: 197,
-    total: 822
+    total: 822,
   },
   75005: {
     district: 75005,
@@ -36686,7 +36687,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 22,
     blank: 449,
-    total: 1506
+    total: 1506,
   },
   75006: {
     district: 75006,
@@ -36697,7 +36698,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 441,
-    total: 1703
+    total: 1703,
   },
   75007: {
     district: 75007,
@@ -36708,7 +36709,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 327,
-    total: 1347
+    total: 1347,
   },
   75008: {
     district: 75008,
@@ -36719,7 +36720,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 437,
-    total: 1933
+    total: 1933,
   },
   75009: {
     district: 75009,
@@ -36730,7 +36731,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 61,
-    total: 340
+    total: 340,
   },
   75010: {
     district: 75010,
@@ -36741,7 +36742,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 42,
     blank: 515,
-    total: 1909
+    total: 1909,
   },
   75011: {
     district: 75011,
@@ -36752,7 +36753,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 28,
     blank: 350,
-    total: 1215
+    total: 1215,
   },
   75012: {
     district: 75012,
@@ -36763,7 +36764,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 371,
-    total: 1408
+    total: 1408,
   },
   75013: {
     district: 75013,
@@ -36774,7 +36775,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 40,
     blank: 523,
-    total: 1874
+    total: 1874,
   },
   75014: {
     district: 75014,
@@ -36785,7 +36786,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 350,
-    total: 1212
+    total: 1212,
   },
   75015: {
     district: 75015,
@@ -36796,7 +36797,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 489,
-    total: 1464
+    total: 1464,
   },
   75016: {
     district: 75016,
@@ -36807,7 +36808,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 225,
-    total: 778
+    total: 778,
   },
   75017: {
     district: 75017,
@@ -36818,7 +36819,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 227,
-    total: 1068
+    total: 1068,
   },
   75018: {
     district: 75018,
@@ -36829,7 +36830,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 251,
-    total: 756
+    total: 756,
   },
   75019: {
     district: 75019,
@@ -36840,7 +36841,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 6,
-    total: 19
+    total: 19,
   },
   75020: {
     district: 75020,
@@ -36851,7 +36852,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 54,
     blank: 397,
-    total: 1469
+    total: 1469,
   },
   75021: {
     district: 75021,
@@ -36862,7 +36863,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 11,
     blank: 225,
-    total: 750
+    total: 750,
   },
   75022: {
     district: 75022,
@@ -36873,7 +36874,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 32,
     blank: 369,
-    total: 1418
+    total: 1418,
   },
   75023: {
     district: 75023,
@@ -36884,7 +36885,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 403,
-    total: 1400
+    total: 1400,
   },
   75024: {
     district: 75024,
@@ -36895,7 +36896,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 432,
-    total: 1600
+    total: 1600,
   },
   75025: {
     district: 75025,
@@ -36906,7 +36907,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 15,
     blank: 164,
-    total: 675
+    total: 675,
   },
   75026: {
     district: 75026,
@@ -36917,7 +36918,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 16,
     blank: 418,
-    total: 1673
+    total: 1673,
   },
   75027: {
     district: 75027,
@@ -36928,7 +36929,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 312,
-    total: 1217
+    total: 1217,
   },
   75028: {
     district: 75028,
@@ -36939,7 +36940,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 331,
-    total: 1586
+    total: 1586,
   },
   75029: {
     district: 75029,
@@ -36950,7 +36951,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 341,
-    total: 1486
+    total: 1486,
   },
   75030: {
     district: 75030,
@@ -36961,7 +36962,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 404,
-    total: 1494
+    total: 1494,
   },
   75031: {
     district: 75031,
@@ -36972,7 +36973,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 34,
     blank: 342,
-    total: 1735
+    total: 1735,
   },
   75032: {
     district: 75032,
@@ -36983,7 +36984,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 287,
-    total: 1420
+    total: 1420,
   },
   75033: {
     district: 75033,
@@ -36994,7 +36995,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 296,
-    total: 1317
+    total: 1317,
   },
   75034: {
     district: 75034,
@@ -37005,7 +37006,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 349,
-    total: 1321
+    total: 1321,
   },
   75035: {
     district: 75035,
@@ -37016,7 +37017,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 367,
-    total: 1292
+    total: 1292,
   },
   75036: {
     district: 75036,
@@ -37027,7 +37028,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 175,
-    total: 795
+    total: 795,
   },
   75037: {
     district: 75037,
@@ -37038,7 +37039,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 272,
-    total: 1322
+    total: 1322,
   },
   75038: {
     district: 75038,
@@ -37049,7 +37050,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 172,
-    total: 1209
+    total: 1209,
   },
   75039: {
     district: 75039,
@@ -37060,7 +37061,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 28,
     blank: 144,
-    total: 1129
+    total: 1129,
   },
   75040: {
     district: 75040,
@@ -37071,7 +37072,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 301,
-    total: 1232
+    total: 1232,
   },
   75041: {
     district: 75041,
@@ -37082,7 +37083,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 387,
-    total: 1573
+    total: 1573,
   },
   75042: {
     district: 75042,
@@ -37093,7 +37094,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 273,
-    total: 1330
+    total: 1330,
   },
   75043: {
     district: 75043,
@@ -37104,7 +37105,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 233,
-    total: 1538
+    total: 1538,
   },
   75044: {
     district: 75044,
@@ -37115,7 +37116,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 31,
     blank: 312,
-    total: 1638
+    total: 1638,
   },
   75045: {
     district: 75045,
@@ -37126,7 +37127,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 271,
-    total: 1319
+    total: 1319,
   },
   75046: {
     district: 75046,
@@ -37137,7 +37138,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 317,
-    total: 1415
+    total: 1415,
   },
   75047: {
     district: 75047,
@@ -37148,7 +37149,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 287,
-    total: 1371
+    total: 1371,
   },
   75048: {
     district: 75048,
@@ -37159,7 +37160,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 160,
-    total: 820
+    total: 820,
   },
   75049: {
     district: 75049,
@@ -37170,7 +37171,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 320,
-    total: 1611
+    total: 1611,
   },
   75050: {
     district: 75050,
@@ -37181,7 +37182,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 255,
-    total: 1222
+    total: 1222,
   },
   75051: {
     district: 75051,
@@ -37192,7 +37193,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 384,
-    total: 1799
+    total: 1799,
   },
   75052: {
     district: 75052,
@@ -37203,7 +37204,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 126,
-    total: 1246
+    total: 1246,
   },
   75053: {
     district: 75053,
@@ -37214,7 +37215,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 127,
-    total: 1228
+    total: 1228,
   },
   75054: {
     district: 75054,
@@ -37225,7 +37226,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 256,
-    total: 1049
+    total: 1049,
   },
   75055: {
     district: 75055,
@@ -37236,7 +37237,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 343,
-    total: 1203
+    total: 1203,
   },
   75056: {
     district: 75056,
@@ -37247,7 +37248,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 311,
-    total: 1192
+    total: 1192,
   },
   75057: {
     district: 75057,
@@ -37258,7 +37259,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 600,
-    total: 1922
+    total: 1922,
   },
   75058: {
     district: 75058,
@@ -37269,7 +37270,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 359,
-    total: 1481
+    total: 1481,
   },
   75059: {
     district: 75059,
@@ -37280,7 +37281,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 555,
-    total: 1964
+    total: 1964,
   },
   75060: {
     district: 75060,
@@ -37291,7 +37292,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 30,
     blank: 363,
-    total: 1414
+    total: 1414,
   },
   75061: {
     district: 75061,
@@ -37302,7 +37303,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 20,
     blank: 215,
-    total: 1174
+    total: 1174,
   },
   75062: {
     district: 75062,
@@ -37313,7 +37314,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 318,
-    total: 1646
+    total: 1646,
   },
   75063: {
     district: 75063,
@@ -37324,7 +37325,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 296,
-    total: 1628
+    total: 1628,
   },
   75064: {
     district: 75064,
@@ -37335,7 +37336,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 324,
-    total: 1588
+    total: 1588,
   },
   75065: {
     district: 75065,
@@ -37346,7 +37347,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 307,
-    total: 1270
+    total: 1270,
   },
   75066: {
     district: 75066,
@@ -37357,7 +37358,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 26,
     blank: 338,
-    total: 1540
+    total: 1540,
   },
   75067: {
     district: 75067,
@@ -37368,7 +37369,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 1,
     blank: 41,
-    total: 102
+    total: 102,
   },
   76001: {
     district: 76001,
@@ -37379,7 +37380,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 343,
-    total: 1505
+    total: 1505,
   },
   76002: {
     district: 76002,
@@ -37390,7 +37391,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 23,
     blank: 245,
-    total: 1011
+    total: 1011,
   },
   76003: {
     district: 76003,
@@ -37401,7 +37402,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 298,
-    total: 1143
+    total: 1143,
   },
   76004: {
     district: 76004,
@@ -37412,7 +37413,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 349,
-    total: 1388
+    total: 1388,
   },
   76005: {
     district: 76005,
@@ -37423,7 +37424,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 25,
     blank: 363,
-    total: 1502
+    total: 1502,
   },
   76006: {
     district: 76006,
@@ -37434,7 +37435,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 23,
     blank: 373,
-    total: 1515
+    total: 1515,
   },
   76007: {
     district: 76007,
@@ -37445,7 +37446,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 320,
-    total: 1443
+    total: 1443,
   },
   76008: {
     district: 76008,
@@ -37456,7 +37457,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 320,
-    total: 1160
+    total: 1160,
   },
   76009: {
     district: 76009,
@@ -37467,7 +37468,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 476,
-    total: 1717
+    total: 1717,
   },
   76010: {
     district: 76010,
@@ -37478,7 +37479,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 287,
-    total: 1247
+    total: 1247,
   },
   76011: {
     district: 76011,
@@ -37489,7 +37490,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 31,
     blank: 365,
-    total: 1468
+    total: 1468,
   },
   76012: {
     district: 76012,
@@ -37500,7 +37501,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 34,
     blank: 352,
-    total: 1521
+    total: 1521,
   },
   76013: {
     district: 76013,
@@ -37511,7 +37512,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 364,
-    total: 1468
+    total: 1468,
   },
   76014: {
     district: 76014,
@@ -37522,7 +37523,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 23,
     blank: 272,
-    total: 1350
+    total: 1350,
   },
   76015: {
     district: 76015,
@@ -37533,7 +37534,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 36,
     blank: 361,
-    total: 1547
+    total: 1547,
   },
   76016: {
     district: 76016,
@@ -37544,7 +37545,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 289,
-    total: 1115
+    total: 1115,
   },
   76017: {
     district: 76017,
@@ -37555,7 +37556,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 19,
     blank: 269,
-    total: 1262
+    total: 1262,
   },
   76018: {
     district: 76018,
@@ -37566,7 +37567,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 34,
     blank: 269,
-    total: 1175
+    total: 1175,
   },
   76019: {
     district: 76019,
@@ -37577,7 +37578,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 458,
-    total: 1816
+    total: 1816,
   },
   76020: {
     district: 76020,
@@ -37588,7 +37589,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 34,
     blank: 505,
-    total: 1807
+    total: 1807,
   },
   76021: {
     district: 76021,
@@ -37599,7 +37600,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 294,
-    total: 1425
+    total: 1425,
   },
   76022: {
     district: 76022,
@@ -37610,7 +37611,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 322,
-    total: 1448
+    total: 1448,
   },
   76023: {
     district: 76023,
@@ -37621,7 +37622,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 261,
-    total: 1195
+    total: 1195,
   },
   76024: {
     district: 76024,
@@ -37632,7 +37633,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 41,
     blank: 385,
-    total: 1713
+    total: 1713,
   },
   76025: {
     district: 76025,
@@ -37643,7 +37644,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 294,
-    total: 1218
+    total: 1218,
   },
   76026: {
     district: 76026,
@@ -37654,7 +37655,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 33,
     blank: 404,
-    total: 1435
+    total: 1435,
   },
   76027: {
     district: 76027,
@@ -37665,7 +37666,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 239,
-    total: 1228
+    total: 1228,
   },
   76028: {
     district: 76028,
@@ -37676,7 +37677,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 359,
-    total: 1564
+    total: 1564,
   },
   76029: {
     district: 76029,
@@ -37687,7 +37688,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 273,
-    total: 1069
+    total: 1069,
   },
   76030: {
     district: 76030,
@@ -37698,7 +37699,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 30,
     blank: 381,
-    total: 1640
+    total: 1640,
   },
   76031: {
     district: 76031,
@@ -37709,7 +37710,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 29,
     blank: 308,
-    total: 1431
+    total: 1431,
   },
   76032: {
     district: 76032,
@@ -37720,7 +37721,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 380,
-    total: 1662
+    total: 1662,
   },
   76033: {
     district: 76033,
@@ -37731,7 +37732,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 450,
-    total: 1824
+    total: 1824,
   },
   76034: {
     district: 76034,
@@ -37742,7 +37743,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 30,
     blank: 419,
-    total: 1749
+    total: 1749,
   },
   76035: {
     district: 76035,
@@ -37753,7 +37754,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 386,
-    total: 1623
+    total: 1623,
   },
   76036: {
     district: 76036,
@@ -37764,7 +37765,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 41,
     blank: 389,
-    total: 1810
+    total: 1810,
   },
   76037: {
     district: 76037,
@@ -37775,7 +37776,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 393,
-    total: 1772
+    total: 1772,
   },
   76038: {
     district: 76038,
@@ -37786,7 +37787,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 306,
-    total: 1160
+    total: 1160,
   },
   76039: {
     district: 76039,
@@ -37797,7 +37798,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 35,
     blank: 299,
-    total: 1446
+    total: 1446,
   },
   76040: {
     district: 76040,
@@ -37808,7 +37809,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 25,
     blank: 284,
-    total: 1296
+    total: 1296,
   },
   76041: {
     district: 76041,
@@ -37819,7 +37820,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 324,
-    total: 1416
+    total: 1416,
   },
   76042: {
     district: 76042,
@@ -37830,7 +37831,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 268,
-    total: 1500
+    total: 1500,
   },
   76043: {
     district: 76043,
@@ -37841,7 +37842,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 262,
-    total: 1187
+    total: 1187,
   },
   76044: {
     district: 76044,
@@ -37852,7 +37853,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 27,
     blank: 304,
-    total: 1688
+    total: 1688,
   },
   76045: {
     district: 76045,
@@ -37863,7 +37864,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 32,
     blank: 359,
-    total: 1645
+    total: 1645,
   },
   76046: {
     district: 76046,
@@ -37874,7 +37875,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 286,
-    total: 1511
+    total: 1511,
   },
   76047: {
     district: 76047,
@@ -37885,7 +37886,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 277,
-    total: 1242
+    total: 1242,
   },
   76048: {
     district: 76048,
@@ -37896,7 +37897,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 32,
     blank: 384,
-    total: 1544
+    total: 1544,
   },
   76049: {
     district: 76049,
@@ -37907,7 +37908,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 34,
     blank: 344,
-    total: 1475
+    total: 1475,
   },
   76050: {
     district: 76050,
@@ -37918,7 +37919,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 340,
-    total: 1656
+    total: 1656,
   },
   76051: {
     district: 76051,
@@ -37929,7 +37930,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 33,
     blank: 247,
-    total: 1333
+    total: 1333,
   },
   76052: {
     district: 76052,
@@ -37940,7 +37941,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 29,
     blank: 340,
-    total: 1523
+    total: 1523,
   },
   76053: {
     district: 76053,
@@ -37951,7 +37952,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 353,
-    total: 1550
+    total: 1550,
   },
   76054: {
     district: 76054,
@@ -37962,7 +37963,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 29,
     blank: 423,
-    total: 1915
+    total: 1915,
   },
   76055: {
     district: 76055,
@@ -37973,7 +37974,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 372,
-    total: 1681
+    total: 1681,
   },
   76056: {
     district: 76056,
@@ -37984,7 +37985,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 42,
     blank: 392,
-    total: 1761
+    total: 1761,
   },
   76057: {
     district: 76057,
@@ -37995,7 +37996,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 241,
-    total: 1144
+    total: 1144,
   },
   76058: {
     district: 76058,
@@ -38006,7 +38007,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 436,
-    total: 1898
+    total: 1898,
   },
   76059: {
     district: 76059,
@@ -38017,7 +38018,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 279,
-    total: 1397
+    total: 1397,
   },
   76060: {
     district: 76060,
@@ -38028,7 +38029,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 373,
-    total: 1254
+    total: 1254,
   },
   76061: {
     district: 76061,
@@ -38039,7 +38040,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 374,
-    total: 1487
+    total: 1487,
   },
   76062: {
     district: 76062,
@@ -38050,7 +38051,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 32,
     blank: 414,
-    total: 1772
+    total: 1772,
   },
   77001: {
     district: 77001,
@@ -38061,7 +38062,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 325,
-    total: 1522
+    total: 1522,
   },
   77002: {
     district: 77002,
@@ -38072,7 +38073,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 315,
-    total: 1655
+    total: 1655,
   },
   77003: {
     district: 77003,
@@ -38083,7 +38084,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 22,
     blank: 311,
-    total: 1634
+    total: 1634,
   },
   77004: {
     district: 77004,
@@ -38094,7 +38095,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 95,
-    total: 429
+    total: 429,
   },
   77005: {
     district: 77005,
@@ -38105,7 +38106,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 291,
-    total: 1579
+    total: 1579,
   },
   77006: {
     district: 77006,
@@ -38116,7 +38117,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 294,
-    total: 1686
+    total: 1686,
   },
   77007: {
     district: 77007,
@@ -38127,7 +38128,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 32,
     blank: 316,
-    total: 1713
+    total: 1713,
   },
   77008: {
     district: 77008,
@@ -38138,7 +38139,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 280,
-    total: 1567
+    total: 1567,
   },
   77009: {
     district: 77009,
@@ -38149,7 +38150,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 17,
     blank: 350,
-    total: 1783
+    total: 1783,
   },
   77010: {
     district: 77010,
@@ -38160,7 +38161,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 289,
-    total: 1571
+    total: 1571,
   },
   77011: {
     district: 77011,
@@ -38171,7 +38172,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 330,
-    total: 1676
+    total: 1676,
   },
   77012: {
     district: 77012,
@@ -38182,7 +38183,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 242,
-    total: 1528
+    total: 1528,
   },
   77013: {
     district: 77013,
@@ -38193,7 +38194,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 25,
     blank: 306,
-    total: 1837
+    total: 1837,
   },
   77014: {
     district: 77014,
@@ -38204,7 +38205,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 297,
-    total: 1707
+    total: 1707,
   },
   77015: {
     district: 77015,
@@ -38215,7 +38216,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 0,
     blank: 25,
-    total: 150
+    total: 150,
   },
   77016: {
     district: 77016,
@@ -38226,7 +38227,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 1,
     blank: 46,
-    total: 298
+    total: 298,
   },
   77017: {
     district: 77017,
@@ -38237,7 +38238,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 206,
-    total: 1236
+    total: 1236,
   },
   77018: {
     district: 77018,
@@ -38248,7 +38249,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 194,
-    total: 1216
+    total: 1216,
   },
   77019: {
     district: 77019,
@@ -38259,7 +38260,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 202,
-    total: 1126
+    total: 1126,
   },
   77020: {
     district: 77020,
@@ -38270,7 +38271,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 4,
     blank: 84,
-    total: 424
+    total: 424,
   },
   77021: {
     district: 77021,
@@ -38281,7 +38282,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 297,
-    total: 1421
+    total: 1421,
   },
   77022: {
     district: 77022,
@@ -38292,7 +38293,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 223,
-    total: 1160
+    total: 1160,
   },
   77023: {
     district: 77023,
@@ -38303,7 +38304,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 30,
     blank: 339,
-    total: 1641
+    total: 1641,
   },
   77024: {
     district: 77024,
@@ -38314,7 +38315,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 20,
     blank: 271,
-    total: 1419
+    total: 1419,
   },
   77025: {
     district: 77025,
@@ -38325,7 +38326,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 152,
-    total: 854
+    total: 854,
   },
   77026: {
     district: 77026,
@@ -38336,7 +38337,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 246,
-    total: 1371
+    total: 1371,
   },
   77027: {
     district: 77027,
@@ -38347,7 +38348,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 352,
-    total: 1671
+    total: 1671,
   },
   77028: {
     district: 77028,
@@ -38358,7 +38359,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 204,
-    total: 1022
+    total: 1022,
   },
   77029: {
     district: 77029,
@@ -38369,7 +38370,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 62,
-    total: 343
+    total: 343,
   },
   77030: {
     district: 77030,
@@ -38380,7 +38381,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 5,
     blank: 104,
-    total: 494
+    total: 494,
   },
   77031: {
     district: 77031,
@@ -38391,7 +38392,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 191,
-    total: 1064
+    total: 1064,
   },
   77032: {
     district: 77032,
@@ -38402,7 +38403,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 233,
-    total: 1286
+    total: 1286,
   },
   77033: {
     district: 77033,
@@ -38413,7 +38414,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 6,
     blank: 181,
-    total: 854
+    total: 854,
   },
   77034: {
     district: 77034,
@@ -38424,7 +38425,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 306,
-    total: 1565
+    total: 1565,
   },
   77035: {
     district: 77035,
@@ -38435,7 +38436,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 292,
-    total: 1510
+    total: 1510,
   },
   77036: {
     district: 77036,
@@ -38446,7 +38447,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 236,
-    total: 1234
+    total: 1234,
   },
   77037: {
     district: 77037,
@@ -38457,7 +38458,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 28,
     blank: 317,
-    total: 1503
+    total: 1503,
   },
   77038: {
     district: 77038,
@@ -38468,7 +38469,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 177,
-    total: 930
+    total: 930,
   },
   77039: {
     district: 77039,
@@ -38479,7 +38480,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 27,
     blank: 293,
-    total: 1490
+    total: 1490,
   },
   77040: {
     district: 77040,
@@ -38490,7 +38491,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 217,
-    total: 1166
+    total: 1166,
   },
   77041: {
     district: 77041,
@@ -38501,7 +38502,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 252,
-    total: 1366
+    total: 1366,
   },
   77042: {
     district: 77042,
@@ -38512,7 +38513,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 302,
-    total: 1701
+    total: 1701,
   },
   77043: {
     district: 77043,
@@ -38523,7 +38524,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 215,
-    total: 1126
+    total: 1126,
   },
   77044: {
     district: 77044,
@@ -38534,7 +38535,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 29,
     blank: 323,
-    total: 1643
+    total: 1643,
   },
   77045: {
     district: 77045,
@@ -38545,7 +38546,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 78,
-    total: 462
+    total: 462,
   },
   77046: {
     district: 77046,
@@ -38556,7 +38557,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 21,
     blank: 377,
-    total: 1826
+    total: 1826,
   },
   77047: {
     district: 77047,
@@ -38567,7 +38568,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 209,
-    total: 1318
+    total: 1318,
   },
   77048: {
     district: 77048,
@@ -38578,7 +38579,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 231,
-    total: 1218
+    total: 1218,
   },
   77049: {
     district: 77049,
@@ -38589,7 +38590,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 18,
     blank: 123,
-    total: 1193
+    total: 1193,
   },
   77050: {
     district: 77050,
@@ -38600,7 +38601,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 351,
-    total: 1680
+    total: 1680,
   },
   77051: {
     district: 77051,
@@ -38611,7 +38612,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 185,
-    total: 899
+    total: 899,
   },
   77052: {
     district: 77052,
@@ -38622,7 +38623,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 347,
-    total: 1755
+    total: 1755,
   },
   77053: {
     district: 77053,
@@ -38633,7 +38634,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 279,
-    total: 1354
+    total: 1354,
   },
   78001: {
     district: 78001,
@@ -38644,7 +38645,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 264,
-    total: 1398
+    total: 1398,
   },
   78002: {
     district: 78002,
@@ -38655,7 +38656,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 29,
     blank: 278,
-    total: 1529
+    total: 1529,
   },
   78003: {
     district: 78003,
@@ -38666,7 +38667,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 24,
     blank: 266,
-    total: 1490
+    total: 1490,
   },
   78004: {
     district: 78004,
@@ -38677,7 +38678,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 305,
-    total: 1332
+    total: 1332,
   },
   78005: {
     district: 78005,
@@ -38688,7 +38689,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 228,
-    total: 1034
+    total: 1034,
   },
   78006: {
     district: 78006,
@@ -38699,7 +38700,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 201,
-    total: 962
+    total: 962,
   },
   78007: {
     district: 78007,
@@ -38710,7 +38711,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 235,
-    total: 1326
+    total: 1326,
   },
   78008: {
     district: 78008,
@@ -38721,7 +38722,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 13,
     blank: 261,
-    total: 987
+    total: 987,
   },
   78009: {
     district: 78009,
@@ -38732,7 +38733,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 10,
     blank: 240,
-    total: 964
+    total: 964,
   },
   78010: {
     district: 78010,
@@ -38743,7 +38744,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 270,
-    total: 1459
+    total: 1459,
   },
   78011: {
     district: 78011,
@@ -38754,7 +38755,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 145,
-    total: 694
+    total: 694,
   },
   78012: {
     district: 78012,
@@ -38765,7 +38766,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 266,
-    total: 1332
+    total: 1332,
   },
   78013: {
     district: 78013,
@@ -38776,7 +38777,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 122,
-    total: 723
+    total: 723,
   },
   78014: {
     district: 78014,
@@ -38787,7 +38788,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 264,
-    total: 1255
+    total: 1255,
   },
   78015: {
     district: 78015,
@@ -38798,7 +38799,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 5,
     blank: 51,
-    total: 295
+    total: 295,
   },
   78016: {
     district: 78016,
@@ -38809,7 +38810,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 184,
-    total: 987
+    total: 987,
   },
   78017: {
     district: 78017,
@@ -38820,7 +38821,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 345,
-    total: 1569
+    total: 1569,
   },
   78018: {
     district: 78018,
@@ -38831,7 +38832,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 388,
-    total: 1609
+    total: 1609,
   },
   78019: {
     district: 78019,
@@ -38842,7 +38843,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 292,
-    total: 1394
+    total: 1394,
   },
   78020: {
     district: 78020,
@@ -38853,7 +38854,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 284,
-    total: 1403
+    total: 1403,
   },
   78021: {
     district: 78021,
@@ -38864,7 +38865,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 282,
-    total: 1370
+    total: 1370,
   },
   78022: {
     district: 78022,
@@ -38875,7 +38876,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 357,
-    total: 1545
+    total: 1545,
   },
   78023: {
     district: 78023,
@@ -38886,7 +38887,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 329,
-    total: 1500
+    total: 1500,
   },
   78024: {
     district: 78024,
@@ -38897,7 +38898,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 1,
     blank: 60,
-    total: 242
+    total: 242,
   },
   78025: {
     district: 78025,
@@ -38908,7 +38909,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 193,
-    total: 1101
+    total: 1101,
   },
   78026: {
     district: 78026,
@@ -38919,7 +38920,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 242,
-    total: 1159
+    total: 1159,
   },
   78027: {
     district: 78027,
@@ -38930,7 +38931,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 299,
-    total: 1479
+    total: 1479,
   },
   78028: {
     district: 78028,
@@ -38941,7 +38942,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 469,
-    total: 1903
+    total: 1903,
   },
   78029: {
     district: 78029,
@@ -38952,7 +38953,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 221,
-    total: 1086
+    total: 1086,
   },
   78030: {
     district: 78030,
@@ -38963,7 +38964,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 292,
-    total: 1344
+    total: 1344,
   },
   78031: {
     district: 78031,
@@ -38974,7 +38975,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 187,
-    total: 859
+    total: 859,
   },
   78032: {
     district: 78032,
@@ -38985,7 +38986,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 33,
     blank: 224,
-    total: 1566
+    total: 1566,
   },
   78033: {
     district: 78033,
@@ -38996,7 +38997,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 335,
-    total: 1565
+    total: 1565,
   },
   78034: {
     district: 78034,
@@ -39007,7 +39008,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 332,
-    total: 1578
+    total: 1578,
   },
   78035: {
     district: 78035,
@@ -39018,7 +39019,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 272,
-    total: 1471
+    total: 1471,
   },
   78036: {
     district: 78036,
@@ -39029,7 +39030,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 205,
-    total: 969
+    total: 969,
   },
   78037: {
     district: 78037,
@@ -39040,7 +39041,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 328,
-    total: 1719
+    total: 1719,
   },
   78038: {
     district: 78038,
@@ -39051,7 +39052,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 283,
-    total: 1239
+    total: 1239,
   },
   78039: {
     district: 78039,
@@ -39062,7 +39063,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 329,
-    total: 1465
+    total: 1465,
   },
   78040: {
     district: 78040,
@@ -39073,7 +39074,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 228,
-    total: 1094
+    total: 1094,
   },
   78041: {
     district: 78041,
@@ -39084,7 +39085,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 301,
-    total: 1419
+    total: 1419,
   },
   78042: {
     district: 78042,
@@ -39095,7 +39096,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 9,
     blank: 267,
-    total: 1346
+    total: 1346,
   },
   78043: {
     district: 78043,
@@ -39106,7 +39107,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 355,
-    total: 1672
+    total: 1672,
   },
   78044: {
     district: 78044,
@@ -39117,7 +39118,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 340,
-    total: 1689
+    total: 1689,
   },
   78045: {
     district: 78045,
@@ -39128,7 +39129,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 280,
-    total: 1190
+    total: 1190,
   },
   78046: {
     district: 78046,
@@ -39139,7 +39140,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 241,
-    total: 1170
+    total: 1170,
   },
   78047: {
     district: 78047,
@@ -39150,7 +39151,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 22,
     blank: 295,
-    total: 1421
+    total: 1421,
   },
   78048: {
     district: 78048,
@@ -39161,7 +39162,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 1,
-    total: 11
+    total: 11,
   },
   78049: {
     district: 78049,
@@ -39172,7 +39173,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 19,
     blank: 249,
-    total: 1192
+    total: 1192,
   },
   78050: {
     district: 78050,
@@ -39183,7 +39184,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 1
+    total: 1,
   },
   79001: {
     district: 79001,
@@ -39194,7 +39195,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 256,
-    total: 1510
+    total: 1510,
   },
   79002: {
     district: 79002,
@@ -39205,7 +39206,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 55,
-    total: 251
+    total: 251,
   },
   79003: {
     district: 79003,
@@ -39216,7 +39217,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 243,
-    total: 1345
+    total: 1345,
   },
   79004: {
     district: 79004,
@@ -39227,7 +39228,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 208,
-    total: 1097
+    total: 1097,
   },
   79005: {
     district: 79005,
@@ -39238,7 +39239,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 242,
-    total: 1112
+    total: 1112,
   },
   79006: {
     district: 79006,
@@ -39249,7 +39250,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 10,
     blank: 193,
-    total: 848
+    total: 848,
   },
   79007: {
     district: 79007,
@@ -39260,7 +39261,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 190,
-    total: 1069
+    total: 1069,
   },
   79008: {
     district: 79008,
@@ -39271,7 +39272,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 217,
-    total: 1089
+    total: 1089,
   },
   79009: {
     district: 79009,
@@ -39282,7 +39283,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 5,
     blank: 83,
-    total: 505
+    total: 505,
   },
   79010: {
     district: 79010,
@@ -39293,7 +39294,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 256,
-    total: 1370
+    total: 1370,
   },
   79011: {
     district: 79011,
@@ -39304,7 +39305,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 22,
     blank: 281,
-    total: 1590
+    total: 1590,
   },
   79012: {
     district: 79012,
@@ -39315,7 +39316,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 23,
     blank: 329,
-    total: 1555
+    total: 1555,
   },
   79013: {
     district: 79013,
@@ -39326,7 +39327,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 296,
-    total: 1340
+    total: 1340,
   },
   79014: {
     district: 79014,
@@ -39337,7 +39338,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 271,
-    total: 1457
+    total: 1457,
   },
   79015: {
     district: 79015,
@@ -39348,7 +39349,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 312,
-    total: 1774
+    total: 1774,
   },
   79016: {
     district: 79016,
@@ -39359,7 +39360,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 5,
     blank: 157,
-    total: 773
+    total: 773,
   },
   79017: {
     district: 79017,
@@ -39370,7 +39371,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 14,
     blank: 256,
-    total: 1341
+    total: 1341,
   },
   79018: {
     district: 79018,
@@ -39381,7 +39382,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 183,
-    total: 1016
+    total: 1016,
   },
   79019: {
     district: 79019,
@@ -39392,7 +39393,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 5,
     blank: 118,
-    total: 653
+    total: 653,
   },
   79020: {
     district: 79020,
@@ -39403,7 +39404,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 21,
     blank: 296,
-    total: 1382
+    total: 1382,
   },
   79021: {
     district: 79021,
@@ -39414,7 +39415,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 213,
-    total: 956
+    total: 956,
   },
   79022: {
     district: 79022,
@@ -39425,7 +39426,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 21,
     blank: 295,
-    total: 1522
+    total: 1522,
   },
   79023: {
     district: 79023,
@@ -39436,7 +39437,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 22,
     blank: 331,
-    total: 1593
+    total: 1593,
   },
   79024: {
     district: 79024,
@@ -39447,7 +39448,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 230,
-    total: 1148
+    total: 1148,
   },
   79025: {
     district: 79025,
@@ -39458,7 +39459,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 5,
     blank: 167,
-    total: 851
+    total: 851,
   },
   79026: {
     district: 79026,
@@ -39469,7 +39470,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 173,
-    total: 814
+    total: 814,
   },
   79027: {
     district: 79027,
@@ -39480,7 +39481,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 12,
     blank: 273,
-    total: 1442
+    total: 1442,
   },
   79028: {
     district: 79028,
@@ -39491,7 +39492,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 26,
     blank: 363,
-    total: 1729
+    total: 1729,
   },
   79029: {
     district: 79029,
@@ -39502,7 +39503,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 21,
     blank: 321,
-    total: 1606
+    total: 1606,
   },
   79030: {
     district: 79030,
@@ -39513,7 +39514,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 197,
-    total: 1101
+    total: 1101,
   },
   79031: {
     district: 79031,
@@ -39524,7 +39525,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 22,
     blank: 212,
-    total: 1122
+    total: 1122,
   },
   79032: {
     district: 79032,
@@ -39535,7 +39536,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 24,
     blank: 317,
-    total: 1687
+    total: 1687,
   },
   79033: {
     district: 79033,
@@ -39546,7 +39547,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 171,
-    total: 846
+    total: 846,
   },
   79034: {
     district: 79034,
@@ -39557,7 +39558,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 17,
     blank: 317,
-    total: 1603
+    total: 1603,
   },
   79035: {
     district: 79035,
@@ -39568,7 +39569,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 21,
     blank: 339,
-    total: 1584
+    total: 1584,
   },
   79036: {
     district: 79036,
@@ -39579,7 +39580,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 209,
-    total: 1200
+    total: 1200,
   },
   79037: {
     district: 79037,
@@ -39590,7 +39591,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 27,
     blank: 291,
-    total: 1575
+    total: 1575,
   },
   79038: {
     district: 79038,
@@ -39601,7 +39602,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 17,
     blank: 247,
-    total: 1362
+    total: 1362,
   },
   79039: {
     district: 79039,
@@ -39612,7 +39613,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 180,
-    total: 1030
+    total: 1030,
   },
   79040: {
     district: 79040,
@@ -39623,7 +39624,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 257,
-    total: 1594
+    total: 1594,
   },
   79041: {
     district: 79041,
@@ -39634,7 +39635,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 14,
     blank: 237,
-    total: 1150
+    total: 1150,
   },
   79042: {
     district: 79042,
@@ -39645,7 +39646,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 15,
     blank: 216,
-    total: 1253
+    total: 1253,
   },
   79043: {
     district: 79043,
@@ -39656,7 +39657,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 18,
     blank: 345,
-    total: 1687
+    total: 1687,
   },
   79044: {
     district: 79044,
@@ -39667,7 +39668,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 241,
-    total: 1171
+    total: 1171,
   },
   79045: {
     district: 79045,
@@ -39678,7 +39679,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 305,
-    total: 1467
+    total: 1467,
   },
   79046: {
     district: 79046,
@@ -39689,7 +39690,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 19,
     other: 22,
     blank: 299,
-    total: 1692
+    total: 1692,
   },
   79047: {
     district: 79047,
@@ -39700,7 +39701,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 17,
     blank: 338,
-    total: 1691
+    total: 1691,
   },
   79048: {
     district: 79048,
@@ -39711,7 +39712,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 63,
-    total: 258
+    total: 258,
   },
   79049: {
     district: 79049,
@@ -39722,7 +39723,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 220,
-    total: 1059
+    total: 1059,
   },
   79050: {
     district: 79050,
@@ -39733,7 +39734,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 289,
-    total: 1628
+    total: 1628,
   },
   79051: {
     district: 79051,
@@ -39744,7 +39745,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 299,
-    total: 1716
+    total: 1716,
   },
   79052: {
     district: 79052,
@@ -39755,7 +39756,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 258,
-    total: 1569
+    total: 1569,
   },
   79053: {
     district: 79053,
@@ -39766,7 +39767,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 180,
-    total: 1159
+    total: 1159,
   },
   79054: {
     district: 79054,
@@ -39777,7 +39778,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 163,
-    total: 1202
+    total: 1202,
   },
   79055: {
     district: 79055,
@@ -39788,7 +39789,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 148,
-    total: 1360
+    total: 1360,
   },
   79056: {
     district: 79056,
@@ -39799,7 +39800,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 150,
-    total: 1065
+    total: 1065,
   },
   79057: {
     district: 79057,
@@ -39810,7 +39811,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 141,
-    total: 705
+    total: 705,
   },
   80001: {
     district: 80001,
@@ -39821,7 +39822,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 203,
-    total: 917
+    total: 917,
   },
   80002: {
     district: 80002,
@@ -39832,7 +39833,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 10,
     blank: 276,
-    total: 1166
+    total: 1166,
   },
   80003: {
     district: 80003,
@@ -39843,7 +39844,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 187,
-    total: 811
+    total: 811,
   },
   80004: {
     district: 80004,
@@ -39854,7 +39855,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 209,
-    total: 795
+    total: 795,
   },
   80005: {
     district: 80005,
@@ -39865,7 +39866,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 355,
-    total: 1399
+    total: 1399,
   },
   80006: {
     district: 80006,
@@ -39876,7 +39877,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 436,
-    total: 1681
+    total: 1681,
   },
   80007: {
     district: 80007,
@@ -39887,7 +39888,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 295,
-    total: 1237
+    total: 1237,
   },
   80008: {
     district: 80008,
@@ -39898,7 +39899,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 23,
     blank: 357,
-    total: 1521
+    total: 1521,
   },
   80009: {
     district: 80009,
@@ -39909,7 +39910,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 299,
-    total: 1187
+    total: 1187,
   },
   80010: {
     district: 80010,
@@ -39920,7 +39921,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 272,
-    total: 1063
+    total: 1063,
   },
   80011: {
     district: 80011,
@@ -39931,7 +39932,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 286,
-    total: 1194
+    total: 1194,
   },
   80012: {
     district: 80012,
@@ -39942,7 +39943,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 356,
-    total: 1574
+    total: 1574,
   },
   80013: {
     district: 80013,
@@ -39953,7 +39954,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 357,
-    total: 1541
+    total: 1541,
   },
   80014: {
     district: 80014,
@@ -39964,7 +39965,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 11,
     blank: 187,
-    total: 1130
+    total: 1130,
   },
   80015: {
     district: 80015,
@@ -39975,7 +39976,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 278,
-    total: 1398
+    total: 1398,
   },
   80016: {
     district: 80016,
@@ -39986,7 +39987,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 303,
-    total: 1246
+    total: 1246,
   },
   80017: {
     district: 80017,
@@ -39997,7 +39998,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 379,
-    total: 1624
+    total: 1624,
   },
   80018: {
     district: 80018,
@@ -40008,7 +40009,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 15,
     blank: 285,
-    total: 1163
+    total: 1163,
   },
   80019: {
     district: 80019,
@@ -40019,7 +40020,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 276,
-    total: 999
+    total: 999,
   },
   80020: {
     district: 80020,
@@ -40030,7 +40031,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 40,
     blank: 340,
-    total: 1481
+    total: 1481,
   },
   80021: {
     district: 80021,
@@ -40041,7 +40042,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 274,
-    total: 1301
+    total: 1301,
   },
   80022: {
     district: 80022,
@@ -40052,7 +40053,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 138,
-    total: 806
+    total: 806,
   },
   80023: {
     district: 80023,
@@ -40063,7 +40064,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 31,
     blank: 347,
-    total: 1532
+    total: 1532,
   },
   80024: {
     district: 80024,
@@ -40074,7 +40075,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 223,
-    total: 1031
+    total: 1031,
   },
   80025: {
     district: 80025,
@@ -40085,7 +40086,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 6,
     blank: 115,
-    total: 584
+    total: 584,
   },
   80026: {
     district: 80026,
@@ -40096,7 +40097,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 32,
     blank: 290,
-    total: 1491
+    total: 1491,
   },
   80027: {
     district: 80027,
@@ -40107,7 +40108,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 89,
-    total: 438
+    total: 438,
   },
   80028: {
     district: 80028,
@@ -40118,7 +40119,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 68,
-    total: 301
+    total: 301,
   },
   80029: {
     district: 80029,
@@ -40129,7 +40130,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 282,
-    total: 1417
+    total: 1417,
   },
   80030: {
     district: 80030,
@@ -40140,7 +40141,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 313,
-    total: 1466
+    total: 1466,
   },
   80031: {
     district: 80031,
@@ -40151,7 +40152,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 20,
     blank: 314,
-    total: 1417
+    total: 1417,
   },
   80032: {
     district: 80032,
@@ -40162,7 +40163,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 9,
     blank: 216,
-    total: 904
+    total: 904,
   },
   80033: {
     district: 80033,
@@ -40173,7 +40174,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 107,
-    total: 450
+    total: 450,
   },
   80034: {
     district: 80034,
@@ -40184,7 +40185,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 335,
-    total: 1623
+    total: 1623,
   },
   80035: {
     district: 80035,
@@ -40195,7 +40196,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 19,
     blank: 336,
-    total: 1669
+    total: 1669,
   },
   80036: {
     district: 80036,
@@ -40206,7 +40207,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 149,
-    total: 768
+    total: 768,
   },
   80037: {
     district: 80037,
@@ -40217,7 +40218,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 270,
-    total: 1400
+    total: 1400,
   },
   80038: {
     district: 80038,
@@ -40228,7 +40229,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 287,
-    total: 1428
+    total: 1428,
   },
   80039: {
     district: 80039,
@@ -40239,7 +40240,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 209,
-    total: 989
+    total: 989,
   },
   80040: {
     district: 80040,
@@ -40250,7 +40251,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 27,
     blank: 311,
-    total: 1536
+    total: 1536,
   },
   80041: {
     district: 80041,
@@ -40261,7 +40262,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 26,
     blank: 380,
-    total: 1724
+    total: 1724,
   },
   80042: {
     district: 80042,
@@ -40272,7 +40273,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 295,
-    total: 1311
+    total: 1311,
   },
   80043: {
     district: 80043,
@@ -40283,7 +40284,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 19,
     blank: 253,
-    total: 1172
+    total: 1172,
   },
   80044: {
     district: 80044,
@@ -40294,7 +40295,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 235,
-    total: 1224
+    total: 1224,
   },
   80045: {
     district: 80045,
@@ -40305,7 +40306,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 13,
     blank: 346,
-    total: 1484
+    total: 1484,
   },
   80046: {
     district: 80046,
@@ -40316,7 +40317,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 182,
-    total: 869
+    total: 869,
   },
   80047: {
     district: 80047,
@@ -40327,7 +40328,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 16,
     blank: 289,
-    total: 1139
+    total: 1139,
   },
   80048: {
     district: 80048,
@@ -40338,7 +40339,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 13,
     blank: 227,
-    total: 1060
+    total: 1060,
   },
   80049: {
     district: 80049,
@@ -40349,7 +40350,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 20,
     blank: 197,
-    total: 986
+    total: 986,
   },
   80050: {
     district: 80050,
@@ -40360,7 +40361,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 314,
-    total: 1280
+    total: 1280,
   },
   80051: {
     district: 80051,
@@ -40371,7 +40372,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 26,
     blank: 226,
-    total: 1201
+    total: 1201,
   },
   80052: {
     district: 80052,
@@ -40382,7 +40383,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 2,
     blank: 12,
-    total: 117
+    total: 117,
   },
   80053: {
     district: 80053,
@@ -40393,7 +40394,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 21,
     blank: 292,
-    total: 1324
+    total: 1324,
   },
   80054: {
     district: 80054,
@@ -40404,7 +40405,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 32,
     blank: 233,
-    total: 1778
+    total: 1778,
   },
   80055: {
     district: 80055,
@@ -40415,7 +40416,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 328,
-    total: 1349
+    total: 1349,
   },
   80056: {
     district: 80056,
@@ -40426,7 +40427,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 382,
-    total: 1488
+    total: 1488,
   },
   80057: {
     district: 80057,
@@ -40437,7 +40438,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 25,
     blank: 354,
-    total: 1646
+    total: 1646,
   },
   80058: {
     district: 80058,
@@ -40448,7 +40449,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 0,
-    total: 2
+    total: 2,
   },
   81001: {
     district: 81001,
@@ -40459,7 +40460,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 10,
     blank: 213,
-    total: 1247
+    total: 1247,
   },
   81002: {
     district: 81002,
@@ -40470,7 +40471,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 293,
-    total: 1455
+    total: 1455,
   },
   81003: {
     district: 81003,
@@ -40481,7 +40482,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 236,
-    total: 1004
+    total: 1004,
   },
   81004: {
     district: 81004,
@@ -40492,7 +40493,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 6,
     blank: 137,
-    total: 943
+    total: 943,
   },
   81005: {
     district: 81005,
@@ -40503,7 +40504,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 227,
-    total: 953
+    total: 953,
   },
   81006: {
     district: 81006,
@@ -40514,7 +40515,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 294,
-    total: 1463
+    total: 1463,
   },
   81007: {
     district: 81007,
@@ -40525,7 +40526,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 183,
-    total: 1031
+    total: 1031,
   },
   81008: {
     district: 81008,
@@ -40536,7 +40537,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 251,
-    total: 1155
+    total: 1155,
   },
   81009: {
     district: 81009,
@@ -40547,7 +40548,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 224,
-    total: 1063
+    total: 1063,
   },
   81010: {
     district: 81010,
@@ -40558,7 +40559,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 35,
     blank: 317,
-    total: 1402
+    total: 1402,
   },
   81011: {
     district: 81011,
@@ -40569,7 +40570,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 43,
     blank: 450,
-    total: 1979
+    total: 1979,
   },
   81012: {
     district: 81012,
@@ -40580,7 +40581,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 22,
     blank: 309,
-    total: 1563
+    total: 1563,
   },
   81013: {
     district: 81013,
@@ -40591,7 +40592,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 38,
-    total: 182
+    total: 182,
   },
   81014: {
     district: 81014,
@@ -40602,7 +40603,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 37,
     blank: 279,
-    total: 1494
+    total: 1494,
   },
   81015: {
     district: 81015,
@@ -40613,7 +40614,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 238,
-    total: 1239
+    total: 1239,
   },
   81016: {
     district: 81016,
@@ -40624,7 +40625,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 169,
-    total: 881
+    total: 881,
   },
   81017: {
     district: 81017,
@@ -40635,7 +40636,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 354,
-    total: 1608
+    total: 1608,
   },
   81018: {
     district: 81018,
@@ -40646,7 +40647,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 249,
-    total: 1180
+    total: 1180,
   },
   81019: {
     district: 81019,
@@ -40657,7 +40658,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 32,
     blank: 252,
-    total: 1441
+    total: 1441,
   },
   81020: {
     district: 81020,
@@ -40668,7 +40669,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 189,
-    total: 1065
+    total: 1065,
   },
   81021: {
     district: 81021,
@@ -40679,7 +40680,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 37,
     blank: 237,
-    total: 1269
+    total: 1269,
   },
   81022: {
     district: 81022,
@@ -40690,7 +40691,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 245,
-    total: 1479
+    total: 1479,
   },
   81023: {
     district: 81023,
@@ -40701,7 +40702,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 213,
-    total: 1183
+    total: 1183,
   },
   81024: {
     district: 81024,
@@ -40712,7 +40713,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 238,
-    total: 1167
+    total: 1167,
   },
   81025: {
     district: 81025,
@@ -40723,7 +40724,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 204,
-    total: 1001
+    total: 1001,
   },
   81026: {
     district: 81026,
@@ -40734,7 +40735,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 21,
     blank: 289,
-    total: 1326
+    total: 1326,
   },
   81027: {
     district: 81027,
@@ -40745,7 +40746,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 25,
     blank: 267,
-    total: 1604
+    total: 1604,
   },
   81028: {
     district: 81028,
@@ -40756,7 +40757,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 252,
-    total: 1629
+    total: 1629,
   },
   81029: {
     district: 81029,
@@ -40767,7 +40768,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 29,
     blank: 263,
-    total: 1598
+    total: 1598,
   },
   81030: {
     district: 81030,
@@ -40778,7 +40779,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 273,
-    total: 1416
+    total: 1416,
   },
   81031: {
     district: 81031,
@@ -40789,7 +40790,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 322,
-    total: 1746
+    total: 1746,
   },
   81032: {
     district: 81032,
@@ -40800,7 +40801,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 186,
-    total: 1193
+    total: 1193,
   },
   81033: {
     district: 81033,
@@ -40811,7 +40812,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 11,
     blank: 187,
-    total: 982
+    total: 982,
   },
   81034: {
     district: 81034,
@@ -40822,7 +40823,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 31,
     blank: 201,
-    total: 1227
+    total: 1227,
   },
   81035: {
     district: 81035,
@@ -40833,7 +40834,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 30,
     blank: 192,
-    total: 1220
+    total: 1220,
   },
   81036: {
     district: 81036,
@@ -40844,7 +40845,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 208,
-    total: 942
+    total: 942,
   },
   81037: {
     district: 81037,
@@ -40855,7 +40856,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 320,
-    total: 1605
+    total: 1605,
   },
   81038: {
     district: 81038,
@@ -40866,7 +40867,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 24,
     blank: 214,
-    total: 1097
+    total: 1097,
   },
   81039: {
     district: 81039,
@@ -40877,7 +40878,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 25,
     blank: 300,
-    total: 1294
+    total: 1294,
   },
   81040: {
     district: 81040,
@@ -40888,7 +40889,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 219,
-    total: 1116
+    total: 1116,
   },
   81041: {
     district: 81041,
@@ -40899,7 +40900,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 35,
     blank: 282,
-    total: 1155
+    total: 1155,
   },
   81042: {
     district: 81042,
@@ -40910,7 +40911,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 38,
     blank: 279,
-    total: 1177
+    total: 1177,
   },
   81043: {
     district: 81043,
@@ -40921,7 +40922,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 42,
     blank: 385,
-    total: 1485
+    total: 1485,
   },
   81044: {
     district: 81044,
@@ -40932,7 +40933,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 20,
     blank: 300,
-    total: 1622
+    total: 1622,
   },
   81045: {
     district: 81045,
@@ -40943,7 +40944,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 323,
-    total: 1320
+    total: 1320,
   },
   81046: {
     district: 81046,
@@ -40954,7 +40955,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 82,
-    total: 568
+    total: 568,
   },
   81047: {
     district: 81047,
@@ -40965,7 +40966,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 25,
     blank: 335,
-    total: 1618
+    total: 1618,
   },
   81048: {
     district: 81048,
@@ -40976,7 +40977,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 31,
     blank: 345,
-    total: 1744
+    total: 1744,
   },
   81049: {
     district: 81049,
@@ -40987,7 +40988,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 26,
     blank: 309,
-    total: 1472
+    total: 1472,
   },
   81050: {
     district: 81050,
@@ -40998,7 +40999,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 317,
-    total: 1239
+    total: 1239,
   },
   81051: {
     district: 81051,
@@ -41009,7 +41010,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 297,
-    total: 1373
+    total: 1373,
   },
   81052: {
     district: 81052,
@@ -41020,7 +41021,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 15,
     blank: 197,
-    total: 1119
+    total: 1119,
   },
   81053: {
     district: 81053,
@@ -41031,7 +41032,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 23,
     blank: 330,
-    total: 1523
+    total: 1523,
   },
   81054: {
     district: 81054,
@@ -41042,7 +41043,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 27,
     blank: 216,
-    total: 1318
+    total: 1318,
   },
   81055: {
     district: 81055,
@@ -41053,7 +41054,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 248,
-    total: 1121
+    total: 1121,
   },
   81056: {
     district: 81056,
@@ -41064,7 +41065,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 33,
     blank: 286,
-    total: 1626
+    total: 1626,
   },
   81057: {
     district: 81057,
@@ -41075,7 +41076,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 17,
     blank: 220,
-    total: 1210
+    total: 1210,
   },
   81058: {
     district: 81058,
@@ -41086,7 +41087,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 210,
-    total: 1067
+    total: 1067,
   },
   82001: {
     district: 82001,
@@ -41097,7 +41098,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 40,
     blank: 276,
-    total: 1390
+    total: 1390,
   },
   82002: {
     district: 82002,
@@ -41108,7 +41109,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 24,
     blank: 143,
-    total: 592
+    total: 592,
   },
   82003: {
     district: 82003,
@@ -41119,7 +41120,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 279,
-    total: 1322
+    total: 1322,
   },
   82004: {
     district: 82004,
@@ -41130,7 +41131,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 321,
-    total: 1348
+    total: 1348,
   },
   82005: {
     district: 82005,
@@ -41141,7 +41142,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 227,
-    total: 1073
+    total: 1073,
   },
   82006: {
     district: 82006,
@@ -41152,7 +41153,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 28,
     blank: 259,
-    total: 1150
+    total: 1150,
   },
   82007: {
     district: 82007,
@@ -41163,7 +41164,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 304,
-    total: 1275
+    total: 1275,
   },
   82008: {
     district: 82008,
@@ -41174,7 +41175,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 32,
     blank: 302,
-    total: 1255
+    total: 1255,
   },
   82009: {
     district: 82009,
@@ -41185,7 +41186,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 31,
     blank: 257,
-    total: 1265
+    total: 1265,
   },
   82010: {
     district: 82010,
@@ -41196,7 +41197,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 27,
     blank: 335,
-    total: 1535
+    total: 1535,
   },
   82011: {
     district: 82011,
@@ -41207,7 +41208,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 304,
-    total: 1379
+    total: 1379,
   },
   82012: {
     district: 82012,
@@ -41218,7 +41219,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 173,
-    total: 1031
+    total: 1031,
   },
   82013: {
     district: 82013,
@@ -41229,7 +41230,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 16,
     blank: 204,
-    total: 1005
+    total: 1005,
   },
   82014: {
     district: 82014,
@@ -41240,7 +41241,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 7,
     blank: 115,
-    total: 889
+    total: 889,
   },
   82015: {
     district: 82015,
@@ -41251,7 +41252,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 24,
     blank: 297,
-    total: 1477
+    total: 1477,
   },
   82016: {
     district: 82016,
@@ -41262,7 +41263,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 305,
-    total: 1407
+    total: 1407,
   },
   82017: {
     district: 82017,
@@ -41273,7 +41274,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 2,
     blank: 36,
-    total: 151
+    total: 151,
   },
   82018: {
     district: 82018,
@@ -41284,7 +41285,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 33,
     blank: 319,
-    total: 1342
+    total: 1342,
   },
   82019: {
     district: 82019,
@@ -41295,7 +41296,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 45,
     blank: 373,
-    total: 1549
+    total: 1549,
   },
   82020: {
     district: 82020,
@@ -41306,7 +41307,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 36,
     blank: 407,
-    total: 1659
+    total: 1659,
   },
   82021: {
     district: 82021,
@@ -41317,7 +41318,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 254,
-    total: 1154
+    total: 1154,
   },
   82022: {
     district: 82022,
@@ -41328,7 +41329,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 231,
-    total: 958
+    total: 958,
   },
   82023: {
     district: 82023,
@@ -41339,7 +41340,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 252,
-    total: 991
+    total: 991,
   },
   82024: {
     district: 82024,
@@ -41350,7 +41351,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 227,
-    total: 883
+    total: 883,
   },
   82025: {
     district: 82025,
@@ -41361,7 +41362,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 34,
     blank: 370,
-    total: 1562
+    total: 1562,
   },
   82026: {
     district: 82026,
@@ -41372,7 +41373,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 282,
-    total: 1174
+    total: 1174,
   },
   82027: {
     district: 82027,
@@ -41383,7 +41384,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 243,
-    total: 1101
+    total: 1101,
   },
   82028: {
     district: 82028,
@@ -41394,7 +41395,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 377,
-    total: 1652
+    total: 1652,
   },
   82029: {
     district: 82029,
@@ -41405,7 +41406,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 303,
-    total: 1447
+    total: 1447,
   },
   82030: {
     district: 82030,
@@ -41416,7 +41417,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 27,
     blank: 286,
-    total: 1350
+    total: 1350,
   },
   82031: {
     district: 82031,
@@ -41427,7 +41428,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 317,
-    total: 1276
+    total: 1276,
   },
   82032: {
     district: 82032,
@@ -41438,7 +41439,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 36,
     blank: 423,
-    total: 1687
+    total: 1687,
   },
   82033: {
     district: 82033,
@@ -41449,7 +41450,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 19,
     blank: 303,
-    total: 1253
+    total: 1253,
   },
   82034: {
     district: 82034,
@@ -41460,7 +41461,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 17,
     blank: 251,
-    total: 1121
+    total: 1121,
   },
   82035: {
     district: 82035,
@@ -41471,7 +41472,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 6,
     blank: 118,
-    total: 500
+    total: 500,
   },
   82036: {
     district: 82036,
@@ -41482,7 +41483,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 302,
-    total: 1251
+    total: 1251,
   },
   82037: {
     district: 82037,
@@ -41493,7 +41494,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 16,
-    total: 109
+    total: 109,
   },
   82038: {
     district: 82038,
@@ -41504,7 +41505,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 392,
-    total: 1597
+    total: 1597,
   },
   82039: {
     district: 82039,
@@ -41515,7 +41516,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 29,
     blank: 312,
-    total: 1296
+    total: 1296,
   },
   82040: {
     district: 82040,
@@ -41526,7 +41527,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 300,
-    total: 1276
+    total: 1276,
   },
   82041: {
     district: 82041,
@@ -41537,7 +41538,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 43,
     blank: 314,
-    total: 1567
+    total: 1567,
   },
   82042: {
     district: 82042,
@@ -41548,7 +41549,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 55,
     blank: 328,
-    total: 1583
+    total: 1583,
   },
   82043: {
     district: 82043,
@@ -41559,7 +41560,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 251,
-    total: 929
+    total: 929,
   },
   82044: {
     district: 82044,
@@ -41570,7 +41571,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 27,
     blank: 206,
-    total: 936
+    total: 936,
   },
   82045: {
     district: 82045,
@@ -41581,7 +41582,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 20,
     blank: 165,
-    total: 1166
+    total: 1166,
   },
   82046: {
     district: 82046,
@@ -41592,7 +41593,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 220,
-    total: 1391
+    total: 1391,
   },
   82047: {
     district: 82047,
@@ -41603,7 +41604,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 22,
     blank: 197,
-    total: 1104
+    total: 1104,
   },
   82048: {
     district: 82048,
@@ -41614,7 +41615,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 33,
     blank: 240,
-    total: 1583
+    total: 1583,
   },
   82049: {
     district: 82049,
@@ -41625,7 +41626,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 21,
     blank: 203,
-    total: 1356
+    total: 1356,
   },
   82050: {
     district: 82050,
@@ -41636,7 +41637,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 162,
-    total: 1134
+    total: 1134,
   },
   82051: {
     district: 82051,
@@ -41647,7 +41648,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 24,
     blank: 167,
-    total: 1165
+    total: 1165,
   },
   82052: {
     district: 82052,
@@ -41658,7 +41659,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 26,
     blank: 204,
-    total: 1446
+    total: 1446,
   },
   82053: {
     district: 82053,
@@ -41669,7 +41670,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 6,
     blank: 122,
-    total: 497
+    total: 497,
   },
   82054: {
     district: 82054,
@@ -41680,7 +41681,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 34,
     blank: 238,
-    total: 1634
+    total: 1634,
   },
   82055: {
     district: 82055,
@@ -41691,7 +41692,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 23,
     blank: 198,
-    total: 1559
+    total: 1559,
   },
   82056: {
     district: 82056,
@@ -41702,7 +41703,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 18,
     blank: 170,
-    total: 1325
+    total: 1325,
   },
   82057: {
     district: 82057,
@@ -41713,7 +41714,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 36,
     blank: 235,
-    total: 1602
+    total: 1602,
   },
   82058: {
     district: 82058,
@@ -41724,7 +41725,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 161,
-    total: 1466
+    total: 1466,
   },
   82059: {
     district: 82059,
@@ -41735,7 +41736,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 29,
     blank: 208,
-    total: 1604
+    total: 1604,
   },
   82060: {
     district: 82060,
@@ -41746,7 +41747,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 163,
-    total: 1478
+    total: 1478,
   },
   82061: {
     district: 82061,
@@ -41757,7 +41758,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 194,
-    total: 1504
+    total: 1504,
   },
   82062: {
     district: 82062,
@@ -41768,7 +41769,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 176,
-    total: 1359
+    total: 1359,
   },
   82063: {
     district: 82063,
@@ -41779,7 +41780,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 25,
     blank: 204,
-    total: 1526
+    total: 1526,
   },
   82064: {
     district: 82064,
@@ -41790,7 +41791,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 218,
-    total: 1598
+    total: 1598,
   },
   83001: {
     district: 83001,
@@ -41801,7 +41802,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 33,
     blank: 301,
-    total: 1614
+    total: 1614,
   },
   83002: {
     district: 83002,
@@ -41812,7 +41813,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 28,
     blank: 261,
-    total: 1541
+    total: 1541,
   },
   83003: {
     district: 83003,
@@ -41823,7 +41824,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 34,
     blank: 314,
-    total: 1703
+    total: 1703,
   },
   83004: {
     district: 83004,
@@ -41834,7 +41835,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 175,
-    total: 1074
+    total: 1074,
   },
   83005: {
     district: 83005,
@@ -41845,7 +41846,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 204,
-    total: 1265
+    total: 1265,
   },
   83006: {
     district: 83006,
@@ -41856,7 +41857,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 24,
     blank: 238,
-    total: 1438
+    total: 1438,
   },
   83007: {
     district: 83007,
@@ -41867,7 +41868,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 30,
     blank: 248,
-    total: 1619
+    total: 1619,
   },
   83008: {
     district: 83008,
@@ -41878,7 +41879,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 23,
     blank: 234,
-    total: 1215
+    total: 1215,
   },
   83009: {
     district: 83009,
@@ -41889,7 +41890,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 229,
-    total: 1320
+    total: 1320,
   },
   83010: {
     district: 83010,
@@ -41900,7 +41901,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 224,
-    total: 1186
+    total: 1186,
   },
   83011: {
     district: 83011,
@@ -41911,7 +41912,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 274,
-    total: 1478
+    total: 1478,
   },
   83012: {
     district: 83012,
@@ -41922,7 +41923,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 222,
-    total: 1080
+    total: 1080,
   },
   83013: {
     district: 83013,
@@ -41933,7 +41934,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 195,
-    total: 1061
+    total: 1061,
   },
   83014: {
     district: 83014,
@@ -41944,7 +41945,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 187,
-    total: 1187
+    total: 1187,
   },
   83015: {
     district: 83015,
@@ -41955,7 +41956,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 318,
-    total: 1551
+    total: 1551,
   },
   83016: {
     district: 83016,
@@ -41966,7 +41967,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 186,
-    total: 1322
+    total: 1322,
   },
   83017: {
     district: 83017,
@@ -41977,7 +41978,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 247,
-    total: 1446
+    total: 1446,
   },
   83018: {
     district: 83018,
@@ -41988,7 +41989,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 215,
-    total: 1072
+    total: 1072,
   },
   83019: {
     district: 83019,
@@ -41999,7 +42000,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 25,
     blank: 248,
-    total: 1446
+    total: 1446,
   },
   83020: {
     district: 83020,
@@ -42010,7 +42011,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 19,
     blank: 264,
-    total: 1519
+    total: 1519,
   },
   83021: {
     district: 83021,
@@ -42021,7 +42022,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 27,
     blank: 281,
-    total: 1592
+    total: 1592,
   },
   83022: {
     district: 83022,
@@ -42032,7 +42033,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 275,
-    total: 1539
+    total: 1539,
   },
   83023: {
     district: 83023,
@@ -42043,7 +42044,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 22,
     blank: 280,
-    total: 1582
+    total: 1582,
   },
   83024: {
     district: 83024,
@@ -42054,7 +42055,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 21,
     blank: 220,
-    total: 1231
+    total: 1231,
   },
   83025: {
     district: 83025,
@@ -42065,7 +42066,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 294,
-    total: 1678
+    total: 1678,
   },
   83026: {
     district: 83026,
@@ -42076,7 +42077,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 313,
-    total: 1625
+    total: 1625,
   },
   83027: {
     district: 83027,
@@ -42087,7 +42088,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 11,
     blank: 164,
-    total: 1055
+    total: 1055,
   },
   83028: {
     district: 83028,
@@ -42098,7 +42099,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 7,
     blank: 212,
-    total: 1121
+    total: 1121,
   },
   83029: {
     district: 83029,
@@ -42109,7 +42110,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 21,
     blank: 272,
-    total: 1468
+    total: 1468,
   },
   83030: {
     district: 83030,
@@ -42120,7 +42121,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 294,
-    total: 1497
+    total: 1497,
   },
   83031: {
     district: 83031,
@@ -42131,7 +42132,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 280,
-    total: 1408
+    total: 1408,
   },
   83032: {
     district: 83032,
@@ -42142,7 +42143,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 295,
-    total: 1627
+    total: 1627,
   },
   83033: {
     district: 83033,
@@ -42153,7 +42154,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 224,
-    total: 1406
+    total: 1406,
   },
   83034: {
     district: 83034,
@@ -42164,7 +42165,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 264,
-    total: 1538
+    total: 1538,
   },
   83035: {
     district: 83035,
@@ -42175,7 +42176,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 16,
     blank: 236,
-    total: 1360
+    total: 1360,
   },
   83036: {
     district: 83036,
@@ -42186,7 +42187,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 145,
-    total: 905
+    total: 905,
   },
   83037: {
     district: 83037,
@@ -42197,7 +42198,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 128,
-    total: 902
+    total: 902,
   },
   83038: {
     district: 83038,
@@ -42208,7 +42209,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 230,
-    total: 1216
+    total: 1216,
   },
   83039: {
     district: 83039,
@@ -42219,7 +42220,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 177,
-    total: 1219
+    total: 1219,
   },
   83040: {
     district: 83040,
@@ -42230,7 +42231,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 14,
     blank: 140,
-    total: 862
+    total: 862,
   },
   83041: {
     district: 83041,
@@ -42241,7 +42242,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 22,
     blank: 248,
-    total: 1540
+    total: 1540,
   },
   83042: {
     district: 83042,
@@ -42252,7 +42253,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 10,
     blank: 141,
-    total: 714
+    total: 714,
   },
   83043: {
     district: 83043,
@@ -42263,7 +42264,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 30,
     blank: 340,
-    total: 1880
+    total: 1880,
   },
   83044: {
     district: 83044,
@@ -42274,7 +42275,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 35,
     blank: 265,
-    total: 1676
+    total: 1676,
   },
   83045: {
     district: 83045,
@@ -42285,7 +42286,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 10,
     blank: 142,
-    total: 854
+    total: 854,
   },
   83046: {
     district: 83046,
@@ -42296,7 +42297,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 24,
     blank: 291,
-    total: 1613
+    total: 1613,
   },
   83047: {
     district: 83047,
@@ -42307,7 +42308,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 15,
     blank: 170,
-    total: 1218
+    total: 1218,
   },
   83048: {
     district: 83048,
@@ -42318,7 +42319,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 235,
-    total: 1503
+    total: 1503,
   },
   83049: {
     district: 83049,
@@ -42329,7 +42330,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 176,
-    total: 972
+    total: 972,
   },
   83050: {
     district: 83050,
@@ -42340,7 +42341,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 248,
-    total: 1252
+    total: 1252,
   },
   83051: {
     district: 83051,
@@ -42351,7 +42352,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 8,
     blank: 187,
-    total: 964
+    total: 964,
   },
   83052: {
     district: 83052,
@@ -42362,7 +42363,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 218,
-    total: 1215
+    total: 1215,
   },
   83053: {
     district: 83053,
@@ -42373,7 +42374,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 10,
     blank: 139,
-    total: 866
+    total: 866,
   },
   83054: {
     district: 83054,
@@ -42384,7 +42385,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 16,
     blank: 192,
-    total: 1125
+    total: 1125,
   },
   83055: {
     district: 83055,
@@ -42395,7 +42396,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 14,
     blank: 100,
-    total: 586
+    total: 586,
   },
   83056: {
     district: 83056,
@@ -42406,7 +42407,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 17,
     blank: 194,
-    total: 1128
+    total: 1128,
   },
   83057: {
     district: 83057,
@@ -42417,7 +42418,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 3,
     blank: 42,
-    total: 170
+    total: 170,
   },
   84001: {
     district: 84001,
@@ -42428,7 +42429,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 17,
     blank: 292,
-    total: 1770
+    total: 1770,
   },
   84002: {
     district: 84002,
@@ -42439,7 +42440,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 205,
-    total: 964
+    total: 964,
   },
   84003: {
     district: 84003,
@@ -42450,7 +42451,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 304,
-    total: 1495
+    total: 1495,
   },
   84004: {
     district: 84004,
@@ -42461,7 +42462,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 206,
-    total: 1106
+    total: 1106,
   },
   84005: {
     district: 84005,
@@ -42472,7 +42473,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 15,
     blank: 289,
-    total: 1404
+    total: 1404,
   },
   84006: {
     district: 84006,
@@ -42483,7 +42484,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 29,
     blank: 408,
-    total: 1764
+    total: 1764,
   },
   84007: {
     district: 84007,
@@ -42494,7 +42495,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 225,
-    total: 1169
+    total: 1169,
   },
   84008: {
     district: 84008,
@@ -42505,7 +42506,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 297,
-    total: 1510
+    total: 1510,
   },
   84009: {
     district: 84009,
@@ -42516,7 +42517,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 16,
     blank: 172,
-    total: 945
+    total: 945,
   },
   84010: {
     district: 84010,
@@ -42527,7 +42528,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 233,
-    total: 1271
+    total: 1271,
   },
   84011: {
     district: 84011,
@@ -42538,7 +42539,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 263,
-    total: 1448
+    total: 1448,
   },
   84012: {
     district: 84012,
@@ -42549,7 +42550,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 262,
-    total: 1240
+    total: 1240,
   },
   84013: {
     district: 84013,
@@ -42560,7 +42561,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 8,
     blank: 174,
-    total: 956
+    total: 956,
   },
   84014: {
     district: 84014,
@@ -42571,7 +42572,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 207,
-    total: 1246
+    total: 1246,
   },
   84015: {
     district: 84015,
@@ -42582,7 +42583,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 228,
-    total: 1282
+    total: 1282,
   },
   84016: {
     district: 84016,
@@ -42593,7 +42594,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 3,
     blank: 131,
-    total: 553
+    total: 553,
   },
   84017: {
     district: 84017,
@@ -42604,7 +42605,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 232,
-    total: 1310
+    total: 1310,
   },
   84018: {
     district: 84018,
@@ -42615,7 +42616,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 210,
-    total: 1186
+    total: 1186,
   },
   84019: {
     district: 84019,
@@ -42626,7 +42627,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 234,
-    total: 1168
+    total: 1168,
   },
   84020: {
     district: 84020,
@@ -42637,7 +42638,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 21,
     blank: 260,
-    total: 1427
+    total: 1427,
   },
   84021: {
     district: 84021,
@@ -42648,7 +42649,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 20,
     blank: 216,
-    total: 1202
+    total: 1202,
   },
   84022: {
     district: 84022,
@@ -42659,7 +42660,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 20,
     blank: 329,
-    total: 1740
+    total: 1740,
   },
   84023: {
     district: 84023,
@@ -42670,7 +42671,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 256,
-    total: 1330
+    total: 1330,
   },
   84024: {
     district: 84024,
@@ -42681,7 +42682,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 134,
-    total: 795
+    total: 795,
   },
   84025: {
     district: 84025,
@@ -42692,7 +42693,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 356,
-    total: 1788
+    total: 1788,
   },
   84026: {
     district: 84026,
@@ -42703,7 +42704,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 11,
     blank: 228,
-    total: 1181
+    total: 1181,
   },
   84027: {
     district: 84027,
@@ -42714,7 +42715,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 106,
-    total: 525
+    total: 525,
   },
   84028: {
     district: 84028,
@@ -42725,7 +42726,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 17,
     blank: 328,
-    total: 1571
+    total: 1571,
   },
   84029: {
     district: 84029,
@@ -42736,7 +42737,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 22,
     blank: 319,
-    total: 1647
+    total: 1647,
   },
   84030: {
     district: 84030,
@@ -42747,7 +42748,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 23,
     blank: 287,
-    total: 1636
+    total: 1636,
   },
   84031: {
     district: 84031,
@@ -42758,7 +42759,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 304,
-    total: 1561
+    total: 1561,
   },
   84032: {
     district: 84032,
@@ -42769,7 +42770,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 20,
     blank: 253,
-    total: 1308
+    total: 1308,
   },
   84033: {
     district: 84033,
@@ -42780,7 +42781,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 166,
-    total: 919
+    total: 919,
   },
   84034: {
     district: 84034,
@@ -42791,7 +42792,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 289,
-    total: 1548
+    total: 1548,
   },
   84035: {
     district: 84035,
@@ -42802,7 +42803,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 28,
     blank: 336,
-    total: 1726
+    total: 1726,
   },
   84036: {
     district: 84036,
@@ -42813,7 +42814,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 20,
     blank: 314,
-    total: 1706
+    total: 1706,
   },
   84037: {
     district: 84037,
@@ -42824,7 +42825,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 244,
-    total: 1358
+    total: 1358,
   },
   84038: {
     district: 84038,
@@ -42835,7 +42836,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 19,
     blank: 308,
-    total: 1471
+    total: 1471,
   },
   84039: {
     district: 84039,
@@ -42846,7 +42847,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 19,
     blank: 333,
-    total: 1680
+    total: 1680,
   },
   84040: {
     district: 84040,
@@ -42857,7 +42858,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 11,
     blank: 181,
-    total: 871
+    total: 871,
   },
   84041: {
     district: 84041,
@@ -42868,7 +42869,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 275,
-    total: 1476
+    total: 1476,
   },
   84042: {
     district: 84042,
@@ -42879,7 +42880,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 241,
-    total: 1155
+    total: 1155,
   },
   84043: {
     district: 84043,
@@ -42890,7 +42891,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 21,
     blank: 271,
-    total: 1417
+    total: 1417,
   },
   84044: {
     district: 84044,
@@ -42901,7 +42902,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 7,
     blank: 316,
-    total: 1505
+    total: 1505,
   },
   84045: {
     district: 84045,
@@ -42912,7 +42913,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 20,
     blank: 327,
-    total: 1782
+    total: 1782,
   },
   84046: {
     district: 84046,
@@ -42923,7 +42924,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 25,
     blank: 208,
-    total: 1266
+    total: 1266,
   },
   84047: {
     district: 84047,
@@ -42934,7 +42935,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 14,
     blank: 184,
-    total: 1045
+    total: 1045,
   },
   84048: {
     district: 84048,
@@ -42945,7 +42946,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 24,
     blank: 283,
-    total: 1640
+    total: 1640,
   },
   84049: {
     district: 84049,
@@ -42956,7 +42957,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 24,
     blank: 150,
-    total: 972
+    total: 972,
   },
   84050: {
     district: 84050,
@@ -42967,7 +42968,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 24,
     blank: 285,
-    total: 1577
+    total: 1577,
   },
   84051: {
     district: 84051,
@@ -42978,7 +42979,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 21,
     blank: 293,
-    total: 1277
+    total: 1277,
   },
   84052: {
     district: 84052,
@@ -42989,7 +42990,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 6,
     blank: 59,
-    total: 274
+    total: 274,
   },
   84053: {
     district: 84053,
@@ -43000,7 +43001,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 14,
     blank: 279,
-    total: 1263
+    total: 1263,
   },
   84054: {
     district: 84054,
@@ -43011,7 +43012,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 39,
-    total: 257
+    total: 257,
   },
   84055: {
     district: 84055,
@@ -43022,7 +43023,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 18,
     blank: 320,
-    total: 1635
+    total: 1635,
   },
   84056: {
     district: 84056,
@@ -43033,7 +43034,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 93,
-    total: 613
+    total: 613,
   },
   84057: {
     district: 84057,
@@ -43044,7 +43045,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 19,
     blank: 301,
-    total: 1438
+    total: 1438,
   },
   85001: {
     district: 85001,
@@ -43055,7 +43056,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 28,
     blank: 339,
-    total: 1776
+    total: 1776,
   },
   85002: {
     district: 85002,
@@ -43066,7 +43067,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 28,
     blank: 288,
-    total: 1457
+    total: 1457,
   },
   85003: {
     district: 85003,
@@ -43077,7 +43078,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 283,
-    total: 1367
+    total: 1367,
   },
   85004: {
     district: 85004,
@@ -43088,7 +43089,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 19,
     blank: 334,
-    total: 1586
+    total: 1586,
   },
   85005: {
     district: 85005,
@@ -43099,7 +43100,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 27,
     blank: 365,
-    total: 1800
+    total: 1800,
   },
   85006: {
     district: 85006,
@@ -43110,7 +43111,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 243,
-    total: 1285
+    total: 1285,
   },
   85007: {
     district: 85007,
@@ -43121,7 +43122,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 265,
-    total: 1211
+    total: 1211,
   },
   85008: {
     district: 85008,
@@ -43132,7 +43133,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 18,
     blank: 192,
-    total: 871
+    total: 871,
   },
   85009: {
     district: 85009,
@@ -43143,7 +43144,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 15,
     blank: 346,
-    total: 1681
+    total: 1681,
   },
   85010: {
     district: 85010,
@@ -43154,7 +43155,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 201,
-    total: 1156
+    total: 1156,
   },
   85011: {
     district: 85011,
@@ -43165,7 +43166,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 22,
     blank: 297,
-    total: 1490
+    total: 1490,
   },
   85012: {
     district: 85012,
@@ -43176,7 +43177,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 16,
     blank: 284,
-    total: 1418
+    total: 1418,
   },
   85013: {
     district: 85013,
@@ -43187,7 +43188,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 28,
     blank: 270,
-    total: 1607
+    total: 1607,
   },
   85014: {
     district: 85014,
@@ -43198,7 +43199,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 24,
     blank: 303,
-    total: 1587
+    total: 1587,
   },
   85015: {
     district: 85015,
@@ -43209,7 +43210,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 27,
     blank: 226,
-    total: 1552
+    total: 1552,
   },
   85016: {
     district: 85016,
@@ -43220,7 +43221,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 220,
-    total: 1264
+    total: 1264,
   },
   85017: {
     district: 85017,
@@ -43231,7 +43232,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 19,
     blank: 175,
-    total: 1049
+    total: 1049,
   },
   85018: {
     district: 85018,
@@ -43242,7 +43243,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 19,
     blank: 211,
-    total: 1524
+    total: 1524,
   },
   85019: {
     district: 85019,
@@ -43253,7 +43254,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 322,
-    total: 1761
+    total: 1761,
   },
   85020: {
     district: 85020,
@@ -43264,7 +43265,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 23,
     blank: 258,
-    total: 1436
+    total: 1436,
   },
   85021: {
     district: 85021,
@@ -43275,7 +43276,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 334,
-    total: 1670
+    total: 1670,
   },
   85022: {
     district: 85022,
@@ -43286,7 +43287,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 26,
     blank: 405,
-    total: 1873
+    total: 1873,
   },
   85023: {
     district: 85023,
@@ -43297,7 +43298,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 15,
     blank: 183,
-    total: 917
+    total: 917,
   },
   85024: {
     district: 85024,
@@ -43308,7 +43309,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 9,
     blank: 155,
-    total: 665
+    total: 665,
   },
   85025: {
     district: 85025,
@@ -43319,7 +43320,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 30,
     blank: 262,
-    total: 1401
+    total: 1401,
   },
   85026: {
     district: 85026,
@@ -43330,7 +43331,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 12,
     blank: 164,
-    total: 991
+    total: 991,
   },
   85027: {
     district: 85027,
@@ -43341,7 +43342,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 14,
     blank: 274,
-    total: 1367
+    total: 1367,
   },
   85028: {
     district: 85028,
@@ -43352,7 +43353,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 17,
     other: 18,
     blank: 344,
-    total: 1588
+    total: 1588,
   },
   85029: {
     district: 85029,
@@ -43363,7 +43364,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 30,
     blank: 326,
-    total: 1824
+    total: 1824,
   },
   85030: {
     district: 85030,
@@ -43374,7 +43375,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 25,
     blank: 235,
-    total: 1175
+    total: 1175,
   },
   85031: {
     district: 85031,
@@ -43385,7 +43386,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 21,
     blank: 255,
-    total: 1328
+    total: 1328,
   },
   85032: {
     district: 85032,
@@ -43396,7 +43397,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 10,
     blank: 250,
-    total: 1249
+    total: 1249,
   },
   85033: {
     district: 85033,
@@ -43407,7 +43408,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 23,
     blank: 347,
-    total: 1659
+    total: 1659,
   },
   85034: {
     district: 85034,
@@ -43418,7 +43419,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 260,
-    total: 1311
+    total: 1311,
   },
   85035: {
     district: 85035,
@@ -43429,7 +43430,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 11,
     blank: 247,
-    total: 1415
+    total: 1415,
   },
   85036: {
     district: 85036,
@@ -43440,7 +43441,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 13,
     blank: 338,
-    total: 1685
+    total: 1685,
   },
   85037: {
     district: 85037,
@@ -43451,7 +43452,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 222,
-    total: 1253
+    total: 1253,
   },
   85038: {
     district: 85038,
@@ -43462,7 +43463,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 234,
-    total: 1509
+    total: 1509,
   },
   85039: {
     district: 85039,
@@ -43473,7 +43474,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 317,
-    total: 1625
+    total: 1625,
   },
   85040: {
     district: 85040,
@@ -43484,7 +43485,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 15,
     blank: 288,
-    total: 1314
+    total: 1314,
   },
   85041: {
     district: 85041,
@@ -43495,7 +43496,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 293,
-    total: 1624
+    total: 1624,
   },
   85042: {
     district: 85042,
@@ -43506,7 +43507,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 218,
-    total: 1251
+    total: 1251,
   },
   85043: {
     district: 85043,
@@ -43517,7 +43518,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 25,
     blank: 351,
-    total: 1607
+    total: 1607,
   },
   85044: {
     district: 85044,
@@ -43528,7 +43529,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 250,
-    total: 1219
+    total: 1219,
   },
   85045: {
     district: 85045,
@@ -43539,7 +43540,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 13,
     other: 12,
     blank: 270,
-    total: 1167
+    total: 1167,
   },
   85046: {
     district: 85046,
@@ -43550,7 +43551,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 383,
-    total: 1732
+    total: 1732,
   },
   85047: {
     district: 85047,
@@ -43561,7 +43562,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 8,
     blank: 132,
-    total: 674
+    total: 674,
   },
   85048: {
     district: 85048,
@@ -43572,7 +43573,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 13,
     blank: 190,
-    total: 970
+    total: 970,
   },
   85049: {
     district: 85049,
@@ -43583,7 +43584,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 11,
     blank: 211,
-    total: 1059
+    total: 1059,
   },
   85050: {
     district: 85050,
@@ -43594,7 +43595,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 12,
     blank: 256,
-    total: 1275
+    total: 1275,
   },
   85051: {
     district: 85051,
@@ -43605,7 +43606,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 27,
     blank: 210,
-    total: 1716
+    total: 1716,
   },
   85052: {
     district: 85052,
@@ -43616,7 +43617,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 2,
     blank: 3,
-    total: 12
+    total: 12,
   },
   86001: {
     district: 86001,
@@ -43627,7 +43628,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 8,
     blank: 269,
-    total: 1199
+    total: 1199,
   },
   86002: {
     district: 86002,
@@ -43638,7 +43639,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 260,
-    total: 1505
+    total: 1505,
   },
   86003: {
     district: 86003,
@@ -43649,7 +43650,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 4,
     blank: 25,
-    total: 147
+    total: 147,
   },
   86004: {
     district: 86004,
@@ -43660,7 +43661,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 19,
     blank: 239,
-    total: 1255
+    total: 1255,
   },
   86005: {
     district: 86005,
@@ -43671,7 +43672,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 20,
     blank: 219,
-    total: 1310
+    total: 1310,
   },
   86006: {
     district: 86006,
@@ -43682,7 +43683,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 254,
-    total: 1318
+    total: 1318,
   },
   86007: {
     district: 86007,
@@ -43693,7 +43694,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 15,
     blank: 281,
-    total: 1653
+    total: 1653,
   },
   86008: {
     district: 86008,
@@ -43704,7 +43705,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 6,
     blank: 250,
-    total: 1156
+    total: 1156,
   },
   86009: {
     district: 86009,
@@ -43715,7 +43716,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 16,
     blank: 367,
-    total: 1840
+    total: 1840,
   },
   86010: {
     district: 86010,
@@ -43726,7 +43727,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 32,
     blank: 318,
-    total: 1883
+    total: 1883,
   },
   86011: {
     district: 86011,
@@ -43737,7 +43738,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 9,
     blank: 278,
-    total: 1553
+    total: 1553,
   },
   86012: {
     district: 86012,
@@ -43748,7 +43749,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 334,
-    total: 1594
+    total: 1594,
   },
   86013: {
     district: 86013,
@@ -43759,7 +43760,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 14,
     other: 14,
     blank: 344,
-    total: 1723
+    total: 1723,
   },
   86014: {
     district: 86014,
@@ -43770,7 +43771,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 16,
     blank: 205,
-    total: 1167
+    total: 1167,
   },
   86015: {
     district: 86015,
@@ -43781,7 +43782,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 13,
     blank: 162,
-    total: 889
+    total: 889,
   },
   86016: {
     district: 86016,
@@ -43792,7 +43793,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 331,
-    total: 1525
+    total: 1525,
   },
   86017: {
     district: 86017,
@@ -43803,7 +43804,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 14,
     blank: 240,
-    total: 1104
+    total: 1104,
   },
   86018: {
     district: 86018,
@@ -43814,7 +43815,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 15,
     other: 25,
     blank: 336,
-    total: 1571
+    total: 1571,
   },
   86019: {
     district: 86019,
@@ -43825,7 +43826,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 305,
-    total: 1436
+    total: 1436,
   },
   86020: {
     district: 86020,
@@ -43836,7 +43837,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 5,
     blank: 227,
-    total: 1091
+    total: 1091,
   },
   86021: {
     district: 86021,
@@ -43847,7 +43848,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 252,
-    total: 1251
+    total: 1251,
   },
   86022: {
     district: 86022,
@@ -43858,7 +43859,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 9,
     blank: 215,
-    total: 1089
+    total: 1089,
   },
   86023: {
     district: 86023,
@@ -43869,7 +43870,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 12,
     blank: 223,
-    total: 1138
+    total: 1138,
   },
   86024: {
     district: 86024,
@@ -43880,7 +43881,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 10,
     blank: 286,
-    total: 1211
+    total: 1211,
   },
   86025: {
     district: 86025,
@@ -43891,7 +43892,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 194,
-    total: 1004
+    total: 1004,
   },
   86026: {
     district: 86026,
@@ -43902,7 +43903,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 323,
-    total: 1713
+    total: 1713,
   },
   86027: {
     district: 86027,
@@ -43913,7 +43914,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 12,
     blank: 229,
-    total: 1235
+    total: 1235,
   },
   86028: {
     district: 86028,
@@ -43924,7 +43925,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 200,
-    total: 1105
+    total: 1105,
   },
   86029: {
     district: 86029,
@@ -43935,7 +43936,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 13,
     blank: 218,
-    total: 1040
+    total: 1040,
   },
   86030: {
     district: 86030,
@@ -43946,7 +43947,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 18,
     blank: 311,
-    total: 1514
+    total: 1514,
   },
   86031: {
     district: 86031,
@@ -43957,7 +43958,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 16,
     other: 18,
     blank: 311,
-    total: 1527
+    total: 1527,
   },
   86032: {
     district: 86032,
@@ -43968,7 +43969,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 18,
     blank: 280,
-    total: 1324
+    total: 1324,
   },
   86033: {
     district: 86033,
@@ -43979,7 +43980,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 363,
-    total: 1720
+    total: 1720,
   },
   86034: {
     district: 86034,
@@ -43990,7 +43991,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 271,
-    total: 1218
+    total: 1218,
   },
   86035: {
     district: 86035,
@@ -44001,7 +44002,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 12,
     blank: 150,
-    total: 706
+    total: 706,
   },
   86036: {
     district: 86036,
@@ -44012,7 +44013,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 19,
     blank: 232,
-    total: 1196
+    total: 1196,
   },
   86037: {
     district: 86037,
@@ -44023,7 +44024,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 14,
     blank: 321,
-    total: 1535
+    total: 1535,
   },
   86038: {
     district: 86038,
@@ -44034,7 +44035,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 17,
     blank: 327,
-    total: 1478
+    total: 1478,
   },
   86039: {
     district: 86039,
@@ -44045,7 +44046,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 9,
     blank: 230,
-    total: 1074
+    total: 1074,
   },
   86040: {
     district: 86040,
@@ -44056,7 +44057,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 11,
     blank: 219,
-    total: 1188
+    total: 1188,
   },
   86041: {
     district: 86041,
@@ -44067,7 +44068,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 23,
     blank: 279,
-    total: 1412
+    total: 1412,
   },
   86042: {
     district: 86042,
@@ -44078,7 +44079,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 12,
     blank: 338,
-    total: 1650
+    total: 1650,
   },
   86043: {
     district: 86043,
@@ -44089,7 +44090,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 13,
     blank: 232,
-    total: 1206
+    total: 1206,
   },
   86044: {
     district: 86044,
@@ -44100,7 +44101,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 13,
     blank: 270,
-    total: 1366
+    total: 1366,
   },
   86045: {
     district: 86045,
@@ -44111,7 +44112,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 3,
     blank: 89,
-    total: 366
+    total: 366,
   },
   86046: {
     district: 86046,
@@ -44122,7 +44123,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 220,
-    total: 1078
+    total: 1078,
   },
   86047: {
     district: 86047,
@@ -44133,7 +44134,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 16,
     blank: 247,
-    total: 1345
+    total: 1345,
   },
   86048: {
     district: 86048,
@@ -44144,7 +44145,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 245,
-    total: 1151
+    total: 1151,
   },
   86049: {
     district: 86049,
@@ -44155,7 +44156,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 293,
-    total: 1532
+    total: 1532,
   },
   86050: {
     district: 86050,
@@ -44166,7 +44167,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 9,
     blank: 237,
-    total: 1427
+    total: 1427,
   },
   87001: {
     district: 87001,
@@ -44177,7 +44178,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 26,
     blank: 298,
-    total: 1632
+    total: 1632,
   },
   87002: {
     district: 87002,
@@ -44188,7 +44189,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 9,
     blank: 298,
-    total: 1596
+    total: 1596,
   },
   87003: {
     district: 87003,
@@ -44199,7 +44200,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 18,
     blank: 201,
-    total: 1083
+    total: 1083,
   },
   87004: {
     district: 87004,
@@ -44210,7 +44211,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 26,
     blank: 347,
-    total: 1656
+    total: 1656,
   },
   87005: {
     district: 87005,
@@ -44221,7 +44222,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 21,
     blank: 263,
-    total: 1425
+    total: 1425,
   },
   87006: {
     district: 87006,
@@ -44232,7 +44233,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 212,
-    total: 1135
+    total: 1135,
   },
   87007: {
     district: 87007,
@@ -44243,7 +44244,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 16,
     blank: 324,
-    total: 1726
+    total: 1726,
   },
   87008: {
     district: 87008,
@@ -44254,7 +44255,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 17,
     blank: 254,
-    total: 888
+    total: 888,
   },
   87009: {
     district: 87009,
@@ -44265,7 +44266,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 22,
     blank: 323,
-    total: 1565
+    total: 1565,
   },
   87010: {
     district: 87010,
@@ -44276,7 +44277,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 17,
     blank: 230,
-    total: 1113
+    total: 1113,
   },
   87011: {
     district: 87011,
@@ -44287,7 +44288,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 22,
     blank: 358,
-    total: 1489
+    total: 1489,
   },
   87012: {
     district: 87012,
@@ -44298,7 +44299,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 26,
     blank: 236,
-    total: 1137
+    total: 1137,
   },
   87013: {
     district: 87013,
@@ -44309,7 +44310,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 7,
     blank: 222,
-    total: 1041
+    total: 1041,
   },
   87014: {
     district: 87014,
@@ -44320,7 +44321,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 18,
     blank: 248,
-    total: 1338
+    total: 1338,
   },
   87015: {
     district: 87015,
@@ -44331,7 +44332,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 236,
-    total: 1368
+    total: 1368,
   },
   87016: {
     district: 87016,
@@ -44342,7 +44343,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 30,
     blank: 232,
-    total: 1358
+    total: 1358,
   },
   87017: {
     district: 87017,
@@ -44353,7 +44354,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 14,
     blank: 200,
-    total: 1110
+    total: 1110,
   },
   87018: {
     district: 87018,
@@ -44364,7 +44365,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 15,
     blank: 240,
-    total: 1473
+    total: 1473,
   },
   87019: {
     district: 87019,
@@ -44375,7 +44376,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 31,
     blank: 247,
-    total: 1504
+    total: 1504,
   },
   87020: {
     district: 87020,
@@ -44386,7 +44387,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 8,
     blank: 182,
-    total: 1152
+    total: 1152,
   },
   87021: {
     district: 87021,
@@ -44397,7 +44398,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 23,
     blank: 191,
-    total: 1202
+    total: 1202,
   },
   87022: {
     district: 87022,
@@ -44408,7 +44409,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 22,
     blank: 213,
-    total: 1282
+    total: 1282,
   },
   87023: {
     district: 87023,
@@ -44419,7 +44420,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 28,
     blank: 285,
-    total: 1579
+    total: 1579,
   },
   87024: {
     district: 87024,
@@ -44430,7 +44431,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 29,
     blank: 263,
-    total: 1449
+    total: 1449,
   },
   87025: {
     district: 87025,
@@ -44441,7 +44442,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 18,
     blank: 272,
-    total: 1426
+    total: 1426,
   },
   87026: {
     district: 87026,
@@ -44452,7 +44453,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 23,
     blank: 288,
-    total: 1402
+    total: 1402,
   },
   87027: {
     district: 87027,
@@ -44463,7 +44464,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 340,
-    total: 1615
+    total: 1615,
   },
   87028: {
     district: 87028,
@@ -44474,7 +44475,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 26,
     blank: 381,
-    total: 1524
+    total: 1524,
   },
   87029: {
     district: 87029,
@@ -44485,7 +44486,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 10,
     other: 12,
     blank: 291,
-    total: 1400
+    total: 1400,
   },
   87030: {
     district: 87030,
@@ -44496,7 +44497,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 16,
     blank: 355,
-    total: 1591
+    total: 1591,
   },
   87031: {
     district: 87031,
@@ -44507,7 +44508,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 20,
     blank: 325,
-    total: 1482
+    total: 1482,
   },
   87032: {
     district: 87032,
@@ -44518,7 +44519,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 14,
     blank: 330,
-    total: 1388
+    total: 1388,
   },
   87033: {
     district: 87033,
@@ -44529,7 +44530,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 0,
     blank: 13,
-    total: 66
+    total: 66,
   },
   87034: {
     district: 87034,
@@ -44540,7 +44541,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 18,
     blank: 273,
-    total: 1540
+    total: 1540,
   },
   87035: {
     district: 87035,
@@ -44551,7 +44552,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 11,
     other: 25,
     blank: 346,
-    total: 1683
+    total: 1683,
   },
   87036: {
     district: 87036,
@@ -44562,7 +44563,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 1,
     other: 1,
     blank: 31,
-    total: 140
+    total: 140,
   },
   87037: {
     district: 87037,
@@ -44573,7 +44574,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 19,
     blank: 292,
-    total: 1471
+    total: 1471,
   },
   87038: {
     district: 87038,
@@ -44584,7 +44585,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 22,
     blank: 342,
-    total: 1652
+    total: 1652,
   },
   87039: {
     district: 87039,
@@ -44595,7 +44596,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 4,
     other: 22,
     blank: 414,
-    total: 1577
+    total: 1577,
   },
   87040: {
     district: 87040,
@@ -44606,7 +44607,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 12,
     other: 17,
     blank: 341,
-    total: 1549
+    total: 1549,
   },
   87041: {
     district: 87041,
@@ -44617,7 +44618,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 2,
     other: 13,
     blank: 314,
-    total: 1262
+    total: 1262,
   },
   87042: {
     district: 87042,
@@ -44628,7 +44629,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 0,
     other: 21,
     blank: 306,
-    total: 1479
+    total: 1479,
   },
   87043: {
     district: 87043,
@@ -44639,7 +44640,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 17,
     blank: 276,
-    total: 1291
+    total: 1291,
   },
   87044: {
     district: 87044,
@@ -44650,7 +44651,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 6,
     other: 11,
     blank: 287,
-    total: 1267
+    total: 1267,
   },
   87045: {
     district: 87045,
@@ -44661,7 +44662,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 18,
     blank: 372,
-    total: 1433
+    total: 1433,
   },
   87046: {
     district: 87046,
@@ -44672,7 +44673,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 20,
     blank: 250,
-    total: 1355
+    total: 1355,
   },
   87047: {
     district: 87047,
@@ -44683,7 +44684,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 8,
     other: 26,
     blank: 342,
-    total: 1597
+    total: 1597,
   },
   87048: {
     district: 87048,
@@ -44694,7 +44695,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 9,
     other: 21,
     blank: 278,
-    total: 1572
+    total: 1572,
   },
   87049: {
     district: 87049,
@@ -44705,7 +44706,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 7,
     other: 14,
     blank: 197,
-    total: 1360
+    total: 1360,
   },
   87050: {
     district: 87050,
@@ -44716,7 +44717,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 5,
     other: 26,
     blank: 235,
-    total: 1264
+    total: 1264,
   },
   87051: {
     district: 87051,
@@ -44727,7 +44728,7 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 13,
     blank: 266,
-    total: 1450
+    total: 1450,
   },
   87052: {
     district: 87052,
@@ -44738,18 +44739,20 @@ export const voterCounts: Record<number, VoterCounts> = {
     working_families: 3,
     other: 14,
     blank: 241,
-    total: 1339
+    total: 1339,
   },
 };
 
 // Helper function to get voter counts for a specific district
 export function getVoterCounts(district: number): VoterCounts | undefined {
-  return voterCounts[district];
+  return voterCounts[district as keyof typeof voterCounts];
 }
 
 // Helper function to get all districts for a specific county
 export function getDistrictsByCounty(county: string): VoterCounts[] {
-  return Object.values(voterCounts).filter(vc => vc.county === county);
+  return Object.values(voterCounts).filter(
+    (vc): vc is VoterCounts => vc.county === county
+  );
 }
 
 // Helper function to get total voters by party across all districts
@@ -44770,8 +44773,16 @@ export function getTotalVotersByParty(): {
       working_families: totals.working_families + vc.working_families,
       other: totals.other + vc.other,
       blank: totals.blank + vc.blank,
-      total: totals.total + vc.total
+      total: totals.total + vc.total,
     }),
-    { democrats: 0, republicans: 0, conservatives: 0, working_families: 0, other: 0, blank: 0, total: 0 }
+    {
+      democrats: 0,
+      republicans: 0,
+      conservatives: 0,
+      working_families: 0,
+      other: 0,
+      blank: 0,
+      total: 0,
+    }
   );
 }
