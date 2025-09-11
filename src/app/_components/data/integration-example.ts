@@ -1,6 +1,6 @@
 // Example of how to integrate voter counts with precincts data
 import { precincts } from "./precincts";
-import { voterCounts, getVoterCounts, VoterCounts } from "./voter-counts";
+import { voterCounts, getVoterCounts, type VoterCounts } from "./voter-counts";
 
 // Type for a precinct feature with voter data
 export interface PrecinctWithVoterData {
