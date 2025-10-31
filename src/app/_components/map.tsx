@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 import { Icon } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { electionDistricts } from "./data/election-districts";
+import { censusTracts } from "./data/census-tracts";
 import { results } from "./data/results";
 import { getVoterCounts, type VoterCounts } from "./data/voter-counts";
 
@@ -23,7 +24,11 @@ interface MapProps {
   center?: [number, number];
 }
 
-type ViewMode = "election-results" | "voter-registration" | "turnout";
+type ViewMode =
+  | "election-results"
+  | "voter-registration"
+  | "turnout"
+  | "age-demographics";
 
 // Function to get election results for a precinct
 function getPrecinctResults(electDist: number) {
@@ -247,6 +252,208 @@ function stylePrecinctByVoters(feature: any) {
   };
 }
 
+// Function to calculate average age from age groups
+function calculateAverageAge(
+  ageGroups: any,
+  totalPopulation: number
+): number | null {
+  if (!ageGroups || !totalPopulation || totalPopulation === 0) {
+    return null;
+  }
+
+  // Age range midpoints
+  const ageMidpoints: { [key: string]: number } = {
+    "Under 5 years": 2.5,
+    "5 to 9 years": 7,
+    "10 to 14 years": 12,
+    "15 to 19 years": 17,
+    "20 to 24 years": 22,
+    "25 to 29 years": 27,
+    "30 to 34 years": 32,
+    "35 to 39 years": 37,
+    "40 to 44 years": 42,
+    "45 to 49 years": 47,
+    "50 to 54 years": 52,
+    "55 to 59 years": 57,
+    "60 to 64 years": 62,
+    "65 to 69 years": 67,
+    "70 to 74 years": 72,
+    "75 to 79 years": 77,
+    "80 to 84 years": 82,
+    "85 years and over": 87.5,
+  };
+
+  let weightedSum = 0;
+  let totalCount = 0;
+
+  for (const [ageRange, data] of Object.entries(ageGroups)) {
+    const midpoint = ageMidpoints[ageRange];
+    if (
+      midpoint !== undefined &&
+      data &&
+      typeof data === "object" &&
+      "total" in data
+    ) {
+      const count = data.total as number;
+      if (count !== null && count !== undefined && count > 0) {
+        weightedSum += midpoint * count;
+        totalCount += count;
+      }
+    }
+  }
+
+  if (totalCount === 0) {
+    return null;
+  }
+
+  return weightedSum / totalCount;
+}
+
+// Function to style census tracts based on average age
+function styleCensusTract(feature: any, isPrimaryView: boolean = false) {
+  const props = feature.properties;
+  const totalPop = props?.totalPopulation;
+
+  if (!totalPop || totalPop === 0) {
+    return {
+      fillColor: "#cccccc",
+      weight: isPrimaryView ? 1 : 0.5,
+      opacity: 1,
+      color: isPrimaryView ? "#666666" : "#888888",
+      fillOpacity: isPrimaryView ? 0.7 : 0.3,
+    };
+  }
+
+  // Calculate average age
+  const avgAge = calculateAverageAge(props?.ageGroups, totalPop);
+
+  if (avgAge === null) {
+    return {
+      fillColor: "#cccccc",
+      weight: isPrimaryView ? 1 : 0.5,
+      opacity: 1,
+      color: isPrimaryView ? "#666666" : "#888888",
+      fillOpacity: isPrimaryView ? 0.7 : 0.3,
+    };
+  }
+
+  // Color scale based on average age
+  // Use a blue-to-red scale: blue (younger) to red (older)
+  // Age ranges: 20-30 (young), 30-40 (adult), 40-50 (middle-aged), 50-60 (older), 60+ (senior)
+  let fillColor = "#cccccc";
+
+  if (avgAge >= 60) {
+    fillColor = "#8e0152"; // Very old population - dark red/purple
+  } else if (avgAge >= 50) {
+    fillColor = "#c51b7d"; // Older population - red
+  } else if (avgAge >= 40) {
+    fillColor = "#de77ae"; // Middle-aged population - pink
+  } else if (avgAge >= 35) {
+    fillColor = "#f1b6da"; // Adult population - light pink
+  } else if (avgAge >= 30) {
+    fillColor = "#b8e186"; // Young adult population - light green
+  } else if (avgAge >= 25) {
+    fillColor = "#7fbc41"; // Younger adult population - green
+  } else if (avgAge >= 20) {
+    fillColor = "#4d9221"; // Very young adult population - dark green
+  } else {
+    fillColor = "#276419"; // Extremely young population - very dark green
+  }
+
+  return {
+    fillColor,
+    weight: isPrimaryView ? 1 : 0.5,
+    opacity: 1,
+    color: isPrimaryView ? "#333333" : "#888888",
+    fillOpacity: isPrimaryView ? 0.7 : 0.3,
+    dashArray: isPrimaryView ? undefined : "2",
+  };
+}
+
+// Function to create popup content for census tracts
+function onEachCensusTract(feature: any, layer: any) {
+  const props = feature.properties;
+  const totalPop = props?.totalPopulation;
+  const name = props?.NAME || props?.CTLabel || "Unknown";
+
+  // Calculate average age
+  const avgAge = calculateAverageAge(props?.ageGroups, totalPop || 0);
+
+  let popupContent = `
+    <div style="font-family: Arial, sans-serif; min-width: 250px;">
+      <h3 style="margin: 0 0 10px 0; color: #333;">${name}</h3>
+  `;
+
+  if (totalPop !== null && totalPop !== undefined) {
+    popupContent += `
+      <div style="margin-bottom: 15px; padding: 10px; background-color: #f0f9f4; border-radius: 5px;">
+        <h4 style="margin: 0 0 8px 0; color: #333;">Population Demographics</h4>
+        <p style="margin: 5px 0;"><strong>Total Population:</strong> ${totalPop.toLocaleString()}</p>
+    `;
+
+    if (props?.totalPopulationMOE) {
+      popupContent += `<p style="margin: 5px 0; color: #666; font-size: 12px;">Margin of Error: ±${props.totalPopulationMOE.toLocaleString()}</p>`;
+    }
+
+    if (avgAge !== null) {
+      popupContent += `<p style="margin: 5px 0;"><strong>Average Age:</strong> ${avgAge.toFixed(
+        1
+      )} years</p>`;
+    }
+
+    // Add age groups if available
+    if (props?.ageGroups && Object.keys(props.ageGroups).length > 0) {
+      popupContent += `
+        <div style="margin-top: 10px;">
+          <strong>Age Distribution:</strong>
+          <ul style="margin: 5px 0; padding-left: 15px; font-size: 12px; max-height: 200px; overflow-y: auto;">
+      `;
+
+      // Show key age groups - iterate over all available age groups
+      Object.keys(props.ageGroups).forEach((ageGroup) => {
+        const data = props.ageGroups[ageGroup];
+        if (data && data.total !== null && data.total !== undefined) {
+          const percentage =
+            totalPop > 0 ? ((data.total / totalPop) * 100).toFixed(1) : "0.0";
+          popupContent += `<li>${ageGroup}: ${data.total.toLocaleString()} (${percentage}%)</li>`;
+        }
+      });
+
+      popupContent += `</ul></div>`;
+    }
+
+    // Add selected age categories
+    if (
+      props?.selectedAgeCategories &&
+      Object.keys(props.selectedAgeCategories).length > 0
+    ) {
+      popupContent += `
+        <div style="margin-top: 10px;">
+          <strong>Selected Categories:</strong>
+          <ul style="margin: 5px 0; padding-left: 15px; font-size: 12px;">
+      `;
+
+      // Show all selected age categories
+      Object.keys(props.selectedAgeCategories).forEach((category) => {
+        const data = props.selectedAgeCategories[category];
+        if (data && data.total !== null && data.total !== undefined) {
+          const percentage =
+            totalPop > 0 ? ((data.total / totalPop) * 100).toFixed(1) : "0.0";
+          popupContent += `<li>${category}: ${data.total.toLocaleString()} (${percentage}%)</li>`;
+        }
+      });
+
+      popupContent += `</ul></div>`;
+    }
+
+    popupContent += `</div>`;
+  }
+
+  popupContent += `</div>`;
+
+  layer.bindPopup(popupContent);
+}
+
 // Function to create popup content for precincts
 function onEachPrecinct(feature: any, layer: any, viewMode: ViewMode) {
   const electDist = feature.properties.ElectDist;
@@ -450,6 +657,11 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
     onEachPrecinct(feature, layer, viewMode);
   };
 
+  // Create wrapper for census tract styling to pass view mode
+  const censusTractStyleWrapper = (feature: any) => {
+    return styleCensusTract(feature, viewMode === "age-demographics");
+  };
+
   return (
     <div className="h-screen w-screen relative">
       {/* View Mode Controls */}
@@ -488,6 +700,17 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
               className="mr-2"
             />
             Voter Turnout
+          </label>
+          <label className="flex items-center text-black">
+            <input
+              type="radio"
+              name="viewMode"
+              value="age-demographics"
+              checked={viewMode === "age-demographics"}
+              onChange={(e) => setViewMode(e.target.value as ViewMode)}
+              className="mr-2"
+            />
+            Age Demographics
           </label>
         </div>
 
@@ -593,6 +816,51 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
             </div>
           </div>
         )}
+
+        {viewMode === "age-demographics" && (
+          <div className="mt-4 pt-3 border-t">
+            <h4 className="text-sm font-semibold mb-2 text-black">
+              Average Age
+            </h4>
+            <div className="space-y-1 text-xs text-black">
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-700 mr-2"></div>
+                <span>&lt; 20 (Very Young)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-500 mr-2"></div>
+                <span>20-25 (Young)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-300 mr-2"></div>
+                <span>25-30 (Young Adult)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-pink-200 mr-2"></div>
+                <span>30-35 (Adult)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-pink-400 mr-2"></div>
+                <span>35-40 (Middle-Aged)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-red-500 mr-2"></div>
+                <span>40-50 (Older)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-red-700 mr-2"></div>
+                <span>50-60 (Senior)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-purple-900 mr-2"></div>
+                <span>&gt; 60 (Very Senior)</span>
+              </div>
+            </div>
+            <p className="text-xs text-gray-600 mt-2">
+              Census tract average age (weighted by population)
+            </p>
+          </div>
+        )}
       </div>
 
       <MapContainer
@@ -605,11 +873,19 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <GeoJSON
-          data={electionDistricts as any}
-          style={styleFunction}
-          onEachFeature={onEachFeatureWrapper}
-        />
+        {viewMode === "age-demographics" ? (
+          <GeoJSON
+            data={censusTracts as any}
+            style={censusTractStyleWrapper}
+            onEachFeature={onEachCensusTract}
+          />
+        ) : (
+          <GeoJSON
+            data={electionDistricts as any}
+            style={styleFunction}
+            onEachFeature={onEachFeatureWrapper}
+          />
+        )}
       </MapContainer>
     </div>
   );
