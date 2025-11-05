@@ -28,7 +28,8 @@ type ViewMode =
   | "election-results"
   | "voter-registration"
   | "turnout"
-  | "age-demographics";
+  | "age-demographics"
+  | "zohran-support";
 
 // Function to get election results for a precinct
 function getPrecinctResults(electDist: number) {
@@ -240,6 +241,61 @@ function stylePrecinctByVoters(feature: any) {
     fillColor = "#1f77b4"; // Blue
   } else {
     fillColor = "#0d47a1"; // Dark blue
+  }
+
+  return {
+    fillColor,
+    weight: 1,
+    opacity: 1,
+    color: "white",
+    dashArray: "3",
+    fillOpacity: 0.7,
+  };
+}
+
+// Function to style precincts based on Zohran support (% of registered voters)
+function stylePrecinctByZohranSupport(feature: any) {
+  const electDist = feature.properties.ElectDist;
+  const precinctResults = getPrecinctResults(electDist);
+  const voterData = getVoterCounts(electDist);
+
+  if (!precinctResults || !voterData || voterData.total === 0) {
+    return {
+      fillColor: "#cccccc",
+      weight: 1,
+      opacity: 1,
+      color: "white",
+      dashArray: "3",
+      fillOpacity: 0.7,
+    };
+  }
+
+  // Calculate Zohran votes
+  const zohranVotes = precinctResults.results["mamdani-z"] || 0;
+
+  // Calculate percentage of registered voters who voted for Zohran
+  const zohranSupportPercentage = (zohranVotes / voterData.total) * 100;
+
+  // Color scale from low support (light) to high support (dark green)
+  // Using green to match Zohran's candidate color (#2ca02c)
+  let fillColor = "#cccccc";
+
+  if (zohranSupportPercentage >= 20) {
+    fillColor = "#276419"; // Very high support - very dark green
+  } else if (zohranSupportPercentage >= 15) {
+    fillColor = "#4d9221"; // High support - dark green
+  } else if (zohranSupportPercentage >= 10) {
+    fillColor = "#7fbc41"; // Above average support - green
+  } else if (zohranSupportPercentage >= 7.5) {
+    fillColor = "#b8e186"; // Average support - light green
+  } else if (zohranSupportPercentage >= 5) {
+    fillColor = "#d9f0a3"; // Below average support - very light green
+  } else if (zohranSupportPercentage >= 2.5) {
+    fillColor = "#f1b6da"; // Low support - light pink
+  } else if (zohranSupportPercentage > 0) {
+    fillColor = "#de77ae"; // Very low support - pink
+  } else {
+    fillColor = "#c51b7d"; // No support - red
   }
 
   return {
@@ -487,12 +543,24 @@ function onEachPrecinct(feature: any, layer: any, viewMode: ViewMode) {
       demTurnoutInfo = `<p style="margin: 5px 0; color: #1f77b4;"><strong>Democratic Turnout:</strong> ${demTurnoutPercentage}% (${totalVotes.toLocaleString()} of ${voterData.democrats.toLocaleString()} registered Democrats)</p>`;
     }
 
+    // Calculate Zohran support percentage (% of registered voters)
+    let zohranSupportInfo = "";
+    if (precinctResults && voterData && voterData.total > 0) {
+      const zohranVotes = precinctResults.results["mamdani-z"] || 0;
+      const zohranSupportPercentage = (
+        (zohranVotes / voterData.total) *
+        100
+      ).toFixed(1);
+      zohranSupportInfo = `<p style="margin: 5px 0; color: #2ca02c; font-weight: bold;"><strong>Zohran Support (% of Registered Voters):</strong> ${zohranSupportPercentage}% (${zohranVotes.toLocaleString()} of ${voterData.total.toLocaleString()} registered)</p>`;
+    }
+
     popupContent += `
       <div style="margin-bottom: 15px; padding: 10px; background-color: #f5f5f5; border-radius: 5px;">
         <h4 style="margin: 0 0 8px 0; color: #333;">Election Results</h4>
         <p style="margin: 5px 0;"><strong>Total Votes:</strong> ${totalVotes.toLocaleString()}</p>
         ${turnoutInfo}
         ${demTurnoutInfo}
+        ${viewMode === "zohran-support" ? zohranSupportInfo : ""}
         <p style="margin: 5px 0;"><strong>Winner:</strong> ${
           winningCandidate
             ? candidateNames[winningCandidate] || winningCandidate
@@ -635,6 +703,8 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
       ? stylePrecinctByResults
       : viewMode === "turnout"
       ? stylePrecinctByTurnout
+      : viewMode === "zohran-support"
+      ? stylePrecinctByZohranSupport
       : stylePrecinctByVoters;
 
   // Create wrapper for onEachFeature to pass viewMode
@@ -696,6 +766,17 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
               className="mr-2"
             />
             Age Demographics
+          </label>
+          <label className="flex items-center text-black">
+            <input
+              type="radio"
+              name="viewMode"
+              value="zohran-support"
+              checked={viewMode === "zohran-support"}
+              onChange={(e) => setViewMode(e.target.value as ViewMode)}
+              className="mr-2"
+            />
+            Zohran Support (% of Registered Voters)
           </label>
         </div>
 
@@ -837,6 +918,51 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
             </div>
             <p className="text-xs text-gray-600 mt-2">
               Percentage of population that is Gen Z (ages 11-26)
+            </p>
+          </div>
+        )}
+
+        {viewMode === "zohran-support" && (
+          <div className="mt-4 pt-3 border-t">
+            <h4 className="text-sm font-semibold mb-2 text-black">
+              Zohran Support % of Registered Voters
+            </h4>
+            <div className="space-y-1 text-xs text-black">
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-900 mr-2"></div>
+                <span>&gt;= 20% (Very High)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-700 mr-2"></div>
+                <span>15-20% (High)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-500 mr-2"></div>
+                <span>10-15% (Above Average)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-300 mr-2"></div>
+                <span>7.5-10% (Average)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-100 mr-2"></div>
+                <span>5-7.5% (Below Average)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-pink-200 mr-2"></div>
+                <span>2.5-5% (Low)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-pink-400 mr-2"></div>
+                <span>0-2.5% (Very Low)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-red-500 mr-2"></div>
+                <span>0% (No Support)</span>
+              </div>
+            </div>
+            <p className="text-xs text-gray-600 mt-2">
+              Percentage of registered voters who voted for Zohran Mamdani
             </p>
           </div>
         )}
