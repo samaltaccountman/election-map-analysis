@@ -252,8 +252,9 @@ function stylePrecinctByVoters(feature: any) {
   };
 }
 
-// Function to calculate average age from age groups
-function calculateAverageAge(
+// Function to calculate Gen Z percentage from age groups
+// Gen Z is typically defined as born 1997-2012, which in 2023 means ages 11-26
+function calculateGenZPercentage(
   ageGroups: any,
   totalPopulation: number
 ): number | null {
@@ -261,55 +262,39 @@ function calculateAverageAge(
     return null;
   }
 
-  // Age range midpoints
-  const ageMidpoints: { [key: string]: number } = {
-    "Under 5 years": 2.5,
-    "5 to 9 years": 7,
-    "10 to 14 years": 12,
-    "15 to 19 years": 17,
-    "20 to 24 years": 22,
-    "25 to 29 years": 27,
-    "30 to 34 years": 32,
-    "35 to 39 years": 37,
-    "40 to 44 years": 42,
-    "45 to 49 years": 47,
-    "50 to 54 years": 52,
-    "55 to 59 years": 57,
-    "60 to 64 years": 62,
-    "65 to 69 years": 67,
-    "70 to 74 years": 72,
-    "75 to 79 years": 77,
-    "80 to 84 years": 82,
-    "85 years and over": 87.5,
-  };
+  let genZCount = 0;
 
-  let weightedSum = 0;
-  let totalCount = 0;
-
+  // Gen Z age ranges (born 1997-2012, ages 11-26 in 2023)
+  // We need to approximate since census data uses 5-year ranges
   for (const [ageRange, data] of Object.entries(ageGroups)) {
-    const midpoint = ageMidpoints[ageRange];
-    if (
-      midpoint !== undefined &&
-      data &&
-      typeof data === "object" &&
-      "total" in data
-    ) {
+    if (data && typeof data === "object" && "total" in data) {
       const count = data.total as number;
       if (count !== null && count !== undefined && count > 0) {
-        weightedSum += midpoint * count;
-        totalCount += count;
+        if (ageRange === "10 to 14 years") {
+          // Ages 11-14 are Gen Z (4 out of 5 years)
+          genZCount += count * 0.8;
+        } else if (ageRange === "15 to 19 years") {
+          // All ages 15-19 are Gen Z
+          genZCount += count;
+        } else if (ageRange === "20 to 24 years") {
+          // All ages 20-24 are Gen Z
+          genZCount += count;
+        } else if (ageRange === "25 to 29 years") {
+          // Ages 25-26 are Gen Z (2 out of 5 years)
+          genZCount += count * 0.4;
+        }
       }
     }
   }
 
-  if (totalCount === 0) {
+  if (genZCount === 0) {
     return null;
   }
 
-  return weightedSum / totalCount;
+  return (genZCount / totalPopulation) * 100;
 }
 
-// Function to style census tracts based on average age
+// Function to style census tracts based on Gen Z percentage
 function styleCensusTract(feature: any, isPrimaryView: boolean = false) {
   const props = feature.properties;
   const totalPop = props?.totalPopulation;
@@ -324,10 +309,10 @@ function styleCensusTract(feature: any, isPrimaryView: boolean = false) {
     };
   }
 
-  // Calculate average age
-  const avgAge = calculateAverageAge(props?.ageGroups, totalPop);
+  // Calculate Gen Z percentage
+  const genZPercentage = calculateGenZPercentage(props?.ageGroups, totalPop);
 
-  if (avgAge === null) {
+  if (genZPercentage === null) {
     return {
       fillColor: "#cccccc",
       weight: isPrimaryView ? 1 : 0.5,
@@ -337,27 +322,24 @@ function styleCensusTract(feature: any, isPrimaryView: boolean = false) {
     };
   }
 
-  // Color scale based on average age
-  // Use a blue-to-red scale: blue (younger) to red (older)
-  // Age ranges: 20-30 (young), 30-40 (adult), 40-50 (middle-aged), 50-60 (older), 60+ (senior)
+  // Color scale based on Gen Z percentage
+  // Higher Gen Z percentage = darker/more vibrant colors
   let fillColor = "#cccccc";
 
-  if (avgAge >= 60) {
-    fillColor = "#8e0152"; // Very old population - dark red/purple
-  } else if (avgAge >= 50) {
-    fillColor = "#c51b7d"; // Older population - red
-  } else if (avgAge >= 40) {
-    fillColor = "#de77ae"; // Middle-aged population - pink
-  } else if (avgAge >= 35) {
-    fillColor = "#f1b6da"; // Adult population - light pink
-  } else if (avgAge >= 30) {
-    fillColor = "#b8e186"; // Young adult population - light green
-  } else if (avgAge >= 25) {
-    fillColor = "#7fbc41"; // Younger adult population - green
-  } else if (avgAge >= 20) {
-    fillColor = "#4d9221"; // Very young adult population - dark green
+  if (genZPercentage >= 30) {
+    fillColor = "#276419"; // Very high Gen Z - very dark green
+  } else if (genZPercentage >= 25) {
+    fillColor = "#4d9221"; // High Gen Z - dark green
+  } else if (genZPercentage >= 20) {
+    fillColor = "#7fbc41"; // Above average Gen Z - green
+  } else if (genZPercentage >= 15) {
+    fillColor = "#b8e186"; // Average Gen Z - light green
+  } else if (genZPercentage >= 10) {
+    fillColor = "#f1b6da"; // Below average Gen Z - light pink
+  } else if (genZPercentage >= 5) {
+    fillColor = "#de77ae"; // Low Gen Z - pink
   } else {
-    fillColor = "#276419"; // Extremely young population - very dark green
+    fillColor = "#c51b7d"; // Very low Gen Z - red
   }
 
   return {
@@ -376,8 +358,11 @@ function onEachCensusTract(feature: any, layer: any) {
   const totalPop = props?.totalPopulation;
   const name = props?.NAME || props?.CTLabel || "Unknown";
 
-  // Calculate average age
-  const avgAge = calculateAverageAge(props?.ageGroups, totalPop || 0);
+  // Calculate Gen Z percentage
+  const genZPercentage = calculateGenZPercentage(
+    props?.ageGroups,
+    totalPop || 0
+  );
 
   let popupContent = `
     <div style="font-family: Arial, sans-serif; min-width: 250px;">
@@ -395,10 +380,10 @@ function onEachCensusTract(feature: any, layer: any) {
       popupContent += `<p style="margin: 5px 0; color: #666; font-size: 12px;">Margin of Error: ±${props.totalPopulationMOE.toLocaleString()}</p>`;
     }
 
-    if (avgAge !== null) {
-      popupContent += `<p style="margin: 5px 0;"><strong>Average Age:</strong> ${avgAge.toFixed(
+    if (genZPercentage !== null) {
+      popupContent += `<p style="margin: 5px 0;"><strong>Gen Z (%):</strong> ${genZPercentage.toFixed(
         1
-      )} years</p>`;
+      )}%</p>`;
     }
 
     // Add age groups if available
@@ -819,45 +804,39 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
 
         {viewMode === "age-demographics" && (
           <div className="mt-4 pt-3 border-t">
-            <h4 className="text-sm font-semibold mb-2 text-black">
-              Average Age
-            </h4>
+            <h4 className="text-sm font-semibold mb-2 text-black">Gen Z %</h4>
             <div className="space-y-1 text-xs text-black">
               <div className="flex items-center">
-                <div className="w-4 h-3 bg-green-700 mr-2"></div>
-                <span>&lt; 20 (Very Young)</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-4 h-3 bg-green-500 mr-2"></div>
-                <span>20-25 (Young)</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-4 h-3 bg-green-300 mr-2"></div>
-                <span>25-30 (Young Adult)</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-4 h-3 bg-pink-200 mr-2"></div>
-                <span>30-35 (Adult)</span>
+                <div className="w-4 h-3 bg-red-500 mr-2"></div>
+                <span>&lt; 5% (Very Low)</span>
               </div>
               <div className="flex items-center">
                 <div className="w-4 h-3 bg-pink-400 mr-2"></div>
-                <span>35-40 (Middle-Aged)</span>
+                <span>5-10% (Low)</span>
               </div>
               <div className="flex items-center">
-                <div className="w-4 h-3 bg-red-500 mr-2"></div>
-                <span>40-50 (Older)</span>
+                <div className="w-4 h-3 bg-pink-200 mr-2"></div>
+                <span>10-15% (Below Average)</span>
               </div>
               <div className="flex items-center">
-                <div className="w-4 h-3 bg-red-700 mr-2"></div>
-                <span>50-60 (Senior)</span>
+                <div className="w-4 h-3 bg-green-200 mr-2"></div>
+                <span>15-20% (Average)</span>
               </div>
               <div className="flex items-center">
-                <div className="w-4 h-3 bg-purple-900 mr-2"></div>
-                <span>&gt; 60 (Very Senior)</span>
+                <div className="w-4 h-3 bg-green-500 mr-2"></div>
+                <span>20-25% (Above Average)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-700 mr-2"></div>
+                <span>25-30% (High)</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-4 h-3 bg-green-900 mr-2"></div>
+                <span>&gt; 30% (Very High)</span>
               </div>
             </div>
             <p className="text-xs text-gray-600 mt-2">
-              Census tract average age (weighted by population)
+              Percentage of population that is Gen Z (ages 11-26)
             </p>
           </div>
         )}
@@ -875,12 +854,14 @@ export function Map({ center = [40.7128, -74.006] }: MapProps) {
         />
         {viewMode === "age-demographics" ? (
           <GeoJSON
+            key="census-tracts"
             data={censusTracts as any}
             style={censusTractStyleWrapper}
             onEachFeature={onEachCensusTract}
           />
         ) : (
           <GeoJSON
+            key="election-districts"
             data={electionDistricts as any}
             style={styleFunction}
             onEachFeature={onEachFeatureWrapper}
